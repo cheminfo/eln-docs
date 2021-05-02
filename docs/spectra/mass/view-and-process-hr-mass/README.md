@@ -13,10 +13,10 @@ This tool will consider the mass of the electron and the number of charge of the
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">
+      <th style={{textAlign:'left'}}>
         <img src="images/preferences.png"/>
       </th>
-      <th style="text-align:left">
+      <th style={{textAlign:'left'}}>
         <ul>
           <li>Monoisotopic mass: the target observed monoisotopic mass</li>
           <li>Modification: what was added or remove in order to observe the monoisotopic
@@ -60,7 +60,9 @@ This tool will consider the mass of the electron and the number of charge of the
     </tr>
   </thead>
   <tbody></tbody>
-</table>## Pubchem candidates
+</table>
+
+## Pubchem candidates
 
 Using the button ‘Pubchem candidates’ you are able to list all the possible molecular formula that yields to the desired monoisotopic mass with the defined precision.
 
@@ -74,4 +76,4 @@ Therefore we have recalculated the molecular formula, monoisotopic mass, charge 
 
 Please note that for the calculation of the monoisotopic mass we didn’t consider the charge !
 
-NB: only stable isotopes are considered !
+NB: only stable isotopes are considered!

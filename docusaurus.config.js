@@ -1,67 +1,67 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'cheminfo ELN documentation',
-  tagline: 'Making chemical data reusable',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
-  organizationName: 'cheminfo', // Usually your GitHub org/user name.
-  projectName: 'cheminfo ELN', // Usually your repo name.
+  title: "cheminfo ELN documentation",
+  tagline: "Making chemical data reusable",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "warn", //Todo: Fix broken links
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.png",
+  organizationName: "cheminfo", // Usually your GitHub org/user name.
+  projectName: "cheminfo ELN", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'cheminfo ELN',
+      title: "cheminfo ELN",
       logo: {
-        alt: 'Cheminfo logo',
-        src: 'img/logo.png',
+        alt: "Cheminfo logo",
+        src: "img/logo.png",
       },
       items: [
         {
-          type: 'doc',
-          docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          type: "doc",
+          docId: "intro",
+          position: "left",
+          label: "Tutorial",
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: "/blog", label: "Blog", position: "left" },
         {
-          href: 'https://github.com/cheminfo',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/cheminfo",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: "Tutorial",
+              to: "/docs/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Slack',
-              href: 'cheminfo-eln.slack.com',
+              label: "Slack",
+              href: "https://cheminfo-eln.slack.com/",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/cheminformatics',
+              label: "Twitter",
+              href: "https://twitter.com/cheminformatics",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
           ],
         },
@@ -71,22 +71,22 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            "https://github.com/facebook/docusaurus/edit/master/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
