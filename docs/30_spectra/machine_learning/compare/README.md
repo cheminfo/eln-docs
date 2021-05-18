@@ -1,3 +1,7 @@
+---
+slug: /uuid/739379c6183ec9beb757025314c40f8e
+---
+
 # Compare a bunch of spectra
 
 Multiple spectra analysis allows to quickly extract information about a set of spectra.

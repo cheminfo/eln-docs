@@ -1,4 +1,8 @@
-## Using distinct colors
+---
+slug: /uuid/02d6bbc6c04edd24ce90b146348573f1/tip/1
+---
+
+# Using distinct colors
 
 We have exposed a library that allows from a script to get distinct colors.
 

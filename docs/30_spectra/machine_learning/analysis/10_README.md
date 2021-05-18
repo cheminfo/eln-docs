@@ -1,3 +1,7 @@
+---
+slug: /uuid/02d6bbc6c04edd24ce90b146348573f1
+---
+
 # Create analytical report from spectra
 
 This program allows defining and apply analytical procedure on one or more spectra. The general principle is:
