@@ -1,4 +1,4 @@
-## Search inventory
+# Search inventory
 
 Any sample may have `stock` information (location and status) and this view allows searching for those products by:
 

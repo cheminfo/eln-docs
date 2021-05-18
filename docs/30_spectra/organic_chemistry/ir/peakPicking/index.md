@@ -1,4 +1,4 @@
-## Peak peaking
+# Peak peaking
 
 It is possible to make a manual peak picking on infrared spectra by pressing
 the ALT key pressed and clicking on a peak.

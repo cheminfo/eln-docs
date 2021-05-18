@@ -1,4 +1,4 @@
-# GC / LC - MS visualization
+# GC/LC - MS visualization
 
 This application allows to visualize and integrate GC / LC with or with MS.
 

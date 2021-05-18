@@ -1,4 +1,4 @@
-## Upload IR spectra
+# Upload IR spectra
 
 You can upload an IR spectrum in 3 different ways:
 

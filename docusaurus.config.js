@@ -80,7 +80,7 @@ module.exports = {
             ...args
           }) {
             const sidebarItems = await defaultSidebarItemsGenerator(args);
-            return removeSingleNode(sidebarItems);
+            return raisingSingleNodes(sidebarItems);
           },
           // Please change this to your repo.
           editUrl:
@@ -100,7 +100,7 @@ module.exports = {
   ],
 };
 
-function removeSingleNode(items) {
+function raisingSingleNodes(items) {
   // we need to traverse the full hierarhy and if there is only one child items we raise it one level
   for (let parentItem of items) {
     if (parentItem && parentItem.items && parentItem.items.length) {
@@ -112,6 +112,7 @@ function removeSingleNode(items) {
           parentItem.items[i] = parentItem.items[i].items[0];
         }
       }
+      raisingSingleNodes(parentItem.items);
     }
   }
   return items;

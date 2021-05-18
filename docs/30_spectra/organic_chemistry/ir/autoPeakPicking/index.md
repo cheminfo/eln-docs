@@ -1,4 +1,4 @@
-## Auto peak picking
+# Auto peak picking
 
 Auto peak picking is based on the Savitzky Golay filter.
 
