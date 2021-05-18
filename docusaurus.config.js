@@ -75,6 +75,13 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarItemsGenerator: async function ({
+            defaultSidebarItemsGenerator,
+            ...args
+          }) {
+            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            return removeSingleNode(sidebarItems);
+          },
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
@@ -92,3 +99,20 @@ module.exports = {
     ],
   ],
 };
+
+function removeSingleNode(items) {
+  // we need to traverse the full hierarhy and if there is only one child items we raise it one level
+  for (let parentItem of items) {
+    if (parentItem && parentItem.items && parentItem.items.length) {
+      for (let i = 0; i < parentItem.items.length; i++) {
+        if (
+          parentItem.items[i].items &&
+          parentItem.items[i].items.length === 1
+        ) {
+          parentItem.items[i] = parentItem.items[i].items[0];
+        }
+      }
+    }
+  }
+  return items;
+}

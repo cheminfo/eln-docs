@@ -1,4 +1,4 @@
-## Download data as a ZIP file
+# Download data as a ZIP file
 
 This application allows downloading as a zip a set of samples and ELN entries.
 

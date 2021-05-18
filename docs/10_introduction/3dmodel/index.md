@@ -1,4 +1,4 @@
-## 3d model
+# 3d model
 
 If your sample has a chemical structure it is easy to create a 3D model.
 
