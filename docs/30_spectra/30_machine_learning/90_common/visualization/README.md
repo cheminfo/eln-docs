@@ -1,3 +1,7 @@
+---
+slug: /docs/spectra/common/visualization
+---
+
 # Spectra visualization
 
 Numerous options are available to display the either all the spectra in the dataset or the selected spectra in the dataset.

@@ -1,6 +1,6 @@
-# Deconvolution of spectra
+# Calculate the similarity between spectra
 
-A spectrum may 
+You can either calculate the similarity using one of the predefined similarity fucntion or create a hierarchical clustering.
 
 ## Spectra selection, normalization and previsualization
 
@@ -8,6 +8,4 @@ The first step is to select the spectra and you may follow this [tutorial](spect
 
 Once spectra have been selected, data normalization filters can be applied and [more information is available here](spectraAnalysis_normalization).
 
-The superimposed spectra can be manipulated without numerous [advanced features described here](spectraAnalysis_visualization).
-
-## Tools for comparins spectra
+The superimposed spectra can be manipulated without numerous [advanced features described here](/docs/spectra/common/visualization).

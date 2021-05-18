@@ -2,7 +2,7 @@
 module.exports = {
   title: "cheminfo ELN documentation",
   tagline: "Making chemical data reusable",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs.c6h6.org",
   baseUrl: "/",
   onBrokenLinks: "warn", //Todo: Fix broken links
   onBrokenMarkdownLinks: "warn",

@@ -12,7 +12,7 @@ The first step is to select the spectra, and you may follow this [tutorial](spec
 
 Once spectra have been selected, data normalization filters can be applied and [more information is available here](spectraAnalysis_normalization).
 
-The superimposed spectra can be manipulated without numerous [advanced features described here](spectraAnalysis_visualization).
+The superimposed spectra can be manipulated without numerous [advanced features described here](/docs/spectra/common/visualization).
 
 ## Comparing spectra
 
