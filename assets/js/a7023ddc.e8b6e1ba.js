@@ -1,0 +1,1 @@
+(self.webpackChunkcheminfo_eln=self.webpackChunkcheminfo_eln||[]).push([[1713],{7485:function(s){"use strict";s.exports=JSON.parse('{"docusaurus":{"allTagsPath":"/blog/tags","slug":"docusaurus","name":"docusaurus","count":1,"permalink":"/blog/tags/docusaurus"}}')}}]);
