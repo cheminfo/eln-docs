@@ -25,4 +25,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
+          TARGET_FOLDER: docs
           CLEAN: true
