@@ -1,3 +1,7 @@
+---
+slug: /uuid/f8b2a67c144b612f89580e05f8c02509
+---
+
 # Mass spectra deconvolution
 
 This tool allows to determine the exact composition based on a mass spectrum even if there are overlaps.
