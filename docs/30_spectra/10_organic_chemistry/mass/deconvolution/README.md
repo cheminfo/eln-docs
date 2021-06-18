@@ -1,6 +1,8 @@
 ---
-slug: /uuid/f8b2a67c144b612f89580e05f8c02509
+## slug: /uuid/f8b2a67c144b612f89580e05f8c02509
 ---
+
+import MFFilter from '../includes/filter-mf.md'
 
 # Mass spectra deconvolution
 
@@ -32,17 +34,10 @@ The molecular formula is defined based on:
 - Modifications: list of modifications that can be applied on the `Base MF`
   - if you want to search for isotopic enrichment you can enter as MF: `C-1[13C]`, a modification in which we remove a `C` of natural abundance and add a <sup>13</sup>C
 - Ionizations: define the list of ways to ionize the molecule. If the molecule is naturally charted this field may stay empty. It can also contain an unlimited comma separated list of ionizations like `Na+, K+, NH4+, H+,`. Note this comma at the end that allows also to have no ionizatioon.
-- MF Filters: possible MFs can be filtered based on DBE (double bond equivalent, unsaturation), charge and molecular weight. It is also possible to add more advanced filtering option by entering a javascript code that can use the following variables:
-  - mm: monoisotopic mass of the non ionized molecule
-  - mz: observed mass (m/z)
-  - charge: charge of the non ionized molecule
-  - unsaturation: unsaturation of the non ionized molecule
-  - atoms.O, atoms.C, atoms.N, ... number of atoms of the non ionized molecule
-  - examples:
-    - atoms.O < atoms.C
-    - mm < 500 && atoms.C > 10
 
 ![preferences mf](prefs-mf.png)
+
+<MFFilter />
 
 ## Mass spectrum parameters
 

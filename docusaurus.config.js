@@ -72,7 +72,10 @@ function raisingSingleNodes(items) {
   for (let parentItem of items) {
     if (parentItem && parentItem.items && parentItem.items.length) {
       for (let i = 0; i < parentItem.items.length; i++) {
-        if (
+        if (parentItem.items[i].label === "includes") {
+          parentItem.items.splice(i, 1);
+          i--;
+        } else if (
           parentItem.items[i].items &&
           parentItem.items[i].items.length === 1
         ) {
