@@ -1,3 +1,7 @@
+---
+slug: /uuid/jsme
+---
+
 # JSME
 
 ### [JSME](http://peter-ertl.com/jsme/) Help and Basic Instructions

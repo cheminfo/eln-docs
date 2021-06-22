@@ -1,5 +1,5 @@
 ---
-slug: /docs/spectra/common/visualization
+slug: /eln-docs/spectra/common/visualization
 ---
 
 # Spectra visualization

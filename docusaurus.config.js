@@ -3,7 +3,7 @@ module.exports = {
   title: "cheminfo ELN documentation",
   tagline: "Making chemical data reusable",
   url: "https://docs.c6h6.org",
-  baseUrl: "/docs/",
+  baseUrl: "/",
   onBrokenLinks: "warn", //Todo: Fix broken links
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
@@ -42,6 +42,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/eln-docs",
           sidebarItemsGenerator: async function ({
             defaultSidebarItemsGenerator,
             ...args
