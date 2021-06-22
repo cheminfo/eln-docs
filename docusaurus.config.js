@@ -8,10 +8,9 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "cheminfo", // Usually your GitHub org/user name.
-  projectName: "cheminfo ELN", // Usually your repo name.
+  projectName: "Cheminfo ELN", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "cheminfo ELN",
       logo: {
         alt: "Cheminfo logo",
         src: "img/logo.png",
@@ -23,7 +22,6 @@ module.exports = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/cheminfo",
           label: "GitHub",
@@ -35,6 +33,7 @@ module.exports = {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Cheminfo contributors, Inc. Built with Docusaurus.`,
     },
+    hideableSidebar: true,
   },
   presets: [
     [
@@ -51,13 +50,12 @@ module.exports = {
             return raisingSingleNodes(sidebarItems);
           },
           // Please change this to your repo.
-          editUrl: "https://github.com/cheminfo/eln-docs/edit/master/website/",
+          editUrl: "https://github.com/cheminfo/eln-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/cheminfo/eln-docs/edit/master/website/blog/",
+          editUrl: "https://github.com/cheminfo/eln-docs/edit/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
