@@ -70,20 +70,26 @@ module.exports = {
 
 function raisingSingleNodes(items) {
   // we need to traverse the full hierarhy and if there is only one child items we raise it one level
-  for (let parentItem of items) {
-    if (parentItem && parentItem.items && parentItem.items.length) {
-      for (let i = 0; i < parentItem.items.length; i++) {
-        if (parentItem.items[i].label === "includes") {
-          parentItem.items.splice(i, 1);
-          i--;
-        } else if (
-          parentItem.items[i].items &&
-          parentItem.items[i].items.length === 1
-        ) {
-          parentItem.items[i] = parentItem.items[i].items[0];
+  for (let i = 0; i < items.length; i++) {
+    let parentItem = items[i];
+    if (parentItem.label === "includes") {
+      items.splice(i, 1);
+      i--;
+    } else {
+      if (parentItem && parentItem.items && parentItem.items.length) {
+        for (let j = 0; j < parentItem.items.length; j++) {
+          if (parentItem.items[j].label === "includes") {
+            parentItem.items.splice(j, 1);
+            j--;
+          } else if (
+            parentItem.items[j].items &&
+            parentItem.items[j].items.length === 1
+          ) {
+            parentItem.items[j] = parentItem.items[j].items[0];
+          }
         }
+        raisingSingleNodes(parentItem.items);
       }
-      raisingSingleNodes(parentItem.items);
     }
   }
   return items;
