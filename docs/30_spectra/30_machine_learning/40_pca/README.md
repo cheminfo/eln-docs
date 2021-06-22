@@ -1,3 +1,7 @@
+---
+slug: /uuid/99e77c27589aa8f3d14f48716e4e6c89
+---
+
 import SelectSpectra from '../includes/select-spectra.md'
 import SpectraNormalization from '../includes/spectra-normalization.md'
 import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'

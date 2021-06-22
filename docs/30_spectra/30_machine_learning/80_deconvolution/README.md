@@ -1,5 +1,5 @@
 ---
-slug: e62a47d76949b3e2e1eaec845d486d81
+slug: /uuid/e62a47d76949b3e2e1eaec845d486d81
 ---
 
 import SelectSpectra from '../includes/select-spectra.md'
