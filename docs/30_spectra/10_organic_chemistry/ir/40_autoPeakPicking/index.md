@@ -2,5 +2,4 @@
 
 Auto peak picking is based on the Savitzky Golay filter.
 
-It allows to find all the peak between 2 wavelengths (from / to) that has a ratio
-signal to noise over a defined limit (Noise level).
+This allows you to find all the peaks within a range of wavelengths (from / to), that have a signal-to-noise ratio that is greater than a defined limit (Noise level).
