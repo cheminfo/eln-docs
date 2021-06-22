@@ -1,5 +1,5 @@
 ---
-slug: /eln/spectra/common/visualization
+slug: /uuid/ml-spectra-visualization
 ---
 
 # Spectra visualization

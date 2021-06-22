@@ -1,3 +1,7 @@
+---
+slug: /uuid/ml-spectra-normalization
+---
+
 # Preprocessing
 
 In order to compare spectra it is required to create a matrix. In this matrix each row corresponds to a spectrum while the columns are the various values for a specific X. To create this matrix we apply various preprocessing methods that consist to:

@@ -1,3 +1,7 @@
+---
+slug: /uuid/ml-spectra-selection
+---
+
 # Spectra selection
 
 All the spectra analysis tools start with a phase of selection.

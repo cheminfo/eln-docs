@@ -2,17 +2,19 @@
 slug: /uuid/739379c6183ec9beb757025314c40f8e
 ---
 
+import SelectSpectra from '../includes/select-spectra.md'
+import SpectraNormalization from '../includes/spectra-normalization.md'
+import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'
+
 # Compare a bunch of spectra
 
 Multiple spectra analysis allows to quickly extract information about a set of spectra.
 
 ## Spectra selection, normalization and previsualization
 
-The first step is to select the spectra, and you may follow this [tutorial](spectraAnalysis_spectraSelection)
-
-Once spectra have been selected, data normalization filters can be applied and [more information is available here](spectraAnalysis_normalization).
-
-The superimposed spectra can be manipulated without numerous [advanced features described here](/eln/spectra/common/visualization).
+<SelectSpectra />
+<SpectraNormalization />
+<SuperimposeSpectraManipulation />
 
 ## Comparing spectra
 
