@@ -1,3 +1,7 @@
+---
+slug: /uuid/0e35f561fff36fef6c9e7341a9eec858
+---
+
 # Mass fragmentation
 
 ## Simulation of mass fragmentation
@@ -10,7 +14,7 @@ In order to facilitate the process, this tool allow to draw a molecule and selec
 
 In order to observe a mass spectrum the molecule has to be charged and this ionization has an impact on the mass. You may enter a list of ionizations that was applied to the molecule in the following box:
 
-<img src="images/ionizations.png"/>
+![ionizations](ionizations.png)
 
 For instance for electronic impact you would enter a simple ‘+’. Meaning that we have removed an electron to charge the molecule.
 
@@ -20,13 +24,13 @@ You may either draw a molecule directly in the editor or paste a molfile coming 
 
 If you would like to draw efficiently the molecules directly in the editor click on the little question mark and try to learn all the shortcuts.
 
-<img src="images/jsme-help.png"/>
+![jsme-help](jsme-help.png)
 
 #### Define the cleavable bonds
 
 In the drawing applet you should select the blue bullet icon and click on the bonds that are breakable.
 
-<img src="images/break.png"/>
+![break](break.png)
 
 The fragments with their corresponding mass will be calculated on the fly as well all the possible recombinations of those fragments. This may be useful to determine unknown side products of a reaction.
 
@@ -34,8 +38,24 @@ The fragments with their corresponding mass will be calculated on the fly as wel
 
 A virtual spectrum will all the possibility is generated and a mouse over the annotation over the peak will highlight the required parts of the molecules to reach the mass.
 
-<img src="images/analyze.png"/>
+![analyze](analyze.png)
 
 If you have a XY text file or jcamp containing an experimental spectrum you may directly drag and drop or paste on the drop zone.
 
 You may also have mass spectra saved in the database and one click on the name will superimpose the spectrum to the predicted one.
+
+## Assign fragments
+
+The list of possible recomposed molecules also contains the intensity if there is an experimental spectrum.
+
+![fragment and intensitities](fragmentAndIntensities.png)
+
+For this list clicking to the '+' on a line will add this fragment in the list of peaks.
+
+The same result can be achieved by pressing ALT + click on an annotation in the spectrum.
+
+![annotations](annotations.png)
+
+The list of assigned peaks can the be saved in the database by clicking on `Save data`.
+
+![list of fragments](listOfFragments.png)
