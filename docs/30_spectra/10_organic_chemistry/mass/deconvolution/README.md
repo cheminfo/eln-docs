@@ -1,5 +1,5 @@
 ---
-## slug: /uuid/f8b2a67c144b612f89580e05f8c02509
+slug: /uuid/f8b2a67c144b612f89580e05f8c02509
 ---
 
 import MFFilter from '../includes/filter-mf.md'
