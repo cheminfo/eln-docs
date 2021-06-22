@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[We migrate our docs to docusaurus]]></title>
-            <link>https://docs.c6h6.org/blog/migrating_to_docusaurus</link>
+            <link>https://docs.c6h6.org/docs/blog/migrating_to_docusaurus</link>
             <guid>migrating_to_docusaurus</guid>
             <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[We will migrate the documentation for the cheminfo ELN to docusaurus. This will allow us to have one global documentation page to which we can link if users have questions and in which users can perform a global fulltext search.]]></description>
