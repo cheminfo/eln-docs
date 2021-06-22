@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>cheminfo ELN documentation Blog</title>
-        <link>https://docs.c6h6.org/blog</link>
+        <link>https://docs.c6h6.org/docs/blog</link>
         <description>cheminfo ELN documentation Blog</description>
         <lastBuildDate>Sat, 01 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>

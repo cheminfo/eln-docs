@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://docs.c6h6.org/blog</id>
+    <id>https://docs.c6h6.org/docs/blog</id>
     <title>cheminfo ELN documentation Blog</title>
     <updated>2021-05-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://docs.c6h6.org/blog"/>
+    <link rel="alternate" href="https://docs.c6h6.org/docs/blog"/>
     <subtitle>cheminfo ELN documentation Blog</subtitle>
-    <icon>https://docs.c6h6.org/img/favicon.png</icon>
+    <icon>https://docs.c6h6.org/docs/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[We migrate our docs to docusaurus]]></title>
         <id>migrating_to_docusaurus</id>
