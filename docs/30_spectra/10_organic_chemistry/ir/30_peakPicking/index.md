@@ -6,4 +6,4 @@ The application will systematically look for the strongest signal close to the w
 
 The peak will then be displayed under __IR peaks__
 
-<img src="peakpick.png">
+![Peak pick]("peakpick.png")
