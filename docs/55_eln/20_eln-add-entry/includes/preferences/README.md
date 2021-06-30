@@ -1,4 +1,4 @@
-To define user preferences and`snippets` you should click on the `Prefs` button.
+To define user preferences and `snippets` you should click on the `Prefs` button.
 
 ### Predefined sentences
 ![preferences button](editPrefsButton.png)
