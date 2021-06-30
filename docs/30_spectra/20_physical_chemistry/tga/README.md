@@ -31,9 +31,9 @@ Field 4 gives you some basic processing tools.
 - Processing: display either the normal spectrum, first derivative or second derivative
 - Number of points: reduce the number of points in the spectra. This is a nice feature
   that allows to align the spectra on the 'x' axis but can only be used if the spectrum
-  is monotone !
-- Filters: various filter allowing to process the data. By default the `Divide by max Y` filter
-  is applied and allows to get as max Y value 1.
+  is monotone!
+- Filters: various filter allowing to process the data. By default, the `Divide by max Y` filter
+  is applied and allows getting as max Y value 1.
 - Exclusions: define zone that should be ignored during processing.
 
 

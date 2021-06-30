@@ -1,6 +1,6 @@
 ## MSPolyCalc: advanced polymer mass analysis
 
-### Your data are safe !
+### Your data are safe!
 
 All the calculations applied during data treatment are performed locally in the browser, with no data transferred between servers. Data handling is therefore done safely and securely, being compatible with confidential data.
 

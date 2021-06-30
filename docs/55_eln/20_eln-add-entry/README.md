@@ -12,7 +12,7 @@ import Preferences from './includes/preferences/README.md'
 
 # Introduction
 
-This view allows to create and edit an electronic laboratory notebook entry.
+This view allows creating and edit an electronic laboratory notebook entry (reactions).
 
 ## User preferences
 
@@ -22,7 +22,7 @@ This view allows to create and edit an electronic laboratory notebook entry.
 
 <Reaction/>
 
-### Couple of tips about organic reactions
+### Some tips for organic reactions
 
 :::tip Purity
 You could check more example about [purity here](includes/purity/README.md).
@@ -69,7 +69,7 @@ The reagent table allows to do this:
 
 When looking for commercial products you may decide to also lookup for safety information in [PubChem](https://pubchem.ncbi.nlm.nih.gov/).
 
-To activate this feature, click on `prefs` and check `Activate safety lookup`. Don't forget to save your new preferences !
+To activate this feature, click on `prefs` and check `Activate safety lookup`. Don't forget to save your new preferences!
 
 It is also possible to directly edit the safety information by clicking in the `Hazard pictogram` column and entering the various GHS pictogram code separated by a comma.
 

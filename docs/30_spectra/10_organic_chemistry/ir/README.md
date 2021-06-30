@@ -21,10 +21,10 @@ will remember your preferred mode for the next time.
 ![Switch](switch.png)
 :::
 
-It is then possible to `ALT + click` in the peak in order to store representative peaks of this sample. The categorisation `S`, `m`and `w` is done automatically based on the highest and lower selected peak.
+It is then possible to `ALT + click` in the peak in order to store representative peaks of this sample. The categorization `S`, `m`and `w` is done automatically based on the highest and lower selected peak.
 
 :::caution
-Don't forget to `Save data` before leaving the page !
+Don't forget to `Save data` before leaving the page!
 :::
 
 ## Upload IR spectra
@@ -52,4 +52,4 @@ The application will systematically look for the strongest signal close the wave
 Auto peak picking is based on the Savitzky Golay filter.
 
 It allows to find all the peak between 2 wavelengths (from / to) that has a ratio
-signal to noise over a defined limit (Noise level).
+signal-to-noise over a defined limit (Noise level).

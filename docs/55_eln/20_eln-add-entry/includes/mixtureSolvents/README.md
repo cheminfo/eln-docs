@@ -1,6 +1,6 @@
-# Calculates mixture of solvents volume to reach specific concentration
+# Calculate mixture of solvents volume to reach specific concentration
 
-For some reaction it is important to calculate the solvent to reach a specific concentration and in some cases it can be a mixture of solvents.
+For some reactions it is important to calculate the solvent to reach a specific concentration and in some cases it can be a mixture of solvents.
 
 The reagent table allows dealing with mixture of solvent. In this case we would like to work in DMSO/H<sub>2</sub>O in a ratio (70/30):
 

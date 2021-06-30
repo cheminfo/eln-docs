@@ -38,10 +38,10 @@ After you selected the one you want, the right module will display the list of s
 When you click the one you want, you will see a preview of the reaction at the bottom module.
 
 ![Reaction preview](images/preview.png)
-Double clicking the row you want in the **right module** will take you back to the main tab, with the corresponding sample selected in the list of selected samples.
+Double-clicking the row you want in the **right module** will take you back to the main tab, with the corresponding sample selected in the list of selected samples.
 
 **or**
 
-Double clicking the row you want in the **center module** will take you directly to the first matching sample.
+Double-clicking the row you want in the **center module** will take you directly to the first matching sample.
 
-Structure search uses the algorithm implemented in DataWarrior. They are open source and available as part of openchemlib (https://github.com/actelion/openchemlib, https://github.com/cheminfo/openchemlib-js).
+Structure search uses the algorithm implemented in DataWarrior. They are open source and available as part of openchemlib (<https://github.com/actelion/openchemlib>, <https://github.com/cheminfo/openchemlib-js>).
