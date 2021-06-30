@@ -4,13 +4,13 @@
 
 ### Introduction
 
-This tool allows to calculate the theoretical distribution and monoisotopic mass from a structure as soon as drawn or imported as SMILE code.
+This tool allows to calculate the theoretical distribution and monoisotopic mass from a structure as soon as drawn or imported as SMILES code.
 
 **Please use a recent version of Google Chrome!**
 
 ### Tricks:
 
- Click right in the window, you can copy smiles, but also ChemDraw .mol and  .sdf files
+ Click right in the window, you can copy smiles, but also ChemDraw `.mol` and `.sdf` files
 
 ![](https://lh4.googleusercontent.com/oa80uLEXnUQqYVhKpPXmoYfZrpxAMxVEuwnsVgtZOmjKwqQNluOBakvylZ6T-_LMEyA2Nc6MfpdVZs9jBoRMEGTUb4dQ98Mtl43riI9LzEvi5k8Akgc7RBgvfUiJtF_nQw5uzlMr)
 
