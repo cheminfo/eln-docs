@@ -1,4 +1,4 @@
-It is possible to define an unlimited number of snippets and to recall them directly in the procedure by typing its abbreviation (followed by `Tab`, `Space`, or `Enter`).
+It is possible to define an unlimited number of snippets and to recall them directly in the procedure by typing its abbreviation (followed by <kbd>Tab</kbd>, <kbd>Space</kbd>, or <kbd>Enter</kbd>).
 
 All the reagents can also be inserted by entering `r` followed by the reagent number. i.e. `r2`.
 

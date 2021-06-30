@@ -66,7 +66,7 @@ The following options are available in the spectra displayer :
 
 - click + drag + release : zoom in the spectrum
 - double click: zoom out = display the full spectra
-- SHIFT + double click : zoom out progressively
+- <kbd>SHIFT</kdb> + double click : zoom out progressively
 - scroll wheel : vertical scale
 - select a series (click on the corresponding line in the legend) + scroll wheel : vertical scale of a specific series
 - hide a series by clicking on the corresponding eye in the legend
