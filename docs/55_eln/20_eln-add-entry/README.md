@@ -8,7 +8,7 @@ import Reaction from './includes/reaction/README.md'
 import InsertSnippets from './includes/insertSnippets/README.md'
 import Preferences from './includes/preferences/README.md'
 
-<TOCInline toc={toc} />;
+<TOCInline toc={toc} />
 
 # Introduction
 
