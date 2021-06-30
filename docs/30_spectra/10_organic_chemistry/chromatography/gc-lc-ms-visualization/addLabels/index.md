@@ -1,9 +1,13 @@
+---
+slug: /uuid/088e53bb9d86f832fa90961ee70a17aa
+---
+
 # Add labels in chromatogram
 
-In the chromatogram peak list you can specify an assignment for a peak.
+In the chromatogram peak list, you can specify an assignment for each peak.
 
-<img src="./assignment.png" />
+![]("assignment.png")
 
-Those assignments will appear over the annotation in the chromatogram.
+Assignments will appear as labels over the corresponding peak in the chromatogram.
 
-<img src="./annotations.png" />
+![]("annotations.png")
