@@ -2,7 +2,7 @@ To define user preferences and`snippets` you should click on the `Prefs` button.
 
 ![preferences button](editPrefsButton.png)
 
-To define a snippet first associate to it a `key` that is composed of lowercase letters and the define the corresponding sentence. The sentence may contain not only reagents like `r1`, `r2` but also meta information that can be inserted using `_` followed by the meta field name like `_temperature` for example. If a snippet contains those field you will be able to update their values automatically.
+To define a snippet first associate to it a `key` that is composed of lowercase letters and then define the corresponding sentence. The sentence may contain not only reagents like `r1`, `r2` but also meta information that can be inserted using `_` followed by the meta field name like `_temperature` for example. If a snippet contains those fields you will be able to update their values automatically.
 
 ![edit snippet](editSnippets.gif)
 
@@ -16,4 +16,4 @@ You can also define if you would like to have automatic safety lookup in PubChem
 
 ![edit general preferences](editPrefsGeneral.gif)
 
-Don't forget to `Save preferences` !
+Don't forget to `Save preferences`!

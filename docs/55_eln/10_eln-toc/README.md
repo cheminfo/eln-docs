@@ -11,11 +11,11 @@ From there you can:
 - Search by entry code or entry description
 - Add a new entry
 - Duplicate an existing entry
-- Hide / Show some of the entries
+- Hide / Show some entries
 
 ## Show / Hide entries
 
-You may want to hide some of the entries because they failed or didn't provide useful information.
+You may want to hide some entries because they failed or didn't provide useful information.
 
 To hide an entry click on the `eye` icon in the list of entries.
 

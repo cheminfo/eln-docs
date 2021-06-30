@@ -29,19 +29,19 @@ You could check more example about [purity here](includes/purity/README.md).
 :::
 
 :::tip Theoretical information
-The system will calculate continuously the molecular formula of all the reagents and products. More information can be [find here](includes/productsInfo/README.md).
+The system will calculate continuously the molecular formula of all the reagents and products. More information can be [found here](includes/productsInfo/README.md).
 :::
 
 :::tip Mixture of solvents
-There is an easy to deal with mixture of solvents. More information can be [find here](includes/mixtureSolvents/README.md).
+There is an easy to deal with mixture of solvents. More information can be [found here](includes/mixtureSolvents/README.md).
 :::
 
 :::tip Many times the same reagent
-In some cases it is required to add many times the same reagent. More information can be [find here](includes/multipleTimes/README.md).
+In some cases it is required to add many times the same reagent. More information can be [found here](includes/multipleTimes/README.md).
 :::
 
 :::tip Copy structure of the product to a sample
-In some cases it is required to copy manually the structure of a reaction product. More information can be [find here](includes/copyProduct/README.md).
+In some cases it is required to copy manually the structure of a reaction product. More information can be [found here](includes/copyProduct/README.md).
 :::
 
 ## Insert snippets, reagents and meta information
@@ -52,7 +52,7 @@ In some cases it is required to copy manually the structure of a reaction produc
 
 ### Drag drop images
 
-You may just copy / paste an image of the "Drop or paste" zone and it will be inserted in the procedure.
+You may just copy / paste an image of the “Drop or paste” zone, and it will be inserted in the procedure.
 
 ### Calculate solvent volume to reach specific concentration
 
@@ -67,7 +67,7 @@ The reagent table allows to do this:
 
 ### Safety information
 
-When looking for commercial products you may decide to also lookup for safety information in PubChem.
+When looking for commercial products you may decide to also lookup for safety information in [PubChem](https://pubchem.ncbi.nlm.nih.gov/).
 
 To activate this feature, click on `prefs` and check `Activate safety lookup`. Don't forget to save your new preferences !
 

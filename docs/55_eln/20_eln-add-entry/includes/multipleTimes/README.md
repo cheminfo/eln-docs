@@ -4,7 +4,7 @@ In some reactions like in the example bellow many times the same reagent combine
 
 ![reaction.png](reaction.png)
 
-In this example that we did many years ago the mixture of ethylene glycol with triethyl orthoformate yields to a cyclic orthoester. In order to enter the quantities for this kind of reaction you need specify correctly the number of equivalents of the reagent that limits the yield. In this case the triethyl orthoformate limits the yield so we enter 2 equivalents for this reagent.
+In this example that we did many years ago the mixture of ethylene glycol with triethyl orthoformate yields to a cyclic orthoester. In order to enter the quantities for this kind of reaction you need to specify correctly the number of equivalents of the reagent that limits the yield. In this case the triethyl orthoformate limits the yield, so we enter two equivalents for this reagent.
 
 ![reagents.png](reagents.png)
 
