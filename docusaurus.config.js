@@ -8,10 +8,9 @@ module.exports = {
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
   organizationName: "cheminfo", // Usually your GitHub org/user name.
-  projectName: "cheminfo ELN", // Usually your repo name.
+  projectName: "Cheminfo ELN", // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: "cheminfo ELN",
       logo: {
         alt: "Cheminfo logo",
         src: "img/logo.png",
@@ -23,7 +22,6 @@ module.exports = {
           position: "left",
           label: "Tutorial",
         },
-        { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/cheminfo",
           label: "GitHub",
@@ -35,6 +33,7 @@ module.exports = {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Cheminfo contributors, Inc. Built with Docusaurus.`,
     },
+    hideableSidebar: true,
   },
   presets: [
     [
@@ -42,22 +41,22 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          routeBasePath: "/eln",
           sidebarItemsGenerator: async function ({
             defaultSidebarItemsGenerator,
             ...args
           }) {
-            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            let sidebarItems = await defaultSidebarItemsGenerator(args);
+            sidebarItems = filterItems(sidebarItems);
             return raisingSingleNodes(sidebarItems);
           },
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/cheminfo/eln-docs/edit/main/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/cheminfo/eln-docs/edit/main/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -67,19 +66,26 @@ module.exports = {
   ],
 };
 
+function filterItems(items) {
+  items = items.filter((item) => item.label !== "includes");
+  items.forEach((item) => {
+    if (Array.isArray(item.items)) {
+      item.items = filterItems(item.items);
+    }
+  });
+  return items;
+}
+
 function raisingSingleNodes(items) {
   // we need to traverse the full hierarhy and if there is only one child items we raise it one level
   for (let parentItem of items) {
     if (parentItem && parentItem.items && parentItem.items.length) {
-      for (let i = 0; i < parentItem.items.length; i++) {
-        if (parentItem.items[i].label === "includes") {
-          parentItem.items.splice(i, 1);
-          i--;
-        } else if (
-          parentItem.items[i].items &&
-          parentItem.items[i].items.length === 1
+      for (let j = 0; j < parentItem.items.length; j++) {
+        if (
+          parentItem.items[j].items &&
+          parentItem.items[j].items.length === 1
         ) {
-          parentItem.items[i] = parentItem.items[i].items[0];
+          parentItem.items[j] = parentItem.items[j].items[0];
         }
       }
       raisingSingleNodes(parentItem.items);

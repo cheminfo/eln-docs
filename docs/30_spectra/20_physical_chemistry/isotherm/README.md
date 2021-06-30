@@ -18,6 +18,6 @@ If multiple desorption/adsorption cycles are stored in one file they will also b
 If you need support for other file formats, open an issue on the [GitHub repository](https://github.com/cheminfo/isotherm-analysis) or post a question in the [user forum](https://groups.google.com/g/cheminfo).
 
 ## Visualization
-In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT` while dragging them.
+In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
 
 If there are multiple experiments or columns in a file, you can select the ones which are shown using the dropdown selectors on the right.

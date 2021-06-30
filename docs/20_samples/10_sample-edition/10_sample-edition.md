@@ -10,7 +10,7 @@ Modif. date: The date of the last modification to the sample’s data. Non-edita
 
 Description: A brief description of the sample. Editable.
 
-Structure editor: Edit the structure associated with the sample. Powered by [JSME](http://peter-ertl.com/jsme/). If you are using ChemDraw you may ‘copy as -&gt; molfile’, go over the structure editor and press CTRL + V.
+Structure editor: Edit the structure associated with the sample. Powered by [JSME](http://peter-ertl.com/jsme/). If you are using ChemDraw you may ‘copy as -&gt; molfile’, go over the structure editor and press `CTRL` + V.
 
 Physical: Read and edit the physical constants associated with the sample: boiling point \(bp\), melting point \(mp\), density and refractive index \(nd\).
 

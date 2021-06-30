@@ -1,6 +1,6 @@
 ## MSPolyCalc: advanced polymer mass analysis
 
-### Your data are safe !
+### Your data are safe!
 
 All the calculations applied during data treatment are performed locally in the browser, with no data transferred between servers. Data handling is therefore done safely and securely, being compatible with confidential data.
 
@@ -14,7 +14,7 @@ This application is provided under the [MIT licence](https://github.com/cheminfo
 
 #### Load your data
 
-- Drag and drop your spectrum in “.txt” format or copy / paste (CTRL+V) your data in the box.
+- Drag and drop your spectrum in “.txt” format or copy / paste (`CTRL`+V) your data in the box.
 - Your spectrum appears in the Mass spectra window in red.
 
 #### Targeted analysis

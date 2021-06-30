@@ -2,7 +2,7 @@
 slug: /uuid/f8b2a67c144b612f89580e05f8c02509
 ---
 
-import MFFilter from '../includes/filter-mf.md'
+import MFFilter from '../includes/filter-mf/README.md'
 
 # Mass spectra deconvolution
 
@@ -36,7 +36,6 @@ The molecular formula is defined based on:
 - Ionizations: define the list of ways to ionize the molecule. If the molecule is naturally charted this field may stay empty. It can also contain an unlimited comma separated list of ionizations like `Na+, K+, NH4+, H+,`. Note this comma at the end that allows also to have no ionizatioon.
 
 ![preferences mf](prefs-mf.png)
-
 <MFFilter />
 
 ## Mass spectrum parameters

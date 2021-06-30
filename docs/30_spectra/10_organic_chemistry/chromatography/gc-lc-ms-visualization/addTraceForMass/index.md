@@ -1,5 +1,7 @@
-# Add traces for a specific mass
+---
+slug: /uuid/088e53bb9d86f832fa90961ee70a17aa
+---
 
-From the mass spectrum you can add directly a trace corresponding to a specific mass in the chromatogram.
+# Add extracted traces for a specific mass
 
-In order to achieve this you should ALT + click on the mass peak of interest.
+Within the mass spectrum, you can directly add an extracted ion chromatogram (corresponding to a specific mass) by ALT + clicking on the desired mass in the list of theoretical masses.

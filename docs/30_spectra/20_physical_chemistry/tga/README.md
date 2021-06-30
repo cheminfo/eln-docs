@@ -14,7 +14,7 @@ To add patterns to the visualizer, click on the `+` in field 1. The sample will 
 
 If you click on the color in a row, you can select any color you which for the line and you can use the control buttons in the top right corner of field 3 to control which figures you show in a spectrum.
 
-In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT` while dragging them.
+In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
 
 Currently, we can display weight vs. temperature and weight vs. time. A percentage-weight-loss view is currently being implemented.
 
@@ -31,9 +31,9 @@ Field 4 gives you some basic processing tools.
 - Processing: display either the normal spectrum, first derivative or second derivative
 - Number of points: reduce the number of points in the spectra. This is a nice feature
   that allows to align the spectra on the 'x' axis but can only be used if the spectrum
-  is monotone !
-- Filters: various filter allowing to process the data. By default the `Divide by max Y` filter
-  is applied and allows to get as max Y value 1.
+  is monotone!
+- Filters: various filter allowing to process the data. By default, the `Divide by max Y` filter
+  is applied and allows getting as max Y value 1.
 - Exclusions: define zone that should be ignored during processing.
 
 
