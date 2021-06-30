@@ -56,7 +56,7 @@ When a peak in the list of peaks from the chromatogram is selected, the correspo
 - Merge parameter: this is the distance parameter used in the previous merge algorithm.
 - Width to group: all the values that are at least at this distance in their masses are going to be considered part of the same multiplet.
 
-The current selected monoisotopic mass is selected from the most intense value in the multiplet with the highest mass. This value can be changed doing Shift + Click over the mass spectra. This will select the closest peak in the mass spectrogram.
+The current selected monoisotopic mass is selected from the most intense value in the multiplet with the highest mass. This value can be changed doing SHIFT ⇧ + Click over the mass spectra. This will select the closest peak in the mass spectrogram.
 
 ### Molecular formula prediction
 

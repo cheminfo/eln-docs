@@ -14,7 +14,7 @@ This application is provided under the [MIT licence](https://github.com/cheminfo
 
 #### Load your data
 
-- Drag and drop your spectrum in “.txt” format or copy / paste (<kbd>CTRL</kdb>+V) your data in the box.
+- Drag and drop your spectrum in “.txt” format or copy / paste (`CTRL</kdb>+V) your data in the box.
 - Your spectrum appears in the Mass spectra window in red.
 
 #### Targeted analysis

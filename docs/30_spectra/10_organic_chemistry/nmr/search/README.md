@@ -18,7 +18,7 @@ The exclusion zones will be indicated on the spectrum by a red line.
 
 ## Specify the allowed error and display the result
 
-While searching for similar spectra the program will allow an error on the chemical shift. This error is specified in:
+While searching for similar spectra the program will allow an error on the chemical SHIFT ⇧. This error is specified in:
 
 ![](images/image7.png)
 
@@ -46,9 +46,9 @@ This allows to quickly browse through the list of the reference spectra. If one 
 
 ## Quick search
 
-You may enter complex query in order to search for reference products. This includes research on molecular formula, chemical shift and reference.
+You may enter complex query in order to search for reference products. This includes research on molecular formula, chemical SHIFT ⇧ and reference.
 
-You may for example search for products that have a chemical shift between 10 and 11:
+You may for example search for products that have a chemical SHIFT ⇧ between 10 and 11:
 
 delta:10..11
 
@@ -66,7 +66,7 @@ The following options are available in the spectra displayer :
 
 - click + drag + release : zoom in the spectrum
 - double click: zoom out = display the full spectra
-- <kbd>SHIFT</kdb> + double click : zoom out progressively
+- `SHIFT ⇧</kdb> + double click : zoom out progressively
 - scroll wheel : vertical scale
 - select a series (click on the corresponding line in the legend) + scroll wheel : vertical scale of a specific series
 - hide a series by clicking on the corresponding eye in the legend

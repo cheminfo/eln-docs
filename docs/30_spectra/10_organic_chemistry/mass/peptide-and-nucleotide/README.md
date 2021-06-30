@@ -8,7 +8,7 @@ Please use a recent version of Google Chrome !!!
 
 ## Importing experimental data
 
-This tool can be either used in a LIMS or stand-alone. In the stand-alone mode you should either drag/drop your experimental spectrum as a tab-delimited text file or copy and paste it (<kbd>CTRL</kdb>-V) while moving you mouse over the drop zone.
+This tool can be either used in a LIMS or stand-alone. In the stand-alone mode you should either drag/drop your experimental spectrum as a tab-delimited text file or copy and paste it (`CTRL</kdb>-V) while moving you mouse over the drop zone.
 
 ![Paste](images/paste.png)
 

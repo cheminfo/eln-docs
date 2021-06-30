@@ -29,10 +29,10 @@ slug: /uuid/jsme
 
 #### Basic Editing
 
-**Rings** are added connected by a single bond \(when not added to a terminal atom\); if you want to add a **spiro ring** press Shift when adding it. An alternative way to add a spiro ring \(that may be used also on touch devices\) is to press the ![](images/spiro.png)icon; the next ring will be then added as spiro.  
+**Rings** are added connected by a single bond \(when not added to a terminal atom\); if you want to add a **spiro ring** press SHIFT ⇧ when adding it. An alternative way to add a spiro ring \(that may be used also on touch devices\) is to press the ![](images/spiro.png)icon; the next ring will be then added as spiro.  
 With single bond selected, a click on existing single bond changes it to double.  
 With the powerful chain tool ![](images/chain.png) you can draw chains, saturated rings and by clicking on single bond change it to a double bond.  
-Molecule may be **moved** by "dragging" free space and **rotated** by pressing also the Shift key.
+Molecule may be **moved** by "dragging" free space and **rotated** by pressing also the SHIFT ⇧ key.
 
 #### JSME Keyboard Shortcuts
 

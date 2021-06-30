@@ -22,7 +22,7 @@ For instance for electronic impact you would enter a simple ‘+’. Meaning tha
 
 ### Draw / edit the molecule
 
-You may either draw a molecule directly in the editor or paste a molfile coming from another software. For instance if you have a molecule in ChemDraw™ you may select the molecule and ‘Edit -&gt; Copy as … -&gt; MOL Text’. Then you may put the mouse over the drawing applet and press ‘<kbd>CTRL</kdb> + V’ \(on windows\) or ⌘ + V’ on mac.
+You may either draw a molecule directly in the editor or paste a molfile coming from another software. For instance if you have a molecule in ChemDraw™ you may select the molecule and ‘Edit -&gt; Copy as … -&gt; MOL Text’. Then you may put the mouse over the drawing applet and press ‘`CTRL</kdb> + V’ \(on windows\) or ⌘ + V’ on mac.
 
 ![jsme-help](jsme-help.png)
 
