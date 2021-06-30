@@ -1,8 +1,4 @@
----
-title: Mixture of solvents
----
-
-## Calculate mixture of solvents volume to reach specific concentration
+# Calculates mixture of solvents volume to reach specific concentration
 
 For some reaction it is important to calculate the solvent to reach a specific concentration and in some cases it can be a mixture of solvents.
 

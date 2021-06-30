@@ -1,8 +1,4 @@
----
-title: Copy product as molfile
----
-
-## Copy product as molfile
+# Copy product as molfile
 
 If a sample was created using another method than from the reaction the chemical structure, molecular formula and molecular weight will not be copied automatically. This is the case for example when a sample is analysed by NMR and the sample is created automatically during importation.
 

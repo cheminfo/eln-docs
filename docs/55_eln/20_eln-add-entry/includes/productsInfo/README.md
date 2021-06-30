@@ -1,8 +1,4 @@
----
-title: Products information
----
-
-## Products theoretical information
+# Products theoretical information
 
 When you draw products of reaction the application will calculate continuously the expected quantities for 100% and one equivalent.
 

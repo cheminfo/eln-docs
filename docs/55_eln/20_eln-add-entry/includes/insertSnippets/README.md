@@ -1,9 +1,3 @@
----
-title: Insert snippets
----
-
-## Quick edition of the procedure
-
 It is possible to define an unlimited number of snippets and to recall them directly in the procedure by typing it's abbreviation.
 
 All the reagents can also be inserted by entering `r` followed by the reagent number. i.e. `r2`.
@@ -14,7 +8,7 @@ The ELN also allows to add an unlimited number of meta information. Those meta i
 
 ![meta.png](meta.png)
 
-## Insertion of predefined sentences
+### Insertion of predefined sentences
 
 In order to insert predefined sentences you can click on the `clipboard` icon.
 A dialog containing the list of predefined sentences will appear and you should

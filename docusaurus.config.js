@@ -46,7 +46,8 @@ module.exports = {
             defaultSidebarItemsGenerator,
             ...args
           }) {
-            const sidebarItems = await defaultSidebarItemsGenerator(args);
+            let sidebarItems = await defaultSidebarItemsGenerator(args);
+            sidebarItems = filterItems(sidebarItems);
             return raisingSingleNodes(sidebarItems);
           },
           // Please change this to your repo.
@@ -65,28 +66,29 @@ module.exports = {
   ],
 };
 
+function filterItems(items) {
+  items = items.filter((item) => item.label !== "includes");
+  items.forEach((item) => {
+    if (Array.isArray(item.items)) {
+      item.items = filterItems(item.items);
+    }
+  });
+  return items;
+}
+
 function raisingSingleNodes(items) {
   // we need to traverse the full hierarhy and if there is only one child items we raise it one level
-  for (let i = 0; i < items.length; i++) {
-    let parentItem = items[i];
-    if (parentItem.label === "includes") {
-      items.splice(i, 1);
-      i--;
-    } else {
-      if (parentItem && parentItem.items && parentItem.items.length) {
-        for (let j = 0; j < parentItem.items.length; j++) {
-          if (parentItem.items[j].label === "includes") {
-            parentItem.items.splice(j, 1);
-            j--;
-          } else if (
-            parentItem.items[j].items &&
-            parentItem.items[j].items.length === 1
-          ) {
-            parentItem.items[j] = parentItem.items[j].items[0];
-          }
+  for (let parentItem of items) {
+    if (parentItem && parentItem.items && parentItem.items.length) {
+      for (let j = 0; j < parentItem.items.length; j++) {
+        if (
+          parentItem.items[j].items &&
+          parentItem.items[j].items.length === 1
+        ) {
+          parentItem.items[j] = parentItem.items[j].items[0];
         }
-        raisingSingleNodes(parentItem.items);
       }
+      raisingSingleNodes(parentItem.items);
     }
   }
   return items;

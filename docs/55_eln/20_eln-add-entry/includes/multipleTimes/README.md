@@ -1,8 +1,4 @@
----
-title: Multiple times same reagent
----
-
-## Same reagent multiple times
+# Same reagent multiple times
 
 In some reactions like in the example bellow many times the same reagent combines to yield the final product.
 
