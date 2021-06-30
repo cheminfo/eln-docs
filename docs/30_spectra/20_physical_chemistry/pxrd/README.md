@@ -14,7 +14,7 @@ To add patterns to the visualizer, click on the `+` in field 2. The sample will 
 
 If you click on the color in a row, you can select any color you which for the line, and you can use the control buttons in the top right corner of field 3 to control which figures you show in a spectrum.
 
-In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧</kdb> while dragging them.
+In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
 
 Currently, we only display 2Θ vs. the counts on the detector.
 

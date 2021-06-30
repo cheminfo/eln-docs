@@ -64,6 +64,6 @@ By selecting the tracking information you will display the X values and the corr
 
 Correlation of the vector represented by the Y points can be useful to determine which peaks are correlated in a big mixture of products. This is known in NMR metabolomics as [STOCSY](https://dx.doi.org/10.1021/ac048630x).
 
-By `SHIFT ⇧</kdb> + ALT + click you can select the X value for which you would like to check correlation. Strongly correlated signals will appear in red while non correlated signals are blue.
+By `SHIFT ⇧` + ALT + click you can select the X value for which you would like to check correlation. Strongly correlated signals will appear in red while non correlated signals are blue.
 
 ![correlation](images/correlation.png)

@@ -30,11 +30,11 @@ To install a plugin you can just click on the extensions symbol (building blocks
 
 There are a couple VSCode shortcuts that are handy to know. [In the VSCode documentation](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) you can find an overview of key bindings.
 
-- `⌘</kdb> + `P`: Is the main keybinding in VSCode. It will open menu which you can use to go to files. If you type `>` you can run command (like opening a new `ssh` connection)
-- `⌘</kdb> + `SHIFT ⇧` + `F`: With this shortcut you can search through all files in a directory at once. The results will show up on the left, and you can use the arrow to open a search/replace box.
-- `⌘</kdb>+`\`: If you highlight some code/text this will comment/uncomment it.
+- `⌘` + `P`: Is the main keybinding in VSCode. It will open menu which you can use to go to files. If you type `>` you can run command (like opening a new `ssh` connection)
+- `⌘` + `SHIFT ⇧` + `F`: With this shortcut you can search through all files in a directory at once. The results will show up on the left, and you can use the arrow to open a search/replace box.
+- `⌘`+`\`: If you highlight some code/text this will comment/uncomment it.
 - Option+UP/DOWN`: Moves the selected line up/down
-- `⌘</kdb>+`K` `Z`: Toggles [Zen mode](https://code.visualstudio.com/docs/getstarted/userinterface)
+- `⌘`+`K` `Z`: Toggles [Zen mode](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ### GitHub integration
 
@@ -42,7 +42,7 @@ Most of the things you might want to do on GitHub can be done from VSCode. If yo
 
 #### Branch, commit, pull requests
 
-The Source Control icon in the Activity Bar (`CTRL</kdb>+`SHIFT ⇧</kdb>+<kdb>G`) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
+The Source Control icon in the Activity Bar (`CTRL`+`SHIFT ⇧`+`G`) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
 
 ![VSCode souce control](source_control.png)
 
@@ -177,7 +177,7 @@ If you create a new project in the cheminfo organization you can use the actions
 Many of the frontends (e.g, c6h6.org) are developed using the [visualizer library](https://github.com/NPellet/visualizer). There is unfortunately not a complete documentation for this project but a few useful resources:
 
 - [The tutorial tab on cheminfo](http://www.cheminfo.org/#) has some basic tutorial on how the visualizer can be used
-- You can use `⌘</kdb>+`M` to create new modules
+- You can use `⌘`+`M` to create new modules
 - It is usually practical to use multiple layers to keep the code organized, e.g., one Admin layer for every major computational operation. You can edit the layers using a right click and the options under the `Switch layer` menu
 
 ![switch layer](switch_layer.png)
