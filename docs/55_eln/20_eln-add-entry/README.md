@@ -3,12 +3,12 @@ slug: /uuid/13a5028017f3fdcd3d5c0ce32120e876
 title: Add and modify an ELN entry
 ---
 
-import TOCInline from '@theme/TOCInline';
+import TOCInline from '@theme/TOCInline'
 import Reaction from './includes/reaction/README.md'
 import InsertSnippets from './includes/insertSnippets/README.md'
 import Preferences from './includes/preferences/README.md'
 
-<TOCInline toc={toc} />;
+<TOCInline toc={toc} />
 
 # Introduction
 

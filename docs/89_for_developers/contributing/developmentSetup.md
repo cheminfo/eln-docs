@@ -30,11 +30,11 @@ To install a plugin you can just click on the extensions symbol (building blocks
 
 There are a couple VSCode shortcuts that are handy to know. [In the VSCode documentation](https://code.visualstudio.com/docs/getstarted/tips-and-tricks) you can find an overview of key bindings.
 
-- `<kbd>CMD</kdb> + P`: Is the main keybinding in VSCode. It will open menu which you can use to go to files. If you type `>` you can run command (like opening a new `ssh` connection)
-- `<kbd>CMD</kdb> + Shift + F`: With this shortcut you can search through all files in a directory at once. The results will show up on the left, and you can use the arrow to open a search/replace box.
-- `<kbd>CMD</kdb>+\`: If you highlight some code/text this will comment/uncomment it.
-- `Option+UP/DOWN`: Moves the selected line up/down
-- `<kbd>CMD</kdb>+K Z`: Toggles [Zen mode](https://code.visualstudio.com/docs/getstarted/userinterface)
+- <kbd>CMD</kdb> + <kbd>P<\kbd>: Is the main keybinding in VSCode. It will open menu which you can use to go to files. If you type `>` you can run command (like opening a new `ssh` connection)
+- <kbd>CMD</kdb> + <kbd>Shift<\kbd> + <kbd>F<\kbd>: With this shortcut you can search through all files in a directory at once. The results will show up on the left, and you can use the arrow to open a search/replace box.
+- <kbd>CMD</kdb>+<kbd>\<\kbd>: If you highlight some code/text this will comment/uncomment it.
+- Option+UP/DOWN`: Moves the selected line up/down
+- <kbd>CMD</kdb>+<kbd>K<\kbd> <kbd>Z<\kbd>: Toggles [Zen mode](https://code.visualstudio.com/docs/getstarted/userinterface)
 
 ### GitHub integration
 
@@ -42,7 +42,7 @@ Most of the things you might want to do on GitHub can be done from VSCode. If yo
 
 #### Branch, commit, pull requests
 
-The Source Control icon in the Activity Bar (`<kbd>CTRL</kdb>+<kbd>SHIFT</kdb>+G`) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
+The Source Control icon in the Activity Bar (<kbd>CTRL</kdb>+<kbd>SHIFT</kdb>+<kdb>G</kbd>) the left will list the uncommitted changes in your workspace, you can enter a commit message and use the checkmark to commit the changes.
 
 ![VSCode souce control](source_control.png)
 
@@ -55,7 +55,7 @@ In the footer you'll see an indication on which branch you are working on (and y
 The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests. In the screenshot below we see that there are two pull requests in this particular repository one of which has been created by me and another one which has been created by [dependabot](https://dependabot.com/).
 We can also see a list of all issues and directly create a new branch that is linked to a particular issue by clicking on the arrow that appears when we hover over the list.
 
-![PR in VSCode](developer_tools/pr.png)
+![PR in VSCode](pr.png)
 
 ## Other tools
 
@@ -177,7 +177,7 @@ If you create a new project in the cheminfo organization you can use the actions
 Many of the frontends (e.g, c6h6.org) are developed using the [visualizer library](https://github.com/NPellet/visualizer). There is unfortunately not a complete documentation for this project but a few useful resources:
 
 - [The tutorial tab on cheminfo](http://www.cheminfo.org/#) has some basic tutorial on how the visualizer can be used
-- You can use `<kbd>CMD</kdb>+M` to create new modules
+- You can use <kbd>CMD</kdb>+<kbd>M</kbd> to create new modules
 - It is usually practical to use multiple layers to keep the code organized, e.g., one Admin layer for every major computational operation. You can edit the layers using a right click and the options under the `Switch layer` menu
 
 ![switch layer](switch_layer.png)
