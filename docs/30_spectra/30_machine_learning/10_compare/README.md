@@ -6,7 +6,7 @@ import SelectSpectra from '../includes/select-spectra.md'
 import SpectraNormalization from '../includes/spectra-normalization.md'
 import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'
 
-# Compare a bunch of spectra
+# Compare multiple of spectra
 
 Multiple spectra analysis allows to quickly extract information about a set of spectra.
 

@@ -12,7 +12,7 @@ Files can be uploaded either by drag-and-drop to the field on the left-hand-side
 
 To add patterns to the visualizer, click on the `+` in field 1. The sample will then appear in field 3 from which you can control the visualization settings.
 
-If you click on the color in a row, you can select any color you which for the line and you can use the control buttons in the top right corner of field 3 to control which figures you show in a spectrum.
+If you click on the color in a row, you can select any color you which for the line, and you can use the control buttons in the top right corner of field 3 to control which figures you show in a spectrum.
 
 In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
 

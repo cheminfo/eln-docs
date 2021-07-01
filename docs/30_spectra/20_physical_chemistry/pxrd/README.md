@@ -22,6 +22,19 @@ Currently, we only display 2Θ vs. the counts on the detector.
 
 Field 4 gives you some basic processing tools. For example, you can get the derivatives of the patterns or normalize it. To scale the maximum intensity to one, you should use the `Rescale (x to y)` option.
 
+## PXRD pattern database lookup
+
+In the ELN you can find a text field in which you can enter a [COD](http://www.crystallography.net/cod/) or [CoRE-MOF](https://zenodo.org/record/3677685#.XzqXbZMzY8M) reference code to obtain the predicted pattern for a structure from those databases.
+
+![database lookup](lookup_box.png)
+
+For example, if you enter [`KAJZIH`](https://www.ccdc.cam.ac.uk/structures/Search?Ccdcid=KAJZIH&DatabaseToSearch=Published) you will find the predicted powder pattern for Cu(I/II)-BTC. As in the other views, you can also generate a smoothed version.
+
+![lookup result](lookup_result.png)
+
+
+
+
 ## Feature requests and support
 
 If you need additional tools and support for this module, [Open an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue) on the [xrd-analysis GitHub repository](https://github.com/cheminfo/xrd-analysis) or simply post a question on the [forum](https://groups.google.com/forum/#!forum/cheminfo).
