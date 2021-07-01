@@ -18,7 +18,7 @@ Red lines will appear on the 1D spectrum showing the zones that are excluded.
 
 ### Spectra displayer
 
-For 1D NMR spectra, the following options are available in the spectra displayer :
+For 1D NMR spectra, the following options are available in the spectra displayer:
 
 - click + drag + release : zoom in the spectrum
 - double click: zoom out = display the full spectra

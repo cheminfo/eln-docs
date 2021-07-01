@@ -1,4 +1,4 @@
-# GC / LC - MS visualization
+# GC / LC-MS visualization
 
 This application enables the visualization and integration of GC / LC data with or without MS.
 
@@ -8,11 +8,11 @@ Files can be uploaded either as a JCAMP, NetCDF or mzData format. Multiple files
 
 ## Molecular Formula (MF)
 
-Moelcular formula are specified here. Several formula can be defined  by separating with a dot.
+Moelcular formula are specified here. Several formulae can be defined by separating with a dot.
 
 ![](mf.png)
 
-For single formula, the monoisotopic mass and molcular weight are displayed below.
+For single formula, the monoisotopic mass and molecular weight are displayed below.
 
 ## Mass modifications (ion adducts) and isotopic distribution
 

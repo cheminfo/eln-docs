@@ -36,7 +36,7 @@ Mouse over the annotations will highlight the corresponding molecule. If you cli
 
 ![](images/image4.png)
 
-## Interactive results ...
+## Interactive results
 
 Mouse over in the list of reference products will highlight the region where peaks are expected
 
@@ -62,7 +62,7 @@ delta:2..2.1 delta:3..3.4 mf:C10
 
 ![](images/image1.png)
 
-The following options are available in the spectra displayer :
+The following options are available in the spectra displayer:
 
 - click + drag + release : zoom in the spectrum
 - double click: zoom out = display the full spectra

@@ -24,8 +24,8 @@ For 1D NMR spectra, the following options are available in the spectra displayer
 - double click: zoom out = display the full spectra
 - `SHIFT ⇧` + double click : zoom out progressively
 - scroll wheel : vertical scale
-- select a serie \(click on the corresponding line in the legend\) + scroll wheel : vertical scale of a specific serie
-- hide a serie by clicking on the corresponding eye in the legend
+- select a series \(click on the corresponding line in the legend\) + scroll wheel : vertical scale of a specific serie
+- hide a series by clicking on the corresponding eye in the legend
 
 For 2D NMR spectra the following options are available :
 
