@@ -4,7 +4,7 @@ slug: /uuid/ml-spectra-normalization
 
 # Preprocessing
 
-In order to compare spectra it is required to create a matrix. In this matrix each row corresponds to a spectrum while the columns are the various values for a specific X. To create this matrix we apply various preprocessing methods that consist to:
+In order to compare spectra it is required to create a matrix. In this matrix each row corresponds to a spectrum while the columns are the various values for a specific X. To create this matrix we apply various preprocessing methods that consist of:
 
 - filter the data in order to reduce the impact of sample preparation or experimental artifacts using various filters
 - select the representative part of the spectra that is expected to be important for the analysis
@@ -61,7 +61,7 @@ The list of the spectra in the dataset is displayed in the following table:
 
 ![memory](images/memory.png)
 
-In some cases it is not possible to keep in memory the original spectra and the system will only keep the normalized spectra. Therefore it will not be possible to change the normalization parameters anymore.
+In some cases it is not possible to keep in memory the original spectra and the system will only keep the normalized spectra. Therefore, it will not be possible to change the normalization parameters anymore.
 
 ## Preview
 

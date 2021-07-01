@@ -35,7 +35,7 @@ Even after creating the model you may still add new spectra. Those spectra will 
 
 ![result](images/result.png)
 
-By default each sample will have a different color.
+By default, each sample will have a different color.
 
 ![sample PCA](images/samplePCA.png)
 
