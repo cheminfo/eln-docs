@@ -31,7 +31,7 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Cheminfo contributors, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Cheminfo contributors. Built with Docusaurus.`,
     },
     hideableSidebar: true,
   },
