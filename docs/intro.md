@@ -14,7 +14,7 @@ You may think of the cheminfo ELN as either a Laboratory Information Management 
 
 ## How to use it
 
-To store your samples you must first login with your Google account \(upper-right corner\). Public samples are available without login.
+To store your samples you must first log in with your Google account \(upper-right corner\). Public samples are available without login.
 
 ### Create a sample:
 
