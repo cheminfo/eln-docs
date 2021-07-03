@@ -9,6 +9,17 @@ module.exports = {
   favicon: "img/favicon.png",
   organizationName: "cheminfo", // Usually your GitHub org/user name.
   projectName: "Cheminfo ELN", // Usually your repo name.
+  plugins: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        docsRouteBasePath: "/eln",
+      },
+    ],
+  ],
   themeConfig: {
     navbar: {
       logo: {
