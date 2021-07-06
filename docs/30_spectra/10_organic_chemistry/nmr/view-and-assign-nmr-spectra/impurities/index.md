@@ -1,4 +1,4 @@
-## Relative mass
+# Relative mass
 
 In the range table it is possible to define if a range is:
 

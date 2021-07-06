@@ -1,4 +1,4 @@
-## Vertical scaling of 2D spectra
+# Vertical scaling of 2D spectra
 
 It is possible to vertical scale 2D spectra with the scroll wheel.
 

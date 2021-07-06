@@ -1,4 +1,4 @@
-## NMR superimposition user guide
+# NMR superimposition user guide
 
 This view allows superimposing 1D and 2D spectra.
 Click on a sample from the `List of selected samples`.
