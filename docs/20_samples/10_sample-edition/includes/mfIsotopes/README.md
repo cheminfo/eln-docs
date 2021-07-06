@@ -1,4 +1,4 @@
-## Molecular formula: isotopes
+# Molecular formula: isotopes
 
 While the molecular formula is calculated automatically from the chemical structure it is sometimes useful to directly edit the molecular formula.
 

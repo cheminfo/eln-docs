@@ -1,4 +1,4 @@
-## Print report and get barcode
+# Print report and get barcode
 
 It is possible to print the report from any tab. You should simply click on the `Print` icon that is present in the description.
 

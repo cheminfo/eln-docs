@@ -1,4 +1,4 @@
-## Explode nucleic and peptidic sequences
+# Explode nucleic and peptidic sequences
 
 Most of the time you enter a peptidic or nucleic sequence as one letters code.
 

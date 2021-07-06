@@ -1,4 +1,4 @@
-## Deal with modified peptide or nucleotide sequences
+# Deal with modified peptide or nucleotide sequences
 
 Peptides, proteins and nucleotides may contain non-natural amino acids or nucleic bases. They may also have chain modifications at the terminal positions. This could be the result of post-translational modifications (PTM), synthesis using non-natural amino acids, etc.
 

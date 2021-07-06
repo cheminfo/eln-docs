@@ -1,4 +1,4 @@
-## Reload previous structures in the molecule editor
+# Reload previous structures in the molecule editor
 
 The structure editor remembers the last 20 edited structures. If you want to start your new molecule from a previous one you may simply click on the history icon.
 
