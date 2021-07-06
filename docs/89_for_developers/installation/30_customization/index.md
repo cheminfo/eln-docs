@@ -33,4 +33,4 @@ To use a view you saved locally using the `on-tabs` website (`http://localhost/o
 
 Then, the `uuid` needs to be prefixed with `private/`. That is, for the example shown below, one would add `private/b692c1543c088ba6c4b5810414036f0b` as URL in the `links` view of the ELN.
 
-![id view](uuid_view).
+![id view](uuid_view.png).
