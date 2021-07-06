@@ -1,4 +1,4 @@
-# Hide / Show sample
+# Hide/Show sample
 
 In order to hide a sample you may click on the `eye` icon on the sample line.
 
