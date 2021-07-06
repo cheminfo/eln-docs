@@ -1,4 +1,4 @@
-## Results table
+# Results table
 
 This tool calculates on-the-fly the possible molecular formula based on a monoisotoipc mass and possible ionizations.
 

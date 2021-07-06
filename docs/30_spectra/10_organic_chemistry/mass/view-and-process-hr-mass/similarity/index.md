@@ -1,4 +1,4 @@
-## Isotopic distribution similarity
+# Isotopic distribution similarity
 
 Searching by monoisotopic allows quickly find possible molecular formula, but there are plenty of information in the isotopic distribution.
 

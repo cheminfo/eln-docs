@@ -1,4 +1,4 @@
-## Relative mass and MF determination
+# Relative mass and MF determination
 
 This view displays normally the mass of the peaks, but it is also possible to display relative mass to a specific peak.
 

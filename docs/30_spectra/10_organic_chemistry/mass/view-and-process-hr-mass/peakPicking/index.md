@@ -1,4 +1,4 @@
-## Entering a monoisotopic mass
+# Entering a monoisotopic mass
 
 When loading an experimental spectrum the tool will automatically make a peak picking (centroid) that will be displayed on the spectrum.
 

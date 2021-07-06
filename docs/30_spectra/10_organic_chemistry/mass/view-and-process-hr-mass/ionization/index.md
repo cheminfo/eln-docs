@@ -1,4 +1,4 @@
-## Ionizations
+# Ionizations
 
 In order to observe a neutral molecule the mass spectrometer will charge it using different techniques. This may involve adding protons, remove electrons, etc.
 

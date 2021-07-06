@@ -1,4 +1,4 @@
-## Assign mass spectrum
+# Assign mass spectrum
 
 It is possible to assign mass spectra by ALT + click on a peak mass value. If the value does
 not appear you need to zoom before on the peak.
