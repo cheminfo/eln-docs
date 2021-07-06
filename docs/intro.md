@@ -5,10 +5,14 @@ sidebar_position: 1
 
 # Getting started with the cheminfo ELN
 
-Check our videos:
+## Check our videos:
 
-- General introduction about the website: [https://youtu.be/SHN07asZaGc](https://youtu.be/SHN07asZaGc)
-- Adding new products: [https://youtu.be/4UBwnFCBlvU](https://youtu.be/4UBwnFCBlvU)
+### General overview
+<iframe width="675" height="380" src="https://www.youtube.com/embed/SHN07asZaGc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Adding new products
+<iframe width="675" height="380" src="https://www.youtube.com/embed/4UBwnFCBlvU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 You may think of the cheminfo ELN as either a Laboratory Information Management System or as a repository for your spectroscopic data \(NMR, IR; MS\) with some helpful tools \(e.g. peak-picking, simulation\).
 
