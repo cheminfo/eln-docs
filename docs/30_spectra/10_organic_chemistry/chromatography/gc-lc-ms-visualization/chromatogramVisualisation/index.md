@@ -1,7 +1,3 @@
----
-slug: /uuid/088e53bb9d86f832fa90961ee70a17aa
----
-
 # Chromatogram visualization
 
 When the desired file is clicked, the corresponding chromatogram is displayed, according to the following options:

@@ -61,7 +61,7 @@ We can also see a list of all issues and directly create a new branch that is li
 
 - Node.js: You should install the [Node.js JavaScript runtime](https://nodejs.org/en/). One the website you will find downloads for all major operating systems
 - [yeoman generator](https://yeoman.io/): `npm install -g yo` to bootstrap new projects
-- [ncu](npm-check-updates): `npm install -g npm-check-updates` to update dependencies. It is useful to regularly run `ncu -u` to keep the dependencies updated
+- [ncu](https://www.npmjs.com/package/npm-check-updates): `npm install -g npm-check-updates` to update dependencies. It is useful to regularly run `ncu -u` to keep the dependencies updated
 - [the cheminfo generator](https://github.com/cheminfo/generator-cheminfo) `npm i -g yo generator-cheminfo` as generator for the different cheminfo organizations
 
 ## Project structure
@@ -113,7 +113,7 @@ Google wrote a [useful styleguide](https://google.github.io/styleguide/jsguide.h
 
 Some other useful points are
 
-- That typed arrays can be useful as they [can increase performance and reduce the likelihood of mistakes](<[typedarrays](https://stackoverflow.com/a/13334932)>)
+- That typed arrays can be useful as they [can increase performance and reduce the likelihood of mistakes](https://stackoverflow.com/a/13334932)
 - We try to use the same packages in different projects. We collect the most relevant ones in [the awesome cheminfo list](https://github.com/cheminfo/awesome)
 - If you pass keyword arguments to a function, we usually use [destructuring](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/) on a `options` object an example is
 
