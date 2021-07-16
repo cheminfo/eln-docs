@@ -4,6 +4,8 @@ slug: /uuid/12f59c8a0137bfbf28b00fef39bfdf0b
 
 # X-ray photoelectron spectroscopy (XPS)
 
+https://en.wikipedia.org/wiki/X-ray_photoelectron_spectroscopy
+
 # Analyze Window
 
 In this view, it is possible to drag and drop XPS files (vms files). Every sample usually has a list of spectra associated with it, typically including a wide scan and several individual orbitals. Each spectrum can be visualized by clicking on the name of the file in the list of XPS files.
