@@ -9,8 +9,10 @@ slug: /uuid/47508f02682bd1522de421f0bc847061
 - Draw a molecule
 - Click on Generate conformers
 
-:::tip
+:::note
 The calculations are done in the browser and the molecule IS NOT sent to the server and it not leaving your browser.
 :::
 
+:::info
 This code uses [openchemlib-js](https://github.com/cheminfo/openchemlib-js), the javascript version of [openchemlib](https://github.com/Actelion/openchemlib).
+:::
