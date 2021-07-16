@@ -1,6 +1,6 @@
 ---
-
-## slug: /uuid/e83aeebeb956c8174cc6a53a5d11def8
+slug: /uuid/e83aeebeb956c8174cc6a53a5d11def8
+---
 
 # Thermogravimetric analysis
 
