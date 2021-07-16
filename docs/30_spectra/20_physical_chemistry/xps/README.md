@@ -2,7 +2,7 @@
 slug: /uuid/12f59c8a0137bfbf28b00fef39bfdf0b
 ---
 
-# XPS
+# X-ray photoelectron spectroscopy (XPS)
 
 # Analyze Window
 
