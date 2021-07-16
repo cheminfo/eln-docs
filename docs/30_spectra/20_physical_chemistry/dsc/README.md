@@ -1,5 +1,5 @@
 ---
-slug: /uuid/30f10e274924e7216563b97c61b0f18a
+slug: /uuid/d1a3edf4783f8a0d64e1940d4f461153
 ---
 
 # View and process differential scanning calorimetry
