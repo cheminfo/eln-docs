@@ -101,30 +101,30 @@
   fill: #2ecc71;
 }
 
-.admonition-warning {
+.admonition-danger {
   background-color: rgba(231, 76, 60, 0.1);
   border-left: 8px solid #e74c3c;
 }
 
-.admonition-warning h5 {
+.admonition-danger h5 {
   color: #e74c3c;
 }
 
-.admonition-warning .admonition-icon svg {
+.admonition-danger .admonition-icon svg {
   stroke: #e74c3c;
   fill: #e74c3c;
 }
 
-.admonition-important {
+.admonition-info {
   background-color: rgba(52, 152, 219, 0.1);
   border-left: 8px solid #3498db;
 }
 
-.admonition-important h5 {
+.admonition-info h5 {
   color: #3498db;
 }
 
-.admonition-important .admonition-icon svg {
+.admonition-info .admonition-icon svg {
   stroke: #3498db;
   fill: #3498db;
 }
