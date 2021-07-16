@@ -1,0 +1,1 @@
+(self.webpackChunkcheminfo_eln=self.webpackChunkcheminfo_eln||[]).push([[2535],{66353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"We migrate our docs to docusaurus","permalink":"/docs/blog/migrating_to_docusaurus"}]}')}}]);
