@@ -1,5 +1,5 @@
 ---
-slug: /uuid/30f10e274924e7216563b97c61b0f18a
+slug: /uuid/3acc3faffcdb5db7cd8653e3935d6401
 ---
 
-# View and process differential scanning calorimetry
+# View and process Differential Centrifugal Sedimentationy
