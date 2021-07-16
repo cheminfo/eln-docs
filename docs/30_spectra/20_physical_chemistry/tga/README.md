@@ -1,3 +1,7 @@
+---
+
+## slug: /uuid/e83aeebeb956c8174cc6a53a5d11def8
+
 # Thermogravimetric analysis
 
 This module allows visualizing and processing TGA curves. You can upload `txt` files and `jcamp` files.
@@ -22,7 +26,7 @@ Currently, we can display weight vs. temperature and weight vs. time. A percenta
 
 Field 4 gives you some basic processing tools.
 
-- Units: select if you plot `Weight [mg] versus temperature [°C]` or `Weight [mg] versus time [s]` 
+- Units: select if you plot `Weight [mg] versus temperature [°C]` or `Weight [mg] versus time [s]`
 - Display tracking info: display information about the position of the mouse
 
 ### Normalization
@@ -35,5 +39,3 @@ Field 4 gives you some basic processing tools.
 - Filters: various filter allowing to process the data. By default, the `Divide by max Y` filter
   is applied and allows getting as max Y value 1.
 - Exclusions: define zone that should be ignored during processing.
-
-
