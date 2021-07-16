@@ -1,3 +1,7 @@
+---
+slug: /uuid/12f59c8a0137bfbf28b00fef39bfdf0b
+---
+
 # XPS
 
 # Analyze Window
