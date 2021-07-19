@@ -3,6 +3,13 @@ slug: /uuid/fbdbb5810ac56421b0a8509e627060cf
 ---
 
 # Isotherm analysis
+The adhesion of atoms, ions or molecules can be described through adsorption isotherms. If the molecule to be adsorbed (i.e. adsorbate) is a gas, its amount is plotted against its pressure, if it consists of a liquid phase solute, it is plotted as a function of the concentration. In both cases, the process occurs at a constant temperature and it corresponds to a surface phenomenom.
+
+There exist two types of adsorption:
+  - Physisorption: characteristic of weak Van der Waals and electrostatic interactions;
+  - Chemisorption: characteristic of covalent bonds, meaning it involves a chemical reaction.
+
+[Isotherms] (https://en.wikipedia.org/wiki/Adsorption#Single-molecule_explanation)
 
 This module allows visualizing and processing (single-component) isotherms.
 
