@@ -32,8 +32,12 @@ For example, if you enter [`KAJZIH`](https://www.ccdc.cam.ac.uk/structures/Searc
 
 ![lookup result](lookup_result.png)
 
+## Prediction
 
-
+A PXRD pattern can be predicted by either:
+- Dropping or pasting a CIF file;
+- Inserting the cell parameters (i.e. a, b, c, alpha, beta and gamma) of a given structure;
+- Entering a COD or CoRE-MOF reference code (e.g. KAJZIH).
 
 ## Feature requests and support
 
