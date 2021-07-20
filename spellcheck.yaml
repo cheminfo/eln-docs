@@ -1,10 +1,10 @@
 matrix:
 - name: Markdown
   sources:
-  - '**/*.md'
+  - 'docs/**/*.md'
   default_encoding: utf-8
   aspell:
-    lang: en_us
+    lang: en
   dictionary:
     wordlists:
     - wordlist.txt
