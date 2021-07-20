@@ -32,8 +32,12 @@ Some examples:
 - `mf:C10` : all the sample that have a MF that contains `C10` (string search)
 - `modified:>2021-04-11 modified:<2021-04-14 owner:justyna`: all samples that are owned by "justyna" and where modified between April, 11 2021 and April, 14 2021
 
+![add searchMW](searchMW.gif)
+
 ### Meta
 
 A product is allowed to have an unlimited number of meta information. Meta information is characterized by a property followed by a value. The name of the property is searchable in the quick search.
 
 For example if you add a meta information having as property 'country' you may search using 'country:colombia'.
+
+![add search_country](search_country.gif)
