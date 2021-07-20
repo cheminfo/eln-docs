@@ -6,9 +6,12 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7iLuVpt5IXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In this view it is possible to upload an infrared spectrum by drag / drop either a jcamp or a text file.
+## Upload and view the spectra
 
-Once the spectrum is uploaded you can visualize the spectrum by clicking on his name.
+In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format. 
+
+
+Once the spectrum is uploaded you can visualize it by clicking on its name and [manipulate it](../includes/manipulate/README.md).
 
 :::tip Switch between absorbance and transmittance
 
@@ -19,48 +22,43 @@ The application will remember your preferred mode for the next time.
 ![Switch](switch.png)
 :::
 
-It is then possible to `ALT + click` in the peak in order to store representative peaks of this sample. The categorization `S`, `m`and `w` is done automatically based on the highest and lower selected peak.
-
 :::caution
 Don't forget to `Save data` before leaving the page!
 :::
 
-## Upload IR spectra
-
-You can upload an IR spectrum in 3 different ways:
-
-- by dragging your files and then dropping them in the designated zone.
-- by clicking on the upload zone and selecting the files to upload.
-- by copying the spectrum into the clipboard and then pasting it using CTRL+V (or ⌘+V on MacOS).
-
-The format of the file to be uploaded should be jcamp (extension `.dx` or `.jdx`), this is the usual format used on most IR spectrophotometers.
-
-![Upload](upload.png)
 
 ## Peak picking
 
-It is possible to manually pick peaks on an infrared spectrum by holding down the ALT key, and then right-clicking on the peaks of interest.
+It is possible to [manually pick peaks](../includes/peakpick/README.md) on an infrared spectrum by holding down the ALT key, and then left-clicking on the peaks of interest.
 
 The application will systematically look for the strongest signal close to the wavelength that has been clicked.
 
-The peak will then be displayed under **IR peaks**
+The peak will then be displayed under **IR peaks**.
 
-![Peak pick](peakpick.png)
+![pickpeak](pickpeak.png)
 
-## Auto peak picking
+Alternatively, the system allows to perform [peak picking automatically](../includes/autopick/README.md) within a certain range and signal-to-noise ratio.
 
-Auto peak picking is based on the Savitzky Golay filter.
+The signal strength is given automatically. The categorization `S`, `m` and `w` is done automatically based on the highest and lowest selected peak.
 
-This allows you to find all the peaks within a range of wavelengths (from / to), that have a signal-to-noise ratio that is greater than a defined limit (Noise level).
+All peak wavenumbers and intensities are reported in a compact format ready for publication.
+
+![add peaklist](peaklist.png)
 
 ## Comparing
 
-You can compare multiple IR spectra by first opening up an IR spectrum, and then clicking "Compare" on top of the IR spectrum.
+You can compare multiple IR spectra by first opening up an IR spectrum, and then clicking `Compare` on top of the IR spectrum.
 
-![Comparing IR spectra.](compare.png)
 
-After which, under **List of selected entries** (1), you can choose the other molecule which has the spectrum that you would like to compare. Then choose the IR spectrum you would like to be plotted under **List of IR spectra** (2). (check figure below)
+After which, under **List of selected entries**, you can choose the other molecule which has the spectrum that you would like to compare. Then choose the IR spectrum you would like to be plotted under **List of IR spectra**. (check animation below)
 
-![Comparing IR spectra.](compare2.png)
+![add compare](compare.gif)
 
-The spectra will then be both displayed on top of each other. You can also freely choose graph colors by clicking the color bars as shown (3).
+The spectra will then be both displayed on top of each other. You can also freely  [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
+
+## Preprocessing
+
+Filters can be applied on the spectra allowing to [adjust the view, to rescale and to modify the baseline](../includes/preprocessing/README.md).
+
+For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters.
+
