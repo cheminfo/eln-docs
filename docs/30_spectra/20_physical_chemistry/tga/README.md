@@ -4,6 +4,9 @@ slug: /uuid/e83aeebeb956c8174cc6a53a5d11def8
 
 # Thermogravimetric analysis
 
+Thermogravimetric analysis (TGA) is a technique often used for the assessment of physical phenomena of a sample (e.g. phase transitions, absorption, adsorption and desorption) as well as chemical phenomena (e.g. chemisorption, thermal stability, among others). During the measurement, the temperature is gradually increased and the sample mass is continuously recorded over time. The data is collected and provided as a graph, in which the mass or percentage of initial mass is plotted as function of time or the furnace temperature (https://en.wikipedia.org/wiki/Thermogravimetric_analysis). 
+A typical thermogravimetric instrument possesses a precision balance with a sample holder located inside the furnace, whose temperature can be regulated with a controller. The measurement can occur under several different conditions, such as: ambient air, inert atmosphere, oxidising/reducing gases, corrosive gases, carburising gases as well as vacuum or high pressure or constant or controlled pressure (https://en.wikipedia.org/wiki/Thermogravimetric_analysis).
+
 This module allows visualizing and processing TGA curves. You can upload `txt` files and `jcamp` files.
 
 ![Screenshot of the TGA analysis module](images/analysis.png)
