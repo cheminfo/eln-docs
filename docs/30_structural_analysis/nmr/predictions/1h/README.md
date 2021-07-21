@@ -4,12 +4,30 @@ description: Predict 1D proton NMR spectra
 
 # 1H prediction
 
-Draw a chemical structure to predict and click Calculate spectrum to calculate and display the simulated 1H NMR spectra. Originally the structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away.
+This tool allows you to predict the 1H NMR spectrum of your sample or any other molecule.
 
-The simulated spectrum is shown in the lower module; the upper modules display the chemical structure with hydrogen exploded and the List of signals. These three modules are linked, so that hovering over a peak in the spectrum will highlight the corresponding row in the chemical SHIFT ⇧ list and the corresponding atoms in the structure, hovering over an atom will highlight the corresponding peak and chemical SHIFT ⇧, etc.
+::: info Overview
 
-You may adjust some parameters of the simulation: Frequency \(400 MHz by default\), ppm interval \(From 0 To 11 ppm by default\) and the Number of points to be calculated \(8000 by default\). You may also superimpose an experimental spectrum from the database over the prediction, or Drop or paste a JCamp to superimpose a locally stored experimental spectrum.
+![overview](h_prediction.png)
 
-Structure drawing is powered by [JSME](http://peter-ertl.com/jsme/). 1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003).  
+1. Drag and drop module - paste a molfile or a SMILES string of a molecule
+2. Draw a chemical structure and predict module - draw the structure of the molecule
+3. Chemical structure with explicit hydrogens module - explicit representation of hydrogens in a molecule
+4. 1H NMR spectrum module - predicted 13C spectrum of the chosen molecule
+5. Signal module - list of obtained peaks and the corresponding chemical shifts
+6. Drag and drop module - paste a JCAMP of an experimental spectrum for comparison
+7. Advanced options module - modify the magnetic field strength, specify the range of chemical shifts, change line width and the number of points to plot.
+8. List of spectra module - select which experimental spectra of the sample to superimpose on the predicted one
+9. Peak list module - list of peaks with corresponding chemical shifts, scalar couplings and multiplicity, ready for publication.
+
+:::
+
+The structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](http://peter-ertl.com/jsme/). You may also drop or paste a JCamp to superimpose an experimental spectrum over the prediction.
+
+The simulated spectrum, the chemical structure with explicit hydrogens and the list of peaks modules are linked, so that hovering over an entry in the list will highlight the corresponding atom in the structure and the relevant peak in the spectrum. Furthermore, the predicted spectrum is reported in the publication ready form (with chemical shifts, scalar couplings and peak multiplicity).
+
+In the advanced options, you can adjust the parameters of the simulation. With frequency you can specify the strength of the magnetic field. Furthermore, you may adjust the range of chemical shifts in which to perform the simulation. Linewidth and number of points specify the peak width and the number of data points to simulate, respectively.
+
+1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003)
 
 
