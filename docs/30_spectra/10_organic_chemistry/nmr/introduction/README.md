@@ -10,3 +10,10 @@ The basic NMR experiment involves three sequential steps:
 The information about the frequency is given as the chemical shift (ppm) which is independent of the magnetic field. 
 
 ![spectrum](nmr_spectrum.gif)
+
+With this view, you can:
+- analyze and compare your NMR spectra
+- generate NMR dataset
+- predict 1D and 2D NMR spectra 
+- search by NMR chemical shift 
+
