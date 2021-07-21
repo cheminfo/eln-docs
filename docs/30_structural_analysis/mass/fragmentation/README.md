@@ -2,7 +2,7 @@
 slug: /uuid/0e35f561fff36fef6c9e7341a9eec858
 ---
 
-import JSMETip from '../../../../includes/jsme-tip.md'
+import JSMETip from '../../../includes/jsme-tip.md'
 
 # Mass fragmentation
 
