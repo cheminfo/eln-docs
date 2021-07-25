@@ -1,5 +1,6 @@
 ---
 description: Predict 2D COSY NMR spectra
+slug: /uuid/b50564ac9d207212f8e5ae8167a607ed
 ---
 
 # COSY prediction
@@ -10,6 +11,4 @@ The simulated COSY and the 1H projection are shown to the right, while the upper
 
 You may also Paste or drop a molfile or SMILES to simulate a spectrum from local data and Drop or paste a JCamp to superimpose an experimental spectrum over the prediction.
 
-Structure drawing is powered by [JSME](http://peter-ertl.com/jsme/). 1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003). COSY correlations are calculated based on atom-to-atom paths in the molecule: a correlation is shown in the COSY whenever two hydrogens are joined by a path traversing no less than Minimal number of bonds and no more than Maximal number of bonds. You may adjust these Simulation parameters in the module right next to the Calculate button.  
-
-
+Structure drawing is powered by [JSME](http://peter-ertl.com/jsme/). 1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003). COSY correlations are calculated based on atom-to-atom paths in the molecule: a correlation is shown in the COSY whenever two hydrogens are joined by a path traversing no less than Minimal number of bonds and no more than Maximal number of bonds. You may adjust these Simulation parameters in the module right next to the Calculate button.

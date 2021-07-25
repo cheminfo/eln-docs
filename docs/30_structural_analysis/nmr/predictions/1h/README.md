@@ -1,5 +1,6 @@
 ---
 description: Predict 1D proton NMR spectra
+slug: /uuid/eea0ba081ea2cc99da5c1aed2f29a0a8
 ---
 
 # 1H prediction
@@ -29,5 +30,3 @@ The simulated spectrum, the chemical structure with explicit hydrogens and the l
 In the advanced options, you can adjust the parameters of the simulation. With frequency you can specify the strength of the magnetic field. Furthermore, you may adjust the range of chemical shifts in which to perform the simulation. Linewidth and number of points specify the peak width and the number of data points to simulate, respectively.
 
 1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003)
-
-
