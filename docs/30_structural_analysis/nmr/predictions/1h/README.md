@@ -30,4 +30,4 @@ In the advanced options, you can adjust the parameters of the simulation. With f
 
 1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003)
 
-
+![prediction](NMRpredict1H.gif)
