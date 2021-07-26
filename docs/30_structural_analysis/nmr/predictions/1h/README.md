@@ -6,7 +6,7 @@ description: Predict 1D proton NMR spectra
 
 This tool allows you to predict the 1H NMR spectrum of your sample or any other molecule.
 
-::: info Overview
+:::info Overview
 
 ![overview](h_prediction.png)
 
