@@ -32,3 +32,5 @@ For 2D NMR spectra the following options are available :
 - draw a rectangle to zoom in a specific zone of the spectrum
 - double click: zoom out = display the full spectra
 - `SHIFT ⇧` + double click : zoom out progressively
+
+![superimpose](superimpose.gif)
