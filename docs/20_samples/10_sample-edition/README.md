@@ -1,3 +1,7 @@
+---
+slug: /uuid/15c9a2dcd55c963fdedf2c18a1471b03
+---
+
 # Create and edit a sample
 
 You will see several modules covering the canvas and a few buttons. The buttons are there to Save your sample, to display this Help, and to generate a Report. The modules allow you to edit your sample’s data, to upload your spectra, and to display your spectra and other non-editable sample attributes.
