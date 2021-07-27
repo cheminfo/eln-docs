@@ -39,3 +39,4 @@ In the advanced options, you can adjust the parameters of the simulation. With f
 
 ![neural network](neuralNetwork.png)
 
+
