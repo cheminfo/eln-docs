@@ -2,9 +2,9 @@
 description: Predict 1D 13C NMR spectra
 ---
 
-# 13C prediction
+# <sup>13</sup>C prediction
 
-This tool allows you to predict the 13C NMR spectrum of your sample or any other molecule.
+This tool allows you to predict the <sup>13</sup>C NMR spectrum of your sample or any other molecule.
 
 :::info Overview
 
@@ -13,7 +13,7 @@ This tool allows you to predict the 13C NMR spectrum of your sample or any other
 1. Drag and drop module - paste a molfile or a SMILES string of a molecule
 2. Draw a chemical structure and predict module - draw the structure of the molecule
 3. Chemical structure with explicit hydrogens module - explicit representation of hydrogens in a molecule
-4. 13C NMR spectrum module - predicted 13C spectrum of the chosen molecule
+4. <sup>13</sup>C NMR spectrum module - predicted <sup>13</sup>C spectrum of the chosen molecule
 5. Signal module - list of obtained peaks and the corresponding chemical shifts
 6. Drag and drop module - paste a JCAMP of an experimental spectrum for comparison
 
