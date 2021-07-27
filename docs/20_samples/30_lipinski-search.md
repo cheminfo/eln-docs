@@ -1,3 +1,7 @@
+---
+slug: /uuid/5ba3ccc2681bc1ff7f370e78efd335c3
+---
+
 # Lipinski search
 
 You can use an interactive parallel coordinates plot to filter your samples according to
