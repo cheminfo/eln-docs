@@ -1,5 +1,6 @@
 ---
 description: Predict 2D HSQC and HMBC NMR spectra
+slug: /uuid/b50564ac9d207212f8e5ae8167a68433
 ---
 
 # HSQC / HMBC prediction
@@ -20,5 +21,4 @@ The simulated HMBC spectrum, the 1H projection and the chemical structure with e
 A HSQC spectrum can be obtained by setting Maximal number of bonds and Minimal number of bonds to 1.  
 
 :::
-
 

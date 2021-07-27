@@ -1,5 +1,6 @@
 ---
 description: Predict 1D 13C NMR spectra
+slug: /uuid/b50564ac9d207212f8e5ae8167a45f3c
 ---
 
 # <sup>13</sup>C prediction
@@ -26,7 +27,4 @@ The simulated spectrum, the chemical structure with explicit hydrogens and the l
 NMR prediction is done with [NMRshiftDB](http://nmrshiftdb.nmr.uni-koeln.de/). It is an NMR database for organic structures and their spectra. Using this information, in conjunction with the principle of [HOSE](hose_code/hose_code.md) code, a machine learning model makes chemical shift predictions. 
 
 ![prediction](NMRpredict13C.gif)
-
-  
-
 

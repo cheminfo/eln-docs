@@ -1,5 +1,6 @@
 ---
 description: Predict 2D COSY NMR spectra
+slug: /uuid/b50564ac9d207212f8e5ae8167a607ed
 ---
 
 # COSY prediction
