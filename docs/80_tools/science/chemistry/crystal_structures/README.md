@@ -1,3 +1,7 @@
+---
+slug: /uuid/07223c3391c6b0cde342518d240d3426
+---
+
 # X-ray upload and processing
 
 This view allows you to upload and visualize CIF and PDB files.
@@ -36,12 +40,14 @@ The topology of crystal structures can be described in terms of a net. In this p
 The computed topology code will be stored in the database and shows up in the sample table on the top left.
 
 ## Pore properties
+
 For porous materials we use an overlapping sphere approximation to calculate pore properties.
 
 ## Integration with molecular and atomistic simulations
-Often, it is useful to compare experimental results with simulations. 
+
+Often, it is useful to compare experimental results with simulations.
 Using the ELN-AiiDAlab integration you can perform this yourself for simple simulations!
 
 [AiiDAlab](https://www.materialscloud.org/work/aiidalab) is a platform that provides a frontend to complex simulation workflows orchestrated using the [AiiDA infrastructure](aiida.net).
-The starting point for all simulation is an input structure. If you have selected a structure in this view, you can click the "submit" button to submit the crystal structure with all relevant metadata to the AiiDAlab. There you will be guided through the steps of setting up a molecular simulation, e.g., to simulate a gas adsorption isotherm. 
-After the simulation, you can export the results (e.g., DFT optimized crystal structure or simulated isotherm) to the ELN and overlay them with the experimental data. 
+The starting point for all simulation is an input structure. If you have selected a structure in this view, you can click the "submit" button to submit the crystal structure with all relevant metadata to the AiiDAlab. There you will be guided through the steps of setting up a molecular simulation, e.g., to simulate a gas adsorption isotherm.
+After the simulation, you can export the results (e.g., DFT optimized crystal structure or simulated isotherm) to the ELN and overlay them with the experimental data.
