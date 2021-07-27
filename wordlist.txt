@@ -1,0 +1,7 @@
+README
+GitHub
+cheminfo
+PubChem
+MF
+JCAMP
+NMR
