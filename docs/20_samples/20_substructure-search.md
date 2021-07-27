@@ -1,3 +1,7 @@
+---
+slug: /uuid/aaa5f97c7cde94741de2938b106bb0d4
+---
+
 # Structure search
 
 - Choose filter group options: all searches in all structures, mine searches only entries that you have created.
@@ -11,3 +15,5 @@
 - Double-clicking a row in the center module will take you directly to the first matching sample.
 
 Structure search uses the same algorithms implemented in [Datawarrior](http://www.openmolecules.org/datawarrior). They are open source and available as part of openchemlib \([https://github.com/actelion/openchemlib](https://github.com/actelion/openchemlib), [https://github.com/cheminfo/openchemlib-js](https://github.com/cheminfo/openchemlib-js)\). Structure edition is powered by [JSME](http://peter-ertl.com/jsme/).
+
+[OCL editor help](/eln/uuid/ocl-editor)
