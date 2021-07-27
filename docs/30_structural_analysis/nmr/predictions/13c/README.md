@@ -24,7 +24,6 @@ The structure of the currently selected sample will be already drawn so that you
 
 The simulated spectrum, the chemical structure with explicit hydrogens and the list of peaks modules are linked, so that hovering over an entry in the list will highlight the corresponding atom in the structure and the relevant peak in the spectrum.
 
-
 NMR prediction is done with [NMRshiftDB](http://nmrshiftdb.nmr.uni-koeln.de/). It is an NMR database for organic structures and their spectra. Using this information, in conjunction with the principle of [HOSE](hose_code/hose_code.md) code, a machine learning model makes chemical shift predictions. 
 
 ![prediction](NMRpredict13C.gif)
