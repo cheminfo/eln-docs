@@ -2,20 +2,19 @@
 slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 ---
 
-# View and process infrared spectra
+# Infrared spectra
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7iLuVpt5IXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 ## Introduction
+
 [Infrared spectroscopy (IR)](https://en.wikipedia.org/wiki/Infrared_spectroscopy) is a spectroscopic technique dealing with the infrared region of the electromagnetic spectrum (wavelengths between 700 nm and 1 mm). It is widely used to characterize and study chemicals. The IR spectrum can be visualized in a graph of infrared light absorbance or transmittance (%) with respect to the frequency or wavelength given in wavenumber (cm⁻¹). Infrared spectroscopy exploits the fact that molecules absorb specific frequencies of light characteristic of their structure. The absorption occurs at the resonant frequency which corresponds to the vibrational frequency of the molecule, associated to a particular normal mode of motion and bond type.
 
 ![spectrum](image_spectrum.gif)
 
 ## Upload and view the spectra
 
-In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format. 
-
+In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format.
 
 Once the spectrum is uploaded you can visualize it by clicking on its name and [manipulate it](../includes/manipulate/README.md).
 
@@ -31,7 +30,6 @@ The application will remember your preferred mode for the next time.
 :::caution
 Don't forget to `Save data` before leaving the page!
 :::
-
 
 ## Peak picking
 
@@ -55,16 +53,14 @@ All peak wavenumbers and intensities are reported in a compact format ready for
 
 You can compare multiple IR spectra by first opening up an IR spectrum, and then clicking `Compare` on top of the IR spectrum.
 
-
 After which, under **List of selected entries**, you can choose the other molecule which has the spectrum that you would like to compare. Then choose the IR spectrum you would like to be plotted under **List of IR spectra**. (check animation below)
 
 ![add compare](compare.gif)
 
-The spectra will then be both displayed on top of each other. You can also freely  [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
+The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
 
 ## Preprocessing
 
 Filters can be applied on the spectra allowing to [adjust the view, to rescale and to modify the baseline](../includes/preprocessing/README.md).
 
 For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters.
-
