@@ -1,25 +1,29 @@
-## MSPolyCalc: advanced polymer mass analysis
+---
+slug: /uuid/230d2530cee8782b3cb63dc4e25931d9
+---
 
-### Your data are safe!
+# MSPolyCalc: advanced polymer mass analysis
+
+## Your data are safe!
 
 All the calculations applied during data treatment are performed locally in the browser, with no data transferred between servers. Data handling is therefore done safely and securely, being compatible with confidential data.
 
 You can therefore use confidential information without any risks.
 
-### Licence
+## Licence
 
 This application is provided under the [MIT licence](https://github.com/cheminfo/mspolycalc/blob/master/LICENSE).
 
-### Quick start
+## Quick start
 
-#### Load your data
+### Load your data
 
-- Drag and drop your spectrum in “.txt” format or copy / paste (`CTRL`+V) your data in the box.
+- Drag and drop your spectrum in “.txt” format or copy / paste (<kbd>ctrl</kbd>+<kbd>v</kbd>) your data in the box.
 - Your spectrum appears in the Mass spectra window in red.
 
-#### Targeted analysis
+### Targeted analysis
 
-##### 1. Define your theoretical polymer distribution
+#### 1. Define your theoretical polymer distribution
 
 In the “Analysis preferences” window, specify the criteria required to generate theoretical polymer distributions.
 
@@ -33,7 +37,7 @@ If is also possible to define an unlimited number of monomers that compose the p
 
 ![mfs](images/mfs.png)
 
-##### 2. Experimental data treatment
+#### 2. Experimental data treatment
 
 The resulting theoretical peak list (calculated in background) will be compared with your experimental data, based on the criteria in the “Peak picking” subsection and the mass tolerance
 
@@ -42,14 +46,14 @@ The resulting theoretical peak list (calculated in background) will be compared 
 
 ![peak picking](images/peakPicking.png)
 
-##### 3. Isotopic pattern Similarity Tool
+#### 3. Isotopic pattern Similarity Tool
 
 MSPolyCalc can help users evaluate matching scores for polymer distribution assignment. Peaks can be assigned based on monoisotopic masses only (similarity = 0 - function is ignored) or based on a full isotopic pattern matching evaluation (similarity > 0). In that case, users must define the way to compare isotopic patterns, in particular the range of masses.
 It is important to fill up the function “Zone” (in Da) while the function “Width” is optional, and more addressed to advanced users.
 
 ![zone](images/zone.png)
 
-##### 4. Click on `Assign`
+#### 4. Click on `Assign`
 
 After clicking on assign the system will try to match the possible molecular formula to the experimental peaks and display the results.
 
@@ -70,7 +74,7 @@ The table contains the following information:
 - `%`: sum of the assigned peaks areas (all peaks included in the defined Zone) with respect to the sum of all detected peaks areas (experimental peak picking)
 - `G`: number of ionizations for a given polymer chain (same polymer with different adducts)
 
-#### Untargeted analysis
+### Untargeted analysis
 
 When the composition of the polymer is unknown, MSPolyCalc is able to find the difference in mass between a reference peak as well as possible molecular formula.
 
@@ -95,3 +99,29 @@ Matching molecular formula are colored based on the error (in ppm) as specified 
 The result of the analysis displays the relative mass (on the m/z scale) as well as the list of best matching molecular formula and the charge.
 
 ![explore result](images/exploreResult.png)
+
+## Advanced filtering
+
+Results may be filtered using a `javascript` syntax. The following variables are
+available:
+
+- A, B, C ... the number of monomers
+- mm: theoretical monoisotopic mass
+- mz: theoretical m/z (taking into account ionzation)
+- unsaturation: degree of unsaturation
+- charge: total charge
+- atoms.C, atoms.O, ...: number of corresponding atoms
+
+![filter function](images/filterFct.png)
+
+Based on those variables it is possible to write complex conditions:
+
+- `(A+B)%2===0`: the sum of the number of A monomer and B monomer should be even
+- `A<B`: the number of monomer A should be smaller than the number of monomer B
+- `(A+B)>10 && atoms.N<5`: there should be at least 10 monomers and less than 5 nitrogens
+
+## Export the results
+
+The data can be exported to a spreadsheet by clicking on the export icon.
+
+![table export](images/tableExport.png)
