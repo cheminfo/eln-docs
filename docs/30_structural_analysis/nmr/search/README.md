@@ -1,3 +1,7 @@
+---
+slug: /uuid/901378074eeb9b75396aadff96b3b83a
+---
+
 # Search by NMR chemical shifts
 
 This tool is designed to search by NMR chemical shifts that may be practical to find similar pure products or identify products in complex mixture like in the case of metabolomics. In order to select the chemical shifts you may either enter directly the values in the table `Ranges to search` or ALT + CLICK directly on the spectrum.
