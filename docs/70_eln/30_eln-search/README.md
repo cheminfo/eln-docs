@@ -44,4 +44,6 @@ Double-clicking the row you want in the **right module** will take you back to t
 
 Double-clicking the row you want in the **center module** will take you directly to the first matching sample.
 
-Structure search uses the algorithm implemented in DataWarrior. They are open source and available as part of openchemlib (<https://github.com/actelion/openchemlib>, <https://github.com/cheminfo/openchemlib-js>).
+Structure search uses the algorithm implemented in DataWarrior. They are open source and available as part of [openchemlib-js](
+https://github.com/cheminfo/openchemlib-js), the javascript version of [openchemlib](
+https://github.com/actelion/openchemlib).
