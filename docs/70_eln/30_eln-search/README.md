@@ -1,3 +1,7 @@
+---
+slug: /uuid/5bda2fa3112d5af1cdc6e87b66c3f6b7
+---
+
 # Search reactions by structure
 
 This tool could be used to search the chemical reactions you want by only draw a chemical structure even though substrate or product that might be useful for your synthesis.
