@@ -40,4 +40,4 @@ You can also make advance queries by specifying a field like for example:
 - `temperature:>20 temperature:<50`: temperature greater than 20 and smaller than 50.
 - `temperature:=20`: by default the field shoud 'contain' the value so `200` would match as well. If a field should have the exact specified value you can use `=`
 - `reference:LP12`: all the entries having in the reference `LP12`
-- `title=test`: all the entries having in the title the word `test`
+- `title:test`: all the entries having in the title the word `test`
