@@ -50,7 +50,7 @@ Chemical structures are drawn by selecting an appropriate tool and applying it w
 
 ## Edition of atom properties (radical, isotopes, etc)
 
-In openchemlib editor it is possible to specify radicals. Select the ![](otherAtomTool.gif) button and click on the atom you want to modify. You can then enter specific mass (isotopes), atom valence or radical state.
+In openchemlib editor it is possible to specify radicals. Select the ![](images/otherAtomTool.gif) button and click on the atom you want to modify. You can then enter specific mass (isotopes), atom valence or radical state.
 
 ![radical.png](images/radical.png)
 
@@ -58,4 +58,8 @@ In openchemlib editor it is possible to specify radicals. Select the ![](otherAt
 
 :::tip Stereochemistry
 OCL editor manage mixture of stereoisomers using enhanced stereochemistry format from MDL. You will find more information (here)[includes/stereo/README.md]
+:::
+
+:::tip Axial chirality
+OCL editor also supports (axial chirality)[includes/axial/README.md]
 :::
