@@ -1,4 +1,4 @@
-## Save and load preferences
+# Save and load preferences
 
 The images processing preferences as well as the categories can be saved and reloaded later.
 

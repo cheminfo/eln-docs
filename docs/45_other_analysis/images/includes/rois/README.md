@@ -1,8 +1,8 @@
-## Information about ROIs
+# Information about ROIs
 
 Many parameters characterizing ROIs are automatically calculated.
 
-### ROI
+## ROI
 
 Region Of Interest (ROI) posses various characteristics. Among them:
 
@@ -34,7 +34,7 @@ Practically the shape of the perimeter is represented in the following image:
 
 ![perimeter.svg](perimeter.svg)
 
-### Minimum bounding rectangle (MBR)
+## Minimum bounding rectangle (MBR)
 
 An information that allows to determine the shape of a ROI is the `Minimum Bounding Rectange`(MBR) that represents the smallest rectangle that surround the ROI.
 
@@ -47,7 +47,7 @@ The MBR is characterized by:
 
 ![mbr.svg](mbr.svg)
 
-### Convex Hull (CH)
+## Convex Hull (CH)
 
 The convex hull may be visualized as the shape enclosed by a rubber band stretched around the ROI. It is useful to estimate the compactness of the ROI.
 
@@ -58,7 +58,7 @@ Two parameters are available for the convex hull:
 
 ![hull.svg](hull.svg)
 
-### Feret diameters
+## Feret diameters
 
 The feret diameters of a ROI can be calculated using a virtual caliper. 2 diameters are calculated:
 
@@ -68,9 +68,9 @@ The feret diameters of a ROI can be calculated using a virtual caliper. 2 diamet
 
 ![feret.svg](feret.svg)
 
-### Other parameters
+## Other parameters
 
-#### Sphericity
+### Sphericity
 
 The sphericity is the ratio of the perimeter of the equivalent circle, P<sub>PED</sub>, to the real perimeter, P<sub>real</sub>.
 A perfect sphere as a sphericity of 1. The idea is that irregular shape causes an increase in the perimeter and therefore this ratio has a lower value. Knowing that the smallest possible perimeter for a given projection area is a circle, 0 < S ≤ 1.
@@ -80,7 +80,7 @@ is not impossible that the sphericity is slightly higher than 1.
 
 <img src="https://tex.cheminfo.org/?tex=S%20%3D%20%5Cfrac%7BP_%7BEQPC%7D%7D%7BP_%7Breal%7D%7D"/>
 
-#### Convexity
+### Convexity
 
 The convexity (ψ<sub>C</sub>) describes the compactness of a particle. The convexity is the ratio of the projection area itself and the area of the convex hull. The maximum theoretical convexity is 1, if there are no concave regions. Due to the pixelation of images, all particles seem to have small concave regions, corresponding to the tiny steps with every pixel in the perimeter line. Therefore, the maximum convexity calculated in reality is mostly limited to 0.99.
 
