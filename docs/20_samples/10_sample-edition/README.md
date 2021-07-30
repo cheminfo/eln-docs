@@ -2,6 +2,8 @@
 slug: /uuid/15c9a2dcd55c963fdedf2c18a1471b03
 ---
 
+import JSMETip from '../../includes/ocl-tip.md'
+
 # Create and edit a sample
 
 You will see several modules covering the canvas and a few buttons. The buttons are there to Save your sample, to display this Help, and to generate a Report. The modules allow you to edit your sample’s data, to upload your spectra, and to display your spectra and other non-editable sample attributes.
@@ -14,7 +16,7 @@ You will see several modules covering the canvas and a few buttons. The buttons 
 
 - Description: A brief description of the sample. Editable.
 
-- Structure editor: Edit the structure associated with the sample. Powered by [JSME](http://peter-ertl.com/jsme/). If you are using ChemDraw you may ‘copy as -&gt; molfile’, go over the structure editor and press `CTRL` + V.
+- Structure editor: Edit the structure associated with the sample. If you are using ChemDraw you may ‘copy as -&gt; molfile’, go over the structure editor and press `CTRL` + V.
 
 - Physical: Read and edit the physical constants associated with the sample: boiling point \(bp\), melting point \(mp\), density and refractive index \(nd\).
 
@@ -28,9 +30,7 @@ That is, if you want to upload a PXRD attachment to your sample you need to open
 ![upload spectrum](uploadSpectrum.gif)
 :::
 
-:::tip Axial chirality
-The editor can also deal with axial chirality. More information can be [found here](includes/binap/README.md).
-:::
+<OCLTip/>
 
 :::tip Explode peptidic or nucleic sequences
 The editor can explode peptidic or nucleic sequences. More information can be [found here](includes/explodeSequences/README.md).
