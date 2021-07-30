@@ -21,7 +21,7 @@ Several properties are predicted:
 
 :::info 
 
-If you want to know more about property predictions, [click here](property_prediction/README.md). 
+If you want to know more about property predictions, [click here](../../includes/property_prediction/README.md). 
 
 :::
 
