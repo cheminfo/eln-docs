@@ -2,7 +2,7 @@
 slug: /installation/setup
 ---
 
-# Deploying the ELN 
+# Deploying the ELN
 
 ## System requirements
 
@@ -76,18 +76,19 @@ cd roc-eln-docker
 
 If you want a default configuration you might just follow the continuous integration instead of the next steps in this section (Visualizer, ELN, Printers). That is, run the `ci/install.sh` script followed by `docker-compose up -d`.
 
-You might want to use the `ngnix` proxy directly without additional Apache or Ngnix server. In this case, you'll need to set `NGINX_PORT` to 80 (HTTP) or 443 (HTTPS), modify the docker compose to something like 
+You might want to use the `ngnix` proxy directly without additional Apache or Ngnix server. In this case, you'll need to set `NGINX_PORT` to 80 (HTTP) or 443 (HTTPS), modify the docker compose to something like
+
 ```
 services:
   nginx-proxy:
     image: docker.io/nginx:1.14-alpine
     ports:
-      - "${NGINX_PORT}:80" # or  "${NGINX_PORT}:433"  
+      - "${NGINX_PORT}:80" # or  "${NGINX_PORT}:433"
 ```
-and the `ngnix` configuration to read the SSL certificates in case you use SSL. 
 
+and the `ngnix` configuration to read the SSL certificates in case you use SSL.
 
-If you do not make these changes, you'll need to set up an Apache or Ngnix server on our system. This is configuration is preferable in case you have more than one serivce running on your server. 
+If you do not make these changes, you'll need to set up an Apache or Ngnix server on our system. This is configuration is preferable in case you have more than one serivce running on your server.
 
 #### Visualizer
 
@@ -129,19 +130,20 @@ docker-compose pull
 docker-compose up -d --build
 ```
 
-:::tip  Updating the system 
+:::tip Updating the system
 The docker-compose.yml file contains the list of all the docker images required by this project, their version as well as their dependencies. If you want to update the version of an image you should change the name in the docker-compose.yml. After changing this file you should run: `docker-compose up -d --build` (`-d` allows to put the process in background).
 :::
 
-## Setting up an Apache server 
+## Setting up an Apache server
 
-Under RedHat/CentOs run 
+Under RedHat/CentOs run
 
 ```
 yum install httpd -y
 systemctl enable httpd
 ```
-then, create `/etc/httpd/conf.d/eln.conf` with the following content 
+
+then, create `/etc/httpd/conf.d/eln.conf` with the following content
 
 ```
 <VirtualHost *:80>
@@ -161,11 +163,11 @@ then, create `/etc/httpd/conf.d/eln.conf` with the following content
 
 In case you want to use SSL, you can listen on port 433 and add your SSL certificates. To check your configuration, you can use `apachectl configtest`
 
-You can start the server with `systemctl start httpd`. 
+You can start the server with `systemctl start httpd`.
 
-## Firewall/iptables 
+## Firewall/iptables
 
-If you did not already install iptables, you can do it with 
+If you did not already install iptables, you can do it with
 
 ```
 yum install iptables-services -y
@@ -179,9 +181,35 @@ to allow HTTP on port 80 add the following rule to `/etc/sysconfig/iptables`
 -A INPUT -p tcp --dport 80 -m state --state NEW,ESTABLISHED -j ACCEPT
 ```
 
-:::tip 
+:::tip
 Note that docker will install new chains in iptables. This means you may not restart iptables once docker is started ! If you really have to restart iptables service then you will have also to restart docker and docker-compose.
 :::
 
+## Groups
 
+Typically, you will want to set up groups in the database to easily manage access to documents. You can do so via the `roc/` endpoint of your deployment.
+For this, log in as `admin@cheminfo.org` and select the "ELN" database.
 
+![Logging in as admin@cheminfo.org at the roc enpoint](logging_in_as_admin.gif)
+
+In the "Groups" section you can then administer groups. To create a group, you only have to enter the name of the group.
+![Creating a group](creating_a_group.gif)
+
+Once you created a group, you can add users and owners by adding the usernames (email addresses) and specifying the rights (e.g., `read, write`)
+![Adding a user to a group](adding_user_to_group.gif)
+
+## Creating user accounts
+
+In case you do not use the LDAP or Google authentication, you will need to create user accounts. To do so, you can use the frontend at the `roc/` endpoint. If you want to create many users at once, you might want to use a script that inserts the documents into the `_users` database. In both approaches, you will set some initial password which users can change themselves at the `roc/` endpoint.
+
+![Create a user account](create_a_user_account.gif)
+
+## User forgot password
+
+## CouchDB authentication
+
+If a user forgot a password, the admin can provide the users with a new password by updating the document of the user in the couchdb `_users` database (for example, this can conveniently be done from the Fauxton interface at the `_utils` endpoint of your database URL). By inserting the field `password` with a new password in the document, the password will be updated, and the user can change the password from the `roc/` endpoint.
+
+## Google or LDAP authentication
+
+In case the account uses Google or LDAP authentication you cannot help the user other than by referring to the password reset procedure of the authentication provider (LDAP, Google).
