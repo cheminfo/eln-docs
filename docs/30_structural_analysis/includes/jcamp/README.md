@@ -1,4 +1,4 @@
-## JCAMP file format
+# JCAMP file format
 
 [JCAMP-DX (Joint Committee on Atomic and Molecular Physical Data Exchange)](http://jcamp-dx.org/) is a standard file format for the exchange of spectra and related physical and chemical information between different spectrometers, databases or other systems.
 
