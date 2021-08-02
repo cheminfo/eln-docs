@@ -32,7 +32,7 @@ Based on those basic building blocks various more advanced projects were achieve
 
 ## www.c6h6.org
 
-![principle](c6h6.principle.png)
+![principle](c6h6-principle.png)
 
 ![www.c6h6.org](c6h6.png)
 
