@@ -59,7 +59,3 @@ In openchemlib editor it is possible to specify radicals. Select the ![](images/
 :::tip Stereochemistry
 OCL editor manage mixture of stereoisomers using enhanced stereochemistry format from MDL. You will find more information [here](includes/stereo/README.md)
 :::
-
-:::tip Axial chirality
-OCL editor also supports [axial chirality](includes/axial/README.md)
-:::
