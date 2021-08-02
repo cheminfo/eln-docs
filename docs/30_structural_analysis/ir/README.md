@@ -12,6 +12,7 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 ![spectrum](image_spectrum.gif)
 
+
 ## Upload and view the spectra
 
 In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format.

@@ -26,10 +26,10 @@ In order to determine the relationship between two atoms, you must first label t
 
 The diastereotopicity is indicated in the views containing the chemical structure of your molecule with hydrogens exploded. Chirality is automatically provided in the site of interest. The atoms are numbered (`Assignement`) according to a canonical molfile that you can download by clicking on the ![download icon](icon.png) icon, on the top right of `Chemical structure with hydrogen exploded` tab.
 
- :::tip
+:::tip Equivalent atoms
  
- Moving the mouse over the hydrogens and carbons in the molecule, the equivalent ones will be highlighted. 
+Moving the mouse over the hydrogens and carbons in the molecule, the equivalent ones will be highlighted. 
 
 ![equivalent atoms](equivalence.gif)
-
+ 
 :::
