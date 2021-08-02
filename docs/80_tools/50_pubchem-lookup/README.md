@@ -1,3 +1,7 @@
+---
+slug: /uuid/6a1063e07d4946142d4330b587dfaaa3
+---
+
 # PubChem lookup
 
 This view allows searching PubChem information based on a chemical structure.
