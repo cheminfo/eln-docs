@@ -32,9 +32,9 @@ Each peak will be represented as an allowed zone by a blue rectangle.
 
 And the signals of the 10 best matches will be represented as 10 different lines. The color will represent the score:
 
-- light green: $>$ 0.8
-- orange : 0.6 $<$ score $\leq$ 0.8
-- pink : score 0.4 $<$ score $\leq$ 0.6
+- light green: > 0.8
+- orange : 0.6 < score <= 0.8
+- pink : score 0.4 < score <= 0.6
 
 Mouse over the annotations will highlight the corresponding molecule. If you click on the annotation you will get the detailed information.
 

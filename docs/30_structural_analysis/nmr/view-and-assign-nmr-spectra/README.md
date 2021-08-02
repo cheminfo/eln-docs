@@ -23,11 +23,11 @@ We recommend to use automatic peak picking and then modify the signals, using th
 
 :::
 
- You will see the detected ranges and their integrals just to the right of the spectrum. Select a range to see a list of the associated peaks with their multiplicities and coupling constants. Adjust the table values (multiplicities, coupling constants and chemical shifts) according to your own criterion directly in the tabs. A publication-ready report of your peak picking is automatically generated below the Spectra table. 
+You will see the detected ranges and their integrals just to the right of the spectrum. Select a range to see a list of the associated peaks with their multiplicities and coupling constants. Adjust the table values (multiplicities, coupling constants and chemical shifts) according to your own criterion directly in the tabs. A publication-ready report of your peak picking is automatically generated below the Spectra table. 
  
- :::caution
+:::caution
  
- Don’t forget to Save your changes.
+Don’t forget to Save your changes.
 
 :::
 
