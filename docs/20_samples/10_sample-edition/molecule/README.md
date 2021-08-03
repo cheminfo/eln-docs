@@ -4,7 +4,7 @@
 
 ![overview](overview.png)
 
-1. If you write a title in this tab, it will be automatically updated in the `Title` tab of the over views and will appear in the final report.
+1. If you write a title in this tab, it will be automatically updated in the `Title` tab of the over views and will appear in the final report. [Click here](../includes/titletab/README.md) for more information.
 2. The keywords appear in the main table of the homepage. You would be able to search for your sample in the homepage according to those keywords.
 3. You can change the structure of your sample here. The new molecular formula and molecular weight would be automatically calculated and the structure would be updated in all the view of this tile. 
 4. If you change the molecular formula, the new one would appear in the report.
