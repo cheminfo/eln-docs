@@ -8,18 +8,18 @@ This view allows you to filter your samples according to [Lipinski's rule of fiv
 
 :::info
 
-Lipinski's rule of five evaluates druglikeness of molecules. It states that, in general, an overall active drug has no more than one violation of the following criteria:
+Lipinski's rule of five evaluates drug likeness of molecules. It states that, in general, an overall active drug has no more than one violation of the following criteria:
 - molecular mass less than 500 Da
 - no more than 5 hydrogen bond donors (number of nitrogen-hydrogen or oxygen-hydrogen bonds)
 - no more than 10 hydrogen bond acceptors (number of nitrogen or oxygen atoms)
 - an [octanol-water partition coefficient](https://en.wikipedia.org/wiki/Octanol-water_partition_coefficient) (log P) that does not exceed 5 (measures the relationship between lipophilicity and hydrophilicity of substance: the value is smaller than 1 for a substance that is more soluble in water and greater than one if it is more soluble in a fat-like solvent such as octanol)
 
-Even if this rule gives an indication on the druglikeness of a molecule, it does not predict its activity. It has been highly influential in drug discovery but only 50 % of orally new chemical entities actually obey it. 
+Even if this rule gives an indication on the drug likeness of a molecule, it does not predict its activity. It has been highly influential in drug discovery but only 50 % of orally new chemical entities actually obey it.
 
 :::
 
 The interactive parallel coordinates plot contains the criteria of Lipinski's rule of five, as well as:
-- the number of rotatable bonds 
+- the number of rotatable bonds
 - the number of stereocenters
 - the polar surface area (PSA) 
 - the water solubility of the molecule, given by log S 
@@ -46,4 +46,4 @@ The color of the lines is given by the value of log P: blue for large positive l
 
 :::
 
- To get access to information about a molecule, you can either double click on the structure in the main table to select the first sample or select a specific sample in the `List of samples` tab when several samples are available. 
+ To get access to information about a molecule, you can either double-click on the structure in the main table to select the first sample or select a specific sample in the `List of samples` tab when several samples are available. 

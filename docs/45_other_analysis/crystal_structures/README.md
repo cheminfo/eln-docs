@@ -35,7 +35,7 @@ Using JSmol you can easily measure properties. Some shortcuts are outlined below
 
 ## Net topology for periodic materials
 
-The topology of crystal structures can be described in terms of a net. In this periodic graph, the atoms are usually the vertices and the bonds are the edges. In case of metal-organic framework, one instead often uses the nodes as the vertices and the linkers as the edges. We use a custom webservice to compute the RSCR code.
+The topology of crystal structures can be described in terms of a net. In this periodic graph, the atoms are usually the vertices and the bonds are the edges. In case of metal-organic framework, one instead often uses the nodes as the vertices and the linkers as the edges. We use a custom webservice to compute the RCSR code.
 
 The computed topology code will be stored in the database and shows up in the sample table on the top left.
 

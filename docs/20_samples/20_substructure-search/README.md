@@ -17,7 +17,7 @@ If a molecule appears in more than one sample, you can choose the entry in the `
 
 :::
 
-There are two available search modes: by [substructure and by similarity](10.1186/s13321-015-0061-y) . Both are based on 512 molecule fragments. Each fragment is described by binary numbers, representing the presence or absence of certain attributes.
+There are two available search modes: by [substructure and by similarity](10.1186/s13321-015-0061-y). Both are based on 512 molecule fragments. Each fragment is described by binary numbers, representing the presence or absence of certain attributes.
 
 ![search](search.jpeg)
 
@@ -29,7 +29,7 @@ Structure edition is powered by [OCL editor].
 
 ## Advanced features
 
-You can fine-tune the search by specifying atomic and bond properties. These options can be accessed by hovering over the atom or bond of interest and pressing `q`. For example, you can allow certain atoms at this specific position or you can modify the ring size.
+You can fine-tune the search by specifying atomic and bond properties. These options can be accessed by hovering over the atom or bond of interest and pressing `q`. For example, you can allow certain atoms at this specific position, or you can modify the ring size.
 
 ![advanced options](advanced_options.gif)
 
