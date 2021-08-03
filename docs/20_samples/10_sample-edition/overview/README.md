@@ -25,4 +25,4 @@ Do not forget to Save your data on the server ! If you reload from the server us
 
 :::
 
-When you want to print your report, you can select different format proposed in the `select an alternative template` tab. The view of the report is automatically updated.  
+When you want to print your report, you can select different format proposed in the `select an alternative template` tab. The view of the report is automatically updated. The produced report will contain a barcode that represents the specific sample.

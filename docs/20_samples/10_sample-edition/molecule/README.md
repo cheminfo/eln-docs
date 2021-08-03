@@ -29,6 +29,10 @@ You can modify the structure as much as you want and go back to the previous one
 
 :::
 
+The chemical structure editor allows drawing coordinative covalent bonds. In order to draw a `zero order` bond, you need to first draw a single bond between an atom an a metal. With the single bond drawing tool selected, you can then click on the bond couple of times in order to get the dotted bond. 
+
+![draw metal](drawMetal.gif)
+
 ## Molecular formula
 
 You can modify the molecular formula of your sample in the `MF` tab. The `em`, `mw`, `canonized MF` and `MF information` tabs will automatically updated. 
@@ -39,7 +43,7 @@ The molecular formula also supports abbreviations such as Ph or Et. A detailed l
 
 In a molecular formula, it is possible to define multiple components, isotopes, non natural isotopic abundance as well as to use groups and parenthesis. 
 - isotopes will be placed in brackets, e.g. [13C], C[2H]Cl3
-- non natural abundance will be specified in curly brackets, e.g. C{50,50}10 means that we have a ratio 50:50 between 12C and 13C.
+- non natural abundance will be specified in curly brackets, e.g. C{50,50}10 means that you have 10 carbons and a ratio 50:50 between 12C and 13C.
 - group abbreviation: you may use in molecular formula groups like Ala, Et, Ph, etc...
 - multiple components should be separated by '.', e.g. Et3N . HCl 
 - hydrates on non-integer molecular formula may be specified with numbers in front of the MF, e.g. CaSO4 . 1.5 H2O. 
