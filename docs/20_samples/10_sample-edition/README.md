@@ -32,8 +32,8 @@ That is, if you want to upload a PXRD attachment to your sample you need to open
 
 <OCLTip/>
 
-:::tip Explode peptidic or nucleic sequences
-The editor can explode peptidic or nucleic sequences. More information can be [found here](includes/explodeSequences/README.md).
+:::tip Explode peptide or nucleic acid sequences
+The editor can explode peptide or nucleic acid sequences. More information can be [found here](includes/explodeSequences/README.md).
 :::
 
 :::tip Coordinate covalent bond
@@ -41,7 +41,7 @@ It can be useful to denote to have special bond types between metal and ligands 
 :::
 
 :::tip Groups
-Often it is more convenient to denote protective groups with Boc or amino acides with their three-letter code. Our editor understands this. More information can be [found here](includes/mfGroups/README.md).
+Often it is more convenient to denote protective groups with Boc or amino acids with their three-letter code. Our editor understands this. More information can be [found here](includes/mfGroups/README.md).
 :::
 
 :::tip Editing the molecular formula (salts, isotopes)

@@ -1,6 +1,6 @@
 # A brief history
 
-In 1996 Luc Patiny has created a Belgian company, ChemExper sprl, that allows to search for free for commercially available chemicals. It was providing the first substructure search engine on the internet in which you could draw, thanks to a java applet, a chemical structure.
+In 1996 Luc Patiny founded a Belgian company, ChemExper sprl, that allows to search for free for commercially available chemicals. It was providing the first substructure search engine on the internet in which you could draw, thanks to a java applet, a chemical structure.
 
 ![ccd.png](ccd.png)
 
@@ -20,7 +20,7 @@ In 2014 a group of 4 people (Norman Pellet, Michaël Zasso, Daniel Kostro and Lu
 - https://github.com/mljs
 - https://github.com/image-js
 
-[Up to know, over 60 developers that have contributed to those projects!](cheminfo.github.io/team)
+[Up to now, over 60 developers that have contributed to those projects!](cheminfo.github.io/team)
 
 Based on those basic building blocks various more advanced projects were achieved. The best known ones are
 

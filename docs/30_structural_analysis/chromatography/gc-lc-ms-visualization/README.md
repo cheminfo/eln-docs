@@ -12,7 +12,7 @@ Files can be uploaded either as a JCAMP, NetCDF or mzData format. Multiple files
 
 ## Molecular Formula (MF)
 
-Moelcular formula are specified here. Several formulae can be defined by separating with a dot.
+Molecular formula are specified here. Several formulae can be defined by separating with a dot.
 
 ![](mf.png)
 

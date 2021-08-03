@@ -16,7 +16,7 @@ The calculations are done in the browser and the molecule IS NOT sent to the ser
 :::
 
 :::info
-This code uses [openchemlib-js](https://github.com/cheminfo/openchemlib-js), the javascript version of [openchemlib](https://github.com/Actelion/openchemlib).
+This code uses [openchemlib-js](https://github.com/cheminfo/openchemlib-js), the JavaScript version of [openchemlib](https://github.com/Actelion/openchemlib).
 :::
 
 ## Customize the model

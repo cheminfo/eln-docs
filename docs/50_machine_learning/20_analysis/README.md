@@ -55,7 +55,7 @@ To define a zone press the `ALT` key and then click once on the left, once on th
 
 To create the function click on `Edit calculations` tab.
 
-To define a formula you need to write a javascript code that will modify the variable `data`. This variable contains 2 properties:
+To define a formula you need to write a JavaScript code that will modify the variable `data`. This variable contains 2 properties:
 
 - spectra: all the information related to the selected spectra
 - report: an empty object that allows to store global statistics about the analysis

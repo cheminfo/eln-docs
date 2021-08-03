@@ -1,6 +1,6 @@
 :::tip Molecular formula filtering
 
-Possible MFs can be filtered based on DBE (double bond equivalent, unsaturation), charge and molecular weight. It is also possible to add more advanced filtering option by entering a javascript code that can use the following variables:
+Possible MFs can be filtered based on DBE (double bond equivalent, unsaturation), charge and molecular weight. It is also possible to add more advanced filtering option by entering a JavaScript code that can use the following variables:
 
 - mm: monoisotopic mass of the non ionized molecule
 - mz: observed mass (m/z)

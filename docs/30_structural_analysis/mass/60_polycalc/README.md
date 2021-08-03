@@ -102,7 +102,7 @@ The result of the analysis displays the relative mass (on the m/z scale) as well
 
 ## Advanced filtering
 
-Results may be filtered using a `javascript` syntax. The following variables are
+Results may be filtered using a `JavaScript` syntax. The following variables are
 available:
 
 - A, B, C ... the number of monomers

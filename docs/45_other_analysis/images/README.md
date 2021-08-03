@@ -48,13 +48,13 @@ There is also the possibility to scale the obtained ROIs. This may be practical 
 
 ### Painting the final image
 
-The result of analysis can be graphically displayed on the original image and many options allow to define what should be displayed.
+The result of analysis can be graphically displayed on the original image and many options allow defining what should be displayed.
 
 ### Categories
 
 By clicking on the ‘categories’ button you will be able to
 
-The system will also calculate the MBR \([Minimal bounding Rectange](https://en.wikipedia.org/wiki/Minimum_bounding_rectangle)\). The ratio between the surface of the MBR and the surface of the ROI \(Region Of Interest\) is what we call the ‘filling factor’, 100% means a cube, a sphere should be π/4 \(78.5%\)
+The system will also calculate the MBR \([Minimal bounding rectangle](https://en.wikipedia.org/wiki/Minimum_bounding_rectangle)\). The ratio between the surface of the MBR and the surface of the ROI \(Region Of Interest\) is what we call the ‘filling factor’, 100% means a cube, a sphere should be π/4 \(78.5%\)
 
 ### Save / Load preferences
 

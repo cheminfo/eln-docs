@@ -74,7 +74,7 @@ To bootstrap new projects, we use a [yeoman generator](https://yeoman.io/). For 
 
 ### File organization
 
-We typically like to have small files with [pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-javascript-acb887375dfe/) (where it makes sense).
+We typically like to have small files with [pure functions](https://www.freecodecamp.org/news/what-is-a-pure-function-in-JavaScript-acb887375dfe/) (where it makes sense).
 In every subfolder we will make a `__test__ ` directory in which we will have a `module.test.js` file for every`module.js`. That is, a project might look like
 
 ```
