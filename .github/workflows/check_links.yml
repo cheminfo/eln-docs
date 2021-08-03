@@ -12,6 +12,6 @@ jobs:
       id: lc
       uses: lycheeverse/lychee-action@v1.0.8
       with:
-          args: --verbose --no-progress  **/*.md --exclude http://localhost
+          args: --verbose --no-progress  **/*.md --exclude http://localhost https://peter-ertl.com/jsme/
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
