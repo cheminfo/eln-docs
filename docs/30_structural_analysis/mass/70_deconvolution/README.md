@@ -18,7 +18,7 @@ The workflow is the following:
 
 ## Peak picking
 
-When loading the spectrum a peak picking is done that determine the position and width of all the peaks based on global spectrum deconvolution algorithm that was implemented in [javascript](https://github.com/mljs/global-spectral-deconvolution).
+When loading the spectrum a peak picking is done that determine the position and width of all the peaks based on global spectrum deconvolution algorithm that was implemented in [JavaScript](https://github.com/mljs/global-spectral-deconvolution).
 
 The result of the peak picking appears in the spectrum as yellow vertical lines. Note that the top of the peak is determined based on the 3 highest point and does not have to match an experimental point.
 
