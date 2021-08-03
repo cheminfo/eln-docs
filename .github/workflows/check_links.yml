@@ -12,6 +12,6 @@ jobs:
       id: lc
       uses: lycheeverse/lychee-action@v1.0.8
       with:
-          args: --verbose --no-progress **/*.md **/*.html
+          args: --verbose --no-progress **/*.md 
     - name: Fail if there were link errors
       run: exit ${{ steps.lc.outputs.exit_code }}
