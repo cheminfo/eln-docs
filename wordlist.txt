@@ -78,3 +78,17 @@ FWHM
 Userguide
 XY
 MOL
+doi
+citable
+combinatorial
+https
+wikipedia
+github
+OpenBabel
+justyna
+DataWarrior
+DMSO
+Ertl
+CAS
+GHS
+TOC
