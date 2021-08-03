@@ -4,7 +4,7 @@ slug: /uuid/jsme
 
 # JSME
 
-### [JSME](http://peter-ertl.com/jsme/) Help and Basic Instructions
+### [JSME](https://peter-ertl.com/jsme/) Help and Basic Instructions
 
 #### JSME Menu
 
