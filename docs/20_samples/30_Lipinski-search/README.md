@@ -40,6 +40,10 @@ Also, the table has a hoover functionality, which will highlight the line of a c
 
 ![hoover in parallel coordinates plot](images/hoover.gif)
 
+You can also drag and drop columns of the parallel coordinates, and switch coordinates. 
+
+![drag and drop](images/drag-drop.gif)
+
 :::info 
 
 The color of the lines is given by the value of log P: blue for large positive log P (lipophilic compound), red for large negative log P (hydrophilic compound).
