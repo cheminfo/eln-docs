@@ -45,3 +45,6 @@ When several structures are compared in the plot, you can apply filters. Select 
 
 ![plot manipulation](plot.gif)
 
+You can also drag and drop columns of the parallel coordinates, and switch coordinates. 
+
+![drag and drop](drag-drop.gif)
