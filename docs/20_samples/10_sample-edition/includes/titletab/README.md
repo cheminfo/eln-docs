@@ -1,6 +1,6 @@
 # Title tab 
 
-The title tab appears in all the views proposed by the `Open/edit sample` module. When you write something in this tab, it would be automatically updated in the report, but also in the `Title` tab of the other views. 
+The title tab appears in all the views proposed by the `Open/edit sample` module. When you write something in this tab, it will automatically be updated in the report, but also in the `Title` tab of the other views. 
 
 Four icons are displayed on the top right of the tab:
 - ![reload](reload.png) allows you to reload the data from the server. The modifications you did are locally stored until you click on `Save data`. At this point, the modifications are stored in the server. If you did not save your changes before reloading, you would lose them and come back to the latest version saved. When you click on the icon, a tab will appear to confirm your action and avoid any unwanted loss.
