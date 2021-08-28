@@ -4,14 +4,13 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 # Infrared spectra
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7iLuVpt5IXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/593679396?h=7f72cb35ee" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>>
 
 ## Introduction
 
 [Infrared spectroscopy (IR)](https://en.wikipedia.org/wiki/Infrared_spectroscopy) is a spectroscopic technique dealing with the infrared region of the electromagnetic spectrum (wavelengths between 700 nm and 1 mm). It is widely used to characterize and study chemicals. The IR spectrum can be visualized in a graph of infrared light absorbance or transmittance (%) with respect to the frequency or wavelength given in wavenumber (cm⁻¹). Infrared spectroscopy exploits the fact that molecules absorb specific frequencies of light characteristic of their structure. The absorption occurs at the resonant frequency which corresponds to the vibrational frequency of the molecule, associated to a particular normal mode of motion and bond type.
 
 ![spectrum](image_spectrum.gif)
-
 
 ## Upload and view the spectra
 
