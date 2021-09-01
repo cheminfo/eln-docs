@@ -12,7 +12,9 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 ![spectrum](image_spectrum.gif)
 
-## Upload and view the spectra
+## Analyze
+
+### Upload and visualize spectra
 
 In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format.
 
@@ -25,13 +27,14 @@ When loading an IR spectrum, the application is aware if it was acquired in tran
 The application will remember your preferred mode for the next time.
 
 ![Switch](switch.png)
+
 :::
 
 :::caution
 Don't forget to `Save data` before leaving the page!
 :::
 
-## Peak picking
+### Peak picking
 
 It is possible to [manually pick peaks](../includes/peakpick/README.md) on an infrared spectrum by holding down the ALT key, and then left-clicking on the peaks of interest.
 
@@ -49,7 +52,13 @@ All peak wavenumbers and intensities are reported in a compact format ready for
 
 ![add peaklist](peaklist.png)
 
-## Comparing
+### Preprocessing
+
+Filters can be applied on the spectra allowing to [adjust the view, to rescale and to modify the baseline](../includes/preprocessing/README.md).
+
+For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters.
+
+## Compare
 
 You can compare multiple IR spectra by first opening up an IR spectrum, and then clicking `Compare` on top of the IR spectrum.
 
@@ -58,9 +67,3 @@ After which, under **List of selected entries**, you can choose the other molecu
 ![add compare](compare.gif)
 
 The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
-
-## Preprocessing
-
-Filters can be applied on the spectra allowing to [adjust the view, to rescale and to modify the baseline](../includes/preprocessing/README.md).
-
-For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters.
