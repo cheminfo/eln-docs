@@ -9,7 +9,7 @@
 3. You can change the structure of your sample here. The new molecular formula and molecular weight would be automatically calculated and the structure would be updated in all the view of this tile. 
 4. If you change the molecular formula, the new one would appear in the report.
 5. The canonized molecular formula depends directly on the molecular formula. It is updated every time the molecular formula changes. 
-6. Electromagnetic mass and molecular weight, calculated from the molecular formula.
+6. [Exact mass](https://en.wikipedia.org/wiki/Mass_(mass_spectrometry)#Exact_mass) and molecular weight, calculated from the molecular formula.
 7. Information about the molecular formula: monoisotopic mass, unsaturation and element analysis.
 8. IUPAC names and synonyms. Different languages can be used and are specified according to the [ISO country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). 
 
