@@ -4,7 +4,7 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 # Infrared spectra
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7iLuVpt5IXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/593679396?h=7f72cb35ee" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>>
 
 ## Introduction
 
