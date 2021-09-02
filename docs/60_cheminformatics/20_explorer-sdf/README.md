@@ -10,7 +10,7 @@ This tool allows to explore a SDF file and search by substructure or Lipinski pa
 
 ![overview](overview.png)
 
-1. Drag and drop or paste your list of molecules. SDF, [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) and SMILES are supported. If your list is in the TSV format, the file must contain a header line and a column named "smiles".
+1. Drag and drop or paste your list of molecules. SDF, [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) and SMILES are supported. 
 2. Your list of molecules is displayed as a table containing their structure, code, and other information such as the number of H donors or acceptors in the molecule.
 3. Properties extracted from the file and computed for a specific molecule. In the computed properties, you would find molecular weight, exact mass, molecular formula, as yell as [Lipinski properties](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five) of the molecule. 
 4. Substructure or similarity search into your list of molecule. Draw a substructure and reduce your list of molecules to similar molecules or molecules containing the same pattern. The other tabs will automatically be updated. 
@@ -21,9 +21,13 @@ This tool allows to explore a SDF file and search by substructure or Lipinski pa
 Click on "Demo" to familiarize yourself with this tool. The demo file contains 3543 organic molecules.
 :::
 
+:::caution 
+If your list of molecules is in the TSV format, the file must contain a header line and a column named "smiles".
+:::
+
 ## Search by substructure or similarity 
 
-When you draw a substructure, the list of molecules will automatically update. You can see the number of molecules using the scroll wheel. You can see the properties of a specific molecule by scrolling your mouse over it. The displayed molecule will be highlighted in the table. 
+When you draw a substructure, the list of molecules will automatically update according to the search mode you chose. You can see the properties of a specific molecule by scrolling your mouse over it. The displayed molecule will be highlighted in the table. 
 
 ![substructure search](substructure.gif)
 
@@ -41,7 +45,7 @@ To search molecules with specific properties, you can use:
 - a range (1..2, 0..3), for which the limits are included
 :::
 
-You are also allowed to select molecules directly from the interactive plot. Select vertically a range and click on the outside of the range to reset the selection. The list of molecules will automatically update. To see all the functionalities of the interactive table, [click here](../../20_samples/30_Lipinski-search/README.md). 
+You are also allowed to select molecules directly from the interactive plot. Select vertically a range and click on the outside of the range to reset the selection. The list of molecules will automatically update. To see all the functionalities of the interactive plot, [click here](../../20_samples/30_Lipinski-search/README.md). 
 
 ![interactive plot](interactive.gif)
 
@@ -59,3 +63,7 @@ To analyze your plot, you can:
 - go back to the default position with one double click 
 
 ![plot](plot.gif)
+
+:::info 
+The 2D scatter plot can be download as a SVG file by clicking on the ![icon](icon.png) icon on the top right of the `2D scatter plot` tab. 
+:::
