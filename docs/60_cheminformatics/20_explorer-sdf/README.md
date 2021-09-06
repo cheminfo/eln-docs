@@ -12,9 +12,9 @@ This tool allows to explore a SDF file and search by substructure or Lipinski pa
 
 1. Drag and drop or paste your list of molecules. SDF, [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) and SMILES are supported. 
 2. Your list of molecules is displayed as a table containing their structure, code, and other information such as the number of H donors or acceptors in the molecule.
-3. Properties extracted from the file and computed for a specific molecule. In the computed properties, you would find molecular weight, exact mass, molecular formula, as yell as [Lipinski properties](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five) of the molecule. 
-4. Substructure or similarity search into your list of molecule. Draw a substructure and reduce your list of molecules to similar molecules or molecules containing the same pattern. The other tabs will automatically be updated. 
-5. The properties displayed in tab 3 are shown in an interactive parallel coordinates plot. You can select molecules that have a particular properties from this tab.  
+3. Properties extracted from the file and computed for a specific molecule. In the computed properties, you would find molecular weight, exact mass, molecular formula, as well as [Lipinski properties](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five) of the molecule. 
+4. Substructure or similarity search on your list of molecules. Draw a substructure and reduce your list of molecules to similar molecules or molecules containing the same pattern. The other tabs will automatically be updated. 
+5. The properties displayed in tab 3 are shown in an interactive parallel coordinates plot. You can select molecules that have particular properties from this tab.  
 6. You can create a 2D scatter plot with the properties displayed in tab 5 and color tabs 5 and 6 according to a specific property. 
 
 :::tip
@@ -65,5 +65,5 @@ To analyze your plot, you can:
 ![plot](plot.gif)
 
 :::info 
-The 2D scatter plot can be download as a SVG file by clicking on the ![icon](icon.png) icon on the top right of the `2D scatter plot` tab. 
+The 2D scatter plot can be download as an SVG file by clicking on the ![icon](icon.png) icon on the top right of the `2D scatter plot` tab. 
 :::
