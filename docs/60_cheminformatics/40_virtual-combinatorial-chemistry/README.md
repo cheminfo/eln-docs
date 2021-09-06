@@ -16,10 +16,13 @@ A list of common fragments is already available. Select the fragment of interest
 
 ![fragments](fragments.gif)
 
-An interactive parallel coordinates plot that contains properties of the selected molecules woudl appear. Those properties are related to [Lipinski's rule](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five). You would find the number of H donor and acceptor,  molecular weight, log P, log S, polar surface area, number of rotatable bonds and number of stereoisomers for each molecule. 
+An interactive parallel coordinates plot that contains properties of the selected molecules would appear. Those properties are related to [Lipinski's rule of five](https://en.wikipedia.org/wiki/Lipinski%27s_rule_of_five). You would find the number of H donor and acceptor,  molecular weight, log P, log S, polar surface area, number of rotatable bonds and number of stereoisomers for each molecule. 
 
 You can apply filters on your list of molecules by selecting a vertical range on the interactive plot. The list would automatically update. 
-To know more about the functionalities of the plot, [click here](../../20_samples/30_Lipinski-search/README.md). 
+To know more about all the functionalities of the plot, [click here](../../20_samples/30_Lipinski-search/README.md). 
 
 ![filters](filters.gif)
 
+:::tip
+You can download the generated library in two formats: SDF or SMILES.
+:::
