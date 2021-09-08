@@ -25,9 +25,32 @@ A LC-MS spectrum looks like the following:
 
 ![LC-MS spectrum](images/LCMS.png)
 
+## Overview 
+
+![overview](images/overview.png)
+
+1. Drag and drop your file 
+2. List of the files: select one of them to display
+3. Molecular formula of your molecule 
+4. Enter the ionization method(s) used
+5. Enter your preferences related to the mass spectra and save them 
+6. Chromatogram
+7. Mass spectrum 
+8. Options for the peak picking and auto peak picking 
+9. Peaks extracted from the chromatogram 
+10. List of theoretical masses based on the molecular formula and ionization method you entered
+
 ## Loading files
 
-Files can be uploaded either as a JCAMP, NetCDF or mzData format. Multiple files can be drag and dropped into the highlighted zone or selected by ctrl-clicking in the pop-up window. The files are listed below the drop zone and are visualized when clicked.
+Files can be uploaded either as a [JCAMP](../../includes/jcamp/README.md), [NetCDF](https://en.wikipedia.org/wiki/NetCDF), [MzData, MzML or MzXML](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzData) format. Multiple files can be drag and dropped or selected from your computer by clicking on zone 1. The files are listed below the drop zone and are visualized when clicked.
+
+:::info
+In the list of files, several icons appear: 
+- ![trash](images/trash.png) to remove a file from the list 
+- ![download](images/download.png) to dowload the resource file 
+- ![info](images/info.png) to get information about the spectrum 
+- ![refresh](images/refresh.png) to reload sample from the server. Caution: it will discard your local modifications. 
+:::
 
 ## Molecular Formula (MF)
 
