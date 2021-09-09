@@ -89,3 +89,26 @@ Your preferences can be saved in order to use them whenever you want. To do so, 
 - ![default](images/default.png) to return to the default preferences. 
 - ![reload](images/reload.png) to reload previous preferences. All the preferences that you saved are stored and you can reload them whenever you want.
 :::
+
+## Chromatogram 
+
+Three GC trace channels are available: 
+- [total ion current chromatogram](https://en.wikipedia.org/wiki/Mass_chromatogram#Total_ion_current_(TIC)_chromatogram) (tic) 
+- base peak chromatogram 
+- length (number of ions)
+Select the one that you want on the top right of the chromatogram.
+
+To integrate your peaks, you can either select auto peak picking, which will automatically recognize the peaks, or integrate by hand using ALT + click on the left and the right limits of your peak. The auto peak picking shows you the integration region and the identified peaks. 
+
+![peakpick](images/peakpick.gif)
+
+When several peaks are superimposed, you can use a deconvolution algorithm that will recognize the different peaks. It will suggest an ideal guess for the number of peaks, but you can change this number. The peaks identified would appear in different colors.
+See below the spectra obtained for different numbers of compounds in the same integration region. 
+
+![deconvolution](images/deconvolution.png)          ![deconvolution 2](images/deconvolution2.png)
+
+:::info
+You can download the chromatogram as a SVG file and print it using the two icons on the top right of the tab. 
+:::
+
+## Mass spectrum
