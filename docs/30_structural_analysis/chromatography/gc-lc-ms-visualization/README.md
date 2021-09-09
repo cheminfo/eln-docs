@@ -52,32 +52,40 @@ In the list of files, several icons appear:
 - ![refresh](images/refresh.png) to reload sample from the server. Caution: it will discard your local modifications. 
 :::
 
-## Molecular Formula (MF)
+## Molecular Formula (MF) and mass modification
 
-Molecular formula are specified here. Several formulae can be defined by separating with a dot.
+You can enter several molecular formulas by separating it with a dot as shown below. 
 
-![](mf.png)
+![](images/mf.png)
 
-For single formula, the monoisotopic mass and molecular weight are displayed below.
-
-## Mass modifications (ion adducts) and isotopic distribution
+For single formula, the monoisotopic mass and molecular weight are displayed below. For several formulas, the sum of the masses is displayed. 
 
 In order to calculate the theoretical masses you need to define the ion adduct. Many adducts can be defined at once by separating with commas. You may also define multiple charges.
 
-![](mass_modifications.png)
+![](images/mass_modifications.png)
 
-All the possible masses (based on input formula and ion adducts) are displayed as a virtual green spectrum, and listed in the bottom-right.
+All the possible masses (based on input formula and ion adducts) are displayed as a virtual green spectrum, and listed in the **List of theoretical masses** tab.
 
-![](theoretical_masses.png)
+![](images/theoretical_masses.png)
 
 ## Mass Spectra Related Preferences
 
-This section contains global settings for the manipulation of mass spectra and extracted ion chromatograms \(EIC\).
+This section contains global settings for the manipulation of mass spectra and extracted ion chromatograms \(EIC\). 
 
-The **mass tolerance** is the tolerance used when integrating mass spectra into a chromatogram peak (should be less than the sampling distance).
+The **mass tolerance** is the tolerance used when merging mass spectra for an integrated chromatogram peak. If the distance between two peaks is below this critical value, the two peaks are merged into one single peak. The mass tolerance should be lower than the m/z sampling distance otherwise the full spectra will be merged in one peak. 
 
 The **mass extraction window** determines the minimum and maximum extracted masses for EIC based on the input m/z.
 
 The **height threshold** defines the minimum relative height for a peak to be included in EIC.
 
-The **list of specific EIC to superimpose** can be used to manually input specific masses and formula for creation of EIC.
+The **list of specific EIC to superimpose** can be used to manually input specific masses and formula for creation of EIC. You can enter an unlimited number of comma separated masses or molecular formulas. For molecular formula, the system will make the sum of all the possible ionizations as well as the peaks from the isotopic distribution that are higher than 5%. You can use this tool to visualize the amount of particular fragments or impurities present in your sample. 
+You can either enter a mass or a molecular formula and use ![plus](images/plus.png) and ![minus](images/minus.png) buttons to add or remove an element of the list. You may also change the color of each element. 
+
+![list specific EIC](images/list_EIC.gif)
+
+:::tip 
+Your preferences can be saved in order to use them whenever you want. To do so, use:
+- ![save](images/save.png) to save your preferences. Give it an easily identifiable name. 
+- ![default](images/default.png) to return to the default preferences. 
+- ![reload](images/reload.png) to reload previous preferences. All the preferences that you saved are stored and you can reload them whenever you want.
+:::
