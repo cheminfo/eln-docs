@@ -96,6 +96,7 @@ Three GC trace channels are available:
 - [total ion current chromatogram](https://en.wikipedia.org/wiki/Mass_chromatogram#Total_ion_current_(TIC)_chromatogram) (tic) 
 - base peak chromatogram 
 - length (number of ions)
+
 Select the one that you want on the top right of the chromatogram.
 
 To integrate your peaks, you can either select auto peak picking, which will automatically recognize the peaks, or integrate by hand using ALT + click on the left and the right limits of your peak. The auto peak picking shows you the integration region and the identified peaks. 
@@ -112,3 +113,9 @@ You can download the chromatogram as a SVG file and print it using the two icons
 :::
 
 ## Mass spectrum
+
+The mass spectrum tab displays the theoretical mass spectrum.  The calculations consider the ionization method selected and the list of molecular formulas that you entered. The name of the species that appear in the spectrum are colored according to your choice in `Mass spectra related preferences` tab, and the ionization method is specified under each name. 
+
+The theoretical masses are gathered in a table under `List of theoretical masses based on MF and ionizations`. 
+
+![mass spectrum](images/mass_spectrum.png)
