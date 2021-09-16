@@ -8,6 +8,8 @@ In infrared spectroscopy, broadband infrared light is typically passed through a
 ## Theoretical background
 
 ### Selection rules
+
+#### Gross selection rule
 From theoretical spectroscopy one can derive that an electronic transition between some initial state $i$ and final state $f$ is allowed if the transition moment is not zero: 
 
 $$
@@ -45,7 +47,33 @@ For the diatomic case, we can simplify to one dimension by setting $q$ to $x$ an
 
 The first way this integral can vanish is if $\mathbf{\mu}$ is zero. This would mean we do not "see" this transition --- it is forbidden. 
 
-For small changes, we can approximate $\mathbf{\mu}(x)$ using a first-order Taylor expansion.
+For small changes, we can approximate $\mathbf{\mu}(x)$ using a Taylor expansion
+
+$$
+\mu(x) = \mu_0 + \left(\frac{\mathrm{d}\mu}{\mathrm{d}x} \right)_{x=x_0}x + \dots
+$$
+
+If we plug in the first term, we find that the transition dipole moment is zero because the Hermite polynomials $H_v$ are orthogonal (for $v_i \neq v_f$): 
+
+$$
+\mathbf{\mu}_{if} = \mu_0 \int_{-\infty}^{\infty} \psi^*_{V_f} (x)  \psi_{V_i}(x) \, \mathrm{d}x = 0
+$$
+
+For the remaining terms we can write in general
+
+$$
+\mathbf{\mu}_{if} = \frac{1}{n!} \left(\frac{\mathrm{d}^n\mu}{\mathrm{d}x} \right)_{x=x_0}\int_{-\infty}^{\infty} x^n \psi^*_{V_f} (x)  \psi_{V_i}(x) \, \mathrm{d}x = 0
+$$
+
+which will be zero if 
+
+$$
+\left(\frac{\mathrm{d}^n\mu}{\mathrm{d}x} \right)_{x=x_0} = 0
+$$ 
+
+That is, a molecule must have _a dipole moment that changes with displacement to show an IR transition_. 
+
+#### Specific selection rule
 
 ### IR spectra
 
@@ -65,3 +93,8 @@ In real spectra, a range of other effects that we neglect in the simulations nee
 - Lifetime: 
 
 #### Environment effects
+
+
+## References
+
+1 . Malte Oppermann: Lecture notes for "Electronic spectroscopy", 2015. 
