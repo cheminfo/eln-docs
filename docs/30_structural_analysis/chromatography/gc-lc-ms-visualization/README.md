@@ -64,7 +64,7 @@ In order to calculate the theoretical masses you need to define the ion adduct. 
 
 ![](images/mass_modifications.png)
 
-All the possible masses (based on input formula and ion adducts) are displayed as a virtual green spectrum, and listed in the **List of theoretical masses** tab.
+All the possible masses (based on input formula and ion adducts) are displayed as a virtual green spectrum, and listed in the `List of theoretical masses` tab.
 
 ![](images/theoretical_masses.png)
 
@@ -72,13 +72,13 @@ All the possible masses (based on input formula and ion adducts) are displayed a
 
 This section contains global settings for the manipulation of mass spectra and extracted ion chromatograms \(EIC\). 
 
-The **mass tolerance** is the tolerance used when merging mass spectra for an integrated chromatogram peak. If the distance between two peaks is below this critical value, the two peaks are merged into one single peak. The mass tolerance should be lower than the m/z sampling distance otherwise the full spectra will be merged in one peak. 
+The `mass tolerance` is the tolerance used when merging mass spectra for an integrated chromatogram peak. If the distance between two peaks is below this critical value, the two peaks are merged into one single peak. The mass tolerance should be lower than the m/z sampling distance otherwise the full spectra will be merged in one peak. 
 
-The **mass extraction window** determines the minimum and maximum extracted masses for EIC based on the input m/z.
+The `mass extraction window` determines the minimum and maximum extracted masses for EIC based on the input m/z.
 
-The **height threshold** defines the minimum relative height for a peak to be included in EIC.
+When entering a molecular formula the system will calculate the isotopic distribution and will combine the peaks that are closer than the `mass extraction window`. The peaks of the isotopic distribution that have a relative height over the `height threshold` will be considered and included in EIC.
 
-The **list of specific EIC to superimpose** can be used to manually input specific masses and formula for creation of EIC. You can enter an unlimited number of comma separated masses or molecular formulas. For molecular formula, the system will make the sum of all the possible ionizations as well as the peaks from the isotopic distribution that are higher than 5%. You can use this tool to visualize the amount of particular fragments or impurities present in your sample. 
+The `list of specific EIC to superimpose` can be used to manually input specific masses and formula for creation of EIC. You can enter an unlimited number of comma separated masses or molecular formulas. For molecular formula, the system will make the sum of all the possible ionizations as well as the peaks from the isotopic distribution that are higher than 5%. You can use this tool to visualize the amount of particular fragments or impurities present in your sample. 
 You can either enter a mass or a molecular formula and use ![plus](images/plus.png) and ![minus](images/minus.png) buttons to add or remove an element of the list. You may also change the color of each element. 
 
 ![list specific EIC](images/list_EIC.gif)
@@ -95,7 +95,6 @@ Your preferences can be saved in order to use them whenever you want. To do so, 
 Three GC trace channels are available: 
 - [total ion current chromatogram](https://en.wikipedia.org/wiki/Mass_chromatogram#Total_ion_current_(TIC)_chromatogram) (tic) 
 - base peak chromatogram 
-- length (number of ions)
 
 Select the one that you want on the top right of the chromatogram.
 
