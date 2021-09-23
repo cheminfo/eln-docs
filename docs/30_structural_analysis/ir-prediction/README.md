@@ -2,9 +2,9 @@
 slug: /uuid/10b6a7229db7dd815afcc75e77c2d6cd
 ---
 
-In infrared spectroscopy, broadband infrared light is typically passed through a sample and the transmitted light is dispersed and its spectral intensity recorded.The absorption lines reveal the excited vibrational transitions.
-
 # IR spectra prediction
+
+In infrared spectroscopy, broadband infrared light is typically passed through a sample and the transmitted light is dispersed and its spectral intensity recorded. The absorption lines reveal the excited vibrational transitions. In the following, we will discuss the theoretical background of these spectra and then show how they can be simulated.
 
 ## Theoretical background
 
@@ -113,7 +113,7 @@ $$
 \sum_{i=1}^{3 N}\left(f_{i j}-\delta_{i j} \lambda\right) a_{i}=0 \quad j=1,2, \cdots, 3 N
 $$
 
-What does this mean? The eigenvectors $\mathbf{a}_k$ are the normal modes that describe the motion of the atoms for the mode with eigenvalue $\lambda_k$. It is important to realize that according to $a_{i} \cos (\sqrt{\lambda} t+\phi)$ all atoms move with the same phase and frequency -- but different amplitudes. It is important to realize that $\lambda$ is proportional to the force constant. Stiffer bonds hence mean a higher frequency. This is the connection between electronic effects of the substituents and changes in vibrational frequencies. 
+What does this mean? The eigenvectors $\mathbf{a}_k$ are the normal modes that describe the motion of the atoms for the mode with eigenvalue $\lambda_k$. It is important to realize that according to $a_{i} \cos (\sqrt{\lambda} t+\phi)$ all atoms move with the same phase and frequency -- but different amplitudes. It is important to realize that $\lambda$ is proportional to the force constant. Stiffer bonds hence mean a higher frequency. This is the connection between electronic effects of the substituents and changes in vibrational frequencies.
 
 What do we now need to do in practice to get to these eigenvalues and eigenvectors?
 
@@ -155,14 +155,13 @@ $$
 
 ### Degrees of freedoms and imaginary frequencies
 
-Key for the interpretation of the spectra is to realize that a system with $N$ particles, has $3N$ degrees of freedom. These degrees of freedom can be aggregated into different collective motions of the atoms: 
+Key for the interpretation of the spectra is to realize that a system with $N$ particles, has $3N$ degrees of freedom. These degrees of freedom can be aggregated into different collective motions of the atoms:
 
 - 3 degrees of freedom describe the movement of the center of mass in the three spatial directions. To say in other words, the "first" three degrees of freedom describe translations.
 - In addition to changing the center of mass, the molecule can also rotate in different ways, which leaves the center of mass fixed. However, we have to make a distinction between linear and non-linear molecules. For linear molecules there is no rotation around the molecular axis -- you can explore this in the view if you compare carbon dioxide and water. For non-linear molecules, however, there are rotations around three distinct axes
-- If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view. 
+- If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view.
 
-
-## Using the view 
+## Using the view
 
 ## References
 
