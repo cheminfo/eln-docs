@@ -85,9 +85,7 @@ $$
 in the harmonic approximation one finds that only transitions between neighboring levels are allowed $\Delta \nu = \pm 1$.
 Real bonds, however, are not perfectly harmonic. For this reason, also higher order transitions might be allowed -- those are called overtones and are of lower intensity.
 
-### IR spectra
-
-### Finite differences
+### Spectra from the Hessian
 
 If we assume our vibrations are harmonic, we can do a good job by approximating the potential around some (local) minimum using a Taylor approximation
 
@@ -118,7 +116,7 @@ What does this mean? The eigenvectors $\mathbf{a}_k$ are the normal modes that d
 What do we now need to do in practice to get to these eigenvalues and eigenvectors?
 
 1. We need to find an equilibrium geometry. For this, we perform a conformer search and then perform a geometry optimization.
-2. We need to construct the matrix $\mathbf{F}$ of second derivatives. For this, we use finite differences of the form
+2. We need to construct the matrix $\mathbf{F}$ of second derivatives $f_{i j}$. For this, we use finite differences of the form
 
 $$
 \frac{\partial^{2} E_{e}}{\partial x_{\alpha} \partial y_{\beta}} \approx\left[\left.\left(\frac{\partial E_{e}}{\partial y_{\beta}}\right)\right|_{x_{\alpha}=x_{\alpha 0}+\Delta x_{\alpha}}-\left.\left(\frac{\partial E_{e}}{\partial y_{\beta}}\right)\right|_{x_{\alpha}=x_{\alpha 0}-\Delta x_{\alpha}}\right] / 2 \Delta x_{\alpha}
@@ -160,6 +158,10 @@ Key for the interpretation of the spectra is to realize that a system with $N$ p
 - 3 degrees of freedom describe the movement of the center of mass in the three spatial directions. To say in other words, the "first" three degrees of freedom describe translations.
 - In addition to changing the center of mass, the molecule can also rotate in different ways, which leaves the center of mass fixed. However, we have to make a distinction between linear and non-linear molecules. For linear molecules there is no rotation around the molecular axis -- you can explore this in the view if you compare carbon dioxide and water. For non-linear molecules, however, there are rotations around three distinct axes
 - If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view.
+
+You can get an overview of many of the concepts from 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iJjg2L1F8I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Using the view
 
