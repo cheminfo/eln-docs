@@ -20,7 +20,7 @@ In 2014 a group of 4 people (Norman Pellet, Michaël Zasso, Daniel Kostro and Lu
 - https://github.com/mljs
 - https://github.com/image-js
 
-[Up to now, over 60 developers that have contributed to those projects!](cheminfo.github.io/team)
+[Up to now, over 60 developers that have contributed to those projects!](https://cheminfo.github.io/team)
 
 Based on those basic building blocks various more advanced projects were achieved. The best known ones are
 
