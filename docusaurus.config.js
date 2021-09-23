@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require("remark-math");
+const katex = require("rehype-katex");
 
 module.exports = {
   title: "cheminfo ELN documentation",
@@ -52,10 +52,10 @@ module.exports = {
   },
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
       integrity:
-        'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
-      crossorigin: 'anonymous',
+        "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+      crossorigin: "anonymous",
     },
   ],
   presets: [
@@ -75,6 +75,8 @@ module.exports = {
           },
           // Please change this to your repo.
           editUrl: "https://github.com/cheminfo/eln-docs/edit/main/",
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         blog: {
           showReadingTime: true,
@@ -84,8 +86,6 @@ module.exports = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        remarkPlugins: [math],
-        rehypePlugins: [katex],
       },
     ],
   ],
