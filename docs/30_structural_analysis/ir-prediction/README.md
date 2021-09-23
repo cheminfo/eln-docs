@@ -153,7 +153,7 @@ $$
 [The GFN-xTB techniques build on top of this idea.](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01176) In approximating the integrals, one introduces empirical parameters which in the GFN-xTB scheme are again fitted for atoms -- but not for the pairs (in contrast to conventional DFTB methods).
 :::
 
-### Degrees of freedoms and imaginary frequencies
+### Degrees of freedoms 
 
 Key for the interpretation of the spectra is to realize that a system with $N$ particles, has $3N$ degrees of freedom. These degrees of freedom can be aggregated into different collective motions of the atoms:
 
@@ -162,6 +162,17 @@ Key for the interpretation of the spectra is to realize that a system with $N$ p
 - If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view.
 
 ## Using the view
+
+The prediction view has a view key elements:
+
+1. A structural editor allows you to edit structures. Below, you can select the level of theory for the simulations and start the new simulations.
+2. A table of structures lists all the structures that can be visualized. By clicking on a row you change the data that is loaded for the table of vibrational modes and the animations. It also changes the highlight in the plot. 
+3. The graph by default overlays the predicted spectra and you can hide/unhide the spectrum of molecules by clicking on the eye. 
+4. A table of vibrational modes gives you the intensity (a mode of intensity 0 will not show up in the spectrum, i.e., is not IR active) and the frequency. If you click a row, if will load this mode in the animtion and also highlight it in the graph. 
+5. A JSMol window animates the selected normal mode
+6. A molecular drawing in which you can click on bonds and atoms to select the most relevant mode for this bond/atom. 
+   
+To get started, and to explore some key electronic effects, you can use the dropdown menu to select a collection of predefined molecules. This option will load a collection of molecules in the table (2) for which you can then compare the predicted spectra.
 
 ## References
 
