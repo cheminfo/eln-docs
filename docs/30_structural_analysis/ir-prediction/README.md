@@ -159,7 +159,7 @@ Key for the interpretation of the spectra is to realize that a system with $N$ p
 - In addition to changing the center of mass, the molecule can also rotate in different ways, which leaves the center of mass fixed. However, we have to make a distinction between linear and non-linear molecules. For linear molecules there is no rotation around the molecular axis -- you can explore this in the view if you compare carbon dioxide and water. For non-linear molecules, however, there are rotations around three distinct axes
 - If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view.
 
-You can get an overview of many of the concepts from 
+You can get an overview of many of the concepts from a lecture of Professor Frank Neese
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iJjg2L1F8I4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
