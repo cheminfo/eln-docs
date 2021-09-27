@@ -1,5 +1,5 @@
 ---
-slug: /uuid/MF from monoisotopic mass
+slug: /uuid/2294a250c8c1da87ca6753a6eb93c166
 ---
 
 # MF from monoisotopic mass
