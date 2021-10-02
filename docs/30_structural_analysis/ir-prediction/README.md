@@ -224,12 +224,6 @@ Note that the data is saved in the view. Therefore, you need to have the rights 
 The simulations are performed on a web service. You can, of course, use the web service independent of the front end. More documentation can be found [here](https://ir.cheminfo.org/v1/docs).
 The web service uses a Python backend that you can also run on your local machine. You can find more details about this [here](https://github.com/cheminfo-py/xtbservice/).
 
-
-## Using the REST-API
-
-The simulations are performed on a web service. You can, of course, use the web service independent of the front end. More documentation can be found [here](https://ir.cheminfo.org/v1/docs).
-The web service uses a Python backend that you can also run on your local machine. You can find more details about this [here](https://github.com/cheminfo-py/xtbservice/).
-
 ## References
 
 1. Malte Oppermann: Lecture notes for "Electronic spectroscopy", 2015.
