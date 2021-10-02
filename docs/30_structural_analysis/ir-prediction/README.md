@@ -111,7 +111,7 @@ $$
 \sum_{i=1}^{3 N}\left(f_{i j}-\delta_{i j} \lambda\right) a_{i}=0 \quad j=1,2, \cdots, 3 N
 $$
 
-What does this mean? The eigenvectors $\mathbf{a}_k$ are the normal modes that describe the motion of the atoms for the mode with eigenvalue $\lambda_k$. It is important to realize that according to $a_{i} \cos (\sqrt{\lambda} t+\phi)$ all atoms move with the same phase and frequency -- but different amplitudes. It is important to realize that $\lambda$ is proportional to the force constant. Stiffer bonds hence mean a higher frequency. This is the connection between electronic effects of the substituents and changes in vibrational frequencies.
+What does this mean? The eigenvectors $\mathbf{a}_k$ are the normal modes that describe the motion of the atoms for the mode with eigenvalue $\lambda_k$. It is important to realize that according to $a_{i} \cos (\sqrt{\lambda} t+\phi)$ all atoms move with the same phase and frequency -- but different amplitudes. It is important to realize that $\lambda$ is proportional to the force constant. Stiffer bonds hence mean a higher frequency. This is the connection between electronic effects of the substituent and changes in vibrational frequencies.
 
 What do we now need to do in practice to get to these eigenvalues and eigenvectors?
 
@@ -131,10 +131,10 @@ In our case, conformer generation is based on a [stochastic algorithm that gener
 To improve the performance of these distance geometry algorithms they are often [refined using information, such as preferred torsional angles, extracted from the Cambridge Crystallographic database](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00654).
 :::
 
-:::info Semi-empiricial quantum chemistry vs. forcefields
+:::info Semi-empiricial quantum chemistry vs. force fields
 In the view, we give the option to select different methods for geometry optimization and calculation of the vibrational spectrum.
 
-_Force-fields_ approximate the potential energy surface $U(q)$ in some simple parametrization based on interaction terms between different atom pairs --- often for bonds, bends (angles), and torsions (dihedral angles) between different atom types. The force-field we use in the service is called [GFN-NN](https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202004239). Its parameters were derived from fitting to DFT derived geometries, vibrational frequencies, and non-covalent interactions of about 8000 structures covering a wide range of chemistry. In contrast to other force field parametrizations it uses an electronegativity-equilibrium (EEQ) atomic-charge model to describe the electrostatic interactions and it avoids element _pair_ specific parametrization .
+_Force-fields_ approximate the potential energy surface $U(q)$ in some simple parametrization based on interaction terms between different atom pairs --- often for bonds, bends (angles), and torsions (dihedral angles) between different atom types. The force-field we use in the service is called [GFN-NN](https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202004239). Its parameters were derived from fitting to DFT derived geometries, vibrational frequencies, and non-covalent interactions of about 8000 structures covering a wide range of chemistry. In contrast to other force field parametrizations it uses an electronegativity-equilibrium (EEQ) atomic-charge model to describe the electrostatic interactions, and it avoids element _pair_ specific parametrization .
 
 From a computational point of view, GFN-FF's computational cost scales quadratically with system size.
 
@@ -166,15 +166,42 @@ You can get an overview of many of the concepts from a lecture of Professor Fran
 ## Using the view
 
 The prediction view has a view key elements:
+![IR prediction view elements](images/ir_overview.png)
 
 1. A structural editor allows you to edit structures. Below, you can select the level of theory for the simulations and start the new simulations.
+![Draw molecule](images/draw_molecule_optimized.gif)
 2. A table of structures lists all the structures that can be visualized. By clicking on a row you change the data that is loaded for the table of vibrational modes and the animations. It also changes the highlight in the plot. 
-3. The graph by default overlays the predicted spectra and you can hide/unhide the spectrum of molecules by clicking on the eye. 
-4. A table of vibrational modes gives you the intensity (a mode of intensity 0 will not show up in the spectrum, i.e., is not IR active) and the frequency. If you click a row, if will load this mode in the animtion and also highlight it in the graph. 
+3. The graph by default overlays the predicted spectra, and you can hide/unhide the spectrum of molecules by clicking on the eye. 
+![IR spectra graph](images/ir_graph.gif)
+4. A table of vibrational modes gives you the intensity (a mode of intensity 0 will not show up in the spectrum, i.e., is not IR active) and the frequency. If you click a row, it will load this mode in the animation and also highlight it in the graph. 
+![Mode table](images/mode_table_optimized.gif)
 5. A JSMol window animates the selected normal mode
 6. A molecular drawing in which you can click on bonds and atoms to select the most relevant mode for this bond/atom. 
-   
+![Click bond](images/click_image_optimized.gif)
+7. A button to open the help menu 
+![Open the help](images/ir_open_help.gif)
+    
 To get started, and to explore some key electronic effects, you can use the dropdown menu to select a collection of predefined molecules. This option will load a collection of molecules in the table (2) for which you can then compare the predicted spectra.
+
+### Curated collections
+
+To load a pre-defined collection, you can click on the smiley in the molecule table. There you can select from different molecule collections, which will be simulated once you click the button. 
+
+![Run curated collection](images/predefined_set_optimized.gif)
+
+### Adding new series
+To add a new series, you can right-click and move to the `Series` layer. 
+There you will be able to edit the curated collections or add new ones. 
+To add a new series, simply add a new row in the table on the top left. Then you can use the table in the bottom middle to add molecules to this collection.
+
+![Adding a new series](images/adding_new_series.gif)
+
+Note that the data is saved in the view. Therefore, you need to have the rights to save the view.
+
+## Using the REST-API 
+
+The simulations are performed on a web service. You can, of course, use the web service independent of the front end. More documentation can be found [here](https://ir.cheminfo.org/v1/docs).
+The web service uses a Python backend that you can also run on your local machine. You can find more details about this [here](https://github.com/cheminfo-py/xtbservice/). 
 
 ## References
 
