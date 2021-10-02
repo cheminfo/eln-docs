@@ -209,7 +209,7 @@ Clearly, there is a relation between structure and geometry. One example of this
 
 In several types of reaction the driving force comes from release of so-called ring strain. Ring strain describes that the atoms are forced into a geometry "they do not like". Interestingly, those constrained geometries also have difference responses of neighboring bonds in the case of vibrations. For example, you will see in the animation that the bond lengths have to change much more in the case of small rings than in large rings. This can be thought of inducing a larger force constant, which manifests itself in an absorption at a higher wavenumber.
 
-### Adding new series
+## Adding new series
 
 To add a new series, you can right-click and move to the `Series` layer.
 There you will be able to edit the curated collections or add new ones.
@@ -224,15 +224,6 @@ Note that the data is saved in the view. Therefore, you need to have the rights 
 The simulations are performed on a web service. You can, of course, use the web service independent of the front end. More documentation can be found [here](https://ir.cheminfo.org/v1/docs).
 The web service uses a Python backend that you can also run on your local machine. You can find more details about this [here](https://github.com/cheminfo-py/xtbservice/).
 
-### Adding new series
-
-To add a new series, you can right-click and move to the `Series` layer.
-There you will be able to edit the curated collections or add new ones.
-To add a new series, simply add a new row in the table on the top left. Then you can use the table in the bottom middle to add molecules to this collection.
-
-![Adding a new series](images/adding_new_series.gif)
-
-Note that the data is saved in the view. Therefore, you need to have the rights to save the view.
 
 ## Using the REST-API
 
