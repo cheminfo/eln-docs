@@ -2,9 +2,9 @@
 slug: /uuid/07223c3391c6b0cde342518d240d3426
 ---
 
-# X-ray upload and processing
+# Crystal structure upload and processing
 
-This view allows you to upload and visualize CIF and PDB files.
+This view allows you to upload and visualize `CIF` and `PDB` files.
 
 Distance between atoms can be measured and information about the cell will be displayed if available.
 
@@ -35,13 +35,17 @@ Using JSmol you can easily measure properties. Some shortcuts are outlined below
 
 ## Net topology for periodic materials
 
-The topology of crystal structures can be described in terms of a net. In this periodic graph, the atoms are usually the vertices and the bonds are the edges. In case of metal-organic framework, one instead often uses the nodes as the vertices and the linkers as the edges. We use a custom webservice to compute the RCSR code.
+The topology of crystal structures can be described in terms of a net.
+In case of metal-organic frameworks, one instead often uses the nodes as the vertices (red in figure below) and the linkers as the edges (blue in figure below) of the net.
+
+![Figure taken from https://www.mofplus.org/content/show/generalnetinfo](mofnet.png)
+We use a custom webservice to compute the [RCSR code](https://rcsr.anu.edu.au/) using a simple metal-oxo clustering approach.
 
 The computed topology code will be stored in the database and shows up in the sample table on the top left.
 
 ## Pore properties
 
-For porous materials we use an overlapping sphere approximation to calculate pore properties.
+For porous materials we use an overlapping sphere approximation to calculate pore properties. You can find more information about these properties in [Ongari et al.](https://pubs.acs.org/doi/10.1021/acs.langmuir.7b01682) and [Trepte and Schwalbe](https://chemrxiv.org/engage/api-gateway/chemrxiv/assets/orp/resource/item/60c750f39abda213aaf8db07/original/systematic-analysis-of-porosities-in-metal-organic-frameworks.pdf).
 
 ## Integration with molecular and atomistic simulations
 
