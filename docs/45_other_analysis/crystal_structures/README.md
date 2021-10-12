@@ -54,4 +54,11 @@ Using the ELN-AiiDAlab integration you can perform this yourself for simple simu
 
 [AiiDAlab](https://www.materialscloud.org/work/aiidalab) is a platform that provides a frontend to complex simulation workflows orchestrated using the [AiiDA infrastructure](https://www.aiida.net/).
 The starting point for all simulation is an input structure. If you have selected a structure in this view, you can click the "submit" button to submit the crystal structure with all relevant metadata to the AiiDAlab. There you will be guided through the steps of setting up a molecular simulation, e.g., to simulate a gas adsorption isotherm.
+
+![](start_aiidalab.gif)
+
 After the simulation, you can export the results (e.g., DFT optimized crystal structure or simulated isotherm) to the ELN and overlay them with the experimental data.
+
+As you see in the animation, AiiDAlab uses [EGI](https://www.egi.eu/services/check-in/) as identify provider. You might be able to use your university or Google account and will have to accept their policy.
+
+You can read about the technical details of this integration [in our article](https://chemrxiv.org/engage/chemrxiv/article-details/610975b8393cc9d4bb50d355).
