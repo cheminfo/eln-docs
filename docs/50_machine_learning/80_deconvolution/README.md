@@ -8,7 +8,7 @@ import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-man
 
 # Deconvolution of spectra
 
-A spectrum may
+A spectrum may be deconvoluted.
 
 ## Spectra selection, normalization and previsualization
 
