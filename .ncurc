@@ -1,0 +1,7 @@
+{
+  "dep": "prod,dev",
+  "reject": [
+    "rehype-katex",
+    "remark-math"
+  ]
+}
