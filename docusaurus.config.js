@@ -91,8 +91,11 @@ module.exports = {
   ],
 };
 
+const ignoredLabels = ["includes"];
+
 function filterItems(items) {
-  items = items.filter((item) => item.label !== "includes");
+  items = items.filter((item) => !ignoredLabels.includes(item.label));
+
   items.forEach((item) => {
     if (Array.isArray(item.items)) {
       item.items = filterItems(item.items);
