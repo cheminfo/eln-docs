@@ -2,9 +2,11 @@
 slug: /uuid/e83aeebeb956c8174cc6a53a5d11def8
 ---
 
+import CustomColumn from "../../includes/custumColumns/README.md";
+
 # Thermogravimetric analysis
 
-[Thermogravimetric analysis (TGA)](https://en.wikipedia.org/wiki/Thermogravimetric_analysis) is a technique often used for the assessment of physical phenomena of a sample (e.g. phase transitions, absorption, adsorption and desorption) as well as chemical phenomena (e.g. chemisorption, thermal stability, among others). During the measurement, the temperature is gradually increased, and the sample mass is continuously recorded over time. The data is collected and provided as a graph, in which the mass or percentage of initial mass is plotted as function of time or the furnace temperature. 
+[Thermogravimetric analysis (TGA)](https://en.wikipedia.org/wiki/Thermogravimetric_analysis) is a technique often used for the assessment of physical phenomena of a sample (e.g. phase transitions, absorption, adsorption and desorption) as well as chemical phenomena (e.g. chemisorption, thermal stability, among others). During the measurement, the temperature is gradually increased, and the sample mass is continuously recorded over time. The data is collected and provided as a graph, in which the mass or percentage of initial mass is plotted as function of time or the furnace temperature.
 A typical thermogravimetric instrument possesses a precision balance with a sample holder located inside the furnace, whose temperature can be regulated with a controller. The measurement can occur under several conditions, such as: ambient air, inert atmosphere, oxidizing/reducing gases, corrosive gases, carburizing gases as well as vacuum or high pressure or constant or controlled pressure.
 
 This module allows visualizing and processing TGA curves. You can upload `txt` files and `jcamp` files.
@@ -42,3 +44,5 @@ Field 4 gives you some basic processing tools.
 - Filters: various filter allowing to process the data. By default, the `Divide by max Y` filter
   is applied and allows getting as max Y value 1.
 - Exclusions: define zone that should be ignored during processing.
+
+<CustomColumn/>

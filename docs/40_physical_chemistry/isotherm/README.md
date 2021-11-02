@@ -2,10 +2,14 @@
 slug: /uuid/fbdbb5810ac56421b0a8509e627060cf
 ---
 
+import CustomColumn from "../../includes/custumColumns/README.md";
+
 # Isotherm analysis
+
 The adhesion of atoms, ions or molecules can be described through [adsorption isotherms](https://en.wikipedia.org/wiki/Adsorption#Single-molecule_explanation). If the molecule to be adsorbed (i.e. adsorbate) is a gas, its amount is plotted against its pressure, if it consists of a liquid phase solute, it is plotted as a function of the concentration. In both cases, the process occurs at a constant temperature and it corresponds to a surface phenomenom.
 
 There exist two types of adsorption:
+
 - Physisorption: characteristic of weak Van der Waals and electrostatic interactions;
 - Chemisorption: characteristic of covalent bonds, meaning it involves a chemical reaction.
 
@@ -32,3 +36,5 @@ If you need support for other file formats, open an issue on the [GitHub reposit
 In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
 
 If there are multiple experiments or columns in a file, you can select the ones which are shown using the dropdown selectors on the right.
+
+<CustomColumn/>

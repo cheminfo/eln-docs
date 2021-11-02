@@ -2,9 +2,18 @@
 slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 ---
 
+import CustomColumn from "../../includes/custumColumns/README.md";
+
 # Infrared spectra
 
-<iframe src="https://player.vimeo.com/video/593679396?h=7f72cb35ee" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>>
+<iframe
+  src="https://player.vimeo.com/video/593679396?h=7f72cb35ee"
+  width="640"
+  height="360"
+  frameborder="0"
+  allow="autoplay; fullscreen; picture-in-picture"
+  allowfullscreen
+></iframe>>
 
 ## Introduction
 
@@ -67,3 +76,5 @@ After which, under **List of selected entries**, you can choose the other molecu
 ![add compare](compare.gif)
 
 The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
+
+<CustomColumn/>
