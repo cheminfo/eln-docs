@@ -15,12 +15,20 @@ We recommend that you use CentOS or Ubuntu as operating system.
 
 ### 1. Install docker and docker-compose and some dependencies
 
-On Red Hat Linux/CentOS you need to run the following commands:
+On Red Hat Linux/CentOS 8 you need to run the following commands:
 
 ```bash
-yum update -y
-yum install epel-release -y
-yum install git docker docker-compose -y
+dnf update -y
+dnf install epel-release -y
+dnf install git -y
+```
+
+Install `docker` and `docker-compose`
+
+```bash
+dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+dnf install docker-ce –allowerasing
+curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 ```
 
 In Ubuntu you can use the apt package manager to install dependencies.
@@ -30,7 +38,7 @@ In Ubuntu you can use the apt package manager to install dependencies.
 On Red Hat Linux/CentOS you need to run the following commands:
 
 ```bash
-curl -sL https://rpm.nodesource.com/setup_14.x | bash -
+curl -sL https://rpm.nodesource.com/setup_16.x | bash -
 yum install -y nodejs
 ```
 
