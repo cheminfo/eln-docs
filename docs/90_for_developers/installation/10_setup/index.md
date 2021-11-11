@@ -33,18 +33,9 @@ curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compo
 
 In Ubuntu you can use the apt package manager to install dependencies.
 
-### 2. Install Node.js
-
-On Red Hat Linux/CentOS you need to run the following commands:
-
-```bash
-curl -sL https://rpm.nodesource.com/setup_16.x | bash -
-yum install -y nodejs
-```
-
 You can use [similar commands or installers](https://nodejs.org/en/download/) on other operating systems.
 
-### 3. Optional configurations
+### 2. Optional configurations
 
 - [On CentOS/Red Hat Linux you might want to permanently disable SE Linux](https://www.rootusers.com/how-to-enable-or-disable-selinux-in-centos-rhel-7/)
 - If you are behind a corporate proxy you can follow [the guide to configure Docker to use the proxy](https://docs.docker.com/engine/admin/systemd/#/http-proxy)
