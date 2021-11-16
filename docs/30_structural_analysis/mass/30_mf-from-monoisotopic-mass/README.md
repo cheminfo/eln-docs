@@ -52,6 +52,69 @@ Moreover, if it is non-radical molecule the unsaturation degree is integer.
 
 Please note that those filters apply on the molecular formula without the ionization.
 
+### Advanced filtering
+
+Based on a variable `entry` that has the following structure:
+
+```json
+{
+  "em": 588.19603227909,
+  "unsaturation": 1.5,
+  "mf": "C14H34N7O18",
+  "charge": 0,
+  "ionization": {
+    "mf": "(H+)2",
+    "em": 2.01565006446,
+    "charge": 2
+  },
+  "atoms": {
+    "C": 14,
+    "H": 34,
+    "N": 7,
+    "O": 18
+  },
+  "groups": {},
+  "ms": {
+    "ionization": "(H+)2",
+    "em": 295.1052925918659,
+    "charge": 2,
+    "delta": 0.02253940813409372,
+    "ppm": 76.37751236561516
+  }
+}
+```
+
+You need to return `true` or `false`. You are allowed to use all the javascript programming language.
+
+Examples:
+
+:::tip Less carbons than nitrogens
+
+```js
+if (entry.atoms.C < entry.atoms.N) return true;
+```
+
+:::
+
+:::tip Nitrogens must be even
+
+```js
+return entry.atoms.N % 2 === 0;
+```
+
+:::
+
+:::
+
+:::tip Small observed mass should be double charged
+
+```js
+if (entry.ms.em > 300 && entry.charge === 1) return true;
+if (entry.ms.em < 300 && entry.charge === 2) return true;
+```
+
+:::
+
 ### Relative mass and MF determination
 
 This view displays normally the mass of the peaks, but it is also possible to display relative mass to a specific peak.
@@ -116,3 +179,7 @@ It is possible to assign the different fragments. More information can be [found
 :::tip Similarity
 In order to improve the MF determination it is possible to compare the full isotopic distribution. More information can be [found here](includes/similarity/README.md).
 :::
+
+```
+
+```
