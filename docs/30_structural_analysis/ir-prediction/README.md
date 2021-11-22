@@ -151,6 +151,10 @@ $$
 [The GFN-xTB techniques build on top of this idea.](https://pubs.acs.org/doi/10.1021/acs.jctc.8b01176) In approximating the integrals, one introduces empirical parameters which in the GFN-xTB scheme are again fitted for atoms -- but not for the pairs (in contrast to conventional DFTB methods).
 :::
 
+:::info warning
+Our simulations only consider an isolated molecule in gas phase for which the intensities and frequencies are typically different from the experimental ones. The intensities are particularily worse for the force-field method. Also, we do not consider any broadening effects (e.g., hydrogen bonds, solvents, rotational fine structure).
+:::
+
 ### Degrees of freedoms
 
 Key for the interpretation of the spectra is to realize that a system with $N$ particles, has $3N$ degrees of freedom. These degrees of freedom can be aggregated into different collective motions of the atoms:
