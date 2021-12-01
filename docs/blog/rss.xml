@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>cheminfo ELN documentation Blog</title>
+        <link>https://docs.c6h6.org/docs/blog</link>
+        <description>cheminfo ELN documentation Blog</description>
+        <lastBuildDate>Sat, 01 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[We migrate our docs to docusaurus]]></title>
+            <link>https://docs.c6h6.org/docs/blog/migrating_to_docusaurus</link>
+            <guid>migrating_to_docusaurus</guid>
+            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We will migrate the documentation for the cheminfo ELN to docusaurus. This will allow us to have one global documentation page to which we can link if users have questions and in which users can perform a global fulltext search.]]></description>
+            <content:encoded><![CDATA[<p>We will migrate the documentation for the cheminfo ELN to docusaurus. This will allow us to have one global documentation page to which we can link if users have questions and in which users can perform a global fulltext search.</p><p>There are a few technical difficulties on the way:</p><ul><li><p><em>Link to the appropriate pages in the views</em>: In the views, the documentation currently uses the <code>uuid</code> of the view to get the appropriate documentation page from our GitBook project.
+We would need to replace this mechanism in some way. In the simplest version, it could be a simple link to page of this documentation website.</p></li><li><p><em>Different deployment might want to have some custom pages.</em> A solution to this would be that the administrators make their own fork for this repo. Currently, it is solved via git submodules</p></li><li><p><em>Fix the organization:</em>  In the GitBook project we have a lot of folders and the organization of some pages does not make sense. This needs to be fixed. Possibly, we should rename <code>introduction</code>, remove some subfolders and fix the capitalization.</p></li></ul>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
