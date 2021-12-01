@@ -2,6 +2,8 @@
 slug: /uuid/187642421e225f8cfcd65a9243394a72
 ---
 
+import { FaCogs } from 'react-icons/fa';
+
 # Image analysis
 
 This view allows to annotate images as well as identify Region of Interests on grey scale images.
@@ -56,6 +58,11 @@ By clicking on the ‘categories’ button you will be able to
 
 The system will also calculate the MBR \([Minimal bounding rectangle](https://en.wikipedia.org/wiki/Minimum_bounding_rectangle)\). The ratio between the surface of the MBR and the surface of the ROI \(Region Of Interest\) is what we call the ‘filling factor’, 100% means a cube, a sphere should be π/4 \(78.5%\)
 
+:::tip Stats and categories
+The different ROIs can be grouped and counted.
+Find more info [here](includes/categories/README.md).
+:::
+
 ### Save / Load preferences
 
 From the 3 icons present on the top of the preferences window it is possible to:
@@ -64,7 +71,23 @@ From the 3 icons present on the top of the preferences window it is possible to:
 - load saved preferences
 - save the current preferences
 
-![Save and Load preferences](images/saveLoadPrefs.png)
+This allows to store templates of preferences depending the kind of images you are processing.
+
+![Save and Load preferences](images/saveLoadPrefs.gif)
+
+### Exporting data and table customization
+
+<details>
+<summary>It is possible to define the column you want to display / export as well as the format</summary>
+Columns can be customized by clicking on the <FaCogs/> icon that is present in the top of the table. Those preferences are used to customize not only which information is displayed but also how it will be exported. This means that if the units are displayed they will also be exported.
+
+If you which to hide the units for importation there is the possibility to specifiy `numeral: '0.00', hideUnit: true`.
+
+![Column customization](images/customizeColumns.gif)
+
+</details>
+
+### Other tips
 
 :::tip Annotations
 It is possible to annotate and measure images with lines and polygons.
@@ -76,19 +99,9 @@ Many parameters are calculated for regions of interest.
 Find more info [here](includes/rois/README.md).
 :::
 
-:::tip Stats and categories
-The different ROIs can be grouped and counted.
-Find more info [here](includes/categories/README.md).
-:::
-
 :::tip Define pixel size
 Pixel size can be defined manually or automatically.
 Find more info [here](includes/definePixelSize/README.md).
-:::
-
-:::tip Save and load preferences
-It is possible to save and load preferences in order to reapply always the same processing.
-Find more info [here](includes/saveLoadPrefs/README.md).
 :::
 
 :::tip Select ROIs
