@@ -52,14 +52,20 @@ There is also the possibility to scale the obtained ROIs. This may be practical 
 
 The result of analysis can be graphically displayed on the original image and many options allow defining what should be displayed.
 
-### Categories
+### ROI Analysis
 
-By clicking on the ‘categories’ button you will be able to
+By clicking on the ‘ROI Analysis’ button you will have access to a table containing various parameters of the different ROIs.
 
-The system will also calculate the MBR \([Minimal bounding rectangle](https://en.wikipedia.org/wiki/Minimum_bounding_rectangle)\). The ratio between the surface of the MBR and the surface of the ROI \(Region Of Interest\) is what we call the ‘filling factor’, 100% means a cube, a sphere should be π/4 \(78.5%\)
+Among other you will have access to the MBR \([Minimal bounding rectangle](https://en.wikipedia.org/wiki/Minimum_bounding_rectangle)\). The ratio between the surface of the MBR and the surface of the ROI \(Region Of Interest\) is what we call the ‘filling factor’, 100% means a cube, a sphere should be π/4 \(78.5%\)
 
-:::tip Stats and categories
-The different ROIs can be grouped and counted.
+### ROI Categories
+
+If you click on `ROI Categories` you will be able to define categories based on characteristics of the ROIs.
+This panel will also display an histogram that contains the different categories.
+
+![Histogram](images/histogram.png)
+
+:::tip Categories
 Find more info [here](includes/categories/README.md).
 :::
 
