@@ -138,7 +138,7 @@ _Force-fields_ approximate the potential energy surface $U(q)$ in some simple pa
 
 From a computational point of view, GFN-FF's computational cost scales quadratically with system size.
 
-The other methods we offer are _semi-empirical quantum-mechanical_ methods. The key idea behind semi-empirical methods such as the [Hueckel method](https://en.wikipedia.org/wiki/H%C3%BCckel_method) is that they approximate difficult integrals. An important flavor of semiempirical methods are [density-functional tight-binding methods where the energy is expanded in term of density fluctuations relative to a superposition of atomic reference densities](https://www.tandfonline.com/doi/full/10.1080/23746149.2019.1710252):
+The other methods we offer are _semi-empirical quantum-mechanical_ methods. The key idea behind semi-empirical methods such as the [Hueckel method](https://en.wikipedia.org/wiki/H%C3%BCckel_method) is that they approximate difficult integrals. An important flavor of semiempirical methods are [density-functional tight-binding methods where the energy is expanded in terms of density fluctuations relative to a superposition of atomic reference densities](https://www.tandfonline.com/doi/full/10.1080/23746149.2019.1710252):
 
 $$
 \begin{aligned}
@@ -152,7 +152,7 @@ $$
 :::
 
 :::info warning
-Our simulations only consider an isolated molecule in gas phase for which the intensities and frequencies are typically different from the experimental ones. The intensities are particularily worse for the force-field method. Also, we do not consider any broadening effects (e.g., hydrogen bonds, solvents, rotational fine structure).
+Our simulations only consider an isolated molecule in gas phase for which the intensities and frequencies are typically different from the experimental ones. The intensities are particularly worse for the force-field method. Also, we do not consider any broadening effects (e.g., hydrogen bonds, solvents, rotational fine structure).
 :::
 
 ### Degrees of freedoms
@@ -177,9 +177,10 @@ The prediction view has a view key elements:
 2. A table of structures lists all the structures that can be visualized. By clicking on a row you change the data that is loaded for the table of vibrational modes and the animations. It also changes the highlight in the plot.
 3. The graph by default overlays the predicted spectra, and you can hide/unhide the spectrum of molecules by clicking on the eye.
    ![IR spectra graph](images/ir_graph.gif)
-4. A table of vibrational modes gives you the intensity (a mode of intensity 0 will not show up in the spectrum, i.e., is not IR active) and the frequency. If you click a row, it will load this mode in the animation and also highlight it in the graph.
+4. A table of vibrational modes gives you the intensity (a mode of intensity 0 will not show up in the spectrum, i.e., is not IR active) and the frequency. If you click a row, it will load this mode in the animation and also highlight it in the graph. You can toggle between adsorption/transmission mode. 
+   The "renormalize" function scales the maxima within the selected zones to the same value. One can select the zone with ALT and two clicks (or by entering the values into the corresponding fields.)
    ![Mode table](images/mode_table_optimized.gif)
-5. A JSMol window animates the selected normal mode
+5. A JSMol window animates the selected normal mode. You can use other JSMol functionality with a right click into the window. For instance, you can measure bond lengths by (i) Select Measurements/Click for distance measurement, (ii) then click on two atoms to measure the distance between them.
 6. A molecular drawing in which you can click on bonds and atoms to select the most relevant mode for this bond/atom.
    ![Click bond](images/click_image_optimized.gif)
 7. A button to open the help menu
