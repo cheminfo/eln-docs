@@ -92,6 +92,26 @@ Once you updated the configuration, you can run
 ```
 docker-compose up -d
 ```
+## Testing locally
+
+To test the installation locally (e.g., on your MacBook) you also only need to install `docker-compose`. You might use the following setting for some of the environment variables
+
+```
+# Local port from which the application will be served
+NGINX_PORT=4444
+
+# Access to CouchDB admin interface. This port shouldn't be accessible from everywhere
+COUCHDB_PORT=4445
+
+# Domain name(s) that the cookie will be bound to
+# Example: server.example.com
+REST_ON_COUCH_SESSION_DOMAIN=127.0.0.1
+
+# Same as REST_ON_COUCH_SESSION_DOMAIN, only with http:// or https://
+# Multiple origins can be specified, separated by a comma
+# Example: https://server1.example.com,https://server2.example.com
+REST_ON_COUCH_ORIGINS=127.0.0.1
+```
 
 ## Setting up an Apache server
 
