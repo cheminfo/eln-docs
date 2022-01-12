@@ -110,7 +110,7 @@ REST_ON_COUCH_SESSION_DOMAIN=127.0.0.1
 # Same as REST_ON_COUCH_SESSION_DOMAIN, only with http:// or https://
 # Multiple origins can be specified, separated by a comma
 # Example: https://server1.example.com,https://server2.example.com
-REST_ON_COUCH_ORIGINS=127.0.0.1
+REST_ON_COUCH_ORIGINS=http://127.0.0.1
 ```
 
 ## Setting up an Apache server
