@@ -73,8 +73,6 @@ cd roc-eln-docker
 2. Optional: edit `flavor-builder-config.json` to configure home page
 3. If LDAP configuration is needed, edit `rest-on-couch/home/ldap.js`.
 
-If you want a default configuration you might just follow the continuous integration instead of the next steps in this section (Visualizer, ELN, Printers). That is, run the `ci/install.sh` script followed by `docker-compose up -d`.
-
 You might want to use the `ngnix` proxy directly without additional Apache or Ngnix server. In this case, you'll need to set `NGINX_PORT` to 80 (HTTP) or 443 (HTTPS), modify the docker compose to something like
 
 ```
@@ -87,51 +85,33 @@ services:
 
 and the `ngnix` configuration to read the SSL certificates in case you use SSL.
 
-If you do not make these changes, you'll need to set up an Apache or Ngnix server on our system. This is configuration is preferable in case you have more than one serivce running on your server.
+If you do not make these changes, you'll need to set up an Apache or Ngnix server on our system. This is configuration is preferable in case you have more than one service running on your server.
 
-#### Visualizer
+Once you updated the configuration, you can run 
 
-Copy the [visualizer](https://github.com/NPellet/visualizer) config to `rest-on-couch/home/visualizer`:
-
-```bash
-cd rest-on-couch/home
-curl -L https://github.com/cheminfo/roc-visualizer-config/archive/master.tar.gz | tar xz
-mv roc-visualizer-config-master visualizer
 ```
-
-#### ELN
-
-Copy the ELN config to `rest-on-couch/home/eln`:
-
-```bash
-cd rest-on-couch/home
-curl -L https://github.com/cheminfo/roc-eln-config/archive/master.tar.gz | tar xz
-mv roc-eln-config-master eln
-cd eln
-npm i
+docker-compose up -d
 ```
+## Testing locally
 
-#### Printers
+To test the installation locally (e.g., on your MacBook) you also only need to install `docker-compose`. You might use the following setting for some of the environment variables
 
-Copy the printer config to `rest-on-couch/home/printers`:
-
-```bash
-cd rest-on-couch/home
-curl -L https://github.com/cheminfo/roc-printers-config/archive/master.tar.gz | tar xz
-mv roc-printers-config-master printers
 ```
+# Local port from which the application will be served
+NGINX_PORT=4444
 
-### 4. Start the application
+# Access to CouchDB admin interface. This port shouldn't be accessible from everywhere
+COUCHDB_PORT=4445
 
-```bash
-cd /usr/local/docker/roc-eln-docker
-docker-compose pull
-docker-compose up -d --build
+# Domain name(s) that the cookie will be bound to
+# Example: server.example.com
+REST_ON_COUCH_SESSION_DOMAIN=127.0.0.1
+
+# Same as REST_ON_COUCH_SESSION_DOMAIN, only with http:// or https://
+# Multiple origins can be specified, separated by a comma
+# Example: https://server1.example.com,https://server2.example.com
+REST_ON_COUCH_ORIGINS=http://127.0.0.1
 ```
-
-:::tip Updating the system
-The docker-compose.yml file contains the list of all the docker images required by this project, their version as well as their dependencies. If you want to update the version of an image you should change the name in the docker-compose.yml. After changing this file you should run: `docker-compose up -d --build` (`-d` allows to put the process in background).
-:::
 
 ## Setting up an Apache server
 
