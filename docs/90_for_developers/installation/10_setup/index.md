@@ -9,7 +9,7 @@ slug: /installation/setup
 To host an instance of the ELN no special hardware is needed. In principle, an old computer with 8 GB of RAM and an old CPU can be used.
 The system itself will not need a lot of space of the hard drive and the required hard drive space will depend on the amount of data you want to store (to get started, even 32 GB are enough to store >6,000 5 MB files, and most chemical files are smaller).
 
-We recommend that you use CentOS or Ubuntu as operating system.
+We recommend that you use CentOS (or AlmaLinux) or Ubuntu as operating system.
 
 ## Installing dependencies
 
@@ -23,7 +23,20 @@ dnf install epel-release -y
 dnf install git -y
 ```
 
-Install `docker` and `docker-compose`
+Please check that the firewall accepts external connection on port 80 or 443. Adding those rules should be done BEFORE starting docker !
+
+:::tip
+If `firewalld` is active you may have to open ports. On CentOS:
+
+```bash
+firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --permanent --zone=public --add-service=http
+firewall-cmd --reload
+```
+
+:::
+
+Install `docker` and `docker-compose`. If you are using CentOS or Redhat please check the tip here after.
 
 ```bash
 dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
@@ -34,6 +47,25 @@ curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compo
 In Ubuntu you can use the apt package manager to install dependencies.
 
 You can use [similar commands or installers](https://nodejs.org/en/download/) on other operating systems.
+
+:::tip
+If you are using AlmaLinux (a maintained alternative to CentOS that is 1:1 binary compatible with RHEL®) you should use `podman` and `podman-compose`.
+
+```bash
+dnf install podman dnsmasq podman-plugins python39 -y
+pip3 install podman-compose
+systemctl start podman
+systemctl enable podman
+```
+
+and in `/root/.bashrc`
+
+```
+alias docker='podman'
+alias docker-compose='podman-compose'
+```
+
+:::
 
 ### 2. Optional configurations
 
@@ -49,12 +81,6 @@ systemctl start docker
 systemctl enable docker
 ```
 
-:::caution Don't use docker
-You should not use the docker instruction because it is not aware of dependencies, and it could lead to unexpected results. Please always use docker-compose instead.
-
-In order to check all the running docker images: `docker-compose ps`. To restart a specific image: `docker-compose restart rest-on-couch`
-:::
-
 ### 2. Clone this repo
 
 We recommend that you run it from `/usr/local/docker`, but this is not crucial for this system.
@@ -69,11 +95,12 @@ cd roc-eln-docker
 
 ### 3. Edit configuration
 
-1. Adjust the options in `.env`. Mandatory configuration options have the value `REPLACEME`
-2. Optional: edit `flavor-builder-config.json` to configure home page
-3. If LDAP configuration is needed, edit `rest-on-couch/home/ldap.js`.
+1. `cp .env.example .env`
+2. Adjust the options in `.env`. Mandatory configuration options have the value `REPLACEME`
+3. Optional: edit `flavor-builder-config.json` to configure home page
+4. If LDAP configuration is needed, edit `rest-on-couch/home/ldap.js`.
 
-You might want to use the `ngnix` proxy directly without additional Apache or Ngnix server. In this case, you'll need to set `NGINX_PORT` to 80 (HTTP) or 443 (HTTPS), modify the docker compose to something like
+You might want to use the `nginx` proxy directly without additional Apache or Nginx server. In this case, you'll need to set `NGINX_PORT` to 80 (HTTP) or 443 (HTTPS), modify the docker compose to something like
 
 ```
 services:
@@ -83,15 +110,26 @@ services:
       - "${NGINX_PORT}:80" # or  "${NGINX_PORT}:433"
 ```
 
-and the `ngnix` configuration to read the SSL certificates in case you use SSL.
+:::important
+The default `docker-compose.yml` configuration does not expose the nginx port to the world by specifying `127.0.0.1`. This should be removed if we want to allow direct connection to nginx.
+:::
 
-If you do not make these changes, you'll need to set up an Apache or Ngnix server on our system. This is configuration is preferable in case you have more than one service running on your server.
+and the `nginx` configuration to read the SSL certificates in case you use SSL.
 
-Once you updated the configuration, you can run 
+If you do not make these changes, you'll need to set up an Apache or Nginx server on our system. This is configuration is preferable in case you have more than one service running on your server.
+
+Once you updated the configuration, you can run
 
 ```
 docker-compose up -d
 ```
+
+:::caution Don't use docker
+You should not use the docker instruction because it is not aware of dependencies, and it could lead to unexpected results. Please always use docker-compose instead.
+
+In order to check all the running docker images: `docker-compose ps`. To restart a specific image: `docker-compose restart rest-on-couch`
+:::
+
 ## Testing locally
 
 To test the installation locally (e.g., on your MacBook) you also only need to install `docker-compose`. You might use the following setting for some of the environment variables
