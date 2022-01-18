@@ -37,7 +37,6 @@ It is also allowed to enter a range
 
 - (H+)1-10 (addition of one to 10 protons)
 - (H+)-1--10 (removal of one to 10 protons)
-  i
 
 ## Nucleic and peptidic sequence
 
@@ -50,10 +49,10 @@ There are various possibilities to enter a peptidic sequence
 A sequence may be entered as a one letter code. By default the system will add on the N-terminal side an hydrogen
 `H` and on the C-terminal side a `OH`.
 
-N or C terminal modifications should be entered in parenthesis. For example if you have an amide function on
+N or C terminal modifications should be entered between parenthesis. For example if you have an amide function on
 the C-terminal you should enter `AAAHHHCCCKK(NH2)`.
 
-It is also possible to have side chain modifications by adding the modification after the one letter amino acid.
+It is also possible to have side chain modifications by adding the modification after the one letter amino acid between parenthesis.
 
 Examples:
 
@@ -70,3 +69,23 @@ Examples:
 - `HAlaGlyProOH`
 - `MeAla(Se)GlyNH2`
 - `(CH3)Ala(Se)GlyNH2`
+
+## Report
+
+The `report` tab allows to create a dynamic image that shows the various fragmetnation observed in the case of peptidic and nucleic sequences.
+
+It is a vectorial format (SVG) suitable for publication and preferences allows to define various rendering parameters.
+
+There are also 2 ways to filter the displayed fragments
+
+### Dynamically filter fragment
+
+The more visual way is based on interactive preferences that allows to show / hide internal fragments as well as to select the minimal similarity of the fragments to display.
+
+![filter report](images/report-filter.gif)
+
+### Filtering from the table
+
+From the table is it also possible to make queries per column. In order to display only the selected fragments you need to click on the top of the select column. It is also possible to select couple of fragments to display.
+
+![fragment selection in report](images/report-table.gif)
