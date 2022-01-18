@@ -70,6 +70,22 @@ Examples:
 - `MeAla(Se)GlyNH2`
 - `(CH3)Ala(Se)GlyNH2`
 
+## Peptides
+
+In the case of peptide it is also possible to `in-silico` digest the sequence and to specify the allowed missed cleavage and the minimal and maximal sequence length.
+
+![peptide digestion](images/peptide-digestion.png)
+
+While the usual fragmenation ABCXYZ are allowed it is also possible to specify internal fragments like YA and YB.
+
+![peptide fragmentation](images/peptide-fragmentation.png)
+
+This may lead to numerous sequences that will have to be processed and if you would like to focus on a part of the sequence you can use the "Sequence must contain" field. This allows to enter a string that have to be contain in the expanded sequence code !
+
+This means that if you have a sequence `AGSTY` and would like to only process the fragments that contain the glycine you should enter in this field `Gly` or if you want only `ST` you should enter `SerThr`. Please note that for advanced user you can enter a regular expression.
+
+## Nucleotides
+
 ## Report
 
 The `report` tab allows to create a dynamic image that shows the various fragmentation observed in the case of peptidic and nucleic sequences.
