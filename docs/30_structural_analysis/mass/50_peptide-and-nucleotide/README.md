@@ -72,7 +72,7 @@ Examples:
 
 ## Report
 
-The `report` tab allows to create a dynamic image that shows the various fragmetnation observed in the case of peptidic and nucleic sequences.
+The `report` tab allows to create a dynamic image that shows the various fragmentation observed in the case of peptidic and nucleic sequences.
 
 It is a vectorial format (SVG) suitable for publication and preferences allows to define various rendering parameters.
 
@@ -80,7 +80,7 @@ There are also 2 ways to filter the displayed fragments
 
 ### Dynamically filter fragment
 
-The more visual way is based on interactive preferences that allows to show / hide internal fragments as well as to select the minimal similarity of the fragments to display.
+The more visual way is based on interactive preferences that allows to show / hide internal fragments as well as to select the minimal similarity and minimal quantity of the fragments to display.
 
 ![filter report](images/report-filter.gif)
 
