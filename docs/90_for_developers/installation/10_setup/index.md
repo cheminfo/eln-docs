@@ -23,7 +23,7 @@ dnf install epel-release -y
 dnf install git -y
 ```
 
-Please check that the firewall accepts external connection on port 80 or 443. Adding those rules should be done BEFORE starting docker !
+Please check that the firewall accepts external connection on port 80 or 443. Adding those rules should be done BEFORE starting docker!
 
 :::tip
 If `firewalld` is active you may have to open ports. On CentOS:
@@ -199,7 +199,7 @@ to allow HTTP on port 80 add the following rule to `/etc/sysconfig/iptables`
 ```
 
 :::tip
-Note that docker will install new chains in iptables. This means you may not restart iptables once docker is started ! If you really have to restart iptables service then you will have also to restart docker and docker-compose.
+Note that docker will install new chains in iptables. This means you may not restart iptables once docker is started! If you really have to restart iptables service then you will have also to restart docker and docker-compose.
 :::
 
 ## Groups
