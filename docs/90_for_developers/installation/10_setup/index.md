@@ -58,7 +58,7 @@ systemctl start podman
 systemctl enable podman
 ```
 
-and in `/root/.bashrc`
+and in `vi /root/.bashrc`
 
 ```
 alias docker='podman'
@@ -70,11 +70,20 @@ alias docker-compose='podman-compose'
 ### 2. Optional configurations
 
 - [On CentOS/Red Hat Linux you might want to permanently disable SE Linux](https://www.rootusers.com/how-to-enable-or-disable-selinux-in-centos-rhel-7/)
+
+```
+vi /etc/selinux/config
+
+and set SELINUX=disabled
+```
+
+Please don't forget that you need to reboot the computer if you are changing this configuration.
+
 - If you are behind a corporate proxy you can follow [the guide to configure Docker to use the proxy](https://docs.docker.com/engine/admin/systemd/#/http-proxy)
 
 ## Getting the ELN code and running it
 
-### 1. Start docker daemon
+### 1. Start docker daemon if you are not using podman
 
 ```bash
 systemctl start docker
@@ -107,7 +116,7 @@ services:
   nginx-proxy:
     image: docker.io/nginx:1.14-alpine
     ports:
-      - "${NGINX_PORT}:80" # or  "${NGINX_PORT}:433"
+      - "${NGINX_PORT}:80" # or  "${NGINX_PORT}:443"
 ```
 
 :::important
@@ -178,7 +187,7 @@ then, create `/etc/httpd/conf.d/eln.conf` with the following content
 </VirtualHost>
 ```
 
-In case you want to use SSL, you can listen on port 433 and add your SSL certificates. To check your configuration, you can use `apachectl configtest`
+In case you want to use SSL, you can listen on port 443 and add your SSL certificates. To check your configuration, you can use `apachectl configtest`
 
 You can start the server with `systemctl start httpd`.
 
