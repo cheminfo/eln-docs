@@ -82,7 +82,12 @@ While the usual fragmenation ABCXYZ are allowed it is also possible to specify i
 
 This may lead to numerous sequences that will have to be processed and if you would like to focus on a part of the sequence you can use the "Sequence must contain" field. This allows to enter a string that have to be contain in the expanded sequence code !
 
-This means that if you have a sequence `AGSTY` and would like to only process the fragments that contain the glycine you should enter in this field `Gly` or if you want only `ST` you should enter `SerThr`. Please note that for advanced user you can enter a regular expression.
+This means that if you have a sequence `AGSTY` and would like to only process the fragments that contain the glycine you should enter in this field `Gly` or if you want only `ST` you should enter `SerThr`.
+
+:::Tip
+`Sequence must contain` field also allows as value a regular expression. In this case you can enter something like `/ProVal|gly/i`.
+You need to enter the `/` to specify it should be considered as a regular expression and you have the possibility to specify modifiers like in this case in which we want a case insensitive match (`i`).
+:::
 
 ## Nucleotides
 
