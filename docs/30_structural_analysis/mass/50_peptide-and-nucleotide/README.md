@@ -2,13 +2,11 @@
 slug: /uuid/1fdc4456ddfda089d9a67f9366ac6883
 ---
 
-# Analyze high resolution mass spectra for peptides and nucleotides
+# Analyze high resolution mass spectra of complex mixutres
 
 ## Introduction
 
-This tool allows analyzing complex mass spectra of polynucleotide or protein/peptide that may involve digestion, adducts, residue modification, etc.
-
-Please use a recent version of Google Chrome !!!
+This tool allows analyzing complex mass spectra of complex mixtures including polynucleotide or protein/peptide that may involve digestion, adducts, residue modification, etc.
 
 ## Importing experimental data
 
@@ -37,6 +35,56 @@ It is also allowed to enter a range
 
 - (H+)1-10 (addition of one to 10 protons)
 - (H+)-1--10 (removal of one to 10 protons)
+
+## Mixture
+
+This tool allows to generate possible molecular formula based on the MF range.
+
+The tool is a combination of all the lines and for each line one molecular formula will be used. If there are many possibilities you can separate on each line the molecular formula using a comma. Moreover you can define ranges of molecular formula.
+
+Example:
+
+```
+H (CH2CH2O)0-2 OH, H (CH2CH2S)0-2 SH
+H-1Me, H-1Ph,
+```
+
+The first line will define 6 possible molecular formula. The second line means remove an hydrogen followed by adding a Me or Ph. Please note the ending comma that means that there be also no modification.
+
+We can then also allow many ionizations like for example `H+, Na+` and the following table will be obtained:
+
+| First part    | Second part | Ionization | MF Mass   | m/z      |
+| ------------- | ----------- | ---------- | --------- | -------- |
+| HOH           |             | H+         | H2O       | 19.0178  |
+| HOH           | H-1 Me      | H+         | CH4O      | 33.0335  |
+| HOH           |             | Na+        | H2O       | 40.9998  |
+| HOH           | H-1 Me      | Na+        | CH4O      | 55.0154  |
+| H(CH2CH2O)OH  |             | H+         | C2H6O2    | 63.0441  |
+| H(CH2CH2O)OH  | H-1 Me      | H+         | C3H8O2    | 77.0597  |
+| H(CH2CH2S)OH  |             | H+         | C2H6OS    | 79.0212  |
+| H(CH2CH2O)OH  |             | Na+        | C2H6O2    | 85.026   |
+| H(CH2CH2S)OH  | H-1 Me      | H+         | C3H8OS    | 93.0369  |
+| HOH           | H-1 Ph      | H+         | C6H6O     | 95.0491  |
+| H(CH2CH2O)OH  | H-1 Me      | Na+        | C3H8O2    | 99.0417  |
+| H(CH2CH2S)OH  |             | Na+        | C2H6OS    | 101.0032 |
+| H(CH2CH2O)2OH |             | H+         | C4H10O3   | 107.0703 |
+| H(CH2CH2S)OH  | H-1 Me      | Na+        | C3H8OS    | 115.0188 |
+| HOH           | H-1 Ph      | Na+        | C6H6O     | 117.0311 |
+| H(CH2CH2O)2OH | H-1 Me      | H+         | C5H12O3   | 121.0859 |
+| H(CH2CH2O)2OH |             | Na+        | C4H10O3   | 129.0522 |
+| H(CH2CH2S)2OH |             | H+         | C4H10OS2  | 139.0246 |
+| H(CH2CH2O)OH  | H-1 Ph      | H+         | C8H10O2   | 139.0754 |
+| H(CH2CH2O)2OH | H-1 Me      | Na+        | C5H12O3   | 143.0679 |
+| H(CH2CH2S)2OH | H-1 Me      | H+         | C5H12OS2  | 153.0402 |
+| H(CH2CH2S)OH  | H-1 Ph      | H+         | C8H10OS   | 155.0525 |
+| H(CH2CH2S)2OH |             | Na+        | C4H10OS2  | 161.0065 |
+| H(CH2CH2O)OH  | H-1 Ph      | Na+        | C8H10O2   | 161.0573 |
+| H(CH2CH2S)2OH | H-1 Me      | Na+        | C5H12OS2  | 175.0222 |
+| H(CH2CH2S)OH  | H-1 Ph      | Na+        | C8H10OS   | 177.0345 |
+| H(CH2CH2O)2OH | H-1 Ph      | H+         | C10H14O3  | 183.1016 |
+| H(CH2CH2O)2OH | H-1 Ph      | Na+        | C10H14O3  | 205.0835 |
+| H(CH2CH2S)2OH | H-1 Ph      | H+         | C10H14OS2 | 215.0559 |
+| H(CH2CH2S)2OH | H-1 Ph      | Na+        | C10H14OS2 | 237.0378 |
 
 ## Nucleic and peptidic sequence
 
