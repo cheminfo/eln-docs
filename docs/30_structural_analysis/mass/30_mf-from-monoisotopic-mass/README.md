@@ -16,11 +16,15 @@ If you are searching the molecular formula of an unknown product you should clic
 
 ![Peak picking](images/peakPicking.gif)
 
+:::tip Many monoisotopic masses at once
+It is possible to search for many monoisotopic masses at once. Simply SHIFT + click on other labels in order to have a comma separated list of monoisotopic mass.
+:::
+
 ### Molecular formula from monoisotopic mass
 
 This tool allows finding possible molecular formula for a specific observed monoisotopic mass. When the elements are part of H, C, O, N, F, Cl, Br, I, Si, P and O the monoisotopic mass corresponds to the peak of the isotopic distribution that has the lowest mass.
 
-However, by mass we don’t observe a monoisotopic mass directly but always a charged form. The molecule may be charged positively, negatively, multicharged or also modified by the addition of protons or other charged entities.
+However, by mass we don't observe a monoisotopic mass directly but always m/z of a charged form. The molecule may be charged positively, negatively, multicharged or also modified by the addition of protons or other charged entities.
 
 This tool will consider the mass of the electron and the number of charge of the molecule.
 
@@ -40,6 +44,12 @@ You may as well specify multiple charges. Here are some examples of allowed patt
 - (H+)-1, (H+)-2, (H+)-3 (removal of one, two or three protons)
 
 ![ionization](images/ionization.png)
+
+:::tip Range of ionization
+It is also allowed ot enter range of ionizations like
+- (H+)1-5, adding between one and five protons
+- (H+)-1--5, removing between one and five protons
+:::
 
 ### Filter by degree of unsaturation
 
