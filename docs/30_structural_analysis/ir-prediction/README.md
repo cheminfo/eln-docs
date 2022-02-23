@@ -75,7 +75,7 @@ $$
 That is, a molecule must have _a dipole moment that changes with displacement to show an IR transition_.
 This gross selection rule is in contrast to the one for Raman spectroscopy, for which there must be a change in the polarizability. For molecules with center of symmetry this leads to an [exclusion rule](https://en.wikipedia.org/wiki/Rule_of_mutual_exclusion) that states that a mode is either IR or Raman active--but not both.
 
-<img alt="Linear molecule selection rules" src="images/dipole_vs_raman.svg" width="600px"> 
+<img alt="Linear molecule selection rules" src="images/dipole_vs_raman.svg" width="600px/> 
 
 #### Specific selection rule
 
