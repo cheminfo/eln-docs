@@ -15,3 +15,9 @@ You can either calculate the similarity using one of the predefined similarity f
 <SelectSpectra />
 <SpectraNormalization />
 <SuperimposeSpectraManipulation />
+
+# Links to the algorithms
+
+Literature references to the various hirarchical clustering algorithms: https://github.com/mljs/hclust#implemented-algorithms
+
+The various distances algorithm are described in: https://github.com/mljs/distance#ml-distance
