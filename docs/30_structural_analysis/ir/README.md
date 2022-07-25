@@ -3,6 +3,7 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 ---
 
 import CustomColumn from "../../includes/custumColumns/README.md";
+import Preprocessing from "../../includes/preprocessing/README.md";
 
 # Infrared spectra
 
@@ -45,7 +46,7 @@ Don't forget to `Save data` before leaving the page!
 
 ### Peak picking
 
-It is possible to [manually pick peaks](../includes/peakpick/README.md) on an infrared spectrum by holding down the ALT key, and then left-clicking on the peaks of interest.
+It is possible to [manually pick peaks](../includes/peakpick/README.md) on an infrared spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
 
 The application will systematically look for the strongest signal close to the wavelength that has been clicked.
 
@@ -55,17 +56,17 @@ The peak will then be displayed under **IR peaks**.
 
 Alternatively, the system allows to perform [peak picking automatically](../includes/autopick/README.md) within a certain range and signal-to-noise ratio.
 
-The signal strength is given automatically. The categorization `S`, `m` and `w` is done automatically based on the highest and lowest selected peak.
+The signal strength is given automatically. The categorization `S`, `m` and `w` is done automatically based on the highest and lowest selected peak. `S`for strong, `m` for medium and `w`for weak.
+
+In the table below the spectra, you can see the results of the peak picking. You can assign to each peak a name and you can delete unwanted peaks.
 
 All peak wavenumbers and intensities are reported in a compact format ready for publication.
 
 ![add peaklist](peaklist.png)
 
-### Preprocessing
+<Preprocessing/>
 
-Filters can be applied on the spectra allowing to [adjust the view, to rescale and to modify the baseline](../includes/preprocessing/README.md).
-
-For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters.
+For instance, centering the mean and dividing by the standard deviation is a common practice in the IR spectra. This can be performed by successively applying the `Center Mean` and the `Divide by SD` filters. Filters are added in the order that we set them.
 
 ## Compare
 
