@@ -14,6 +14,8 @@ The first one is the choice of either all curve or either adsorption or desorpti
 
 ![dropdown presentation](dropdown_menu_presentation.gif)
 
+You can [manipulate](../../30_structural_analysis/includes/manipulate/README.md) the graph in the same way than the IR spectrum graph.
+
 </div>
 
 </details>

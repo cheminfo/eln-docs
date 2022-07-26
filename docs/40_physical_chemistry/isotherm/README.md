@@ -2,9 +2,8 @@
 slug: /uuid/fbdbb5810ac56421b0a8509e627060cf
 ---
 
-import CustomColumn from "../../includes/custumColumns/README.md";
 import DropDownMenu from "../../includes/dropdown_menu_graph/README.md";
-
+import Preprocessing from "../../includes/preprocessing/README.md";
 
 # Isotherm analysis
 
@@ -15,9 +14,9 @@ import DropDownMenu from "../../includes/dropdown_menu_graph/README.md";
 - [`Physisorption`](https://en.wikipedia.org/wiki/Physisorption): Atoms and molecules are trapped on the surface of solid due to attractive Van der Waals forces.
 - [`Chemisorption`](https://en.wikipedia.org/wiki/Chemisorption): Adsorption that involves a chemical reaction between the surface and the absorbate (example : corrosion).
 
-Those adsorption can be described by [adsorption isotherms](https://en.wikipedia.org/wiki/Adsorption#Single-molecule_explanation). If the adsorbate is a gas, its amount is plotted against its pressure, if it consists of a liquid phase solute, it is plotted as a function of the concentration. In both cases, the process occurs at a constant temperature.
+These adsorptions can be described by [adsorption isotherms](https://en.wikipedia.org/wiki/Adsorption#Single-molecule_explanation). If the adsorbate is a gas, its amount is plotted against its pressure, if it consists of a liquid phase solute, it is plotted as a function of the concentration. In both cases, the process occurs at a constant temperature.
 
-There are several model to describe adsorption. For example the **[Langmuir adsorption Isotherm](https://en.wikipedia.org/wiki/Langmuir_adsorption_model)** or the **[BET Theory](https://en.wikipedia.org/wiki/BET_theory)**.
+There are several models to describe adsorption. For example the **[Langmuir adsorption Isotherm](https://en.wikipedia.org/wiki/Langmuir_adsorption_model)** or the **[BET Theory](https://en.wikipedia.org/wiki/BET_theory)**.
 
 ### Langmuir Adsorption Isotherm
 
@@ -59,7 +58,7 @@ Where $c$ is the BET $c$-constant, $p_o$ is the vapore pressure of the adsorptiv
 ## Upload a file
 
 Files can be uploaded either by drag-and-drop to the field on the left-hand-side or automatically from the instrument.
-The files will appear in field 2. Note that you can only upload files to samples to which you have write access.
+The files will appear in field 2. Note that you can only upload files to **samples** to which you have **write access**.
 
 ![dragdrop](dragdrop.gif)
 
@@ -67,9 +66,11 @@ The files will appear in field 2. Note that you can only upload files to samples
 We currently support the file types (which are also automatically detected):
 
 - `xls` files produces by Belsorp instruments
+- `csv` files produced by Belsorp intruments
 - `txt` files produced by IGA instruments
 - `txt` files produced by micrometrics instruments
 - `csv` files produced by micrometrics instruments
+
 
 :::
 
@@ -79,12 +80,22 @@ If you need support for other file formats, open an issue on the [GitHub reposit
 
 ## Visualization
 
-This graph analysis use the dropdown menu switcher.
+This graph analysis use a dropdown menu switcher. If there are multiple experiments or columns in a file, you can select the ones that you want to plot using the dropdown selectors.
 
 <DropDownMenu/>
 
-In the chart you can draw a rectangle to zoom and double click to reset. You can move the graphs by pressing `SHIFT ⇧` while dragging them.
+At the top of the graph, you can export the image as a `svg` file, you can remove the grid or even export as a `pdf` file.
 
-If there are multiple experiments or columns in a file, you can select the ones which are shown using the dropdown selectors on the right.
+## Compare data
 
-<CustomColumn/>
+By clicking on the button `Compare`, you can compare multiple isotherms. You can also select which curve you want to plot and choose the [color](../../30_structural_analysis/includes/showhide/README.md).
+
+![Compare Isotherms](compare_iso.png)
+
+:::note 
+You can still still select the adsorption/desorption as well as the multivariable dependance. 
+:::
+
+The right box can be use to hide regions of the graph or take the derivative for example.
+
+<Preprocessing/>
