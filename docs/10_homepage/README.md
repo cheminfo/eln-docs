@@ -2,6 +2,9 @@
 slug: /uuid/158ef2f0cc85bfc5b4f2d88cff473e83
 ---
 
+
+import Search from "../includes/search/index.md"
+
 # Homepage
 
 ![add overview](homepage.svg)
@@ -35,3 +38,5 @@ Once the sample is created, you may add experimental information, like spectra, 
 ## Tool set
 
 To the right of the List of selected samples you find the tool set. Clicking on a tool icon will take you to a new tab where you can perform additional tasks (e.g. structure search, structural analysis, 3D modelling). If you wish to find out more, additional information is available further in the manual.
+
+<Search/>
