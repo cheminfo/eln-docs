@@ -1,8 +1,12 @@
-# Overview
+---
+slug: /uuid/158ef2f0cc85bfc5b4f2d88cff473e83
+---
+
+# Homepage
 
 ![add overview](homepage.svg)
 
-:::info 
+:::info
 
 The Home page looks like above. The general structure is the following:
 
