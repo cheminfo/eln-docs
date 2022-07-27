@@ -26,6 +26,10 @@
     "rehype-katex": "^4.0.0",
     "remark-math": "^3.0.1"
   },
+  "volta": {
+    "node": "18.7.0",
+    "npm": "8.15.0"
+  },
   "browserslist": {
     "production": [
       ">0.5%",

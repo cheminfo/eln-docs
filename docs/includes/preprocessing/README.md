@@ -2,7 +2,7 @@
 
 <details>
     <summary>
-    Apply mathematical tools on the spectra.
+    Apply mathematical tools to the spectra.
     </summary>
     <div>
 
