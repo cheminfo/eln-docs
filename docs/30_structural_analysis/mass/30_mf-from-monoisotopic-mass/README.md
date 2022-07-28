@@ -2,29 +2,38 @@
 slug: /uuid/2294a250c8c1da87ca6753a6eb93c166
 ---
 
+import Range from "../../../includes/range/README.md";
+
 # MF from monoisotopic mass
 
+This tool is used to determine the molecular formula based of the monoisotopic mass.
+
+## List of spectra
+
+On the middle top panel, you can see the list of the imported experimental spectra. Each spectrum has a description if the data are available. You can see the type of `resolution` (either high or low resolution), the `instrument` used, the `ionisation` method and the `analyser`. It is also possible to download the data file and see the meta data associated.
+
+![list_spectra](images/list_spectra.png)
 ## Preferences
 
 ### Entering a monoisotopic mass
 
-When loading an experimental spectrum the tool will automatically make a peak picking (centroid) that will be displayed on the spectrum.
+When loading an experimental spectrum the tool will **automatically** make a peak picking (centroid) that will be displayed on the spectrum.
 
 Zooming in the spectrum will progressively add more and more detailed peaks.
 
-If you are searching the molecular formula of an unknown product you should click on the label corresponding to the monoisotopic experimental mass.
+If you are searching the molecular formula of an unknown product you should **click** on the label corresponding to the monoisotopic experimental mass.
 
 ![Peak picking](images/peakPicking.gif)
 
 :::tip Many monoisotopic masses at once
-It is possible to search for many monoisotopic masses at once. Simply SHIFT + click on other labels in order to have a comma separated list of monoisotopic mass.
+It is possible to search for many monoisotopic masses at once. Simply `SHIFT` + click on other labels in order to have a comma separated list of monoisotopic mass.
 :::
 
 ### Molecular formula from monoisotopic mass
 
-This tool allows finding possible molecular formula for a specific observed monoisotopic mass. When the elements are part of H, C, O, N, F, Cl, Br, I, Si, P and O the monoisotopic mass corresponds to the peak of the isotopic distribution that has the lowest mass.
+This tool allows finding possible molecular formula for a specific observed monoisotopic mass. When the elements are part of `H, C, O, N, F, Cl, Br, I, Si, P and O` the monoisotopic mass corresponds to the peak of the isotopic distribution that has the lowest mass.
 
-However, by mass we don't observe a monoisotopic mass directly but always m/z of a charged form. The molecule may be charged positively, negatively, multicharged or also modified by the addition of protons or other charged entities.
+However, by mass we don't observe a monoisotopic mass directly but always $m/z$ of a charged form. The molecule may be charged positively, negatively, multicharged or also modified by the addition of protons or other charged entities.
 
 This tool will consider the mass of the electron and the number of charge of the molecule.
 
@@ -36,6 +45,7 @@ You can also observe charged molecules resulting of the addition of Na<sup>+</su
 
 In order to evaluate all the possibilities you must enter in the 'ionizations' field a comma separated list of all the allowed ionizations.
 
+:::info Syntax
 You may as well specify multiple charges. Here are some examples of allowed patterns:
 
 - H+ (addition a proton)
@@ -43,13 +53,27 @@ You may as well specify multiple charges. Here are some examples of allowed patt
 - H+, (H+)2, (H+)3 (addition of one, two or three protons)
 - (H+)-1, (H+)-2, (H+)-3 (removal of one, two or three protons)
 
-![ionization](images/ionization.png)
+:::
+
+![ionization](images/ionisation.svg)
 
 :::tip Range of ionization
 It is also allowed ot enter range of ionizations like
 - (H+)1-5, adding between one and five protons
 - (H+)-1--5, removing between one and five protons
 :::
+
+## Accuracy and charge
+
+You can specify the accuracy in ppm and the charge of the target molecule using the corresponding input box.
+
+![accuracy_charge](images/accuracy_charge.gif)
+
+## Range of atoms and groups
+
+If some informations about the molecule is known, you can specify it in the `Range` input. The allowed synthax is given bellow.
+
+<Range/>
 
 ### Filter by degree of unsaturation
 

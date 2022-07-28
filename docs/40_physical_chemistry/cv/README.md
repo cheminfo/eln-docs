@@ -28,14 +28,12 @@ On the right panel, you can apply mathematical operations to the spectra with th
 
 <Preprocessing/>
 
-## Compare spectrum
+## Compare spectra
 
 You can compare multiple spectrum by clickling on the `Compare` button. It is then possible to [hide/show](../../30_structural_analysis/includes/showhide/README.md) spectra.
 
 ![compare_cv](compare_cv.gif)
 
-
-
-[10.1021/acs.jchemed.7b00361](https://dx.doi.org/10.1021/acs.jchemed.7b00361)
+Learn more about cyclic voltametry: [10.1021/acs.jchemed.7b00361](https://dx.doi.org/10.1021/acs.jchemed.7b00361)
 
 <CustomColumn/>
