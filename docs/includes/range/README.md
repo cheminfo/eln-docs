@@ -24,6 +24,8 @@ Moreover, in order to be more intuitive for a chemist, we can also write known a
 
 The icon on the top of the panel show the list of the possible groups abbreviations. 
 
+You can also specify isotopes, such as `[13C]0-10` for example.
+
 
 </div>
 

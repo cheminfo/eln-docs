@@ -138,7 +138,6 @@ return entry.atoms.N % 2 === 0;
 
 :::
 
-:::
 
 :::tip Small observed mass should be double charged
 
@@ -167,6 +166,8 @@ It is also possible to display possible molecular formulas for the relative mass
 
 It is also possible to define the color of the MF annotation depending on the precision. By default, if no MF is found under a precision of 20ppm no MF is displayed.
 
+![colors](images/colors_mass.png)
+
 ![mass](images/mass.png)
 
 ## Results table
@@ -192,6 +193,8 @@ The results contain various columns:
 
 Using the button ‘Pubchem candidates’ you are able to list all the possible molecular formula that yields to the desired monoisotopic mass with the defined precision.
 
+![pubchem_list](images/pubchem_list.png)
+
 Couple of points to note:
 
 - PubChem does not provide the isotope information in the molecular formula
@@ -204,7 +207,7 @@ Please note that for the calculation of the monoisotopic mass we didn’t consid
 
 NB: only stable isotopes are considered!
 
-##Tips
+## Tips
 
 :::tip Assignment
 It is possible to assign the different fragments. More information can be [found here](includes/assignment/README.md).
@@ -214,6 +217,19 @@ It is possible to assign the different fragments. More information can be [found
 In order to improve the MF determination it is possible to compare the full isotopic distribution. More information can be [found here](includes/similarity/README.md).
 :::
 
-```
 
-```
+## Info
+
+The simulated spectrum is calculated using a regression of the width of the peaks as a function of the mass.
+![regression](images/regression.png)
+
+# PubChem
+
+In this panel, you can estimate the molecular formaula even if you don't know the range of atoms. When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
+
+![pubchem_search](images/pubchem_search.gif)
+
+In the table you can also see the number of **natural product** (`Nat`) and **bioactive** (`Bio`) molecule with the same molecular formaula. If you click on the ![bio](images/bio.png) icon, you can see a table with the publication in PubMed related to the natural or bioactive product. Moreover, using **MeSH** terms, you can filtrate the results in the search bar at the top.
+
+
+![list_bio](images/list_nat_bio.gif)
