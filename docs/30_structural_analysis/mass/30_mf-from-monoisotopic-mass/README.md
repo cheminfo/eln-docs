@@ -191,7 +191,7 @@ The results contain various columns:
 
 ## Pubchem candidates
 
-Using the button ‘Pubchem candidates’ you are able to list all the possible molecular formula that yields to the desired monoisotopic mass with the defined precision.
+Using the button `Pubchem candidates` you are able to list all the possible molecular formula that yields to the desired monoisotopic mass with the defined precision. The right column will redirect you to the corresponding PubChem web page.
 
 ![pubchem_list](images/pubchem_list.png)
 
@@ -233,3 +233,18 @@ In the table you can also see the number of **natural product** (`Nat`) and **bi
 
 
 ![list_bio](images/list_nat_bio.gif)
+
+# Similarity
+
+For a low resolution spectrometer, this tool will calculate the sililarity of each peak using the [similarity](includes/similarity/README.md) parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
+
+![graph_similarity](images/graph_similarity.gif)
+
+You can also specify a molecular formula and simlate it as following:
+
+![simulated](images/simulated.gif)
+
+# All peaks
+
+This module will analyse all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
+
