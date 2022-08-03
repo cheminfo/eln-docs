@@ -1,4 +1,4 @@
-## Visualising spectra
+# Visualising spectra
 
 If you wish to see only certain spectra, it is possible to selectively hide (or delete) them.
 

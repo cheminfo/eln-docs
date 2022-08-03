@@ -7,7 +7,7 @@ and experimental isotopic distribution for the specified `Zone`.
 
 ![preferences](preferences.png)
 
-Peak width will be calculated automatically based on the experimental spectrum and the formula is expected to be good. However, the similarity calculation depends on the mass precision and this parameter has to be setup correctly.
+Peak width will be calculated automatically based on the experimental spectrum and the formula is expected to be good. However, the similarity calculation depends on the mass precision and this parameter has to be setup correctly. If the system cannot calculate correctly the relation between the width and the mass, it is possible to set it manually using the corresponding boxes.
 
 Clicking on one of the result will compare the theoretical versus the experimental isotopic distribution.
 
