@@ -1,8 +1,12 @@
 ---
 slug: /uuid/2294a250c8c1da87ca6753a6eb93c166
+title: MF from monoisotopic mass
 ---
 
 import Range from "../../../includes/range/README.md";
+import TOCInline from '@theme/TOCInline'
+
+<TOCInline toc={toc} />
 
 # MF from monoisotopic mass
 
@@ -71,7 +75,7 @@ You can specify the accuracy in ppm and the charge of the target molecule using 
 
 ## Range of atoms and groups
 
-If some informations about the molecule is known, you can specify it in the `Range` input. The allowed synthax is given bellow.
+If some information about the molecule is known, you can specify it in the `Range` input. The allowed syntax is given bellow.
 
 <Range/>
 
@@ -172,7 +176,7 @@ It is also possible to define the color of the MF annotation depending on the pr
 
 ## Results table
 
-This tool calculates on-the-fly the possible molecular formula based on a monoisotoipc mass and possible ionizations.
+This tool calculates on-the-fly the possible molecular formula based on a monoisotopic mass and possible ionizations.
 
 The resulting table will contain green background lines if this molecular formula exists in PubChem. This is an excellent way to find plausible molecular formula of unknown products.
 
@@ -225,26 +229,26 @@ The simulated spectrum is calculated using a regression of the width of the peak
 
 # PubChem
 
-In this panel, you can estimate the molecular formaula even if you don't know the range of atoms. When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
+In this panel, you can estimate the molecular formula even if you don't know the range of atoms. When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
 
 ![pubchem_search](images/pubchem_search.gif)
 
-In the table you can also see the number of **natural product** (`Nat`) and **bioactive** (`Bio`) molecule with the same molecular formaula. If you click on the ![bio](images/bio.png) icon, you can see a table with the publication in PubMed related to the natural or bioactive product. Moreover, using **MeSH** terms, you can filtrate the results in the search bar at the top.
+In the table you can also see the number of **natural product** (`Nat`) and **bioactive** (`Bio`) molecule with the same molecular formula. If you click on the ![bio](images/bio.png) icon, you can see a table with the publication in PubMed related to the natural or bioactive product. Moreover, using **MeSH** terms, you can filtrate the results in the search bar at the top.
 
 
 ![list_bio](images/list_nat_bio.gif)
 
 # Similarity
 
-For a low resolution spectrometer, this tool will calculate the sililarity of each peak using the [similarity](includes/similarity/README.md) parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
+For a low resolution spectrometer, this tool will calculate the similarity of each peak using the [similarity](includes/similarity/README.md) parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
 
 ![graph_similarity](images/graph_similarity.gif)
 
-You can also specify a molecular formula and simlate it as following:
+You can also specify a molecular formula and simulate it as following:
 
 ![simulated](images/simulated.gif)
 
 # All peaks
 
-This module will analyse all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
+This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
 

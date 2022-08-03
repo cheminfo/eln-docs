@@ -2,19 +2,13 @@
 slug: /uuid/739379c6183ec9beb757025314c40f8e
 ---
 
-import SelectSpectra from '../includes/select-spectra.md'
-import SpectraNormalization from '../includes/spectra-normalization.md'
-import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'
+import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
 # Compare multiple of spectra
 
 Multiple spectra analysis allows to quickly extract information about a set of spectra.
 
-## Spectra selection, normalization and previsualization
-
-<SelectSpectra />
-<SpectraNormalization />
-<SuperimposeSpectraManipulation />
+<SelectNormPrev/>
 
 ## Comparing spectra
 

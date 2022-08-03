@@ -2,9 +2,7 @@
 slug: /uuid/99e77c27589aa8f3d14f48716e4e6c89
 ---
 
-import SelectSpectra from '../includes/select-spectra.md'
-import SpectraNormalization from '../includes/spectra-normalization.md'
-import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'
+import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
 # Calculate PCA for spectra
 
@@ -21,11 +19,7 @@ The workflow is the following:
 - Calculate the PCA
 - Display each spectrum in the new space
 
-## Spectra selection, normalization and previsualization
-
-<SelectSpectra />
-<SpectraNormalization />
-<SuperimposeSpectraManipulation />
+<SelectNormPrev/>
 
 ## Create the PCA model
 

@@ -2,6 +2,14 @@
 slug: /uuid/ml-spectra-selection
 ---
 
+:::tip Select spectra
+
+<details>
+    <summary>
+    How to select spectra.
+    </summary>
+    <div>
+
 # Spectra selection
 
 All the spectra analysis tools start with a phase of selection.
@@ -22,8 +30,8 @@ If you select a sample it is also possible to add a specific spectrum by clickin
 
 ![select spectra](images/selectSpectra.png)
 
-## What's next ?
+</div>
 
-Once spectra have been selected, data normalization filters can be applied and [more information is available here](../normalization/README.md).
+</details>
 
-The superimposed spectra can be manipulated without numerous [advanced features described here](../visualization/README.md).
+:::

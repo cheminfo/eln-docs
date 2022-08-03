@@ -2,6 +2,16 @@
 slug: /uuid/ml-spectra-visualization
 ---
 
+:::tip Visualization
+
+<details>
+    <summary>
+    How to visualize spectra.
+    </summary>
+    <div>
+
+
+
 # Spectra visualization
 
 Numerous options are available to display the either all the spectra in the dataset or the selected spectra in the dataset.
@@ -67,3 +77,9 @@ Correlation of the vector represented by the Y points can be useful to determine
 By `SHIFT ⇧` + ALT + click you can select the X value for which you would like to check correlation. Strongly correlated signals will appear in red while non correlated signals are blue.
 
 ![correlation](images/correlation.png)
+
+</div>
+
+</details>
+
+:::
