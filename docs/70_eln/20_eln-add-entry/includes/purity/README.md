@@ -1,3 +1,11 @@
+
+:::tip Purity
+<details>
+    <summary>
+    You can specify the purity of a reagent.
+    </summary>
+    <div>
+
 ### Specifying the purity of a reagent
 
 The purity of a reagent may be specified using 3 possibles units:
@@ -10,3 +18,9 @@ The purity of a reagent may be specified using 3 possibles units:
   - useful for solid phase synthesis
 
 ![purity.png](purity.png)
+
+</div>
+
+</details>
+
+:::

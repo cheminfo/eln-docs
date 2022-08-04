@@ -2,6 +2,8 @@
 slug: /uuid/901378074eeb9b75396aadff96b3b83a
 ---
 
+import Jcamp from '../../includes/jcamp/README.md';
+
 # Search by NMR chemical shifts
 
 This tool is designed to search by NMR chemical shifts that may be practical to find similar pure products or identify products in complex mixture like in the case of metabolomics. In order to select the chemical shifts you may either enter directly the values in the table `Ranges to search` or ALT + CLICK directly on the spectrum.
@@ -12,7 +14,9 @@ You may at any time either delete one of the lines by clicking on the ![trash](i
 
 ## Adding an experimental spectrum
 
-Experimental spectrum can be added either by clicking on `Load demo`, by dragging & dropping a [JCAMP file](../../includes/jcamp/README.md) or by selecting an existing spectrum from the database. Those spectra will be filtered based on the `Exclusion zones`.
+Experimental spectrum can be added either by clicking on `Load demo`, by dragging & dropping a **JCAMP file** or by selecting an existing spectrum from the database. Those spectra will be filtered based on the `Exclusion zones`.
+
+<Jcamp/>
 
 ![](images/image3.png)
 

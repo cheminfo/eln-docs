@@ -1,4 +1,13 @@
-# JCAMP file format
+
+:::tip JCAMP format
+<details>
+    <summary>
+    How is a JCAMP file structured.
+    </summary>
+    <div>
+
+
+## JCAMP file format
 
 [JCAMP-DX (Joint Committee on Atomic and Molecular Physical Data Exchange)](http://jcamp-dx.org/) is a standard file format for the exchange of spectra and related physical and chemical information between different spectrometers, databases or other systems.
 
@@ -25,3 +34,8 @@ An example of compressed data using DIFDUP
 ![compressed](jcamp_compressed.png)
 
 An in depth description is given in the original paper by [McDonald and Wilks](http://old.iupac.org/jcamp/protocols/dxir01.pdf). Insofar as JCAMP is a well-described and accessible format, it partially aligns with the FAIR (**F**indable, **A**ccessible, **I**nteroperable, **R**eusable) principles . It is interoperable and reusable. Provided that the user makes it findable and accessible, JCAMP will fully comply with the aforementioned principles.
+
+</div>
+
+</details>
+:::

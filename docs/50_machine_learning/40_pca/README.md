@@ -47,4 +47,4 @@ In this specific example we can see that the best separation is obtained when us
 
 ## References
 
-- doi.org/10.1007/s11483-012-9279-7
+- [doi.org/10.1007/s11483-012-9279-7](https://doi.org/10.1007/s11483-012-9279-7)

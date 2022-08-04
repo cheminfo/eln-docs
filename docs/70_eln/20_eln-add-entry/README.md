@@ -7,6 +7,7 @@ import TOCInline from '@theme/TOCInline'
 import Reaction from './includes/reaction/README.md'
 import InsertSnippets from './includes/insertSnippets/README.md'
 import Preferences from './includes/preferences/README.md'
+import Purity from './includes/purity/README.md'
 
 <TOCInline toc={toc} />
 
@@ -24,9 +25,7 @@ This view allows creating and edit an electronic laboratory notebook entry (reac
 
 ### Some tips for organic reactions
 
-:::tip Purity
-You could check more example about [purity here](includes/purity/README.md).
-:::
+<Purity/>
 
 :::tip Theoretical information
 The system will calculate continuously the molecular formula of all the reagents and products. More information can be [found here](includes/productsInfo/README.md).

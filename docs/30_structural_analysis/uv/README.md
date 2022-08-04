@@ -3,6 +3,11 @@ slug: /uuid/ef39548735eda960577b1ff9a6c5d7fa
 ---
 
 import CustomColumn from "../../includes/custumColumns/README.md";
+import Upload from '../includes/upload/README.md';
+import Manipulate from '../includes/manipulate/README.md';
+import Auto from '../includes/autopick/README.md';
+import Manual from '../includes/peakpick/README.md';
+import Visu from '../includes/showhide/README.md';
 
 # Ultraviolet spectra
 
@@ -16,9 +21,13 @@ import CustomColumn from "../../includes/custumColumns/README.md";
 
 ### Upload and visualize spectra
 
-In this view there are different ways to [upload a UV spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format.
+In this view there are different ways to **upload a UV spectrum** in either a [JCAMP](http://jcamp-dx.org/) or a text file format.
 
-Once the spectrum is uploaded you can visualize it by clicking on its name and [manipulate it](../includes/manipulate/README.md).
+<Upload/>
+
+Once the spectrum is uploaded you can visualize it by clicking on its name and **manipulate it**.
+
+<Manipulate/>
 
 :::caution
 Don't forget to `Save data` before leaving the page!
@@ -26,7 +35,9 @@ Don't forget to `Save data` before leaving the page!
 
 ### Peak picking
 
-It is possible to [manually pick peaks](../includes/peakpick/README.md) on an ultraviolet spectrum by holding down the ALT key, and then left-clicking on the peaks of interest.
+It is possible to **manually pick peaks** on an ultraviolet spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
+
+<Manual/>
 
 The application will systematically look for the strongest signal close to the wavelength that has been clicked.
 
@@ -43,7 +54,9 @@ You can edit the peak kind by double clicking on the kind in the peak table. The
 
 :::
 
-Alternatively, the system allows to perform [peak picking automatically](../includes/autopick/README.md) within a certain range and signal-to-noise ratio.
+Alternatively, the system allows to perform **peak picking automatically** within a certain range and signal-to-noise ratio.
+
+<Auto/>
 
 :::tip
 
@@ -58,6 +71,8 @@ After which, under **List of selected entries**, you can choose the other molecu
 
 ![display](display.gif)
 
-The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
+The spectra will then be both displayed on top of each other. You can also freely **hide selected graphs and change the color** by clicking the color bar.
+
+<Visu/>
 
 <CustomColumn/>

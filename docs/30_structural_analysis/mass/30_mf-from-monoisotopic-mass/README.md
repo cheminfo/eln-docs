@@ -5,6 +5,8 @@ title: MF from monoisotopic mass
 
 import Range from "../../../includes/range/README.md";
 import TOCInline from '@theme/TOCInline'
+import Assignment from './includes/assignment/README.md';
+import Similarity from './includes/similarity/README.md';
 
 <TOCInline toc={toc} />
 
@@ -213,13 +215,9 @@ NB: only stable isotopes are considered!
 
 ## Tips
 
-:::tip Assignment
-It is possible to assign the different fragments. More information can be [found here](includes/assignment/README.md).
-:::
+<Assignment/>
 
-:::tip Similarity
-In order to improve the MF determination it is possible to compare the full isotopic distribution. More information can be [found here](includes/similarity/README.md).
-:::
+<Similarity/>
 
 
 ## Info
