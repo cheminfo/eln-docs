@@ -4,6 +4,11 @@ slug: /uuid/3fc7caa33b9b3eb50bb48920f4788725
 
 import CustomColumn from "../../includes/custumColumns/README.md";
 import Preprocessing from "../../includes/preprocessing/README.md";
+import Upload from '../includes/upload/README.md';
+import Manipulate from '../includes/manipulate/README.md';
+import Auto from '../includes/autopick/README.md';
+import Manual from '../includes/peakpick/README.md';
+import Visu from '../includes/showhide/README.md';
 
 # Infrared spectra
 
@@ -26,9 +31,13 @@ import Preprocessing from "../../includes/preprocessing/README.md";
 
 ### Upload and visualize spectra
 
-In this view there are different ways to [upload an IR spectrum](../includes/upload/README.md) in either a [JCAMP](../includes/jcamp/README.md) or a text file format.
+In this view there are different ways to **upload an IR spectrum** in either a [JCAMP](http://jcamp-dx.org/) or a text file format.
 
-Once the spectrum is uploaded you can visualize it by clicking on its name and [manipulate it](../includes/manipulate/README.md).
+<Upload/>
+
+Once the spectrum is uploaded you can visualize it by clicking on its name and **manipulate it**.
+
+<Manipulate/>
 
 :::tip Switch between absorbance and transmittance
 
@@ -46,7 +55,9 @@ Don't forget to `Save data` before leaving the page!
 
 ### Peak picking
 
-It is possible to [manually pick peaks](../includes/peakpick/README.md) on an infrared spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
+It is possible to **manually peak picking** on an infrared spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
+
+<Manual/>
 
 The application will systematically look for the strongest signal close to the wavelength that has been clicked.
 
@@ -54,7 +65,9 @@ The peak will then be displayed under **IR peaks**.
 
 ![pickpeak](pickpeak.png)
 
-Alternatively, the system allows to perform [peak picking automatically](../includes/autopick/README.md) within a certain range and signal-to-noise ratio.
+Alternatively, the system allows to perform **peak picking automatically** within a certain range and signal-to-noise ratio.
+
+<Auto/>
 
 The signal strength is given automatically. The categorization `S`, `m` and `w` is done automatically based on the highest and lowest selected peak. `S`for strong, `m` for medium and `w`for weak.
 
@@ -76,6 +89,8 @@ After which, under **List of selected entries**, you can choose the other molecu
 
 ![add compare](compare.gif)
 
-The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../includes/showhide/README.md) by clicking the color bar.
+The spectra will then be both displayed on top of each other. You can also freely **hide selected graphs and change the color** by clicking the color bar.
+
+<Visu/>
 
 <CustomColumn/>

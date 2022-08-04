@@ -1,4 +1,10 @@
-# Information about molecular formula
+<details>
+    <summary>
+    You can also directly edit the molecular formula, for example to indicate salts.
+    </summary>
+    <div>
+
+## Information about molecular formula
 
 While the molecular formula is calculated automatically from the chemical structure it is sometimes useful to directly edit the molecular formula.
 
@@ -9,3 +15,7 @@ You will see an information about the molecular weight and monoisotopic mass of 
 the parts of the molecule in the `Molecular formula information box`
 
 ![](mfInfo.png)
+
+</div>
+
+</details>

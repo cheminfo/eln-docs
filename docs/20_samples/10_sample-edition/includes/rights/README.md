@@ -1,4 +1,12 @@
-# Sample rights
+:::tip Modifying access rights
+
+<details>
+    <summary>
+    You might need to give some colleague access to your sample, for example, to upload a characterization.
+    </summary>
+    <div>
+
+## Sample rights
 
 This view allows to manage the rights of samples:
 
@@ -19,3 +27,9 @@ An owner is either:
 
 - a specific user (the email address of the user) and adding a specific user will provide READ and WRITE access to the sample
 - a specific group as defined by the administrators and managed by 'ROC'. You should contact your administrator to either create a new group or add / remove users from the group. A group may have read/write access or read only access.
+
+</div>
+
+</details>
+
+:::

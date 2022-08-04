@@ -1,4 +1,5 @@
-# Access rights
+
+## Access rights
 
 You have the possibility to view and edit the rights that are associated with an entry by clicking on the `users` icon.
 

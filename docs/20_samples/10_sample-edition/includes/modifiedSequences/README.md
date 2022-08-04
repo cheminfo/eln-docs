@@ -1,4 +1,13 @@
-# Deal with modified peptide or nucleotide sequences
+
+:::tip Dealing with modified peptide or nucleotide sequence
+
+<details>
+    <summary>
+    You might need to deal with modifications at the terminal positions of your peptides.
+    </summary>
+    <div>
+
+## Deal with modified peptide or nucleotide sequences
 
 Peptides, proteins and nucleotides may contain non-natural amino acids or nucleic bases. They may also have chain modifications at the terminal positions. This could be the result of post-translational modifications (PTM), synthesis using non-natural amino acids, etc.
 
@@ -15,3 +24,9 @@ Examples:
   - (Me)C(S-1Se)(NH2) = Selenocysteine with N-terminal methylated and C-terminal amide
 - Nucleic sequence
   - AA(C6H11O) = AA(C6H11O) : A dinucleotide on a glucose
+
+</div>
+
+</details>
+
+:::
