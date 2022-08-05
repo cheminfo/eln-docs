@@ -79,6 +79,7 @@ You can specify the accuracy in ppm and the charge of the target molecule using 
 
 If some information about the molecule is known, you can specify it in the `Range` input. The allowed syntax is given bellow.
 
+
 <Range/>
 
 ### Filter by degree of unsaturation

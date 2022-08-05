@@ -1,4 +1,3 @@
-
 :::tip Visualising spectra
 <details>
     <summary>
