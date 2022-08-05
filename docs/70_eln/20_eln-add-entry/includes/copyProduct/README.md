@@ -1,4 +1,13 @@
-# Copy product as molfile
+
+:::tip Copy structure of the product to a sample
+
+<details>
+    <summary>
+    In some cases it is required to copy manually the structure of a reaction product.
+    </summary>
+    <div>
+
+## Copy product as molfile
 
 If a sample was created using method other than from the reaction the chemical structure, molecular formula and molecular weight will not be copied automatically. This is the case for example when a sample is analyzed by NMR and the sample is created automatically during importation.
 
@@ -11,3 +20,9 @@ The product is copied as a molfile and can be paste in a sample entry.
 ![paste.png](paste.png)
 
 It could be pasted for example in ChemDraw using `Edit -> Paste Special -> Mol text`
+
+</div>
+
+</details>
+
+:::

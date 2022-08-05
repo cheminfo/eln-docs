@@ -2,9 +2,18 @@
 slug: /uuid/jsme
 ---
 
+
+:::tip JSME editor
+
+<details>
+    <summary>
+    If you would like to draw efficiently the molecules directly in the editor click on the little question mark and try to learn all the shortcuts.
+    </summary>
+    <div>
+
 # JSME
 
-### [JSME](https://peter-ertl.com/jsme/) Help and Basic Instructions
+### [JSME](https://jsme-editor.github.io/) Help and Basic Instructions
 
 #### JSME Menu
 
@@ -83,3 +92,9 @@ Keyboard shortcuts Ctrl C \(for copy\) and Ctrl V \(for paste\) are supported on
 Some HTML 5 compatible browsers support the drag and drop of files. Starting with version 2013-03-24, JSME accepts dropping of text files in the format MOL, SDF and RXN.  
 ![](images/dragdrop.png)  
 To drag molecule from the editor into the appropriate destination \(for example Word or text document, or desktop\) drag the icon in the lower right corner of the editor.
+
+</div>
+
+</details>
+
+:::

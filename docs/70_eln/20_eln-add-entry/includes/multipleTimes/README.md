@@ -1,4 +1,12 @@
-# Same reagent multiple times
+
+:::tip Many times the same reagent
+<details>
+    <summary>
+    In some cases it is required to add many times the same reagent.
+    </summary>
+    <div>
+
+## Same reagent multiple times
 
 In some reactions such as in the example below, the product is formed via the combination of multiple reagent molecules.
 
@@ -11,3 +19,9 @@ In this example the mixture of ethylene glycol with triethyl orthoformate yields
 This will allow calculating correctly the expected quantity of the product as well
 
 ![theoretical.png](theoretical.png)
+
+</div>
+
+</details>
+
+:::

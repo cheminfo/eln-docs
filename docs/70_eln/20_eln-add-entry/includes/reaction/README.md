@@ -1,4 +1,4 @@
-import JSMETip from '../../../../includes/jsme-tip.md'
+import JSMETip from '../../../../includes/jsme/README.md'
 
 When preparing a new organic reaction the idea is first to add the different reagents and then to fill the schema with simple clicks. The concept behind it is that either the product is commercially or it was synthesized before. Therefore, all the chemical structures of the reagents are already known.
 
