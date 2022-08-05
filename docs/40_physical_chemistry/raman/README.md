@@ -5,6 +5,10 @@ slug: /uuid/d1a3edf4783f8a0d64e1940d4f461153
 import CustomColumn from "../../includes/custumColumns/README.md";
 import Preprocessing from "../../includes/preprocessing/README.md";
 import Correlation from "../../includes/correlation/README.md";
+import Colors from "../../30_structural_analysis/includes/showhide/README.md";
+import Manual from "../../30_structural_analysis/includes/peakpick/README.md";
+import Auto from "../../30_structural_analysis/includes/autopick/README.md";
+
 
 # Raman Spectroscopy
 
@@ -76,7 +80,11 @@ At the right of the graph, you can apply filters on the curve using the preproce
 
 ## Peak picking
 
-Bellow the preprocessing module, it is possible to [manually](../../30_structural_analysis/includes/peakpick/README.md) pick peaks on a spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest. Or, you can select the interval that you want and click on `Auto peak picking` to choose the picks of interest [automatically](../../30_structural_analysis/includes/autopick/README.md).
+Bellow the preprocessing module, it is possible to **manually** pick peaks on a spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest. Or, you can select the interval that you want and click on `Auto peak picking` to choose the picks of interest **automatically**.
+
+<Manual/>
+
+<Auto/>
 
 :::caution
 The auto peak picking is processed before the application of filters. If the spectra has too much noise, it is better to use manual peak picking
@@ -95,7 +103,9 @@ You can compare multiple Raman spectra by first opening up a spectrum, and then 
 
 ![compare spectra](compare_raman.gif)
 
-The spectra will then be both displayed on top of each other. You can also freely [hide selected graphs and change the color](../../30_structural_analysis/includes/showhide/README.md) by clicking the color bar.
+The spectra will then be both displayed on top of each other. You can also freely **hide selected graphs and change the color** by clicking the color bar.
+
+<Colors/>
 
 ## Surface analysis
 
@@ -103,7 +113,7 @@ If the graph contains the data, you can click on `Surface analysis`. In the **Ra
 
 ![image_compare](image_compare.gif)
 
-On the bottom, you have the preprocessing command to apply filters on all the spectra. Spectra are ploted all in the same graph, at the bottom right. With the **Image color** module, you can rescale the pixels to a specific color proportionally to its intensity on its spectrum. 
+On the bottom, you have the preprocessing command to apply filters on all the spectra. Spectra are plotted all in the same graph, at the bottom right. With the **Image color** module, you can rescale the pixels to a specific color proportionally to its intensity on its spectrum. 
 
 ![color image](color_image.gif)
 

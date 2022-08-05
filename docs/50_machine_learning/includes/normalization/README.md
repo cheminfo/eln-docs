@@ -2,6 +2,15 @@
 slug: /uuid/ml-spectra-normalization
 ---
 
+:::tip Normalization
+
+<details>
+    <summary>
+    How to normalize spectra.
+    </summary>
+    <div>
+
+
 # Preprocessing
 
 In order to compare spectra it is required to create a matrix. In this matrix each row corresponds to a spectrum while the columns are the various values for a specific X. To create this matrix we apply various preprocessing methods that consist of:
@@ -70,3 +79,10 @@ A preview of the normalized spectra as well as the exclusions zones will be disp
 ![preview](images/preview.png)
 
 The superimposed spectra can be manipulated without numerous [advanced features described here](../visualization/README.md).
+
+
+</div>
+
+</details>
+
+:::

@@ -4,6 +4,7 @@ slug: /uuid/fbdbb5810ac56421b0a8509e627060cf
 
 import DropDownMenu from "../../includes/dropdown_menu_graph/README.md";
 import Preprocessing from "../../includes/preprocessing/README.md";
+import Colors from '../../30_structural_analysis/includes/showhide/README.md';
 
 # Isotherm analysis
 
@@ -24,7 +25,7 @@ The following assumptions are made :
 
 * The surface has finite number of identical adsorption sites $N$.
 * There can be only a single adsorbate per site ($\theta_{\text{max}} = 1$: monolayer).
-* The enthalpy of adsorption ($\Delta H_{\text{abs}}$) is independant of the coverage $\theta$, we suppose no interaction between the adsorbates.
+* The enthalpy of adsorption ($\Delta H_{\text{abs}}$) is independent of the coverage $\theta$, we suppose no interaction between the adsorbates.
 
 If $K_a$ is the equilibrium constant and $p_a$ the partial pressure of the gas, the coverage is given by the Langmuir isotherm:
 
@@ -51,7 +52,7 @@ $$
 \theta=\frac{cp}{(1-p/p_o)\bigl(p_o+p(c-1)\bigr)}
 $$
 
-Where $c$ is the BET $c$-constant, $p_o$ is the vapore pressure of the adsorptive bulk liquid phase and $\theta$ is the surface coverage.
+Where $c$ is the BET $c$-constant, $p_o$ is the vapor pressure of the adsorptive bulk liquid phase and $\theta$ is the surface coverage.
 
 <!-- This module allows visualizing and processing (single-component) isotherms.  -->
 
@@ -66,7 +67,7 @@ The files will appear in field 2. Note that you can only upload files to **sampl
 We currently support the file types (which are also automatically detected):
 
 - `xls` files produces by Belsorp instruments
-- `csv` files produced by Belsorp intruments
+- `csv` files produced by Belsorp instruments
 - `txt` files produced by IGA instruments
 - `txt` files produced by micrometrics instruments
 - `csv` files produced by micrometrics instruments
@@ -88,7 +89,9 @@ At the top of the graph, you can export the image as a `svg` file, you can remov
 
 ## Compare data
 
-By clicking on the button `Compare`, you can compare multiple isotherms. You can also select which curve you want to plot and choose the [color](../../30_structural_analysis/includes/showhide/README.md).
+By clicking on the button `Compare`, you can compare multiple isotherms. You can also select which curve you want to plot and choose the **color**.
+
+<Colors/>
 
 ![Compare Isotherms](compare_iso.png)
 

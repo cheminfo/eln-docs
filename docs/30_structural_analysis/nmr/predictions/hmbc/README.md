@@ -3,6 +3,8 @@ description: Predict 2D HSQC and HMBC NMR spectra
 slug: /uuid/b50564ac9d207212f8e5ae8167a68433
 ---
 
+import Jcamp from '../../../includes/jcamp/README.md'
+
 # HSQC / HMBC prediction
 
 This tool allows you to predict the HSQC and HMBC spectrum of your sample or any other molecule. 
@@ -10,7 +12,9 @@ This tool allows you to predict the HSQC and HMBC spectrum of your sample or any
 
 ![spectrum](hsqc_spectrum.jpeg)
 
-The structure of the currently selected sample will be already drawn so that you may go ahead and click `Calculate` to calculate and simulate its HMBC spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a [JCAMP file](../../../includes/jcamp/README.md) to superimpose an experimental spectrum over prediction.
+The structure of the currently selected sample will be already drawn so that you may go ahead and click `Calculate` to calculate and simulate its HMBC spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP file** to superimpose an experimental spectrum over prediction.
+
+<Jcamp/>
 
 The simulated HMBC spectrum, the 1H projection and the chemical structure with explicit hydrogens are linked, hovering over a peak in the spectrum will highlight the corresponding atoms in the structure and hovering over an atom will highlight the corresponding peaks in the spectrum.
 

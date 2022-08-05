@@ -2,6 +2,8 @@
 slug: /uuid/088e53bb9d86f832fa90961ee70a17aa
 ---
 
+import Jcamp from '../../includes/jcamp/README.md'
+
 # GC / LC-MS visualization
 
 This application enables the visualization and integration of GC / LC data with or without MS.
@@ -42,7 +44,21 @@ A LC-MS spectrum looks like the following:
 
 ## Loading files
 
-Files can be uploaded either as a [JCAMP](../../includes/jcamp/README.md), [NetCDF](https://en.wikipedia.org/wiki/NetCDF), [MzData, MzML or MzXML](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzData) format. Multiple files can be drag and dropped or selected from your computer by clicking on zone 1. The files are listed below the drop zone and are visualized when clicked.
+Files can be uploaded either as a [JCAMP](http://jcamp-dx.org/), [NetCDF](https://en.wikipedia.org/wiki/NetCDF), [MzData, MzML or MzXML](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzData) format. Multiple files can be drag and dropped or selected from your computer by clicking on zone 1. The files are listed below the drop zone and are visualized when clicked.
+
+:::tip JCAMP format
+<details>
+    <summary>
+    Informations about the JCAMP format.
+    </summary>
+    <div>
+
+<Jcamp/>
+
+</div>
+
+</details>
+:::
 
 :::info
 In the list of files, several icons appear: 

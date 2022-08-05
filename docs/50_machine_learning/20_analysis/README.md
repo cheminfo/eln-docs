@@ -2,9 +2,7 @@
 slug: /uuid/02d6bbc6c04edd24ce90b146348573f1
 ---
 
-import SelectSpectra from '../includes/select-spectra.md'
-import SpectraNormalization from '../includes/spectra-normalization.md'
-import SuperimposeSpectraManipulation from '../includes/superimposed-spectra-manipulation.md'
+import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
 # Create analytical report from spectra
 
@@ -19,11 +17,7 @@ This program allows defining and apply analytical procedure on one or more spect
 
 This software allows either to create new analytical report of to use an existing one.
 
-## Spectra selection, normalization and previsualization
-
-<SelectSpectra />
-<SpectraNormalization />
-<SuperimposeSpectraManipulation />
+<SelectNormPrev/>
 
 ## Load existing analytical procedure
 

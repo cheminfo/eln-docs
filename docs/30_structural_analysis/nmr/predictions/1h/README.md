@@ -1,7 +1,11 @@
 ---
 description: Predict 1D proton NMR spectra
 slug: /uuid/eea0ba081ea2cc99da5c1aed2f29a0a8
+title: 1H prediction
 ---
+
+import Jcamp from '../../../includes/jcamp/README.md'
+
 
 # <sup>1</sup>H prediction
 
@@ -23,7 +27,9 @@ This tool allows you to predict the <sup>1</sup>H NMR spectrum of your sample or
 
 :::
 
-The structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a [JCAMP file](../../../includes/jcamp/README.md) to superimpose an experimental spectrum over the prediction.
+The structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP file** to superimpose an experimental spectrum over the prediction.
+
+<Jcamp/>
 
 The simulated spectrum, the chemical structure with explicit hydrogens and the list of peaks modules are linked, so that hovering over an entry in the list will highlight the corresponding atom in the structure and the relevant peak in the spectrum. Furthermore, the predicted spectrum is reported in the publication ready form (with chemical shifts, scalar couplings and peak multiplicity).
 

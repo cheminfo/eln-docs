@@ -7,6 +7,11 @@ import TOCInline from '@theme/TOCInline'
 import Reaction from './includes/reaction/README.md'
 import InsertSnippets from './includes/insertSnippets/README.md'
 import Preferences from './includes/preferences/README.md'
+import Purity from './includes/purity/README.md'
+import ProductInfo from './includes/productsInfo/README.md'
+import Mixture from './includes/mixtureSolvents/README.md'
+import Many from './includes/multipleTimes/README.md'
+import Copy from './includes/copyProduct/README.md'
 
 <TOCInline toc={toc} />
 
@@ -24,25 +29,15 @@ This view allows creating and edit an electronic laboratory notebook entry (reac
 
 ### Some tips for organic reactions
 
-:::tip Purity
-You could check more example about [purity here](includes/purity/README.md).
-:::
+<Purity/>
 
-:::tip Theoretical information
-The system will calculate continuously the molecular formula of all the reagents and products. More information can be [found here](includes/productsInfo/README.md).
-:::
+<ProductInfo/>
 
-:::tip Mixture of solvents
-There is an easy to deal with mixture of solvents. More information can be [found here](includes/mixtureSolvents/README.md).
-:::
+<Mixture/>
 
-:::tip Many times the same reagent
-In some cases it is required to add many times the same reagent. More information can be [found here](includes/multipleTimes/README.md).
-:::
+<Many/>
 
-:::tip Copy structure of the product to a sample
-In some cases it is required to copy manually the structure of a reaction product. More information can be [found here](includes/copyProduct/README.md).
-:::
+<Copy/>
 
 ## Insert snippets, reagents and meta information
 

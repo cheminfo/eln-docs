@@ -1,3 +1,12 @@
+
+:::tip Manual peak picking
+<details>
+    <summary>
+    Informations about the manual peak picking.
+    </summary>
+    <div>
+
+
 ## Peak picking
 
 It is possible to manually pick peaks in a spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
@@ -8,3 +17,8 @@ The peaks will be stored in a separate tab.
 The algorithm automatically classifies the peaks.
 
 ![add manualpick](manualpick.gif)
+
+</div>
+
+</details>
+:::

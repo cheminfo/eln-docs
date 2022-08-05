@@ -1,4 +1,13 @@
-# Title tab 
+
+:::tip Title tab
+
+<details>
+    <summary>
+    More information about title tab.
+    </summary>
+    <div>
+
+## Title tab 
 
 The title tab appears in all the views proposed by the `Open/edit sample` module. When you write something in this tab, it will automatically be updated in the report, but also in the `Title` tab of the other views. 
 
@@ -9,3 +18,9 @@ Four icons are displayed on the top right of the tab:
 - ![print](print.png) allows you to print the report in a format corresponding to the template selected in the `Overview` view. The report will contain a barcode that represents this specific sample.
 
 ![barcode](barcode.png)
+
+</div>
+
+</details>
+
+:::

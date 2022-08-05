@@ -1,4 +1,12 @@
-# Isotopic distribution similarity
+
+:::tip Similarity
+<details>
+    <summary>
+    In order to improve the MF determination it is possible to compare the full isotopic distribution.
+    </summary>
+    <div>
+
+## Isotopic distribution similarity
 
 Searching by monoisotopic allows quickly find possible molecular formula, but there are plenty of information in the isotopic distribution.
 
@@ -12,3 +20,8 @@ Peak width will be calculated automatically based on the experimental spectrum a
 Clicking on one of the result will compare the theoretical versus the experimental isotopic distribution.
 
 ![similarity](similarity.png)
+
+</div>
+
+</details>
+:::
