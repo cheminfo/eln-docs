@@ -228,7 +228,9 @@ The simulated spectrum is calculated using a regression of the width of the peak
 
 # PubChem
 
-In this panel, you can estimate the molecular formula even if you don't know the range of atoms. When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
+This tool allows to find a molecular formula, even if we don't know the range of atoms that compose the molecule. A few assumptions are made: the charge of the non ionized molecule is null, there are at least 5 molecules that have the same MF and the molecule does not break apart.
+
+When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
 
 ![pubchem_search](images/pubchem_search.gif)
 
@@ -237,9 +239,19 @@ In the table you can also see the number of **natural product** (`Nat`) and **bi
 
 ![list_bio](images/list_nat_bio.gif)
 
+The other icon ![internet](images/flask.png) appears when there are experimental spectra from internet. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments.
+
+:::tip Tags
+You can see on the `info` column the tags of the molecule: if it is a natural product, bioactive of even the number of experimental spectra.
+:::
+
+![experimental](images/experimental.gif)
+
+In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the last icon redirect you to the original web page where the spectrum comes from.
+
 # Similarity
 
-For a low resolution spectrometer, this tool will calculate the similarity of each peak using the [similarity](includes/similarity/README.md) parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
+For a low resolution spectrometer, this tool will calculate the similarity of each peak using the **similarity** parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
 
 ![graph_similarity](images/graph_similarity.gif)
 
