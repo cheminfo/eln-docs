@@ -12,16 +12,18 @@ import Similarity from './includes/similarity/README.md';
 
 # MF from monoisotopic mass
 
+## Homepage
+
 This tool is used to determine the molecular formula based of the monoisotopic mass.
 
-## List of spectra
+### List of spectra
 
 On the middle top panel, you can see the list of the imported experimental spectra. Each spectrum has a description if the data are available. You can see the type of `resolution` (either high or low resolution), the `instrument` used, the `ionisation` method and the `analyser`. It is also possible to download the data file and see the meta data associated.
 
 ![list_spectra](images/list_spectra.png)
-## Preferences
+### Preferences
 
-### Entering a monoisotopic mass
+#### Entering a monoisotopic mass
 
 When loading an experimental spectrum the tool will **automatically** make a peak picking (centroid) that will be displayed on the spectrum.
 
@@ -35,7 +37,7 @@ If you are searching the molecular formula of an unknown product you should **cl
 It is possible to search for many monoisotopic masses at once. Simply `SHIFT` + click on other labels in order to have a comma separated list of monoisotopic mass.
 :::
 
-### Molecular formula from monoisotopic mass
+#### Molecular formula from monoisotopic mass
 
 This tool allows finding possible molecular formula for a specific observed monoisotopic mass. When the elements are part of `H, C, O, N, F, Cl, Br, I, Si, P and O` the monoisotopic mass corresponds to the peak of the isotopic distribution that has the lowest mass.
 
@@ -43,7 +45,7 @@ However, by mass we don't observe a monoisotopic mass directly but always $m/z$ 
 
 This tool will consider the mass of the electron and the number of charge of the molecule.
 
-### Ionizations
+#### Ionizations
 
 In order to observe a neutral molecule the mass spectrometer will charge it using different techniques. This may involve adding protons, remove electrons, etc.
 
@@ -69,20 +71,20 @@ It is also allowed ot enter range of ionizations like
 - (H+)-1--5, removing between one and five protons
 :::
 
-## Accuracy and charge
+### Accuracy and charge
 
 You can specify the accuracy in ppm and the charge of the target molecule using the corresponding input box.
 
 ![accuracy_charge](images/accuracy_charge.gif)
 
-## Range of atoms and groups
+### Range of atoms and groups
 
 If some information about the molecule is known, you can specify it in the `Range` input. The allowed syntax is given bellow.
 
 
 <Range/>
 
-### Filter by degree of unsaturation
+#### Filter by degree of unsaturation
 
 The result can be further filtered by the <a href="https://en.wikipedia.org/wiki/Degree_of_unsaturation" target="_blank">degree of unsaturation</a>.
 
@@ -93,7 +95,7 @@ Moreover, if it is non-radical molecule the unsaturation degree is integer.
 
 Please note that those filters apply on the molecular formula without the ionization.
 
-### Advanced filtering
+#### Advanced filtering
 
 Based on a variable `entry` that has the following structure:
 
@@ -155,7 +157,7 @@ if (entry.ms.em < 300 && entry.charge === 2) return true;
 
 :::
 
-### Relative mass and MF determination
+#### Relative mass and MF determination
 
 This view displays normally the mass of the peaks, but it is also possible to display relative mass to a specific peak.
 
@@ -177,7 +179,7 @@ It is also possible to define the color of the MF annotation depending on the pr
 
 ![mass](images/mass.png)
 
-## Results table
+### Results table
 
 This tool calculates on-the-fly the possible molecular formula based on a monoisotopic mass and possible ionizations.
 
@@ -196,7 +198,7 @@ The results contain various columns:
 - the error in mDa
 - the absolute value of the error in ppm
 
-## Pubchem candidates
+### Pubchem candidates
 
 Using the button `Pubchem candidates` you are able to list all the possible molecular formula that yields to the desired monoisotopic mass with the defined precision. The right column will redirect you to the corresponding PubChem web page.
 
@@ -214,19 +216,19 @@ Please note that for the calculation of the monoisotopic mass we didn’t consid
 
 NB: only stable isotopes are considered!
 
-## Tips
+### Tips
 
 <Assignment/>
 
 <Similarity/>
 
 
-## Info
+### Info
 
 The simulated spectrum is calculated using a regression of the width of the peaks as a function of the mass.
 ![regression](images/regression.png)
 
-# PubChem
+## PubChem
 
 This tool allows to find a molecular formula, even if we don't know the range of atoms that compose the molecule. A few assumptions are made: the charge of the non ionized molecule is null, there are at least 5 molecules that have the same MF and the molecule does not break apart.
 
@@ -249,7 +251,7 @@ You can see on the `info` column the tags of the molecule: if it is a natural pr
 
 In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the last icon redirect you to the original web page where the spectrum comes from.
 
-# Similarity
+## Similarity
 
 For a low resolution spectrometer, this tool will calculate the similarity of each peak using the **similarity** parameters. For each proposition of the molecular formula, you can see on the right the graph with the theoretical and the experimental value. Here we can see in red the predicted value and in blue the experimental.
 
@@ -259,7 +261,7 @@ You can also specify a molecular formula and simulate it as following:
 
 ![simulated](images/simulated.gif)
 
-# All peaks
+## All peaks
 
 This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
 
