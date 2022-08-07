@@ -72,7 +72,6 @@ We currently support the file types (which are also automatically detected):
 - `txt` files produced by micrometrics instruments
 - `csv` files produced by micrometrics instruments
 
-
 :::
 
 If multiple desorption/adsorption cycles are stored in one file they will also be converted to one `JCAMP` file by our parsers.
