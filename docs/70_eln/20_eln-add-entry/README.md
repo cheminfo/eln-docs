@@ -43,6 +43,8 @@ This view allows creating and edit an electronic laboratory notebook entry (reac
 
 <InsertSnippets/>
 
+##
+
 ## Miscellaneous
 
 ### Drag drop images
