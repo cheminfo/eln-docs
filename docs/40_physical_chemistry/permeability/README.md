@@ -19,7 +19,7 @@ The flux (or flow of mass) is proportional to the gradient of the concentration.
 $$
 J = -D \frac{\partial \phi}{\partial x}
 $$
-Where $J$ is the flux, $D$ is the mass diffusivity and $\phi$ is the concentration of gas. The above equation can be approximate by the relation
+Where $J$ is the flux, $D$ is the mass diffusivity, and $\phi$ is the concentration of gas. The above equation can be approximated by the relation
 
 $$
 J = -D \frac{(C_2 - C_1)}{\delta}
