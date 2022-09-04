@@ -11,7 +11,7 @@ This tool allows you to visualize multiple entries on the same graph. For exampl
 
 ![](multi_val.gif)
 
-Every curve will be plotted with a different color and you can zoom in by selecting the area that you want, and zoom out by double clocking on the graph. Additionally, you can hide and show curves by clicking on the corresponding eye at the bottom of the graph.
+Every curve will be plotted with a different color, and you can zoom in by selecting the area you want and zoom out by double-clicking on the graph. Additionally, you can hide and show curves by clicking on the corresponding eye at the bottom of the graph.
 
 </div>
 
