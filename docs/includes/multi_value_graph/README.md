@@ -7,7 +7,7 @@
     <div>
 
 
-This tool allows you to visualize multiple entrees on the same graph. For example, the permeability of methane, nitrogen and oxygen can be visualize at the same time. You can select, in the `y axis` menu, the variables that you want to see. 
+This tool allows you to visualize multiple entries on the same graph. For example, the permeability of methane, nitrogen, and oxygen can be visualized simultaneously. You can select, in the `y axis` menu, the variables that you want to see. 
 
 ![](multi_val.gif)
 
