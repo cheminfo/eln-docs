@@ -42,7 +42,7 @@ A virtual spectrum will all the possibility is generated and a mouse over the an
 
 ![analyze](analyze.png)
 
-If you have a XY text file or jcamp containing an experimental spectrum you may directly drag and drop or paste on the drop zone.
+If you have a XY text file or JCAMP-DX containing an experimental spectrum you may directly drag and drop or paste on the drop zone.
 
 You may also have mass spectra saved in the database and one click on the name will superimpose the spectrum to the predicted one.
 
