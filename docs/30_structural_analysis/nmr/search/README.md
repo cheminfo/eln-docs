@@ -14,7 +14,7 @@ You may at any time either delete one of the lines by clicking on the ![trash](i
 
 ## Adding an experimental spectrum
 
-Experimental spectrum can be added either by clicking on `Load demo`, by dragging & dropping a **JCAMP file** or by selecting an existing spectrum from the database. Those spectra will be filtered based on the `Exclusion zones`.
+Experimental spectrum can be added either by clicking on `Load demo`, by dragging & dropping a **JCAMP-DX file** or by selecting an existing spectrum from the database. Those spectra will be filtered based on the `Exclusion zones`.
 
 <Jcamp/>
 

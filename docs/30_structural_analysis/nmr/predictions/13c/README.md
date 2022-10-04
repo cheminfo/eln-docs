@@ -20,11 +20,11 @@ This tool allows you to predict the <sup>13</sup>C NMR spectrum of your sample o
 3. Chemical structure with explicit hydrogens module - explicit representation of hydrogens in a molecule
 4. <sup>13</sup>C NMR spectrum module - predicted <sup>13</sup>C spectrum of the chosen molecule
 5. Signal module - list of obtained peaks and the corresponding chemical shifts
-6. Drag and drop module - paste a JCAMP of an experimental spectrum for comparison
+6. Drag and drop module - paste a JCAMP-DX of an experimental spectrum for comparison
 
 :::
 
-The structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP file** to superimpose an experimental spectrum over the prediction.
+The structure of the currently selected sample will be already drawn so that you may go ahead and simulate its spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP-DX file** to superimpose an experimental spectrum over the prediction.
 
 <Jcamp/>
 

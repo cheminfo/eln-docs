@@ -46,10 +46,10 @@ A LC-MS spectrum looks like the following:
 
 Files can be uploaded either as a [JCAMP](http://jcamp-dx.org/), [NetCDF](https://en.wikipedia.org/wiki/NetCDF), [MzData, MzML or MzXML](https://en.wikipedia.org/wiki/Mass_spectrometry_data_format#mzData) format. Multiple files can be drag and dropped or selected from your computer by clicking on zone 1. The files are listed below the drop zone and are visualized when clicked.
 
-:::tip JCAMP format
+:::tip JCAMP-DX format
 <details>
     <summary>
-    Informations about the JCAMP format.
+    Informations about the JCAMP-DX format.
     </summary>
     <div>
 

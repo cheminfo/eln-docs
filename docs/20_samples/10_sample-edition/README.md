@@ -34,7 +34,7 @@ You will see several modules covering the canvas and a few buttons. The buttons 
 
 - **MF and mw**: Molecular formula and molecular weight associated with the sample. Editable.
 
-- **Attachments**: A list of all files attached \(e.g. jcamp files\).
+- **Attachments**: A list of all files attached \(e.g. JCAMP-DX files\).
 :::
 
 :::note Upload spectra

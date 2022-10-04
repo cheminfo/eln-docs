@@ -6,7 +6,7 @@
     </summary>
     <div>
 
-In this view, it is possible to upload one or more spectra of a target sample by drag/drop either a jcamp or a text file. An individual spectrum can be visualized and analyzed by clicking on its name in the "List of files". Several spectra can also be compared. The information about the chosen sample can be found in the colored window on the right.
+In this view, it is possible to upload one or more spectra of a target sample by drag/drop either a JCAMP-DX or a text file. An individual spectrum can be visualized and analyzed by clicking on its name in the "List of files". Several spectra can also be compared. The information about the chosen sample can be found in the colored window on the right.
 
 
 ## Upload spectrum
@@ -19,7 +19,7 @@ You can upload a spectrum in 3 different ways:
 ![add dragdrop](dragdrop.gif)
 
 
-**The format of the file to be uploaded should be jcamp (extension .dx or .jdx), this is the usual format used on most IR spectrophotometers.**
+**The format of the file to be uploaded should be JCAMP-DX (extension .dx or .jdx), this is the usual format used on most IR spectrophotometers.**
 
 
 </div>

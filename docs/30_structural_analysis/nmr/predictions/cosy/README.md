@@ -13,7 +13,7 @@ This tool allows you to predict the COSY spectrum of your sample or any other mo
 
 ![spectrum](cosy_spectrum.gif)
 
-The structure of the currently selected sample will be already drawn so that you may go ahead and click Calculate to calculate and simulate its COSY spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP file** to superimpose an experimental spectrum over prediction.
+The structure of the currently selected sample will be already drawn so that you may go ahead and click Calculate to calculate and simulate its COSY spectrum right away. If you wish to simulate the spectrum of another molecule, you can draw it or you can paste the structure in the form of a molfile or a SMILES string. Structure drawing is powered by [JSME](https://peter-ertl.com/jsme/). You may also drop or paste a **JCAMP-DX file** to superimpose an experimental spectrum over prediction.
 
 <Jcamp/>
 
