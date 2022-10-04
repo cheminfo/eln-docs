@@ -1,3 +1,12 @@
+:::tip Categories
+
+<details>
+    <summary>
+    How to create ROI categories.
+    </summary>
+    <div>
+
+
 # Create ROI categories
 
 Region Of Interests (ROIs) can be grouped and counted in categories by clicking on the button `ROI categories`.
@@ -16,3 +25,9 @@ It is possible to display the ROIs belonging to a specific category by clicking 
 you should click on the `sync` icon.
 
 ![filter.png](filter.png)
+
+</div>
+
+</details>
+
+:::

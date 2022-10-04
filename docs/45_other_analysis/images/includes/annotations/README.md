@@ -1,3 +1,11 @@
+:::tip Annotations
+
+<details>
+    <summary>
+    It is possible to annotate and measure images with lines and polygons.
+    </summary>
+    <div>
+
 # Define pixel size
 
 The image analysis tool allows to draw lines and polygons directly on the image.
@@ -25,3 +33,9 @@ It is possible to display labels either as a custom text or as the value of the 
 ## Changing style
 
 Style of the label and the shape can be customized according to the preferences. Opacity is a value between 0 and 1. 0 meaning fully transparent and 1 fully opaque.
+
+</div>
+
+</details>
+
+:::
