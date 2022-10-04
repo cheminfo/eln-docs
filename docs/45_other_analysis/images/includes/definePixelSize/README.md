@@ -1,3 +1,11 @@
+:::tip Define pixel size
+
+<details>
+    <summary>
+    Pixel size can be defined manually or automatically.
+    </summary>
+    <div>
+
 # Define pixel size
 
 In order to know the size of ROIs or annotations it is important to define the pixel size.
@@ -22,3 +30,9 @@ You can also draw a line and specify the length of the line. This will calculate
 the size of a pixel.
 
 ![fromAnnotations.gif](fromAnnotations.gif)
+
+</div>
+
+</details>
+
+:::

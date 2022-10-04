@@ -1,3 +1,11 @@
+:::tip REGIONS OF INTEREST (ROIS)
+
+<details>
+    <summary>
+    Many parameters are calculated for regions of interest.
+    </summary>
+    <div>
+
 # Information about ROIs
 
 Many parameters characterizing ROIs are automatically calculated.
@@ -82,10 +90,16 @@ is not impossible that the sphericity is slightly higher than 1.
 
 ### Convexity
 
-The convexity (ψ<sub>C</sub>) describes the compactness of a particle. The convexity is the ratio of the projection area itself and the area of the convex hull. The maximum theoretical convexity is 1, if there are no concave regions. Due to the pixelation of images, all particles seem to have small concave regions, corresponding to the tiny steps with every pixel in the perimeter line. Therefore, the maximum convexity calculated in reality is mostly limited to 0.99.
+The convexity ($\psi_C$) describes the compactness of a particle. The convexity is the ratio of the projection area itself and the area of the convex hull. The maximum theoretical convexity is 1, if there are no concave regions. Due to the pixelation of images, all particles seem to have small concave regions, corresponding to the tiny steps with every pixel in the perimeter line. Therefore, the maximum convexity calculated in reality is mostly limited to 0.99.
 
 <img src="https://tex.cheminfo.org/?tex=%5Cpsi_C%20%3D%20%5Cfrac%7BROI%7Bsurface%7D%7D%7BCH_%7Bsurface%7D%7D"/>
 
 ### Roundness
 
 <img src="https://tex.cheminfo.org/?tex=Roundness%20%3D%20%5Cfrac%7B4%20*%20ROI_%7Bsurface%7D%7D%7B%5Cpi%20*%20Feret_%7Bmax%7D%7D"/>
+
+</div>
+
+</details>
+
+:::

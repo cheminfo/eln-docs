@@ -3,6 +3,11 @@ slug: /uuid/187642421e225f8cfcd65a9243394a72
 ---
 
 import { FaCogs } from 'react-icons/fa';
+import Annotations from './includes/annotations/README.md';
+import Rois from './includes/rois/README.md';
+import PixelSize from './includes/definePixelSize/README.md'; 
+import SelectRois from './includes/selectROIs/README.md';
+import Categories from './includes/categories/README.md';
 
 # Image analysis
 
@@ -65,9 +70,7 @@ This panel will also display an histogram that contains the different categories
 
 ![Histogram](images/histogram.png)
 
-:::tip Categories
-Find more info [here](includes/categories/README.md).
-:::
+<Categories/>
 
 ### Save / Load preferences
 
@@ -95,22 +98,10 @@ If you which to hide the units for importation there is the possibility to speci
 
 ### Other tips
 
-:::tip Annotations
-It is possible to annotate and measure images with lines and polygons.
-Find more info [here](includes/annotations/README.md).
-:::
+<Annotations/>
 
-:::tip Regions of interest (ROIs)
-Many parameters are calculated for regions of interest.
-Find more info [here](includes/rois/README.md).
-:::
+<Rois/>
 
-:::tip Define pixel size
-Pixel size can be defined manually or automatically.
-Find more info [here](includes/definePixelSize/README.md).
-:::
+<PixelSize/>
 
-:::tip Select ROIs
-Regions of interest may be selected before exportation.
-Find more info [here](includes/selectROIs/README.md).
-:::
+<SelectRois/>
