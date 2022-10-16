@@ -1,5 +1,6 @@
 ---
 slug: /uuid/187642421e225f8cfcd65a9243394a72
+title: Image analysis
 ---
 
 import { FaCogs } from 'react-icons/fa';
@@ -9,7 +10,6 @@ import PixelSize from './includes/definePixelSize/README.md';
 import SelectRois from './includes/selectROIs/README.md';
 import Categories from './includes/categories/README.md';
 
-# Image analysis
 
 This view allows to annotate images as well as identify Region of Interests on grey scale images.
 

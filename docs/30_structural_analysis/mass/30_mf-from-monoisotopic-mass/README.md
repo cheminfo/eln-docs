@@ -171,7 +171,7 @@ It is also possible to display possible molecular formulas for the relative mass
 - allowed atoms are based on the `Ranges`
 - only neutral loss are considered
 - the charge of the entity loosing this neutral fragment is defined in `Charge`, by default 1
-- you should select `Show MF` in order to annotate the peaks with the corresponding MF
+- you should change the number in the cell `Show MF` in order to annotate the peaks with the corresponding MF
 
 It is also possible to define the color of the MF annotation depending on the precision. By default, if no MF is found under a precision of 20ppm no MF is displayed.
 
@@ -260,6 +260,14 @@ For a low resolution spectrometer, this tool will calculate the similarity of ea
 You can also specify a molecular formula and simulate it as following:
 
 ![simulated](images/simulated.gif)
+
+## Fragments
+
+This view is used to determine potential peaks due to the fragmentation of the molecule. The filter will be looking for subpart of the main molecule. 
+
+On the left panel, you can select the type of ionization as well as the accuracy (in ppm) between the experimental mass and the theoretical mass. 
+
+![preferences](images/fragmentation_preferences.png)
 
 ## All peaks
 
