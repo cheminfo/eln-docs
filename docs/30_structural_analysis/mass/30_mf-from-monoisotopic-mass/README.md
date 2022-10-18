@@ -269,6 +269,16 @@ On the left panel, you can select the type of ionization as well as the accuracy
 
 ![preferences](images/fragmentation_preferences.png)
 
+If you click on a peak, the system will show you on the middle table the potential molecular formula, depending on the accuracy that you provided. For instance, in the case of ethyl benzene with an accuracy of 50 ppm, it will show 3 molecular formula corresponding to the monoisotopic mass.
+
+You can search within the table using the white cell on the top of each column. It is possible to filter by charge, unsaturation, exact mass...
+
+![table filters](images/table_filters.gif)
+
+Once you clicked on a possible molecular formula, the system will be looking for monoisotopic masses of subpart of the main molecule and show them on the right table. In this example, the system found 5 possible fragments and show the charge, the MF, the ionization as well as the difference in ppm with the experimental peak.
+
+![fragments](images/fragments_molecules.png)
+
 ## All peaks
 
 This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
