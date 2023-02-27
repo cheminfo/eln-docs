@@ -185,7 +185,7 @@ This tool calculates on-the-fly the possible molecular formula based on a monois
 
 The resulting table will contain green background lines if this molecular formula exists in PubChem. This is an excellent way to find plausible molecular formula of unknown products.
 
-![results](images/results.png)
+![results](images/results_table.png)
 
 The results contain various columns:
 
@@ -197,6 +197,10 @@ The results contain various columns:
 - the total charge (with ionization)
 - the error in mDa
 - the absolute value of the error in ppm
+
+On the right of the results table you have the possibility to show the registered Pubchem molecules by clicking on the ![](images/pubchem_icon.png) icon. There is also a way to find more about the Pubchem candidates by clicking on the search icon ![](images/seach_icon.png), this button will redirect you to the Pubchem panel.
+
+Moreover, it is possible to **search molecular formula that are included in the original molecular formula**. To do this, click on the ![](images/substructure_icon.png) icon. Depending on what was defined in the `preferences for peak label` panel, this tool will show the possible molecular formula for each peak. You can choose the range of atoms in the molecular formula that you want in the preferences panel.
 
 ### Pubchem candidates
 
@@ -241,7 +245,7 @@ In the table you can also see the number of **natural product** (`Nat`) and **bi
 
 ![list_bio](images/list_nat_bio.gif)
 
-The other icon ![internet](images/flask.png) appears when there are experimental spectra from internet. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments.
+The other icon ![internet](images/flask.png) appears when there are experimental spectra from the GNPS database. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments.
 
 :::tip Tags
 You can see on the `info` column the tags of the molecule: if it is a natural product, bioactive of even the number of experimental spectra.
