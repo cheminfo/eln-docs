@@ -242,18 +242,21 @@ When the spectrum is loaded, you can click on a peak and the system will show a 
 
 In the table you can also see the number of **natural product** (`Nat`) and **bioactive** (`Bio`) molecule with the same molecular formula. If you click on the ![bio](images/bio.png) icon, you can see a table with the publication in PubMed related to the natural or bioactive product. Moreover, using **MeSH** terms, you can filtrate the results in the search bar at the top.
 
-
-![list_bio](images/list_nat_bio.gif)
-
-The other icon ![internet](images/flask.png) appears when there are experimental spectra from the GNPS database. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments.
-
 :::tip Tags
 You can see on the `info` column the tags of the molecule: if it is a natural product, bioactive of even the number of experimental spectra.
 :::
 
-![experimental](images/experimental.gif)
+![list_bio](images/list_nat_bio.gif)
 
-In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the last icon redirect you to the original web page where the spectrum comes from.
+The other icon ![internet](images/flask.png) appears when there are experimental spectra from the GNPS database. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments. You can change experimental spectra using the arrows in you keyboard. 
+
+![experimental](images/exp_spectra.gif)
+
+In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the export icon redirects you to the original web page where the spectrum comes from. You can also see the similarity between your spectrum and the ones from the GNPS database. Your spectrum as well as the selected experimental spectra are plotted in a head to tail plot.
+
+In the left text entry boxes, you can select the number of peaks that you want to see as well as the accuracy that you allow when comparing with the experimental spectrum from the database. The mass power and intensity power are a way to make either the mass or the intensity more important when comparing with the experimental spectrum. The more high is a power, the more important becomes the information (intensity or mass).
+
+On the bottom left panel, you can select any experimental spectrum that was imported.
 
 ## Similarity
 
