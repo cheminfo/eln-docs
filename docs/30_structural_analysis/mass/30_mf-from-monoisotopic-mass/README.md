@@ -254,7 +254,8 @@ The other icon ![internet](images/flask.png) appears when there are experimental
 
 In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the export icon redirects you to the original web page where the spectrum comes from. You can also see the similarity between your spectrum and the ones from the GNPS database. Your spectrum as well as the selected experimental spectra are plotted in a head to tail plot.
 
-In the left text entry boxes, you can select the number of peaks that you want to see as well as the accuracy that you allow when comparing with the experimental spectrum from the database. The mass power and intensity power are a way to make either the mass or the intensity more important when comparing with the experimental spectrum. The more high is a power, the more important becomes the information (intensity or mass).
+In the left text entry boxes, you can select the number of peaks that you want to see as well as the accuracy that you allow when comparing with the experimental spectrum from the database. The mass power and intensity power are a way to make either the mass or the intensity more important when comparing with the experimental spectrum. The higher is a power, the more important becomes the information (intensity or mass). The similarity between two spectra is calculated based on the [cosine similarity](https://github.com/cheminfo/mass-tools/blob/52e7fde163bbbf4c0fb8987154ee33be890ed481/packages/ms-spectrum/src/MSComparator.js).
+
 
 On the bottom left panel, you can select any experimental spectrum that was imported.
 
@@ -290,3 +291,11 @@ Once you clicked on a possible molecular formula, the system will be looking for
 
 This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
 
+
+## Mass DB search
+
+Experimentally, it is not impossible that the sample is oxidized, a methyl group is added ... This tool will allow you to select peaks and search molecules that have the same fragments in a database. 
+
+![](images/mass_db_search.gif)
+
+In the `preference` panel, you can customize the search by specifying the number of peaks and the desired accuracy in ppm. Additionally, in the `modification` text entry, you can make changes to the molecular formula such as adding O, which will prompt the system to consider the possibility of an additional oxygen in the molecule. In the resulting table, you can see the structure of the relevant molecules, the type of modification that was considered, the similarity with respect to the experimental spectrum as well as the link to the GNPS database.
