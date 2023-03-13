@@ -6,15 +6,17 @@ import MFFilter from '../includes/filter-mf/README.md'
 
 # Mass spectra deconvolution
 
-This tool allows to determine the exact composition based on a mass spectrum even if there are overlaps.
+A mass spectrum is often complex and difficult to interpret, particularly when it contains multiple overlapping peaks or when there are uncertainties in the mass calibration.
+Mass spectra deconvolution is a computational technique that aims to extract meaningful information from a mass spectrum by separating the overlapping peaks and identifying the underlying species that give rise to the observed peaks. This can be achieved by comparing the observed mass spectrum to theoretical models of the expected isotopic distributions of the species in the sample.
+The tool takes as input a mass spectrum and generates all the theoretical isotopic distributions of all entities to look for. It then aligns the theoretical isotopic distribution to the centroids.
 
 The workflow is the following:
 
-- make a peak picking (centroids) of the mass spectrum
-- generate all the theoretical isotopic distribution of all entities to look for
-- align the theoretical isotopic distribution to the centroids
-- calculate a non-negative matrix factorization
-- create a report
+- Make a peak picking (centroids) of the mass spectrum
+- Generate all the theoretical isotopic distribution of all entities to look for
+- Align the theoretical isotopic distribution to the centroids
+- Calculate a non-negative matrix factorization
+- Create a report
 
 ## Peak picking
 
@@ -30,12 +32,13 @@ When trying to deconvolute a mass spectrum it is required to define all the poss
 
 The molecular formula is defined based on:
 
-- Base MF : atoms that are common and present in all the molecular formula
-- Modifications: list of modifications that can be applied on the `Base MF`
+- `Base MF` : atoms that are common and present in all the molecular formula
+- `Modifications` : list of modifications that can be applied on the `Base MF`
   - if you want to search for isotopic enrichment you can enter as MF: `C-1[13C]`, a modification in which we remove a `C` of natural abundance and add a <sup>13</sup>C
-- Ionizations: define the list of ways to ionize the molecule. If the molecule is naturally charted this field may stay empty. It can also contain an unlimited comma separated list of ionizations like `Na+, K+, NH4+, H+,`. Note this comma at the end that allows also to have no ionizatioon.
+- `Ionizations` : define the list of ways to ionize the molecule. If the molecule is naturally charted this field may stay empty. It can also contain an unlimited comma separated list of ionizations like `Na+, K+, NH4+, H+,`. Note this comma at the end that allows also to have no ionization.
 
 ![preferences mf](prefs-mf.png)
+
 <MFFilter />
 
 ## Mass spectrum parameters
@@ -43,3 +46,14 @@ The molecular formula is defined based on:
 Peak width calculation is done automatically and allows to predict the peak width based on the mass.
 
 ![preferences mass](prefs-mass.png)
+
+
+## Results table
+
+After configuring the parameters, you can initiate the deconvolution process by clicking the `Analyse the data` button. The tool utilizes the [non-negative matrix factorization algorithm](https://github.com/mljs/nmf) to perform the deconvolution. The results of the deconvolution will be displayed in table panel on the right.
+
+![](results_table.png)
+
+The table contains all the possible combinations of species to arise at the experimental spectra.
+
+<!-- TODO : add more info of the table -->
