@@ -141,9 +141,9 @@ You need to enter the `/` to specify it should be considered as a regular expres
 
 ## Links
 
-It is possible to create links inside the sequence of between sequence and variable groups. Links are defined using `#n` where `n` is a number. When generating all the possible molecular formula there should exactly 2 times each `#n` otherwise the MF is not valid.
+It is possible to create links inside the sequence of between sequence and variable groups. Links are defined using `#n` where `n` is a number. When generating all the possible molecular formula there should exactly 2 times each `#n` (or zero time) otherwise the MF is not valid.
 
-Examples:
+You will find here after 2 examples.
 
 ### Cyclic peptides
 
