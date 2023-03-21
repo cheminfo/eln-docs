@@ -48,7 +48,11 @@ module.exports = {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Cheminfo contributors. Built with Docusaurus.`,
     },
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      },
+    },
   },
   stylesheets: [
     {

@@ -2,6 +2,9 @@
   "dep": "prod,dev",
   "reject": [
     "rehype-katex",
-    "remark-math"
+    "remark-math",
+    "react",
+    "react-dom",
+    "@mdx-js/react"
   ]
 }
