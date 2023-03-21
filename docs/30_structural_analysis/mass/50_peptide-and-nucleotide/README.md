@@ -2,7 +2,7 @@
 slug: /uuid/1fdc4456ddfda089d9a67f9366ac6883
 ---
 
-# Analyze high resolution mass spectra of complex mixutres
+# Analyze high resolution mass spectra of complex mixtures
 
 ## Introduction
 
@@ -132,12 +132,35 @@ This may lead to numerous sequences that will have to be processed and if you wo
 
 This means that if you have a sequence `AGSTY` and would like to only process the fragments that contain the glycine you should enter in this field `Gly` or if you want only `ST` you should enter `SerThr`.
 
-:::Tip
+:::tip
 `Sequence must contain` field also allows as value a regular expression. In this case you can enter something like `/ProVal|gly/i`.
 You need to enter the `/` to specify it should be considered as a regular expression and you have the possibility to specify modifiers like in this case in which we want a case insensitive match (`i`).
 :::
 
 ## Nucleotides
+
+## Links
+
+It is possible to create links inside the sequence of between sequence and variable groups. Links are defined using `#n` where `n` is a number. When generating all the possible molecular formula there should exactly 2 times each `#n` otherwise the MF is not valid.
+
+Examples:
+
+### Cyclic peptides
+
+You can enter as sequence:
+
+AC(H-1#1)LLIIC(H-1#1)KK
+
+For the 2 cytéines we remove a proton and we create a link between them.
+
+### Variable modifications
+
+If we have a cyclic peptide that is linked by a polyethylene glycol of variable number of units we can enter:
+
+- sequence: AC(H-1#1)LLIIC(H-1#2)KK
+- variable groups: #1(CH2CH2O)1-10#2,
+
+In order to be a valid molecular formula the #1 and #2 have either to be absent (zero occurence) or present twice. This is especially useful in peptide fragmentation.
 
 ## Report
 
