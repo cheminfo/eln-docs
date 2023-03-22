@@ -43,7 +43,8 @@ The molecular formula is defined based on:
 
 ## Mass spectrum parameters
 
-Peak width calculation is done automatically and allows to predict the peak width based on the mass.
+Peak width calculation is done automatically and allows to predict the peak width based on the mass. 
+In the `peak width function` box, you can find the predicted function of the width of the peaks depending on the mass.
 
 ![preferences mass](prefs-mass.png)
 
@@ -54,6 +55,11 @@ After configuring the parameters, you can initiate the deconvolution process by 
 
 ![](results_table.png)
 
-The table contains all the possible combinations of species to arise at the experimental spectra.
+The table contains all the possible combinations of species to arise at the experimental spectra. It provides information such as their molecular formula, charge, and product intensity in percentage. The table can be filtered by clicking on the headers or by entering filters in the white text boxes.
 
-<!-- TODO : add more info of the table -->
+You can export the table as a `txt` file by clicking on the ![export](export.png) button. Once a row is selected, you can find a summary on the bottom right panel that include the composition found as well as the observed mass.
+
+
+The blue spectrum displayed at the bottom represents the reconstructed spectrum, while the composition selected in the results table is shown in red.
+
+![graphs](results_graph.png)
