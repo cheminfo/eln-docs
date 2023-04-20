@@ -8,6 +8,11 @@ The ELN also allows to add an unlimited number of meta information key-value pai
 
 ![meta.png](meta.png)
 
+It is also possible to define default meta information, that can be reused in any new or old reaction. To retrieve the default meta information, just click on the ![](button.png) button. 
+You can add at any time labels to the list of default meta information in the following panel.
+
+![default_meta.png](default_meta.png)
+
 ### Insertion of predefined sentences
 
 In order to insert predefined sentences you can click on the `clipboard` icon.
