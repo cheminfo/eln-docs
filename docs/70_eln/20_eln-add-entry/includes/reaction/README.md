@@ -60,3 +60,5 @@ A sample contains all the analysis related to it (NMR, GC, IR, Mass, etc) and ea
 ![sample.png](analysis.png)
 
 It is now possible to jump directly to the corresponding analysis view by clicking on the corresponding color bullet from the sample list.
+
+To create a new sample, you simply need to click on the button `Add empty sample` and choose a batch name, this will create a new batch where you can include any type of spectra and additional information. Once you refresh the page in the global reaction, you will see the new batch in the list. If you click on the batch, there will be a preview of the information you have entered.
