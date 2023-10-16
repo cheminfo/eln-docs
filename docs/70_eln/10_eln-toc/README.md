@@ -38,7 +38,7 @@ You can also make advance queries by specifying a field like for example:
 
 - `yield:>0`: yield greater than 0. You need to put `0.1` for 10%!
 - `temperature:>20 temperature:<50`: temperature greater than 20 and smaller than 50.
-- `temperature:=20`: by default the field shoud 'contain' the value so `200` would match as well. If a field should have the exact specified value you can use `=`
+- `temperature:=20`: by default the field should 'contain' the value so `200` would match as well. If a field should have the exact specified value you can use `=`
 - `reference:LP12`: all the entries having in the reference `LP12`
 - `title:test`: all the entries having in the title the word `test`
 
@@ -48,7 +48,7 @@ In many research fields we are following standard operating procedure. In order 
 
 ![sop.png](images/sop.png)
 
-The ELN allows to define shortcuts and to update automatically the variable parameters. Automatic updaate is activated from the `Prefs` tab.
+The ELN allows to define shortcuts and to update automatically the variable parameters. Automatic update is activated from the `Prefs` tab.
 
 ![autoupdate.png](images/autoupdate.png)
 
