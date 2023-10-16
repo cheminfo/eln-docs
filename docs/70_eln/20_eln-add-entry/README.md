@@ -73,3 +73,5 @@ It is also possible to directly edit the safety information by clicking in the `
 ![Safety preferences](safetyEdit.png)
 
 More information from PubChem about the chemical can also be found by clicking on the 'i' icon.
+
+The safety information can be updated by clicking on the ![Update safety](update_safety.png) icon. This will automatically update the safety information from PubChem.
