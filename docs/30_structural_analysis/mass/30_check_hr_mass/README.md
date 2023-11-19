@@ -11,7 +11,7 @@ This view allows to simulate a high resolution mass spectrum from a molecular fo
 
 ## HR mass 
 
-It is possible to predict the mass spectrum of a molecule, by either drawing it on the left panel, entering the molecular formula, or from the peptidic or nucleic sequence that can be entered in the corresponding area. Another possiblility is to copy and paste a part of a `pdb` file that contains a sequence, this part will be automatically parsed and the sequence will be extracted.
+It is possible to predict the mass spectrum of a molecule, by either drawing it on the left panel, entering the molecular formula, or from the peptidic or nucleic sequence that can be entered in the corresponding area. Another possibility is to copy and paste a part of a `pdb` file that contains a sequence, this part will be automatically parsed and the sequence will be extracted.
 
 ![](images/nucleic.gif)
 
@@ -33,4 +33,9 @@ In the case where the FWHM is set to zero, and the peaks are non-Gaussian, if th
 ![](images/theoretical_spectrum.png)
 
 
+## Experimental spectrum
+
+You can drag and drop experimental spectrum on the top right panel. If you click on one experimental spectrum, it will be loaded and displayed. On the spectrum, if you press `ALT` and click on a peak, this peak will be added on the table on the right. Once you added one peak, you can assign it to any text.
+
+![](images/peak_assignment.gif)
 
