@@ -4,16 +4,6 @@ slug: /uuid/230d2530cee8782b3cb63dc4e25931d9
 
 # MSPolyCalc: advanced polymer mass analysis
 
-## Your data are safe!
-
-All the calculations applied during data treatment are performed locally in the browser, with no data transferred between servers. Data handling is therefore done safely and securely, being compatible with confidential data.
-
-You can therefore use confidential information without any risks.
-
-## Licence
-
-This application is provided under the [MIT licence](https://github.com/cheminfo/mspolycalc/blob/master/LICENSE).
-
 ## Quick start
 
 ### Load your data
