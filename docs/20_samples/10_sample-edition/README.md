@@ -37,6 +37,18 @@ You will see several modules covering the canvas and a few buttons. The buttons 
 - **Attachments**: A list of all files attached \(e.g. JCAMP-DX files\).
 :::
 
+## Safety
+
+The `Safety` button allows you to define the safety information associated with the sample. It is possible to add manually the GHS Pictograms, as shown below.
+
+![Safety](images/add_delete_safety.gif)
+
+On the right of the window, you can see the list of **GHS Hazard Statements** as well as the **GHS Precautionary Statements**. You can add or delete them by clicking on the corresponding buttons. You can also search by the code (e.g. H302) or by the description. The process of adding GHS statements is shown below.
+
+![Add GHS](images/statements.gif)
+
+Once you have added all the necessary GHS pictograms, hazard and precautionary statements, you can save the information by clicking on the green `Save data` button.
+
 :::note Upload spectra
 To upload spectra via drag and drop, use the application specific view. Those views are design to automatically handle the conversion into a standard format.
 That is, if you want to upload a PXRD attachment to your sample you need to open the PXRD view.
