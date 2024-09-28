@@ -1,10 +1,11 @@
 ---
 slug: /uuid/3ec507be0774fdc7abbe80cb07c600f3
+title: In silico fragmentation
 ---
 
 import PeakLabels from '../includes/peak-labels/README.md';
 
-# Fragmentation
+# *In silico* fragmentation
 
 This tool is an *in silico* fragmentation tool for small molecules. It uses a database of known fragmentation patterns to predict the most likely fragmentation pattern for a given molecule. 
 
