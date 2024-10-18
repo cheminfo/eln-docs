@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300px" height="631px" viewBox="0 0 1300 631" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 6</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-6">
+            <g id="Group" transform="translate(46, 245)">
+                <circle id="Oval" stroke="#979797" fill="#EC3737" cx="54.5" cy="54.5" r="54"></circle>
+                <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                    <tspan x="39.6083984" y="72">+</tspan>
+                </text>
+            </g>
+            <g id="Group-3" transform="translate(196, 245)">
+                <circle id="Oval" fill="#EC3737" cx="54.5" cy="54.5" r="54.5"></circle>
+                <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                    <tspan x="39.6083984" y="72">+</tspan>
+                </text>
+            </g>
+            <g id="Group-2" transform="translate(120, 125)">
+                <circle id="Oval" fill="#4936FF" cx="54.5" cy="54.5" r="54.5"></circle>
+                <text id="-" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                    <tspan x="46.0083008" y="66">-</tspan>
+                </text>
+            </g>
+            <g id="Group-5" transform="translate(660, 131)">
+                <g id="Group" transform="translate(0, 120)">
+                    <circle id="Oval" stroke="#979797" fill="#EC3737" cx="54.5" cy="54.5" r="54"></circle>
+                    <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="39.6083984" y="72">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(150, 120)">
+                    <circle id="Oval" fill="#EC3737" cx="54.5" cy="54.5" r="54.5"></circle>
+                    <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="39.6083984" y="72">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(74, 0)">
+                    <circle id="Oval" fill="#4936FF" cx="54.5" cy="54.5" r="54.5"></circle>
+                    <text id="-" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="46.0083008" y="66">-</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-4" transform="translate(951, 130)">
+                <g id="Group" transform="translate(0, 120)">
+                    <circle id="Oval" stroke="#979797" fill="#EC3737" cx="54.5" cy="54.5" r="54"></circle>
+                    <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="39.6083984" y="72">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-3" transform="translate(150, 120)">
+                    <circle id="Oval" fill="#EC3737" cx="54.5" cy="54.5" r="54.5"></circle>
+                    <text id="+" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="39.6083984" y="72">+</tspan>
+                    </text>
+                </g>
+                <g id="Group-2" transform="translate(74, 0)">
+                    <circle id="Oval" fill="#4936FF" cx="54.5" cy="54.5" r="54.5"></circle>
+                    <text id="-" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                        <tspan x="46.0083008" y="66">-</tspan>
+                    </text>
+                </g>
+            </g>
+            <circle id="Oval" stroke="#343434" stroke-width="2" cx="175" cy="254" r="174"></circle>
+            <text id="Mass:-m-Charge:-+1-m" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                <tspan x="73.4626465" y="506">Mass: </tspan>
+                <tspan x="232.190186" y="506" font-family="Arial-BoldItalicMT, Arial" font-style="italic">m</tspan>
+                <tspan x="42.9946289" y="563">Charge: +1</tspan>
+                <tspan x="81.2570801" y="620" font-family="Arial-BoldItalicMT, Arial" font-style="italic">m/z = m</tspan>
+            </text>
+            <text id="Molecule-1" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                <tspan x="45.1237793" y="46">Molecule 1</tspan>
+            </text>
+            <text id="Mass:-2m-Charge:-+2" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                <tspan x="813.280762" y="495">Mass: 2</tspan>
+                <tspan x="1000.37207" y="495" font-family="Arial-BoldItalicMT, Arial" font-style="italic">m</tspan>
+                <tspan x="796.994629" y="552">Charge: +2</tspan>
+                <tspan x="835.25708" y="609" font-family="Arial-BoldItalicMT, Arial" font-style="italic">m/z = m</tspan>
+            </text>
+            <ellipse id="Oval" stroke="#343434" stroke-width="2" cx="929.5" cy="245" rx="369.5" ry="166"></ellipse>
+            <text id="Molecule-2" font-family="Arial-BoldMT, Arial" font-size="51" font-weight="bold" fill="#000000">
+                <tspan x="799.123779" y="46">Molecule 2</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

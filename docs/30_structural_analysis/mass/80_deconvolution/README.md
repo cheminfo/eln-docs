@@ -18,7 +18,19 @@ The workflow is the following:
 - Calculate a non-negative matrix factorization
 - Create a report
 
-## Peak picking
+
+### Physical principle
+
+When analyzing a sample that contains multiple species that have the same $m/z$ ratio, the observed spectrum will be a superposition of the individual isotopic distributions of the species.
+
+![mass charge](mass_charge.svg)
+
+For example, molecule 1 has a mass $m$ and is charged $+1$, molecule 2 has two times the mass of molecule 1 and is charged $+2$. The observed mass spectrum will contain overlapping peaks since the mass-to-charge ratio is the same for both molecules. The only difference lies in the isotopic distribution of the peaks, where for example the distribution of $^{13}C$ will be different for the two molecules. The following documentation will describe in detail how the deconvolution algorithm works.
+
+
+## Mass spectrum deconvolution
+
+### Peak picking
 
 When loading the spectrum a peak picking is done that determine the position and width of all the peaks based on global spectrum deconvolution algorithm that was implemented in [JavaScript](https://github.com/mljs/global-spectral-deconvolution).
 
@@ -26,7 +38,8 @@ The result of the peak picking appears in the spectrum as yellow vertical lines.
 
 ![centroids](centroids.png)
 
-## Define possible MFs
+
+### Define possible MFs
 
 When trying to deconvolute a mass spectrum it is required to define all the possible molecular formula. It is important to limit as much as possible the number of molecular formula to consider.
 
@@ -41,7 +54,7 @@ The molecular formula is defined based on:
 
 <MFFilter />
 
-## Mass spectrum parameters
+### Mass spectrum parameters
 
 Peak width calculation is done automatically and allows to predict the peak width based on the mass. 
 In the `peak width function` box, you can find the predicted function of the width of the peaks depending on the mass.
@@ -49,7 +62,7 @@ In the `peak width function` box, you can find the predicted function of the wid
 ![preferences mass](prefs-mass.png)
 
 
-## Results table
+### Results table
 
 After configuring the parameters, you can initiate the deconvolution process by clicking the `Analyse the data` button. The tool utilizes the [non-negative matrix factorization algorithm](https://github.com/mljs/nmf) to perform the deconvolution. The results of the deconvolution will be displayed in table panel on the right.
 
@@ -60,6 +73,16 @@ The table contains all the possible combinations of species to arise at the expe
 You can export the table as a `txt` file by clicking on the ![export](export.png) button. Once a row is selected, you can find a summary on the bottom right panel that include the composition found as well as the observed mass.
 
 
-The blue spectrum displayed at the bottom represents the reconstructed spectrum, while the composition selected in the results table is shown in red.
+The blue spectrum displayed at the bottom represents the reconstructed spectrum, while the composition selected in the results' table is shown in red.
 
 ![graphs](results_graph.png)
+
+
+## Report
+
+The report tab allows you to generate plots of the results. You can select the suggested species that were calculated with the deconvolution algorithm to generate scatter plots. In the scatter plot settings, you can change the x and y-axis, as well as the color and size of the points. The `+` and `-` buttons allow you to add or remove scatter plots. The final report can be copied to the clipboard or saved as a `pdf` file.
+
+
+![](plots_settings.png)
+
+![](scatter_plots.png)
