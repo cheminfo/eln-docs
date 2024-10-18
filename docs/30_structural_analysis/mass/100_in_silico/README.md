@@ -1,8 +1,11 @@
 ---
 slug: /uuid/3ec507be0774fdc7abbe80cb07c600f3
+title: In silico fragmentation
 ---
 
-# Fragmentation
+import PeakLabels from '../includes/peak-labels/README.md';
+
+# *In silico* fragmentation
 
 This tool is an *in silico* fragmentation tool for small molecules. It uses a database of known fragmentation patterns to predict the most likely fragmentation pattern for a given molecule. 
 
@@ -49,3 +52,46 @@ When the mouse is over a peak, the corresponding fragment is highlighted in the 
 
 ![list_mass](images/list_mass.png)
 
+## Explore peaks
+
+The user can have a detailed view of the spectrum by clicking in the `Explore peaks` tab.
+
+![explore](images/explore_peaks.png)
+
+
+:::tip Peak Labels
+
+<details>
+    <summary>
+    Annotation of the peaks in the spectrum.
+    </summary>
+    <div>
+
+<PeakLabels />
+
+</div>
+</details>
+:::
+
+
+## DB Search
+
+This tool allows to predict the fragmentation of a molecule *in silico*. First **select a peak from the experimental spectrum**. Then click on the `Search in the database` button, this will search in the [octochemdb](https://github.com/cheminfo/octochemdb) database for molecules that are bioactive or natural products. The results are shown on the left table.
+
+![db_results](images/db_results.png)
+
+Once a molecule is selected, the algorithm will perform a fragmentation *in silico* and show the fragmentation tree in the top panel.
+
+![fragmentation_tree](images/fragmentation_tree.png)
+
+The preferences for the DB search and the fragmentation can be set in the right panel.
+
+![prefs_db](images/prefs.png)
+
+
+
+## Reactions
+
+The **Reactions** view shows the list of reactions that are applied to the molecule to generate the fragments. The user can filter the reactions by `Labels`, `Schema`, `Reaction`, `Kind`, `Mode` and `Description`.
+
+![reactions](images/reactions.png)
