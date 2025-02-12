@@ -1,6 +1,6 @@
 ---
 slug: /uuid/2294a250c8c1da87ca6753a6eb93c166
-title: MF from monoisotopic mass
+title: OctoChemDB: MF / structure from mass spectra
 ---
 
 import Range from "../../../includes/range/README.md";
@@ -12,7 +12,30 @@ import PeakLabels from '../includes/peak-labels/README.md';
 
 <TOCInline toc={toc} />
 
-# MF from monoisotopic mass
+# OctoChemDB: MF / structure from mass spectra
+
+This very generic tool tries to identify molecular formulas and possibly chemical structures from mass spectra. It can deal with completely unknown products, for which the elements that compose the molecule are unknown, to products for which the range of molecular formulas is known.
+
+In the case of unknown products, the tool will rely on OctoChemDB, a database created specifically to retrieve information on compounds from the monoisotopic mass.
+
+## What is OctoChemDB ?
+
+OctoChemDB combines 10 databases available for free on the internet and combine them based on the chemical structure (without stereochemistry). It in then indexed based on the molecular formula and monoisotopic mass. From the monoisotopic mass it can then retrieve all related information like available experimental spectra, taxonomy, biological activity, PubMed articles and patents.
+
+The following 10 databases are combined on a regular base.
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
+- [Lotus](https://lotus.naturalproducts.net/)
+- [Coconut](https://coconut.naturalproducts.net/)
+- [CMAUP](https://www.bidd.group/CMAUP/)
+- [GNPS](https://gnps.ucsd.edu/)
+- [NPASS](https://bidd.group/NPASS/)
+- [NP Atlas](https://www.npatlas.org/)
+- [MassBank](https://massbank.eu/MassBank/)
+- [NCBI Taxonomies](https://www.ncbi.nlm.nih.gov/taxonomy)
+
+![image](https://github.com/user-attachments/assets/aed7f843-bed8-4efc-9b85-2235e84a77af)
+
 
 ## Homepage
 
