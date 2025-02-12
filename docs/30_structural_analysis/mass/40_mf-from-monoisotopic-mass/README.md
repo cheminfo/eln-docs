@@ -1,6 +1,6 @@
 ---
 slug: /uuid/2294a250c8c1da87ca6753a6eb93c166
-title: OctoChemDB: MF / structure from mass spectra
+title: OctoChemDB - MF and structure from mass spectra
 ---
 
 import Range from "../../../includes/range/README.md";
