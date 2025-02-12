@@ -34,6 +34,8 @@ The following 10 databases are combined on a regular base.
 - [MassBank](https://massbank.eu/MassBank/)
 - [NCBI Taxonomies](https://www.ncbi.nlm.nih.gov/taxonomy)
 
+A public API is available on: [https://octochemdb.cheminfo.org/documentation/](https://octochemdb.cheminfo.org/documentation/) and the GitHub repository is available [here](https://github.com/cheminfo/octochemdb).
+
 ![image](https://github.com/user-attachments/assets/aed7f843-bed8-4efc-9b85-2235e84a77af)
 
 
