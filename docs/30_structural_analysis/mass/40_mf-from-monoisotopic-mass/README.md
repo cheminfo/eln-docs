@@ -36,9 +36,6 @@ The following 10 databases are combined on a regular base.
 
 A public API is available on: [https://octochemdb.cheminfo.org/documentation/](https://octochemdb.cheminfo.org/documentation/) and the GitHub repository is available [here](https://github.com/cheminfo/octochemdb).
 
-![image](https://github.com/user-attachments/assets/aed7f843-bed8-4efc-9b85-2235e84a77af)
-
-
 ## Homepage
 
 This tool is used to determine the molecular formula based of the monoisotopic mass.
