@@ -6,7 +6,7 @@ import AQF from "../../includes/advanced_query_features/README.md";
 
 # Search Stock
 
-`Search Stock` is a tool to manage the stock of chemical compounds in your lab. The view is divided into three main sections: the search and print section on the left, the list of the compounds in the middle, and the details of the selected compound on the right.
+`Search Stock` is a tool to manage the stock of chemical compounds in your lab. The goal is to provide a simple and efficient way to search for a compound in the stock, to get all the information about the compound. The location must be as precise as possible, to avoid time-consuming searches for the compound. The view is divided into three main sections: **search** and **print** section on the left, **list of the compounds** in the middle, and **details of the selected compound** on the right.
 
 ![general_view](general_view.png)
 
