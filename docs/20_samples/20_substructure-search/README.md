@@ -30,3 +30,24 @@ The similarity search is based on [Tanimoto algorithm](https://en.wikipedia.org/
 Structure edition is powered by [OCL editor].
 
 <AQF/>
+
+It is also possible to search for structures that contains experimental spectra. The following fields can be used in the search:
+
+- `nbNmr`, `nb1d`, `nb2d`, `nb13c`, `nb1h` : number of spectrum registered for NMR, 1d NMR...
+- `nbMass`, `nbIR`, `nbTGA`, `nbDSC`, `nbRaman`, `nbMass`, `nbUV`, `nbXray` : number of spectrum registered for IR, Raman ...
+- `mf`, `mw`, `em` : molecular formula, molecular weight and exact mass (monoisotpic mass)
+- `title` : title of the sample.
+- `meta` : meta information.
+- `owner` : name of the owner.
+- `modified` : last modification date of the sample.
+- `created` : creation date of the sample.
+
+For example, you can draw a substructure and search for all the samples that contain at least one 1D NMR spectrum with the query `nbNmr:>0`.
+
+### Stock status
+
+You can also search for the stock status of structures by using the `status` field. For example, by querying `status:500`, you can find all structures with a stock status `released`. This allows you to filter samples based on their availability or stock level.
+
+### Location
+
+You can also search for the location of structures by using the `location` field. For example, by querying `location:CH_123`, you can find all structures with a location `CH_123`. This allows you to filter samples based on their physical location or storage status.

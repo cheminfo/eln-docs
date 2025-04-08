@@ -15,6 +15,10 @@ Furthermore, you can include separate molecules in the search. This will result 
 
 ![excluded fragment](excluded_fragment.gif)
 
+In addition, you can use the dropdown selector to choose whether to search a structure that contains all the fragments, a structure that contains any fragments, or by similarity.
+
+![substructure](substructure_search.png)
+
 </div>
 
 </details>
