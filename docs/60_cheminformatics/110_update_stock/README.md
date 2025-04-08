@@ -32,10 +32,15 @@ Once the location and the products' data matrix are scanned, the product will be
 
 ![global](global_view.png)
 
+For more convenience, you can also print labels for multiple locations by selecting a printer and clicking on the `location + range`. This will ask for the location, the range and the format of the labels.
+
+![location_range](location_range.png)
+
+The table below will show the list of labels that will be printed.
+
 
 ## Update the stock
 
 The saved products can be updated by selecting the corresponding `status` and scanning the data matrix of the product. The location will not matter since the product is already in the stock.
 
 ![list_status](list_status.png)
-
