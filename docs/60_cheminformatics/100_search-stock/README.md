@@ -33,10 +33,3 @@ It is easy to change the status of a product. You can change the quantity, the l
 ![details](details.png)
 
 The `Stock modification history` shows the history of the stock modifications. It is possible to see the status, the location, the user that made the modification and the date of the modification of the product.
-
-## Print
-
-To print the current state of the stock status for a specific compound, you can click on the `Print` button. This will create a PDF file with all the information about the compound. You can choose the printer and the location in the following panel.
-
-![print](print.png)
-

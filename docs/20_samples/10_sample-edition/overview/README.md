@@ -2,9 +2,9 @@
 
 import TitleTab from '../includes/titletab/README.md'
 
-This view contains the general information about your sample. 
+This view contains the general information about your sample.
 
-:::info 
+:::info
 
 ![overview](overview.png)
 
@@ -23,9 +23,15 @@ This view contains the general information about your sample.
 
 You are able to add meta information related to your sample. To add or remove one of them, use the ![plus or minus](plus-minus.png) buttons and enter the parameter name. These meta information will appear in the table of content in the Home Page. From the Home Page, you would be able to search for your sample according to its meta information. (`Keywords` tab has the same functionality but use preferably `Meta information` tab).
 
+Keywords include the following fields:
+
+![list of keywords](keywords.png)
+
+The `CAS/RN` field is highlighted in red if the CAS number is not valid. Otherwise, it will be highlighted in green. In case the CAS is valid, you can click on the lookup button ![lookup](lookup.png) in the `rn` column to retrieve the commercial information from a reference database.
+
 :::caution
 
-Do not forget to Save your data on the server ! If you reload from the server using ![reload](reload.png) without saving your data, you will lose your changes. 
+Do not forget to Save your data on the server ! If you reload from the server using ![reload](reload.png) without saving your data, you will lose your changes.
 
 :::
 
