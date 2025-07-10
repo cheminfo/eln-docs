@@ -1,17 +1,20 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   check-links:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Link Checker
-        id: lc
-        uses: lycheeverse/lychee-action@v1.0.8
+        uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress  **/*.md --exclude http://localhost https://peter-ertl.com/jsme/ b.com eln.myinstitution.org
-      - name: Fail if there were link errors
-        run: exit ${{ steps.lc.outputs.exit_code }}
+          # 403 is accepted, this is what is usually returned after a bot was detected
+          args: --verbose --no-progress --accept 200,403 --extensions md ./
+          lycheeVersion: v0.19.1
