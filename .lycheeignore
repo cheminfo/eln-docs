@@ -1,10 +1,16 @@
+# Pretend links
 http://localhost
 b.com
 eln.myinstitution.org
 
-# Works but not only in the browser
+# Ok in browser but fails with lychee
 freecodecamp.org
+nmrshiftdb.nmr.uni-koeln.de
+massbank.eu
 
 # No replacement link found
 http://urn.nb.no/URN:NBN:no-13191
 http://www2.chemie.uni-erlangen.de/services/spinus/
+
+# Times out
+npatlas.org
