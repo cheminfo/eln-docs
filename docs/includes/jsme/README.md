@@ -17,13 +17,13 @@ slug: /uuid/jsme
 
 #### JSME Menu
 
-![](images/smiles.png) shows molecule [SMILES](http://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)  
+![](images/smiles.png) shows molecule [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system)  
 ![](images/clean.png) clears the editing area \(or the current molecule, if structure contains several parts\)  
 ![](images/new.png) starts new molecule component \(when multipart option or reaction input are enabled\)  
 ![](images/del.png) delete mode \(click on atom or bond to delete it\)  
 ![](images/delr.png) deletes functional group - choose this option and then click bond connecting the group with the main skeleton  
 ![](images/123.png) starts atom numbering or reaction mapping \(when this option is enabled\)  
-![](images/smarts.png) query atom / [SMARTS](http://en.wikipedia.org/wiki/Smiles_arbitrary_target_specification) \(when this option is enabled\)  
+![](images/smarts.png) query atom / [SMARTS](https://en.wikipedia.org/wiki/Smiles_arbitrary_target_specification) \(when this option is enabled\)  
 ![](images/charge.png) switches between allowed charged states on clicked atom  
 ![](images/react.png) reaction input \(when reactions are enabled\)  
 ![](images/undo.png) undo  
