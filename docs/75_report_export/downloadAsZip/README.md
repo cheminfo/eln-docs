@@ -1,3 +1,7 @@
+---
+slug: /uuid/9ac9e98bf3bb1e4b4f591993bec93b07
+---
+
 # Download data as a ZIP file
 
 This application allows downloading as a zip a set of samples and ELN entries.
