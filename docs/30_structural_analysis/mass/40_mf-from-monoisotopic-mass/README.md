@@ -23,6 +23,7 @@ In the case of unknown products, the tool will rely on OctoChemDB, a database cr
 OctoChemDB combines 10 databases available for free on the internet and combine them based on the chemical structure (without stereochemistry). It in then indexed based on the molecular formula and monoisotopic mass. From the monoisotopic mass it can then retrieve all related information like available experimental spectra, taxonomy, biological activity, PubMed articles and patents.
 
 The following 10 databases are combined on a regular base.
+
 - [PubChem](https://pubchem.ncbi.nlm.nih.gov/)
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
 - [Lotus](https://lotus.naturalproducts.net/)
@@ -36,6 +37,8 @@ The following 10 databases are combined on a regular base.
 
 A public API is available on: [https://octochemdb.cheminfo.org/documentation/](https://octochemdb.cheminfo.org/documentation/) and the GitHub repository is available [here](https://github.com/cheminfo/octochemdb).
 
+You can check [here](https://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.cheminfo.org%2Fcheminfo-public%2Faf1777ba7596df3b8b2bc64d3d609cda%2Fview.json&loadversion=true) the status of the aggregation database.
+
 ## Homepage
 
 This tool is used to determine the molecular formula based of the monoisotopic mass.
@@ -45,6 +48,7 @@ This tool is used to determine the molecular formula based of the monoisotopic m
 On the middle top panel, you can see the list of the imported experimental spectra. Each spectrum has a description if the data are available. You can see the type of `resolution` (either high or low resolution), the `instrument` used, the `ionisation` method and the `analyser`. It is also possible to download the data file and see the meta data associated.
 
 ![list_spectra](images/list_spectra.png)
+
 ### Preferences
 
 #### Entering a monoisotopic mass
@@ -91,9 +95,10 @@ You may as well specify multiple charges. Here are some examples of allowed patt
 
 :::tip Range of ionization
 It is also allowed to enter range of ionizations like
+
 - (H+)1-5, adding between one and five protons
 - (H+)-1--5, removing between one and five protons
-:::
+  :::
 
 ### Accuracy and charge
 
@@ -104,7 +109,6 @@ You can specify the accuracy in ppm and the charge of the target molecule using 
 ### Range of atoms and groups
 
 If some information about the molecule is known, you can specify it in the `Range` input. The allowed syntax is given bellow.
-
 
 <Range/>
 
@@ -171,7 +175,6 @@ return entry.atoms.N % 2 === 0;
 
 :::
 
-
 :::tip Small observed mass should be double charged
 
 ```js
@@ -230,7 +233,6 @@ NB: only stable isotopes are considered!
 
 <Similarity/>
 
-
 ### Info
 
 The simulated spectrum is calculated using a regression of the width of the peaks as a function of the mass.
@@ -240,7 +242,7 @@ The simulated spectrum is calculated using a regression of the width of the peak
 
 This tool allows to find a molecular formula, even if we don't know the range of atoms that compose the molecule. A few assumptions are made: the charge of the non ionized molecule is null, there are at least 5 molecules that have the same MF and the molecule does not break apart.
 
-When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list. 
+When the spectrum is loaded, you can click on a peak and the system will show a list of the possible molecular formula for a given ionization and accuracy. On the table you can see in green the molecular formula that are registered in the PubChem database. If you click on a formula, you can see at the right the list of isomers. In the draw panel, you can make a substructure search or a name search within the list.
 
 ![pubchem_search](images/pubchem_search.gif)
 
@@ -248,14 +250,13 @@ In the table you can also see the number of **natural product** (`Nat`) and **bi
 
 <Taxonomy/>
 
-The other icon ![internet](images/flask.png) appears when there are experimental spectra from the GNPS database. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments. You can change experimental spectra using the arrows in you keyboard. 
+The other icon ![internet](images/flask.png) appears when there are experimental spectra from the GNPS database. If you click on this icon, you will be able to compare your spectrum with spectra of molecules that have the same molecular formula from real experiments. You can change experimental spectra using the arrows in you keyboard.
 
 ![experimental](images/exp_spectra.gif)
 
 In the table on the top you can see the list of available spectra. For each spectrum, there are information about the ion source, the instrument used to make the measure, the precursor, the ionization, the mode and the export icon redirects you to the original web page where the spectrum comes from. You can also see the similarity between your spectrum and the ones from the GNPS database. Your spectrum as well as the selected experimental spectra are plotted in a head to tail plot.
 
 In the left text entry boxes, you can select the number of peaks that you want to see as well as the accuracy that you allow when comparing with the experimental spectrum from the database. The mass power and intensity power are a way to make either the mass or the intensity more important when comparing with the experimental spectrum. The higher is a power, the more important becomes the information (intensity or mass). The similarity between two spectra is calculated based on the [cosine similarity](https://github.com/cheminfo/mass-tools/blob/52e7fde163bbbf4c0fb8987154ee33be890ed481/packages/ms-spectrum/src/MSComparator.js).
-
 
 On the bottom left panel, you can select any experimental spectrum that was imported.
 
@@ -271,9 +272,9 @@ You can also specify a molecular formula and simulate it as following:
 
 ## Fragments
 
-This view is used to determine potential peaks due to the fragmentation of the molecule. The filter will be looking for subpart of the main molecule. 
+This view is used to determine potential peaks due to the fragmentation of the molecule. The filter will be looking for subpart of the main molecule.
 
-On the left panel, you can select the type of ionization as well as the accuracy (in ppm) between the experimental mass and the theoretical mass. 
+On the left panel, you can select the type of ionization as well as the accuracy (in ppm) between the experimental mass and the theoretical mass.
 
 ![preferences](images/fragmentation_preferences.png)
 
@@ -289,12 +290,11 @@ Once you clicked on a possible molecular formula, the system will be looking for
 
 ## All peaks
 
-This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula. 
-
+This module will analyze all the peaks and calculate the error with respect to the predicted spectrum of each molecular formula.
 
 ## Mass DB search
 
-Experimentally, it is not impossible that the sample is oxidized, a methyl group is added ... This tool will allow you to select peaks and search molecules that have the same fragments in a database. 
+Experimentally, it is not impossible that the sample is oxidized, a methyl group is added ... This tool will allow you to select peaks and search molecules that have the same fragments in a database.
 
 ![](images/mass_db_search.gif)
 
