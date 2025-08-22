@@ -30,7 +30,6 @@ The following 10 databases are combined on a regular base.
 - [Coconut](https://coconut.naturalproducts.net/)
 - [CMAUP](https://www.bidd.group/CMAUP/)
 - [GNPS](https://gnps.ucsd.edu/)
-<!-- - [NPASS](https://bidd.group/NPASS/) link timeout for CI tests-->
 - [NP Atlas](https://www.npatlas.org/)
 - [MassBank](https://massbank.eu/MassBank/)
 - [NCBI Taxonomies](https://www.ncbi.nlm.nih.gov/taxonomy)
