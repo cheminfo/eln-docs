@@ -35,7 +35,11 @@ The reagent calculator is connected to databases and can retrieve information ab
 
 ### Drawing the schema
 
-JSME is a simple-to-use and powerful tool developed by Peter Ertl and Bruno Bienfait. In order to draw the reaction we will start by adding the chemical structures from the reagent table.
+The OCL (openchemlib) editor is a simple-to-use mple-to-use and powerful tool developed by Peter Ertl and Bruno Bienfait. In order to draw the reaction we will start by adding the chemical structures from the reagent table.
+
+:::tip Stereochemistry
+OCL editor manage mixture of stereoisomers using enhanced stereochemistry format from MDL. You will find more information [here](includes/stereo/README.md)
+:::
 
 ![reaction schema](reaction.gif)
 
