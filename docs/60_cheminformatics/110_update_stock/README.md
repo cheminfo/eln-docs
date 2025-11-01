@@ -4,20 +4,16 @@ slug: /uuid/4a89aab36f39d984feca711db0013ecf
 
 # Update Stock
 
-`Update Stock` is a tool to update the stock of chemical compounds in your lab. This page allows you to create new locations, add products and update the stock of the products.
+## Update the location of existing products
 
-## Add products to the stock
-
-To add a new product to the stock at a specific location, you can scan the label of the location, then scan the label of the product. The product will be added to the stock at the location.
-
+To change the location of a product already in stock, place the cursor in the input field labeled `scan`, then scan the product label first and immediately scan the label of the new location. The product's location will be updated to the scanned location and the table in the middle panel will refresh to show the new location.
 
 :::warning Important
-It is important to place the mouse cursor on the input field `scan` before scanning the label. Also, make sure of the following:
-- The scanner is configured with the correct keyboard type (azerty, qwerty, etc).
-- The scanner is configured to send a `Enter` key after scanning the label.
+Before scanning, make sure:
+- The input field `scan` has the focus.
+- The scanner is configured with the correct keyboard layout (azerty, qwerty, etc.).
+- The scanner is configured to send an `Enter` key after each scan.
 :::
-
-Once the location and the products' label are scanned, the products will be added to the stock at the location and will appear in the table on the middle panel.
 
 ![global](global_view.png)
 
