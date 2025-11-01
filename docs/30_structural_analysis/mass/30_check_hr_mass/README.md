@@ -4,12 +4,11 @@ title: Check HR mass
 ---
 
 
-
 ## Introduction
 
 This view allows to simulate a high resolution mass spectrum from a molecular formula. It can also be used to get the HR mass spectrum of a peptidic or nucleic sequence.
 
-## HR mass 
+## HR mass
 
 It is possible to predict the mass spectrum of a molecule, by either drawing it on the left panel, entering the molecular formula, or from the peptidic or nucleic sequence that can be entered in the corresponding area. Another possibility is to copy and paste a part of a `pdb` file that contains a sequence, this part will be automatically parsed and the sequence will be extracted.
 
@@ -28,7 +27,11 @@ The spectrum can be predicted by clicking on the `Predict mass spectrum` button.
 ![](images/settings.png)
 
 
-In the case where the FWHM is set to zero, and the peaks are non-Gaussian, if the annotation is `on theoretical spectrum`, the system will show the isotope that correspond to each peak.
+In the case where the FWHM is set to zero, and the peaks are non-Gaussian, if the annotation is `on theoretical spectrum`, the system will show the isotope that correspond to each peak. The system will show the list of theoretical isotopologues in the following table.
+
+![](images/theoretical_mass_list.png)
+
+Then, the spectrum can be visualized in the central panel.
 
 ![](images/theoretical_spectrum.png)
 
@@ -39,3 +42,6 @@ You can drag and drop experimental spectrum on the top right panel. If you click
 
 ![](images/peak_assignment.gif)
 
+On the right table, you will see the list of isotopologues. The table displays for each isotopologue its mass, m/z, label and relative abundance.
+
+![](images/isotopologues.png)
