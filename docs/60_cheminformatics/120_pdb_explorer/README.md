@@ -9,14 +9,14 @@
 - [Supported Browsers and Technical Support](#supported-browsers-and-technical-support)
 - [References](#references)
 
----
 
-## Video
+<!-- video does not work yet -->
+<!-- ## Video
 
-<video width="100%" controls>
-  <source src="PDB-explorer.mp4" type="video/mp4">
+<video controls width="100%">
+  <source src="PDB-explorer.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
-</video>
+</video> -->
 
 ---
 

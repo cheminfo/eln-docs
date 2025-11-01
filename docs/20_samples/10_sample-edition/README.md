@@ -18,9 +18,9 @@ import StructureTemplate from './includes/structureTemplate/README.md'
 
 You will see several modules covering the canvas and a few buttons. The buttons are there to **Save** your sample, to display this Help, and to generate a Report. The modules allow you to edit your sample’s data, to upload your spectra, and to display your spectra and other non-editable sample attributes.
 
-:::info 
+:::info
 
-- **Sample code**: The sample’s unique identifier, defined at creation \(i.e. CAS number\). Non-editable.
+- **Sample code**: The sample’s unique identifier, defined at creation (i.e. CAS number). Non-editable.
 
 - **Creation date**: The sample’s creation date. Non-editable.
 
@@ -30,11 +30,11 @@ You will see several modules covering the canvas and a few buttons. The buttons 
 
 - **Structure editor**: Edit the structure associated with the sample. If you are using ChemDraw you may ‘copy as -&gt; molfile’, go over the structure editor and press `CTRL` + V.
 
-- **Physical**: Read and edit the physical constants associated with the sample: boiling point \(bp\), melting point \(mp\), density and refractive index \(nd\).
+- **Physical**: Read and edit the physical constants associated with the sample: boiling point (bp), melting point (mp), density and refractive index (nd).
 
 - **MF and mw**: Molecular formula and molecular weight associated with the sample. Editable.
 
-- **Attachments**: A list of all files attached \(e.g. JCAMP-DX files\).
+- **Attachments**: A list of all files attached (e.g. JCAMP-DX files).
 :::
 
 ## Safety
