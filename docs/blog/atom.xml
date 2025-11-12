@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://docs.c6h6.org/docs/blog</id>
     <title>cheminfo ELN documentation Blog</title>
-    <updated>2025-11-05T00:00:00.000Z</updated>
+    <updated>2025-11-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://docs.c6h6.org/docs/blog"/>
     <subtitle>cheminfo ELN documentation Blog</subtitle>
     <icon>https://docs.c6h6.org/docs/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Various Improvements]]></title>
+        <id>https://docs.c6h6.org/docs/blog/blog-2025-11-12</id>
+        <link href="https://docs.c6h6.org/docs/blog/blog-2025-11-12"/>
+        <updated>2025-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Based on user feedback, several improvements have been implemented in the ELN procedure page.]]></summary>
+        <content type="html"><![CDATA[<p>Based on user feedback, several improvements have been implemented in the ELN procedure page.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="copy-reactant-or-product">Copy Reactant or Product<a href="#copy-reactant-or-product" class="hash-link" aria-label="Direct link to Copy Reactant or Product" title="Direct link to Copy Reactant or Product">​</a></h2><p>A new icon has been added to the reaction editor, allowing you to copy any reactant or product as a molfile V3000.</p><p><img loading="lazy" alt="Copy reactant and product as molfile" src="/docs/assets/images/copy-as-molfile-433a14c12362cafaf907e661cf55a2f9.gif" width="1178" height="609" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="check-stock-location-and-edit-reagents">Check Stock Location and Edit Reagents<a href="#check-stock-location-and-edit-reagents" class="hash-link" aria-label="Direct link to Check Stock Location and Edit Reagents" title="Direct link to Check Stock Location and Edit Reagents">​</a></h2><p>When adding reagents to a reaction, the system now displays the storage location for any samples already present in the stock. You can also directly edit the corresponding sample from the reagent list.</p><p><img loading="lazy" alt="Search stock and edit" src="/docs/assets/images/edit-reagents-9c76750fffbc33a59cbf309559665a75.gif" width="1179" height="612" class="img_ev3q"></p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="set-molfile-and-molecular-formula-from-sample">Set Molfile and Molecular Formula from Sample<a href="#set-molfile-and-molecular-formula-from-sample" class="hash-link" aria-label="Direct link to Set Molfile and Molecular Formula from Sample" title="Direct link to Set Molfile and Molecular Formula from Sample">​</a></h2><p>For samples created from imported data (such as NMR spectra), it is now possible to assign both the molecular formula and the chemical structure with a single click. You can also open the relevant sample directly in edit mode.</p><p><img loading="lazy" alt="Set molfile and MF of sample" src="/docs/assets/images/set-mf-molfile-4df9220e88a03e073b7aea2333c62d92.gif" width="1171" height="615" class="img_ev3q"></p><h1>Edit Sample from Stock</h1><p>You can now open and edit a sample directly from the stock. Simply double-click on the product entry to access the editing interface.</p><p><img loading="lazy" alt="Edit sample from stock" src="/docs/assets/images/stock-to-edit-b575b73293777cb8e824f7e3e5750b82.gif" width="1697" height="831" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Luc Patiny</name>
+            <uri>https://github.com/lpatiny</uri>
+        </author>
+        <category label="reactions" term="reactions"/>
+        <category label="stock" term="stock"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[New editor for reactions]]></title>
         <id>https://docs.c6h6.org/docs/blog/ocl-reaction-editor</id>
