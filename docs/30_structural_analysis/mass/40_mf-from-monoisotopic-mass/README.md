@@ -42,6 +42,14 @@ You can check [here](https://www.cheminfo.org/?viewURL=https%3A%2F%2Fcouch.chemi
 
 This tool is used to determine the molecular formula based of the monoisotopic mass.
 
+### Importing spectra (Drag and Drop)
+
+Experimental spectra can be imported into OctoChemDB using the drag-and-drop area located at the top of the Homepage. The drop zone is labeled “Drop or Paste a TXT file” and accepts plain text (.txt) files containing mass spectrometry data.
+
+![drag_drop](images/drag_drop.png)
+
+Spectra can be provided either by dragging a file into the drop zone or by pasting the content of a text file directly from the clipboard. Both MS1 and MS2 spectra are supported, and the data can be provided either as profile spectra or as centroided (picked peak) data. Once imported, the spectra are displayed in the List of spectra panel and can be selected for subsequent analysis.
+
 ### List of spectra
 
 On the middle top panel, you can see the list of the imported experimental spectra. Each spectrum has a description if the data are available. You can see the type of `resolution` (either high or low resolution), the `instrument` used, the `ionisation` method and the `analyser`. It is also possible to download the data file and see the meta data associated.
