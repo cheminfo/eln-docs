@@ -9,7 +9,6 @@
 - [Supported Browsers and Technical Support](#supported-browsers-and-technical-support)
 - [References](#references)
 
-
 <!-- video does not work yet -->
 <!-- ## Video
 
@@ -55,14 +54,14 @@ Each map is a **300 × 300 grid**, color-coded by properties such as:
 **Example: PC1–PC2 map color-coded by heavy atom count**
 
 ![3DP PCA map](hac.png)
-*Figure 1: 3DP PCA map color coded by Heavy Atom Count property*
+_Figure 1: 3DP PCA map color coded by Heavy Atom Count property_
 
 ### Color Coding
 
 We use **HSL (Hue, Saturation, Luminance)** color space:
 
 ![HSL color space](hsl.png)
-*Figure 2: HSL color space*
+_Figure 2: HSL color space_
 
 - Hue → base property value
 - Saturation → standard deviation
@@ -73,7 +72,7 @@ Color gradient goes from **blue → cyan → green → yellow → red → magent
 ### Similarity Measure
 
 Similarity is quantified with **City Block Distance (CBD)**.
-For two molecules *A* and *B* with *P* dimensions:
+For two molecules _A_ and _B_ with _P_ dimensions:
 
 ![CBD formula](cbd.png)
 
@@ -84,7 +83,7 @@ Results are sorted by increasing CBD distance.
 ### Choose the Map
 
 - Select available maps from the dropdown menu.
-- Default = *Heavy atom count map*.
+- Default = _Heavy atom count map_.
 
 ### Mouse Controls
 
@@ -132,7 +131,7 @@ Results are sorted by increasing CBD distance.
 
 ### 1. Locate Molecule
 
-- Enter `4ERW` in the *Lookup PDBs* field.
+- Enter `4ERW` in the _Lookup PDBs_ field.
 - Its position appears as a **yellow droplet**.
 
 ### 2. Show Molecules in the Same Pixel
@@ -156,7 +155,7 @@ Results are sorted by increasing CBD distance.
 - **A**: Query entry + search options
 - **B**: PV viewer shows ribbon structure of `4ERW`
 - **C**: Similar molecules list (code, image, rank, distance)
-- **D**: Links → *pdb.org* (details) or *JSmol* (3D structure)
+- **D**: Links → _pdb.org_ (details) or _JSmol_ (3D structure)
 
 ## Supported Browsers and Technical Support
 
@@ -170,9 +169,8 @@ For suggestions/questions: [xian.jin@dcb.unibe.ch](mailto:xian.jin@dcb.unibe.ch)
 
 ## References
 
-- [RCSB Protein Data Bank](http://www.rcsb.org/)
-- [The Protein Data Bank. Nucleic Acids Res. 2000, 28, 235-242](http://nar.oxfordjournals.org/content/28/1/235.long)
-- [The MQN-Mapplet: Visualization of Chemical Space. J. Chem. Inf. Model. 2013, 53, 509-518](http://pubs.acs.org/doi/abs/10.1021/ci300513m)
-- [Stereoselective virtual screening with atom pair 3D-fingerprints. J. Cheminform. 2015, 7, 3](http://www.jcheminf.com/content/7/1/3)
-- [Similarity-based data-fusion approach. Chem. Biol. Drug. Des. 2007, 70, 393-412](http://onlinelibrary.wiley.com/doi/10.1111/j.1747-0285.2007.00579.x/abstract)
-
+- [RCSB Protein Data Bank](https://www.rcsb.org/)
+- [The Protein Data Bank. Nucleic Acids Res. 2000, 28, 235-242](https://doi.org/10.1093/nar/28.1.235)
+- [The MQN-Mapplet: Visualization of Chemical Space. J. Chem. Inf. Model. 2013, 53, 509-518](https://doi.org/10.1021/ci300513m)
+- [Stereoselective virtual screening with atom pair 3D-fingerprints. J. Cheminform. 2015, 7, 3](https://doi.org/10.1186/s13321-014-0051-5)
+- [Similarity-based data-fusion approach. Chem. Biol. Drug. Des. 2007, 70, 393-412](https://doi.org/10.1111/j.1747-0285.2007.00579.x)
