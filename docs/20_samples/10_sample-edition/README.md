@@ -50,7 +50,7 @@ On the right of the window, you can see the list of **GHS Hazard Statements** as
 Once you have added all the necessary GHS pictograms, hazard and precautionary statements, you can save the information by clicking on the green `Save data` button.
 
 :::note Upload spectra
-To upload spectra via drag and drop, use the application specific view. Those views are design to automatically handle the conversion into a standard format.
+To upload spectra via drag and drop, use the application-specific view. Those views are designed to automatically handle the conversion into a standard format.
 That is, if you want to upload a PXRD attachment to your sample you need to open the PXRD view.
 ![upload spectrum](uploadSpectrum.gif)
 :::

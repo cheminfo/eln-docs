@@ -15,13 +15,13 @@ For all tokens, the view will display some useful URLs in the bottom right.
 To create a user token you only need to click the button "create user token" in the bottom left box.
 A new token of type `user` will then show up in the top right table. With user tokens you can access all entries for a user.
 
-For example, clicking the link under the heading "List all accessible entries:" will lead you to a page which you can find a JSON document will all entries.
+For example, clicking the link under the heading "List all accessible entries:" will lead you to a page where you can find a JSON document with all entries.
 
 ![](images/all_entries.png)
 
 ## Creating entry tokens
 
-In some cases, you only want to allow access to specific samples. In this case, you can select the samples of interest can then create tokens for them by clicking the "+" icon.
+In some cases, you only want to allow access to specific samples. In this case, you can select the samples of interest and then create tokens for them by clicking the "+" icon.
 
 ## Deleting tokens
 

@@ -13,7 +13,7 @@ It is possible to print the report from any tab. You should simply click on the 
 
 ![](print.png)
 
-This will produce a report that contains barcode that represent this specific sample.
+This will produce a report that contains a barcode representing this specific sample.
 
 ![](barcode.png)
 

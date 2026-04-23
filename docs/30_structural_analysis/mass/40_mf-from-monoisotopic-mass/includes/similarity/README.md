@@ -8,7 +8,7 @@
 
 ## Isotopic distribution similarity
 
-Searching by monoisotopic allows quickly find possible molecular formula, but there are plenty of information in the isotopic distribution.
+Searching by monoisotopic mass allows you to quickly find possible molecular formulas, but there is much more information in the isotopic distribution.
 
 The tab `Similarity` will calculate the match between the predicted
 and experimental isotopic distribution for the specified `Zone`.

@@ -4,7 +4,7 @@ slug: /uuid/5bda2fa3112d5af1cdc6e87b66c3f6b7
 
 # Search reactions by structure
 
-This tool could be used to search the chemical reactions you want by only draw a chemical structure even though substrate or product that might be useful for your synthesis.
+This tool can be used to search for chemical reactions by drawing a chemical structure, whether it is a substrate or a product that might be useful for your synthesis.
 
 ## How to use
 
@@ -27,8 +27,8 @@ Then, draw a structure in the left module.
 
 ![Left module](images/leftmodule.png)
 
-The list of matching structures would be displayed at the center module.
-You can also know which of the structures is reagent or product by checking the right two columns.
+The list of matching structures will be displayed in the center module.
+You can also determine whether each structure is a reagent or product by checking the rightmost two columns.
 
 ![Center module](images/centermodule.png)
 

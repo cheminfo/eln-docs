@@ -1,6 +1,6 @@
 # Making our development environment ready for contributions to cheminfo
 
-Most, if not all, contributors to the cheminfo ecoystem use the [VSCode editor](https://code.visualstudio.com/) with some plugins. We also follow a few conventions with respect to commit messages and directory structure. We also discuss some points in the [starting guide GitHub](https://github.com/cheminfo/generator-cheminfo/blob/master/START.md). This post is thought as a guide for new contributors to the cheminfo projects.
+Most, if not all, contributors to the cheminfo ecosystem use the [VSCode editor](https://code.visualstudio.com/) with some plugins. We also follow a few conventions with respect to commit messages and directory structure. We also discuss some points in the [starting guide GitHub](https://github.com/cheminfo/generator-cheminfo/blob/master/START.md). This post is thought as a guide for new contributors to the cheminfo projects.
 
 ## VSCode setup
 
@@ -59,14 +59,14 @@ We can also see a list of all issues and directly create a new branch that is li
 
 ## Other tools
 
-- Node.js: You should install the [Node.js JavaScript runtime](https://nodejs.org/en/). One the website you will find downloads for all major operating systems
+- Node.js: You should install the [Node.js JavaScript runtime](https://nodejs.org/en/). On the website you will find downloads for all major operating systems.
 - [yeoman generator](https://yeoman.io/): `npm install -g yo` to bootstrap new projects
 - [ncu](https://www.npmjs.com/package/npm-check-updates): `npm install -g npm-check-updates` to update dependencies. It is useful to regularly run `ncu -u` to keep the dependencies updated
 - [the cheminfo generator](https://github.com/cheminfo/generator-cheminfo) `npm i -g yo generator-cheminfo` as generator for the different cheminfo organizations
 
 ## Project structure
 
-In general we like to organize or projects in a directory structure as `~/git/organization/project`. This is, we would work on the documentation repository in `~/git/cheminfo/c6h6-documentation`. We found that this makes it easier to collaborate.
+In general we like to organize our projects in a directory structure as `~/git/organization/project`. That is, we would work on the documentation repository in `~/git/cheminfo/c6h6-documentation`. We found that this makes it easier to collaborate.
 
 ### Creating a new project
 
@@ -129,7 +129,7 @@ We document the API using [jsdoc](https://jsdoc.app/). In addition to that we tr
 ## Test driven development
 
 It can be practical to use the "watch mode" of jest. This will continuously run the test suite in the background `npx jest --watch`. If you just want to run the test suite once, you can use `npm run test`.
-In practice, it can often be useful to write, in the spirit of [test driven development](https://en.wikipedia.org/wiki/Test-driven_development), tests before the actual implementation. This can also help to shape the API in an useable form.
+In practice, it can often be useful to write, in the spirit of [test driven development](https://en.wikipedia.org/wiki/Test-driven_development), tests before the actual implementation. This can also help to shape the API in a usable form.
 
 ## Commit messages
 

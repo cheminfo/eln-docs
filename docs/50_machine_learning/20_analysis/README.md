@@ -6,7 +6,7 @@ import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
 # Create analytical report from spectra
 
-This program allows defining and apply analytical procedure on one or more spectra. The general principle is:
+This program allows defining and applying an analytical procedure to one or more spectra. The general principle is:
 
 - select spectra
 - define parameters for spectra normalization
@@ -15,7 +15,7 @@ This program allows defining and apply analytical procedure on one or more spect
   - point for min y value
   - point for max y value
 
-This software allows either to create new analytical report of to use an existing one.
+This software allows you to either create a new analytical report or use an existing one.
 
 <SelectNormPrev/>
 
@@ -141,9 +141,9 @@ The last tab, `Design report`, allows creating advanced reports for the analysis
 The reports are based on the
 [Twig template engine](https://twig.symfony.com/doc/2.x/)
 
-The report is principally written in HTML with at the top some CSS information. In is also possible to include an inline image (like the SVG of the company logo).
+The report is primarily written in HTML with some CSS at the top. It is also possible to include an inline image (such as the SVG of the company logo).
 
-In order to limit the CSS to the report it is important to wrap the report in a div and to name it. Like for example `<div id="report">`. All the CSS selector with therefore start with `#report` to limit the CSS to this specific div.
+To limit the CSS to the report, it is important to wrap the report in a div and name it, for example `<div id="report">`. All CSS selectors will therefore start with `#report` to limit the CSS to this specific div.
 
 Example:
 

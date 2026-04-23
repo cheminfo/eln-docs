@@ -1,6 +1,6 @@
 # Vertical scaling of 2D spectra
 
-It is possible to vertical scale 2D spectra with the scroll wheel.
+It is possible to vertically scale 2D spectra with the scroll wheel.
 
 By default, positive and negative spectra are scaled simultaneously when the scroll wheel is scrolled.
 

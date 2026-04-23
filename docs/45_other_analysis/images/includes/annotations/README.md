@@ -8,7 +8,7 @@
 
 # Define pixel size
 
-The image analysis tool allows to draw lines and polygons directly on the image.
+The image analysis tool allows you to draw lines and polygons directly on the image.
 
 All the annotations will be saved with the sample back in the database.
 
@@ -22,11 +22,11 @@ of the image.
 In order to draw annotations:
 
 - for a `line`: click once for the beginning of the line and another time for the end of the line
-- for a `polygon`: click once fpr aéé the corners of the polygon, click twice for the end of the shape.
+- for a `polygon`: click once for each corner of the polygon, click twice to end the shape.
 
 ## Display labels
 
-It is possible to display labels either as a custom text or as the value of the shape (length or surface.
+It is possible to display labels either as custom text or as the value of the shape (length or surface).
 
 ![label.png](label.png)
 

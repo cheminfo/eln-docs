@@ -11,14 +11,13 @@ import SelectRois from './includes/selectROIs/README.md';
 import Categories from './includes/categories/README.md';
 
 
-This view allows to annotate images as well as identify Region of Interests on grey scale images.
+This view allows you to annotate images and identify Regions of Interest on grayscale images.
 
-If the source if a color image a first step will be to convert it to a grey scale image using one of the provided algorithms.
+If the source is a color image, a first step will be to convert it to a grayscale image using one of the provided algorithms.
 
 ![iGrey algorithms](images/greysAlgorithms.png)
 
-If you don't know which algorithm to use you may `Explore greys`. The system will reduce the size of the image
-and try all the available algorithms. You should then select the one that yields to the highest contrast.
+If you don't know which algorithm to use, you may click `Explore greys`. The system will reduce the size of the image and try all the available algorithms. You should then select the one that yields the highest contrast.
 
 ![Greys](images/greys.png)
 
@@ -90,7 +89,7 @@ This allows to store templates of preferences depending the kind of images you a
 <summary>It is possible to define the column you want to display / export as well as the format</summary>
 Columns can be customized by clicking on the <FaCogs/> icon that is present in the top of the table. Those preferences are used to customize not only which information is displayed but also how it will be exported. This means that if the units are displayed they will also be exported.
 
-If you which to hide the units for importation there is the possibility to specifiy `numeral: '0.00', hideUnit: true`.
+If you wish to hide the units for import, there is the option to specify `numeral: '0.00', hideUnit: true`.
 
 ![Column customization](images/customizeColumns.gif)
 

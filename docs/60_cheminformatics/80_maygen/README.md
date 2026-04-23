@@ -11,6 +11,6 @@ Maygen is a tool to generate isomers from a molecular formula. It is based on th
 ## Isomers generation
 
 To generate isomers, you need to enter a molecular formula in the input field. The molecular formula is then parsed and isomers are generated.
-The generated isomers are displayed in the table below the input field. It is possible to search by substructure in the generated isomers by drawing the substructure in the structure editor. The tool also provide a list of SMILES and idCodes of the generated isomers.
+The generated isomers are displayed in the table below the input field. It is possible to search by substructure in the generated isomers by drawing the substructure in the structure editor. The tool also provides a list of SMILES and idCodes of the generated isomers.
 
 ![Maygen](maygen.gif)

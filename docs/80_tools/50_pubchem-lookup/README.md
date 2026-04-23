@@ -4,7 +4,7 @@ slug: /uuid/6a1063e07d4946142d4330b587dfaaa3
 
 # PubChem lookup
 
-The PubChem Lookup Tool is a powerful tool that allows users to search and retrieve safety information about chemical compounds based on their chemical structure
+The PubChem Lookup Tool allows users to search and retrieve safety information about chemical compounds based on their chemical structure.
 
 
 To search for a chemical structure, simply draw it using the chemical structure editor provided. Once you have drawn the structure, click on the `Search PubChem` button. The structure, encoded as a SMILES string, will be searched on **[PubChem](https://pubchem.ncbi.nlm.nih.gov/)**, and the tool will retrieve information concerning safety, computed properties, and experimental data.
@@ -21,4 +21,4 @@ The tool displays the search results in four tabs:
 
 - **Experimental**: This tab contains physical information measured by different groups, such as the boiling point and the melting point.
 
-- **Identifiers**: This tab provides the more information on the compound, especially the molecular formula, the canonical SMILES code as well as InChI and InChIKey.
+- **Identifiers**: This tab provides more information about the compound, including the molecular formula, the canonical SMILES code, and the InChI and InChIKey.

@@ -16,6 +16,6 @@ Once spectra have been selected, data normalization filters can be applied :
 
 <SpectraPreprocessing/>
 
-The superimposed spectra can be manipulated without numerous :
+The superimposed spectra can be manipulated using numerous options:
 
 <SuperimposeSpectraManipulation/>

@@ -10,7 +10,7 @@ On the `Detail information` panel, you can find more information about the compo
 
 
 **Pubmed (Medline)**:
-In this section, you will find all the publications associated with the compound. By clicking on the title of the publication, you will be redirected to the Pubmed page. The number on the right of each title indicates the number of times that this compounds has been described in the publication. A green color indicates that the publication can be interesting. This allows the user to quickly find the most relevant publications. The three dots next to the number allow the user to see the abstract of the publication. The abstract includes the mesh terms.
+In this section, you will find all the publications associated with the compound. By clicking on the title of the publication, you will be redirected to the Pubmed page. The number on the right of each title indicates the number of times that this compound has been described in the publication. A green color indicates that the publication can be interesting. This allows the user to quickly find the most relevant publications. The three dots next to the number allow the user to see the abstract of the publication. The abstract includes the mesh terms.
 
 **Activities**:
 Activities show additional details on the activities of the compound. It includes `Superkingdom`, `Kingdom`, `Phylum`, `Class`, `Order`, `Family`, `Genus`,	`Species`.
@@ -19,7 +19,7 @@ Activities show additional details on the activities of the compound. It include
 Taxonomies section shows the taxonomy tree of the compound. The depth of the tree can be controlled in the search panel, described above.
 
 **Patents**:
-Similar to the Pubmed section, this section shows the patents associated with the compound. By clicking on the title of the patent, you will be redirected to the associated page. Again, the number on the right indicates the number of times that this compounds has been described in the patent. The three dots next to the number allow the user to see the abstract of the patent.
+Similar to the Pubmed section, this section shows the patents associated with the compound. By clicking on the title of the patent, you will be redirected to the associated page. Again, the number on the right indicates the number of times that this compound has been described in the patent. The three dots next to the number allow the user to see the abstract of the patent.
 
 ![](images/detailed.png)
 

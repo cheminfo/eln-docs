@@ -55,7 +55,7 @@ Don't forget to `Save data` before leaving the page!
 
 ### Peak picking
 
-It is possible to **manually peak picking** on an infrared spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest.
+It is possible to **manually pick peaks** on an infrared spectrum by holding down the `ALT` key and then left-clicking on the peaks of interest.
 
 <Manual/>
 
@@ -65,11 +65,11 @@ The peak will then be displayed under **IR peaks**.
 
 ![pickpeak](pickpeak.png)
 
-Alternatively, the system allows to perform **peak picking automatically** within a certain range and signal-to-noise ratio.
+Alternatively, the system can perform **peak picking automatically** within a certain range and signal-to-noise ratio.
 
 <Auto/>
 
-The signal strength is given automatically. The categorization `S`, `m` and `w` is done automatically based on the highest and lowest selected peak. `S`for strong, `m` for medium and `w`for weak.
+The signal strength is assigned automatically. The categorization `S`, `m`, and `w` is determined automatically based on the highest and lowest selected peaks: `S` for strong, `m` for medium, and `w` for weak.
 
 In the table below the spectra, you can see the results of the peak picking. You can assign to each peak a name and you can delete unwanted peaks.
 

@@ -10,7 +10,7 @@ import JSMETip from '../../../includes/jsme/README.md'
 
 Analysis of mass fragments of small molecules obtained for example by electronic impact may be cumbersome.
 
-In order to facilitate the process, this tool allow to draw a molecule and select the breakable bonds. The system will then generate all the possible fragments and will recombine them.
+To facilitate the process, this tool allows you to draw a molecule and select the breakable bonds. The system will then generate all the possible fragments and recombine them.
 
 ### Select the ionization method
 
@@ -38,7 +38,7 @@ The fragments with their corresponding mass will be calculated on the fly as wel
 
 ### Analyze the results
 
-A virtual spectrum will all the possibility is generated and a mouse over the annotation over the peak will highlight the required parts of the molecules to reach the mass.
+A virtual spectrum with all possibilities is generated, and hovering over an annotation on a peak will highlight the parts of the molecule required to reach that mass.
 
 ![analyze](analyze.png)
 
@@ -58,6 +58,6 @@ The same result can be achieved by pressing ALT + click on an annotation in the 
 
 ![annotations](annotations.png)
 
-The list of assigned peaks can the be saved in the database by clicking on `Save data`.
+The list of assigned peaks can then be saved in the database by clicking on `Save data`.
 
 ![list of fragments](listOfFragments.png)

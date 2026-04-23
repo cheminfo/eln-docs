@@ -13,7 +13,7 @@ This application enables the visualization and integration of GC / LC data with 
 ### GC-MS
 [Gas chromatography- mass spectrometry](https://en.wikipedia.org/wiki/Gas_chromatography–mass_spectrometry) (GC-MS) is an analytical technique that combines gas chromatography and mass spectrometry to identify different substances within a sample. It allows analysis and detection of tiny amounts of a substance by separation of the substances with the gas chromatograph, then identification with the mass spectrometer. 
 
-First, the sample  goes through the gas chromatograph. The different chemical compounds are separated according to their relative affinity for the stationary phase of a capillary column. The molecules come out of the column at different times (retention times) and therefore enter at differents times into the mass spectrometer. In the mass spectrometer, the molecules are breaking into ionized fragments that are detected using their mass-to-charge ratio. 
+First, the sample goes through the gas chromatograph. The different chemical compounds are separated according to their relative affinity for the stationary phase of a capillary column. The molecules come out of the column at different times (retention times) and therefore enter the mass spectrometer at different times. In the mass spectrometer, the molecules are broken into ionized fragments that are detected using their mass-to-charge ratio.
 
 ![GCMS](images/GCMS.gif)
 
@@ -49,7 +49,7 @@ Files can be uploaded either as a [JCAMP](http://jcamp-dx.org/), [NetCDF](https:
 :::tip JCAMP-DX format
 <details>
     <summary>
-    Informations about the JCAMP-DX format.
+    Information about the JCAMP-DX format.
     </summary>
     <div>
 
@@ -63,14 +63,14 @@ Files can be uploaded either as a [JCAMP](http://jcamp-dx.org/), [NetCDF](https:
 :::info
 In the list of files, several icons appear: 
 - ![trash](images/trash.png) to remove a file from the list 
-- ![download](images/download.png) to dowload the resource file 
+- ![download](images/download.png) to download the resource file 
 - ![info](images/info.png) to get information about the spectrum 
 - ![refresh](images/refresh.png) to reload sample from the server. Caution: it will discard your local modifications. 
 :::
 
 ## Molecular Formula (MF) and mass modification
 
-You can enter several molecular formulas by separating it with a dot as shown below. 
+You can enter several molecular formulas by separating them with a dot as shown below.
 
 ![](images/mf.png)
 
@@ -118,7 +118,7 @@ To integrate your peaks, you can either select auto peak picking, which will aut
 
 ![peakpick](images/peakpick.gif)
 
-When several peaks are superimposed, you can use a deconvolution algorithm that will recognize the different peaks. It will suggest an ideal guess for the number of peaks, but you can change this number. The peaks identified would appear in different colors.
+When several peaks are superimposed, you can use a deconvolution algorithm that will recognize the different peaks. It will suggest an ideal number of peaks, but you can change this number. The identified peaks will appear in different colors.
 See below the spectra obtained for different numbers of compounds in the same integration region. 
 
 ![deconvolution](images/deconvolution.png)          ![deconvolution 2](images/deconvolution2.png)

@@ -24,7 +24,7 @@ As you open the tab, the `Spectra` table will be filled with the spectra availab
 
 :::note
 
-We recommend to use automatic peak picking and then modify the signals, using the `Ranges`, `Signals` and `J edition` tabs to modify the spectra. Integration is automatically computed upon defining the corresponding range and cannot be edited manually. You may edit the Pub int column on the Ranges table to fine-tune the integral values in the report.
+We recommend using automatic peak picking and then modifying the signals using the `Ranges`, `Signals`, and `J edition` tabs. Integration is automatically computed upon defining the corresponding range and cannot be edited manually. You may edit the Pub int column in the Ranges table to fine-tune the integral values in the report.
 
 :::
 
@@ -53,7 +53,7 @@ In the `Range` table, it is possible to define if a range is:
 - P2: assignment of a second minor product
 - P3: assignment of a third minor product
 
-bz double clicking on the signal of interest. Reference, solvent, impurity and standard will not be taken into account for the integral sum.
+by double-clicking on the signal of interest. Reference, solvent, impurity, and standard will not be taken into account for the integral sum.
 
 ![](images/range.png)
 

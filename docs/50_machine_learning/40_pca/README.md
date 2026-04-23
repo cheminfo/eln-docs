@@ -6,7 +6,7 @@ import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
 # Calculate PCA for spectra
 
-While superimposing spectra allows checking differences between 2 or 3 experiments it become tedious to compare a large set of data.
+While superimposing spectra allows you to check differences between 2 or 3 experiments, it becomes tedious to compare a large set of data.
 
 Many data mining algorithms may help in those cases and here we propose to analyze the data using principal component analysis.
 
@@ -25,7 +25,7 @@ The workflow is the following:
 
 In order to generate the PCA model you should click on the `Recalculate PCA` button that can be found in the PCA tab.
 
-Even after creating the model you may still add new spectra. Those spectra will be projected to the new PCA space. The spectra used for the calculations are represented using a filled circle while the one projected are represented with a circle.
+Even after creating the model, you may still add new spectra. Those spectra will be projected into the new PCA space. The spectra used for the calculations are represented with a filled circle, while those projected are represented with an open circle.
 
 ![result](images/result.png)
 
@@ -33,7 +33,7 @@ By default, each sample will have a different color.
 
 ![sample PCA](images/samplePCA.png)
 
-In the list of selected sample you can check which spectra are used for the PCA calculation and which one are just projected on the model.
+In the list of selected samples, you can check which spectra are used for the PCA calculation and which ones are merely projected onto the model.
 
 ## Advanced analysis
 

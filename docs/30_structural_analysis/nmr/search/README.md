@@ -6,7 +6,7 @@ import Jcamp from '../../includes/jcamp/README.md';
 
 # Search by NMR chemical shifts
 
-This tool is designed to search by NMR chemical shifts that may be practical to find similar pure products or identify products in complex mixture like in the case of metabolomics. In order to select the chemical shifts you may either enter directly the values in the table `Ranges to search` or ALT + CLICK directly on the spectrum.
+This tool is designed to search by NMR chemical shifts, which can be useful for finding similar pure products or identifying products in complex mixtures such as in metabolomics. To select the chemical shifts, you may either enter the values directly in the `Ranges to search` table or ALT + click directly on the spectrum.
 
 ![rangeSearch](images/range_search.gif)
 
@@ -40,21 +40,21 @@ And the signals of the 10 best matches will be represented as 10 different lines
 - orange : 0.6 < score <= 0.8
 - pink : score 0.4 < score <= 0.6
 
-Mouse over the annotations will highlight the corresponding molecule. If you click on the annotation you will get the detailed information.
+Hovering over the annotations will highlight the corresponding molecule. If you click on the annotation, you will get the detailed information.
 
 ![](images/image4.png)
 
 ## Interactive results
 
-Mouse over in the list of reference products will highlight the region where peaks are expected
+Hovering over the list of reference products will highlight the region where peaks are expected.
 
 ![](images/image2.png)
 
-This allows to quickly browse through the list of the reference spectra. If one of the reference looks promising, just click on it to display the reference corresponding NMR spectrum.
+This allows you to quickly browse through the list of reference spectra. If one of the references looks promising, just click on it to display the corresponding reference NMR spectrum.
 
 ## Quick search
 
-You may enter complex query in order to search for reference products. This includes research on molecular formula, chemical SHIFT ⇧ and reference.
+You may enter complex queries to search for reference products. This includes searching by molecular formula, chemical SHIFT ⇧, and reference.
 
 You may for example search for products that have a chemical SHIFT ⇧ between 10 and 11:
 

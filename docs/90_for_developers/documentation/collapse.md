@@ -10,7 +10,7 @@ It is possible to add a section that appears only when you open it. This is actu
     attractions, international pavilions, award-winning fireworks and seasonal
     special events.
   </p>
-  <p>A second paragraphe</p>
+  <p>A second paragraph</p>
 </details>
 ```
 
@@ -22,6 +22,6 @@ This code will appear like:
   Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.
   </p>
   <p>
-  A second paragraphe
+  A second paragraph
   </p>
 </details>

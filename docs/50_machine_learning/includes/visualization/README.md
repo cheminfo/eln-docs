@@ -14,7 +14,7 @@ slug: /uuid/ml-spectra-visualization
 
 # Spectra visualization
 
-Numerous options are available to display the either all the spectra in the dataset or the selected spectra in the dataset.
+Numerous options are available to display either all the spectra in the dataset or only the selected spectra.
 
 ![selection](images/selection.png)
 
@@ -46,7 +46,7 @@ Customization of the display is achieved using the chart toolbar:
 
 ### Display spectra
 
-The first options allow to either display all the spectra, only the selected spectra or nothing.
+The first options allow you to display all the spectra, only the selected spectra, or nothing.
 
 ![selected](images/selected.png)
 
@@ -54,7 +54,7 @@ Displaying no spectrum is useful when displaying other derived data.
 
 ### Original / normalized
 
-These options allow to either display the original spectra or the normalized data. Most of the time we will display normalized data. Those are the data that will be analyzed, and normally they also take less room in memory.
+These options allow you to display either the original spectra or the normalized data. Most of the time we will display normalized data. These are the data that will be analyzed, and they also typically take less memory.
 
 ![original](images/original.png)
 

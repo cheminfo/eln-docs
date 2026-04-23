@@ -96,9 +96,9 @@ By clicking on the button `Compare`, you can compare multiple isotherms. You can
 ![Compare Isotherms](compare_iso.png)
 
 :::note 
-You can still still select the adsorption/desorption as well as the multivariable dependance. 
+You can still select the adsorption/desorption as well as the multivariable dependence.
 :::
 
-The right box can be use to hide regions of the graph or take the derivative for example.
+The right box can be used to hide regions of the graph or take the derivative, for example.
 
 <Preprocessing/>

@@ -4,15 +4,15 @@ slug: /uuid/739379c6183ec9beb757025314c40f8e
 
 import SelectNormPrev from "../includes/selec_norm_prev/README.md";
 
-# Compare multiple of spectra
+# Compare multiple spectra
 
-Multiple spectra analysis allows to quickly extract information about a set of spectra.
+Multiple spectra analysis allows you to quickly extract information about a set of spectra.
 
 <SelectNormPrev/>
 
 ## Comparing spectra
 
-Once you have superimposed spectra you can define ranges by maintaining alt pressed and click once left and right of the range you want to define.
+Once you have superimposed spectra, you can define ranges by holding Alt and clicking once to the left and once to the right of the range you want to define.
 
 ![add ranges](images/addRanges.gif)
 

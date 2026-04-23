@@ -30,7 +30,7 @@ slug: /uuid/jsme
 ![](images/redo.png) redo  
 ![](images/spiro.png) next ring will be added as a spiro ring  
 ![](images/info.png) version information and link to the help page  
-![](images/stereo.png) input stereo bond, click existing stereo bond to cycle through possible types \(up, dowm, orientation\)  
+![](images/stereo.png) input stereo bond, click existing stereo bond to cycle through possible types \(up, down, orientation\)  
 ![](images/chain.png) powerful chain tool, allows creation of various chains and rings; click single bond to change it to double  
 ![](images/xatom.png) allows input of inorganic atoms or atoms in nonstandard valence state \(in this case enter the atom symbol enclosed in \[\], for example the carbene carbon will be \[C\]\)  
 ![](images/fg.png) opens functional group popup menu  

@@ -12,7 +12,7 @@ Many parameters characterizing ROIs are automatically calculated.
 
 ## ROI
 
-Region Of Interest (ROI) posses various characteristics. Among them:
+Region Of Interest (ROI) has various characteristics. Among them:
 
 - Surface: the number of pixels in the ROI
 - External: the number of pixels that touch at least one other external pixel
@@ -42,7 +42,7 @@ Practically the shape of the perimeter is represented in the following image:
 
 ## Minimum bounding rectangle (MBR)
 
-An information that allows to determine the shape of a ROI is the `Minimum Bounding Rectange`(MBR) that represents the smallest rectangle that surround the ROI.
+A useful parameter for determining the shape of a ROI is the `Minimum Bounding Rectangle` (MBR), which represents the smallest rectangle that surrounds the ROI.
 
 The MBR is characterized by:
 
@@ -79,7 +79,7 @@ The feret diameters of a ROI can be calculated using a virtual caliper. 2 diamet
 ### Sphericity
 
 The sphericity is the ratio of the perimeter of the equivalent circle, P<sub>PED</sub>, to the real perimeter, P<sub>real</sub>.
-A perfect sphere as a sphericity of 1. The idea is that irregular shape causes an increase in the perimeter and therefore this ratio has a lower value. Knowing that the smallest possible perimeter for a given projection area is a circle, 0 < S ≤ 1.
+A perfect sphere has a sphericity of 1. The idea is that irregular shape causes an increase in the perimeter and therefore this ratio has a lower value. Knowing that the smallest possible perimeter for a given projection area is a circle, 0 < S ≤ 1.
 
 Please note that the evaluation of perimeter is a complex topic and check above the approach that is used in this application. It
 is not impossible that the sphericity is slightly higher than 1.

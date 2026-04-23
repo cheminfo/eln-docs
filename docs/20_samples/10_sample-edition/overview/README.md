@@ -8,20 +8,20 @@ This view contains the general information about your sample.
 
 ![overview](overview.png)
 
-1. Add a title that would appear in the final report (in the default view). This tab appears in all the views proposed by the `Open/edit sample` tile.
-2. Add a description that would appear in the final report (in the default view). 
-3. Upload miscellaneous files linked to your sample. 
-4. List of the miscellaneous files uploaded. You are able to download those files by clicking on the ![icon](icon.png) button. 
+1. Add a title that will appear in the final report (in the default view). This tab appears in all views proposed by the `Open/edit sample` tile.
+2. Add a description that will appear in the final report (in the default view).
+3. Upload miscellaneous files linked to your sample.
+4. List of the miscellaneous files uploaded. You can download those files by clicking on the ![icon](icon.png) button.
 5. Meta information related to your sample.
-6. Drop/paste an image of your sample (e.g. leaf, plant).
-7. Overview of the report. 
-8. Change the format of your report. Predefined templates are proposed but you can also create a report with your own preferences. 
+6. Drop/paste an image of your sample (e.g., leaf, plant).
+7. Overview of the report.
+8. Change the format of your report. Predefined templates are available, but you can also create a report with your own preferences.
 
 :::
 
 <TitleTab/>
 
-You are able to add meta information related to your sample. To add or remove one of them, use the ![plus or minus](plus-minus.png) buttons and enter the parameter name. These meta information will appear in the table of content in the Home Page. From the Home Page, you would be able to search for your sample according to its meta information. (`Keywords` tab has the same functionality but use preferably `Meta information` tab).
+You can add meta information related to your sample. To add or remove an entry, use the ![plus or minus](plus-minus.png) buttons and enter the parameter name. This meta information will appear in the table of contents on the Home Page. From the Home Page, you can search for your sample by its meta information. (The `Keywords` tab has the same functionality, but the `Meta information` tab is preferred.)
 
 Keywords include the following fields:
 
@@ -31,8 +31,8 @@ The `CAS/RN` field is highlighted in red if the CAS number is not valid. Otherwi
 
 :::caution
 
-Do not forget to Save your data on the server ! If you reload from the server using ![reload](reload.png) without saving your data, you will lose your changes.
+Do not forget to save your data on the server. If you reload from the server using ![reload](reload.png) without saving your data, you will lose your changes.
 
 :::
 
-When you want to print your report, you can select different format proposed in the `select an alternative template` tab. The view of the report is automatically updated. The produced report will contain a barcode that represents the specific sample.
+When you want to print your report, you can select a different format from the `select an alternative template` tab. The report view is automatically updated. The produced report will contain a barcode representing the specific sample.

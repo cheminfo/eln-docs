@@ -9,17 +9,17 @@ import { FaCogs } from 'react-icons/fa';
     </summary>
     <div>
 
-After clicking on the <FaCogs /> icon a dialog box opens that allows to add a new column.
+After clicking on the <FaCogs /> icon, a dialog box opens that allows you to add a new column.
 
-There are 5 parameters to fill for a new column:
+There are 5 parameters to fill in for a new column:
 
-- name: the column name. This will be displayed as the header to the column.
-- rendererOptions: options that allows among other to format numbers. One very useful formatter is `numeral` (see after)
+- name: the column name. This will be displayed as the header of the column.
+- rendererOptions: options that allow you, among other things, to format numbers. One very useful formatter is `numeral` (see below)
 - width: number of pixels for the specific column. May stay empty for automatic layout.
 - forceType: select how to display complex values (see later)
 - jpath: where to find the information to display in the column
 
-In order to add a new column you need to select the `jpath` using the hierarchical drop down menu.
+To add a new column, you need to select the `jpath` using the hierarchical drop-down menu.
 
 ![add.gif](add.gif)
 

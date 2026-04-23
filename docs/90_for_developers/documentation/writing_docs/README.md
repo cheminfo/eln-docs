@@ -25,7 +25,7 @@ import Name from '<path_to_file>/README.md'
 ```
 
 :::danger Name
-The name that you use in the import command **have to start with a capital letter** !
+The name that you use in the import command **must start with a capital letter**!
 :::
 
 Then, in the script you can use this imported module using the following command :

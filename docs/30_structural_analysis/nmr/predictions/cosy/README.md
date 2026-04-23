@@ -9,7 +9,7 @@ import Jcamp from '../../../includes/jcamp/README.md'
 
 ## Introduction 
 
-This tool allows you to predict the COSY spectrum of your sample or any other molecule. [COSY (homonuclear correlation spectroscopy)](https://en.wikipedia.org/wiki/Two-dimensional_nuclear_magnetic_resonance_spectroscopy) is a two-dimentional nuclear magnetic resonance spectroscopic technique. It gives data plotted in a space defined by two frequency axes rather than one.  It is used to identify spins which are coupled to each other. 2-bond and 3-bond H-H coupling are visible by COSY, as well as long range coupling with long acquisition time. The cross-peaks (not on the diagonal) show scalar J-coupling correlations. This method is very useful when the multiplets overlap or when the second order coupling complicates the 1D spectrum. You can see below an example of COSY spectrum of ethylbenzene. 
+This tool allows you to predict the COSY spectrum of your sample or any other molecule. [COSY (homonuclear correlation spectroscopy)](https://en.wikipedia.org/wiki/Two-dimensional_nuclear_magnetic_resonance_spectroscopy) is a two-dimensional nuclear magnetic resonance spectroscopic technique. It gives data plotted in a space defined by two frequency axes rather than one.  It is used to identify spins which are coupled to each other. 2-bond and 3-bond H-H coupling are visible by COSY, as well as long range coupling with long acquisition time. The cross-peaks (not on the diagonal) show scalar J-coupling correlations. This method is very useful when the multiplets overlap or when the second order coupling complicates the 1D spectrum. You can see below an example of COSY spectrum of ethylbenzene. 
 
 ![spectrum](cosy_spectrum.gif)
 

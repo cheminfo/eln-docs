@@ -8,7 +8,7 @@
 
 ### Specifying the purity of a reagent
 
-The purity of a reagent may be specified using 3 possibles units:
+The purity of a reagent may be specified using 3 possible units:
 
 - `%`: purity as mass ratio
   - like 40% HNMe2 in water
@@ -17,7 +17,7 @@ The purity of a reagent may be specified using 3 possibles units:
 - `L`: loading: mole/kg
   - useful for solid phase synthesis
 - `?`: unknown purity
-  - when working with natural products like wood or in material science the sample does not have a molecular formula and therefore it is not possible de define the number of mmoles. Using `?` as units allows to freely define weight, density and volume.
+  - when working with natural products like wood or in materials science, the sample does not have a molecular formula, and therefore it is not possible to define the number of mmoles. Using `?` as units allows you to freely define weight, density, and volume.
 
 ![purity.png](purity.png)
 

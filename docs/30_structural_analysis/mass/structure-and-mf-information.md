@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This tool allows to calculate the theoretical distribution and monoisotopic mass from a structure as soon as drawn or imported as SMILES code.
+This tool allows you to calculate the theoretical distribution and monoisotopic mass from a structure as soon as it is drawn or imported as a SMILES code.
 
 **Please use a recent version of Google Chrome!**
 
@@ -16,7 +16,7 @@ This tool allows to calculate the theoretical distribution and monoisotopic mass
 
 ###  Fragmenting the molecule
 
-In order to fragment the molecule you should select the blue round and click on the bonds that are allowed to fragment.
+To fragment the molecule, select the blue circle and click on the bonds that are allowed to fragment.
 
 ![](https://lh3.googleusercontent.com/vIhoAzQW6NvpADRID0CMaTj4SbiI5pd3EAZMbYNUvg7XoR3twiMRgrgUMbdXlonIFV_ORRyzb2hM7HgbBgiOvY47_8EAsUd6lJ4irOqxUoe6HJ5AiYhr0k52o9ySlQRkv4gi1_-t)
 

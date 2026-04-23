@@ -6,11 +6,11 @@ title: Check HR mass
 
 ## Introduction
 
-This view allows to simulate a high resolution mass spectrum from a molecular formula. It can also be used to get the HR mass spectrum of a peptidic or nucleic sequence.
+This view allows you to simulate a high-resolution mass spectrum from a molecular formula. It can also be used to get the HR mass spectrum of a peptide or nucleic acid sequence.
 
 ## HR mass
 
-It is possible to predict the mass spectrum of a molecule, by either drawing it on the left panel, entering the molecular formula, or from the peptidic or nucleic sequence that can be entered in the corresponding area. Another possibility is to copy and paste a part of a `pdb` file that contains a sequence, this part will be automatically parsed and the sequence will be extracted.
+It is possible to predict the mass spectrum of a molecule by either drawing it on the left panel, entering the molecular formula, or entering a peptide or nucleic acid sequence in the corresponding area. Another possibility is to copy and paste a part of a `pdb` file that contains a sequence, this part will be automatically parsed and the sequence will be extracted.
 
 ![](images/nucleic.gif)
 

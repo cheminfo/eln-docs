@@ -2,7 +2,7 @@
 :::tip Auto peak picking
 <details>
     <summary>
-    Informations about the auto peak picking.
+    Information about auto peak picking.
     </summary>
     <div>
 

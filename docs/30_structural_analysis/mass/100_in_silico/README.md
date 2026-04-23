@@ -28,7 +28,7 @@ It is possible to choose the following parameters:
 
 Once all the parameters are set, the user can select a spectrum in the spectrum panel. If there is no spectrum, the user can upload one by drag and dropping a file in panel that is below the spectrum panel.
 
-When a spectrum is selected, it will automatically be show in the bottom panel, and processed to label the peaks with the molecular formula associated. This annotation is based on the molecular formula of the molecule drawn in the bottom left panel.
+When a spectrum is selected, it will automatically be shown in the bottom panel and processed to label the peaks with the associated molecular formula. This annotation is based on the molecular formula of the molecule drawn in the bottom left panel.
 
 ![spectrum](images/spectrum.png)
 
@@ -76,7 +76,7 @@ The user can have a detailed view of the spectrum by clicking in the `Explore pe
 
 ## DB Search
 
-This tool allows to predict the fragmentation of a molecule *in silico*. First **select a peak from the experimental spectrum**. Then click on the `Search in the database` button, this will search in the [octochemdb](https://github.com/cheminfo/octochemdb) database for molecules that are bioactive or natural products. The results are shown on the left table.
+This tool allows you to predict the fragmentation of a molecule *in silico*. First **select a peak from the experimental spectrum**. Then click on the `Search in the database` button, this will search in the [octochemdb](https://github.com/cheminfo/octochemdb) database for molecules that are bioactive or natural products. The results are shown on the left table.
 
 ![db_results](images/db_results.png)
 

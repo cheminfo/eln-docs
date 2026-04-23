@@ -1,6 +1,6 @@
 # Isotopic distribution from MF or chemical structure
 
-This tool allows to calculate the theoretical distribution and monoisotopic mass from a MF, allowing predefined groups, chemical modification of amino acids, specification of a given isotope, and modification of the isotopic abundance.
+This tool allows you to calculate the theoretical distribution and monoisotopic mass from an MF, supporting predefined groups, chemical modification of amino acids, specification of a given isotope, and modification of the isotopic abundance.
 
 Please use a recent version of Google Chrome.
 

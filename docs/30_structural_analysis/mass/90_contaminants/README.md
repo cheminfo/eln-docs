@@ -5,7 +5,7 @@ slug: /uuid/b60d4cd22af351b3996cb3321f169a0e
 # EasyCont Userguide
 
 Mass spectra are often contaminated by chemicals, plasticizers, etc…
-This tool allows to check possible contaminants in a MS spectrum based on a list defined in a Google spreadsheet dynamically loaded and that can be modified at any time.
+This tool allows you to check for possible contaminants in an MS spectrum based on a list defined in a dynamically loaded Google spreadsheet that can be modified at any time.
 Using the “Custom” tool, the User can even create its’ own Google spreadsheet of compounds to screen for. The mass spectra can be post-calibrated and an offset or shift in Da applied to the spectra.
 
 ## Pasting the experimental data
@@ -14,7 +14,7 @@ It is required to paste experimental data. The data should be in a tab-delimited
 
 If the spectrum is loaded correctly it will immediately appear in the central window.
 
-If not the format is not supported !!! Please ensure that it is a tab-delimited file. It should paste correctly in a excel document for example.
+If not, the format is not supported. Please ensure that it is a tab-delimited file. It should paste correctly into an Excel document, for example.
 
 ## Parameters
 

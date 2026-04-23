@@ -14,7 +14,7 @@ Permeability is a phenomenon where molecules diffuse through a solid. This pheno
 
 ### Fick's law of diffusion
 
-The flux (or flow of mass) is proportional to the gradient of the concentration. In one dimension, Fick's first law of diffusion if given by,
+The flux (or flow of mass) is proportional to the gradient of the concentration. In one dimension, Fick's first law of diffusion is given by,
 
 $$
 J = -D \frac{\partial \phi}{\partial x}

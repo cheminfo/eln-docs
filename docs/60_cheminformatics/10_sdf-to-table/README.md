@@ -4,7 +4,7 @@ slug: /uuid/5dc37671c90094f5255872aa989706e2
 
 # Convert SDF files to a table
 
-This tool allows to quickly open large (up to 400MB) SDF files. 
+This tool allows you to quickly open large (up to 400 MB) SDF files.
 
 Drag and drop or paste your SDF file and it will be displayed as a table containing all the properties found in the file (structure of the molecule, number of H donors, acceptors...). 
 

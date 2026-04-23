@@ -21,7 +21,7 @@ If you want to change for example the tiles that are shown on the home screen, y
 What you for example might want to do is to change the document to which the help button redirects to.
 For this, you can go to the `on-tabs` website, right click on and select `Global preferences`, then under `Action Scripting` you can edit the `Action Help`
 
-## Mofifying views
+## Modifying views
 
 Views are `json` files for the [visualizer](https://github.com/NPellet/visualizer) for which [there is a tutorial on cheminfo.org](http://www.cheminfo.org/Tutorial/1._Introduction/1.1_Basic_example/index.html).
 

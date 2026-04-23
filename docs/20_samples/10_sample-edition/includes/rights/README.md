@@ -8,7 +8,7 @@
 
 ## Sample rights
 
-This view allows to manage the rights of samples:
+This view allows you to manage the rights of samples:
 
 - add a specific user (email address)
 - add a specific group
@@ -17,11 +17,11 @@ This view allows to manage the rights of samples:
 
 In order to proceed you should first select a list of samples to which the modification applies.
 
-There are 2 ways to select sample. The first is by clicking on the 'plus' symbol present on the right of the sample line. The second is by selecting some samples from the list and then clicking on the 'plus' symbol present on the top of the window.
+There are two ways to select samples. The first is by clicking on the 'plus' symbol on the right of the sample line. The second is by selecting samples from the list and then clicking on the 'plus' symbol at the top of the window.
 
 ![](rights.png)
 
-Once sample have been selected you can either `Add` or `Delete` a right by clicking on the corresponding button and entering an owner.
+Once samples have been selected, you can either `Add` or `Delete` a right by clicking on the corresponding button and entering an owner.
 
 An owner is either:
 

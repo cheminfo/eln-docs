@@ -30,7 +30,7 @@ On the right panel, you can apply mathematical operations to the spectra with th
 
 ## Compare spectra
 
-You can compare multiple spectrum by clickling on the `Compare` button. It is then possible to [hide/show](../../30_structural_analysis/includes/showhide/README.md) spectra.
+You can compare multiple spectra by clicking on the `Compare` button. It is then possible to [hide/show](../../30_structural_analysis/includes/showhide/README.md) spectra.
 
 ![compare_cv](compare_cv.gif)
 

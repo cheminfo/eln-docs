@@ -14,7 +14,7 @@ import Auto from "../../30_structural_analysis/includes/autopick/README.md";
 
 ## Theoretical background
 
-**[Raman](https://en.wikipedia.org/wiki/Raman_spectroscopy)** spectroscopy is an analytical technique mainly used to determine the vibrational modes of molecules. The working principle of such technique relies on a monochromatic light (e.g. visible, near infrared or near ultraviolet) which is shined on a sample and excites the molecule to a virtual energy state for a short time. The emitted photons can present either higher or lower energy than the incident photon and this change in the kinetic energy is known as **[inelastic scattering](https://en.wikipedia.org/wiki/Inelastic_scattering)** which is specific to a molecule's chemical bond. Raman spectroscopy is often used in chemistry in order to indentify molecules and assessing the chemical bonds present in the molecule.
+**[Raman](https://en.wikipedia.org/wiki/Raman_spectroscopy)** spectroscopy is an analytical technique mainly used to determine the vibrational modes of molecules. The working principle of such technique relies on a monochromatic light (e.g. visible, near infrared or near ultraviolet) which is shined on a sample and excites the molecule to a virtual energy state for a short time. The emitted photons can present either higher or lower energy than the incident photon and this change in the kinetic energy is known as **[inelastic scattering](https://en.wikipedia.org/wiki/Inelastic_scattering)** which is specific to a molecule's chemical bond. Raman spectroscopy is often used in chemistry to identify molecules and assess the chemical bonds present in the molecule.
 
 The induced dipole moment of a molecule due to an external electric field can be written as,
 
@@ -51,7 +51,7 @@ $$
 \Gamma (\psi_{2 \text{vib}}) \otimes \Gamma (\hat{\alpha}_{ij}) \otimes \Gamma (\psi_{2 \text{vib}}) \subset \Gamma_{\text{tot sym}}
 $$
 
-The other method consists of expanding one component of the polarizability tensor as a power seres in the normal coordinates $Q_k$:
+The other method consists of expanding one component of the polarizability tensor as a power series in the normal coordinates $Q_k$:
 
 $$
 \alpha_{ij} = (\alpha_{ij})_0 + \sum_k \left(\frac{\partial \alpha_{ij} }{\partial Q_k} \right)_0 Q_k + \sum_k \sum_j \left(\frac{\partial^2 \alpha_{ij} }{\partial Q_k \partial Q_j} \right)_0 Q_k Q_j + ...
@@ -80,7 +80,7 @@ At the right of the graph, you can apply filters on the curve using the preproce
 
 ## Peak picking
 
-Bellow the preprocessing module, it is possible to **manually** pick peaks on a spectrum by holding down the `ALT` key, and then left-clicking on the peaks of interest. Or, you can select the interval that you want and click on `Auto peak picking` to choose the picks of interest **automatically**.
+Below the preprocessing module, it is possible to **manually** pick peaks on a spectrum by holding down the `ALT` key and then left-clicking on the peaks of interest. Alternatively, you can select the interval you want and click on `Auto peak picking` to choose peaks **automatically**.
 
 <Manual/>
 
@@ -109,7 +109,7 @@ The spectra will then be both displayed on top of each other. You can also freel
 
 ## Surface analysis
 
-If the graph contains the data, you can click on `Surface analysis`. In the **Raman image**, you can go on each pixel with the cursor and you will see the corresponding spectrum on the right. If you click on one pixel and put the cursor on another, you will be able to compare the two spectrum, the one that you click will appear in red and the curve of the pixel under the cursor will be blue.
+If the graph contains the data, you can click on `Surface analysis`. In the **Raman image**, you can go on each pixel with the cursor and you will see the corresponding spectrum on the right. If you click on one pixel and move the cursor to another, you will be able to compare the two spectra: the one you clicked will appear in red and the curve of the pixel under the cursor will be blue.
 
 ![image_compare](image_compare.gif)
 
@@ -121,7 +121,7 @@ In the graph containing all the spectra, you can choose to show the original dat
 
 ![box_plot](box_plot.gif)
 
-Additionally, you can activate the correlation. Correlation is explained bellow. Here, you can either select all the spectra to be correlated or none of them.
+Additionally, you can activate the correlation. Correlation is explained below. Here, you can either select all the spectra to be correlated or none of them.
 
 <Correlation/>
 

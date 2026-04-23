@@ -134,7 +134,7 @@ In our case, conformer generation is based on a [stochastic algorithm that gener
 To improve the performance of these distance geometry algorithms they are often [refined using information, such as preferred torsional angles, extracted from the Cambridge Crystallographic database](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.5b00654).
 :::
 
-:::info Semi-empiricial quantum chemistry vs. force fields
+:::info Semi-empirical quantum chemistry vs. force fields
 In the view, we give the option to select different methods for geometry optimization and calculation of the vibrational spectrum.
 
 _Force-fields_ approximate the potential energy surface $U(q)$ in some simple parametrization based on interaction terms between different atom pairs --- often for bonds, bends (angles), and torsions (dihedral angles) between different atom types. The force-field we use in the service is called [GFN-NN](https://onlinelibrary.wiley.com/doi/full/10.1002/anie.202004239). Its parameters were derived from fitting to DFT derived geometries, vibrational frequencies, and non-covalent interactions of about 8000 structures covering a wide range of chemistry. In contrast to other force field parametrizations it uses an electronegativity-equilibrium (EEQ) atomic-charge model to describe the electrostatic interactions, and it avoids element _pair_ specific parametrization .
@@ -162,7 +162,7 @@ Our simulations only consider an isolated molecule in gas phase for which the in
 
 Key for the interpretation of the spectra is to realize that a system with $N$ particles, has $3N$ degrees of freedom. These degrees of freedom can be aggregated into different collective motions of the atoms:
 
-- 3 degrees of freedom describe the movement of the center of mass in the three spatial directions. To say in other words, the "first" three degrees of freedom describe translations.
+- 3 degrees of freedom describe the movement of the center of mass in the three spatial directions. In other words, the first three degrees of freedom describe translations.
 - In addition to changing the center of mass, the molecule can also rotate in different ways, which leaves the center of mass fixed. However, we have to make a distinction between linear and non-linear molecules. For linear molecules there is no rotation around the molecular axis -- you can explore this in the view if you compare carbon dioxide and water. For non-linear molecules, however, there are rotations around three distinct axes
 - If we now subtract the translational and rotational modes we have $3N-5$ vibrational degrees of freedom for linear molecules and $3N-6$ vibrational degrees of freedom for non-linear molecules. You can confirm this using the animations in the view.
 
@@ -172,7 +172,7 @@ You can get an overview of many of the concepts from a lecture of Professor Fran
 
 ## Using the view
 
-The prediction view has a view key elements:
+The prediction view has a few key elements:
 ![IR prediction view elements](images/ir_overview.png)
 
 1. A structural editor allows you to edit structures. Below, you can select the level of theory for the simulations and start the new simulations.
@@ -197,7 +197,7 @@ To load a pre-defined collection, you can click on the smiley in the molecule ta
 
 ![Run curated collection](images/predefined_set_optimized.gif)
 
-We currently provide a set of collection illustration important effects from organic chemistry, using the carbonyl stretching frequency as "probe". The important thing to remember throughout is that a stronger bond implies a higher force constant, which implies a higher wavenumber
+We currently provide a set of collections illustrating important effects in organic chemistry, using the carbonyl stretching frequency as a "probe". The important thing to remember throughout is that a stronger bond implies a higher force constant, which implies a higher wavenumber.
 
 #### The inductive and mesomeric effect
 

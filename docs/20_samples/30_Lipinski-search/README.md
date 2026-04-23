@@ -36,9 +36,9 @@ By clicking on a vertical bar outside the selected range you can reset the selec
 
 ![resetting a range in parallel coordinates plot](images/reset_range.gif)
 
-Also, the table has a hoover functionality, which will highlight the line of a compound in the parallel coordinates plot.
+Also, the table has a hover functionality, which will highlight the line of a compound in the parallel coordinates plot.
 
-![hoover in parallel coordinates plot](images/hoover.gif)
+![hover in parallel coordinates plot](images/hoover.gif)
 
 You can also drag and drop columns of the parallel coordinates, and switch coordinates. 
 

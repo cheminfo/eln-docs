@@ -32,7 +32,7 @@ For example, molecule 1 has a mass $m$ and is charged $+1$, molecule 2 has two t
 
 ### Peak picking
 
-When loading the spectrum a peak picking is done that determine the position and width of all the peaks based on global spectrum deconvolution algorithm that was implemented in [JavaScript](https://github.com/mljs/global-spectral-deconvolution).
+When loading the spectrum, a peak picking is done that determines the position and width of all the peaks based on a global spectrum deconvolution algorithm implemented in [JavaScript](https://github.com/mljs/global-spectral-deconvolution).
 
 The result of the peak picking appears in the spectrum as yellow vertical lines. Note that the top of the peak is determined based on the 3 highest point and does not have to match an experimental point.
 
@@ -68,9 +68,9 @@ After configuring the parameters, you can initiate the deconvolution process by 
 
 ![](results_table.png)
 
-The table contains all the possible combinations of species to arise at the experimental spectra. It provides information such as their molecular formula, charge, and product intensity in percentage. The table can be filtered by clicking on the headers or by entering filters in the white text boxes.
+The table contains all the possible combinations of species that give rise to the experimental spectra. It provides information such as their molecular formula, charge, and product intensity in percentage. The table can be filtered by clicking on the headers or by entering filters in the white text boxes.
 
-You can export the table as a `txt` file by clicking on the ![export](export.png) button. Once a row is selected, you can find a summary on the bottom right panel that include the composition found as well as the observed mass.
+You can export the table as a `txt` file by clicking on the ![export](export.png) button. Once a row is selected, you can find a summary in the bottom right panel that includes the composition found as well as the observed mass.
 
 
 The blue spectrum displayed at the bottom represents the reconstructed spectrum, while the composition selected in the results' table is shown in red.

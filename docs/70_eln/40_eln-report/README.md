@@ -7,7 +7,7 @@ slug: /uuid/7977774ad30fae67d782077016c92f11
 
 ## Create a report
 
-The Multi Reaction Report is an easy way to see multiple reactions in a single view. You can search for a specific reaction by the reaction reference or the yield. You can also see the full list of reaction on the left table. Once you have selected reactions you want to make a report for, you can click on one of the reaction report method which are either `Overview of reactions` or `Report parallel reactions`.
+The Multi Reaction Report is an easy way to see multiple reactions in a single view. You can search for a specific reaction by the reaction reference or the yield. You can also see the full list of reactions in the left table. Once you have selected the reactions you want to include in a report, you can click on one of the report methods: either `Overview of reactions` or `Report parallel reactions`.
 
 ![reaction_report](reaction_report.gif)
 

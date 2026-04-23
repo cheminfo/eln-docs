@@ -4,7 +4,7 @@ slug: /uuid/a6fb774a50448cc3edd52dd6dfd275ea
 
 # TOC of ELN entries
 
-This view allows to manage the reaction entries in the Electronic Laboratory Notebook.
+This view allows you to manage the reaction entries in the Electronic Laboratory Notebook.
 
 From there you can:
 
@@ -19,13 +19,13 @@ You may want to hide some reactions because they failed or didn't provide useful
 
 To hide an entry click on the `eye` icon in the list of reactions.
 
-You can also show all the hidden reactions by clicking on the `eye` in the window header. You have then the possibility to unhide reaction.
+You can also show all the hidden reactions by clicking on the `eye` in the window header. You then have the option to unhide reactions.
 
 ![Hide](images/hidden.gif)
 
 ## Searching
 
-Using the search box you can a keyword. This will search in:
+Using the search box, you can enter a keyword. This will search in:
 
 - reaction code
 - reagents code, name, mf, rn
@@ -34,7 +34,7 @@ Using the search box you can a keyword. This will search in:
 
 ![Search](images/search.png)
 
-You can also make advance queries by specifying a field like for example:
+You can also make advanced queries by specifying a field, for example:
 
 - `yield:>0`: yield greater than 0. You need to put `0.1` for 10%!
 - `temperature:>20 temperature:<50`: temperature greater than 20 and smaller than 50.
@@ -48,7 +48,7 @@ In many research fields we are following standard operating procedure. In order 
 
 ![sop.png](images/sop.png)
 
-The ELN allows to define shortcuts and to update automatically the variable parameters. Automatic update is activated from the `Prefs` tab.
+The ELN allows you to define shortcuts and automatically update the variable parameters. Automatic update is activated from the `Prefs` tab.
 
 ![autoupdate.png](images/autoupdate.png)
 

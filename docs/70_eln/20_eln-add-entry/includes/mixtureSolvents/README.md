@@ -3,7 +3,7 @@
 
 <details>
     <summary>
-    There is an easy to deal with mixture of solvents.
+    There is an easy way to deal with mixtures of solvents.
     </summary>
     <div>
 

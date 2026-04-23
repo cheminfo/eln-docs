@@ -2,7 +2,7 @@
 
 <details>
     <summary>
-    It can be useful to denote to have special bond types between metal and ligands in metal complexes. Our editor can deal with that.
+    It can be useful to denote special bond types between metals and ligands in metal complexes. Our editor can handle that.
     </summary>
     <div>
 

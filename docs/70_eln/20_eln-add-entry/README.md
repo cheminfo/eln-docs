@@ -17,7 +17,7 @@ import Copy from './includes/copyProduct/README.md'
 
 # Introduction
 
-This view allows creating and edit an electronic laboratory notebook entry (reactions).
+This view allows creating and editing an electronic laboratory notebook entry (reactions).
 
 ## User preferences
 

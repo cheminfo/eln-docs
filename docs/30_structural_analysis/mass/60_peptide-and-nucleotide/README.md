@@ -6,7 +6,7 @@ slug: /uuid/1fdc4456ddfda089d9a67f9366ac6883
 
 ## Introduction
 
-This tool allows analyzing complex mass spectra of complex mixtures including polynucleotide or protein/peptide that may involve digestion, adducts, residue modification, etc.
+This tool allows you to analyze complex mass spectra of complex mixtures including polynucleotides or proteins/peptides that may involve digestion, adducts, residue modifications, etc.
 
 ## Importing experimental data
 
@@ -26,7 +26,7 @@ All the results are shown for the neutral molecule, and it is therefore necessar
 
 You may as well specify multiple charges. Here are some examples of allowed patterns:
 
-- H+ (addition a proton)
+- H+ (addition of a proton)
 - H+, Na+, K+ (either a proton, sodium cation or potassium cation)
 - H+, (H+)2, (H+)3 (addition of one, two or three protons)
 - (H+)-1, (H+)-2, (H+)-3 (removal of one, two or three protons)
@@ -38,7 +38,7 @@ It is also allowed to enter a range
 
 ## Mixture
 
-This tool allows to generate possible molecular formula based on the MF range.
+This tool allows you to generate possible molecular formulas based on the MF range.
 
 The tool is a combination of all the lines and for each line one molecular formula will be used. If there are many possibilities you can separate on each line the molecular formula using a comma. Moreover you can define ranges of molecular formula.
 
@@ -49,7 +49,7 @@ H (CH2CH2O)0-2 OH, H (CH2CH2S)0-2 SH
 H-1Me, H-1Ph,
 ```
 
-The first line will define 6 possible molecular formula. The second line means remove an hydrogen followed by adding a Me or Ph. Please note the ending comma that means that there be also no modification.
+The first line will define 6 possible molecular formula. The second line means remove an hydrogen followed by adding a Me or Ph. Please note the ending comma, which means that there may also be no modification.
 
 We can then also allow many ionizations like for example `H+, Na+` and the following table will be obtained:
 
@@ -104,7 +104,7 @@ It is also possible to have side chain modifications by adding the modification 
 
 Examples:
 
-- `AAAC(S-1Se)GGG`: the sulfur of a cysteine is replace by a selenium (`S-1`, we remove a sulfur, `Se` we add a selenium)
+- `AAAC(S-1Se)GGG`: the sulfur of a cysteine is replaced by a selenium (`S-1`, we remove a sulfur, `Se` we add a selenium)
 - `AAA(H-1Cl)GGG`: we replace the hydrogen of an alanine by a chlorine
 - `AAAS(PO3H)`: we have a phosphorylated serine
 
@@ -124,11 +124,11 @@ In the case of peptide it is also possible to `in-silico` digest the sequence an
 
 ![peptide digestion](images/peptide-digestion.png)
 
-While the usual fragmenation ABCXYZ are allowed it is also possible to specify internal fragments like YA and YB.
+While the usual fragmentation types ABCXYZ are allowed, it is also possible to specify internal fragments like YA and YB.
 
 ![peptide fragmentation](images/peptide-fragmentation.png)
 
-This may lead to numerous sequences that will have to be processed and if you would like to focus on a part of the sequence you can use the "Sequence must contain" field. This allows to enter a string that have to be contain in the expanded sequence code !
+This may lead to numerous sequences that will have to be processed, and if you would like to focus on a part of the sequence you can use the "Sequence must contain" field. This allows you to enter a string that must be contained in the expanded sequence code.
 
 This means that if you have a sequence `AGSTY` and would like to only process the fragments that contain the glycine you should enter in this field `Gly` or if you want only `ST` you should enter `SerThr`.
 
@@ -151,7 +151,7 @@ You can enter as sequence:
 
 AC(H-1#1)LLIIC(H-1#1)KK
 
-For the 2 cytéines we remove a proton and we create a link between them.
+For the 2 cysteines we remove a proton and create a link between them.
 
 ### Variable modifications
 
@@ -160,24 +160,24 @@ If we have a cyclic peptide that is linked by a polyethylene glycol of variable 
 - sequence: AC(H-1#1)LLIIC(H-1#2)KK
 - variable groups: #1(CH2CH2O)1-10#2,
 
-In order to be a valid molecular formula the #1 and #2 have either to be absent (zero occurence) or present twice. This is especially useful in peptide fragmentation.
+For the molecular formula to be valid, #1 and #2 must either be absent (zero occurrences) or each present exactly twice. This is especially useful in peptide fragmentation.
 
 ## Report
 
-The `report` tab allows to create a dynamic image that shows the various fragmentation observed in the case of peptidic and nucleic sequences.
+The `report` tab allows you to create a dynamic image that shows the various fragmentation patterns observed for peptide and nucleic acid sequences.
 
 It is a vectorial format (SVG) suitable for publication and preferences allows to define various rendering parameters.
 
-There are also 2 ways to filter the displayed fragments
+There are also 2 ways to filter the displayed fragments.
 
 ### Dynamically filter fragment
 
-The more visual way is based on interactive preferences that allows to show / hide internal fragments as well as to select the minimal similarity and minimal quantity of the fragments to display.
+The more visual way is based on interactive preferences that allow you to show or hide internal fragments as well as to select the minimum similarity and minimum quantity of fragments to display.
 
 ![filter report](images/report-filter.gif)
 
 ### Filtering from the table
 
-From the table is it also possible to make queries per column. In order to display only the selected fragments you need to click on the top of the select column. It is also possible to select couple of fragments to display.
+From the table it is also possible to make queries per column. To display only the selected fragments, click on the top of the select column. It is also possible to select a few fragments to display.
 
 ![fragment selection in report](images/report-table.gif)

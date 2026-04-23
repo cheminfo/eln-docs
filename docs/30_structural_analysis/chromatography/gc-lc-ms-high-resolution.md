@@ -2,13 +2,13 @@
 
 ## GC / LC — MS visualization
 
-This tool allows visualizing and interact with chromatograms generated using GC/LC — MS techniques.
+This tool allows you to visualize and interact with chromatograms generated using GC/LC — MS techniques.
 
 ### Files loading
 
-This view came with and preloaded test case, so you may just click on it and start to analyze the data.
+This view comes with a preloaded test case, so you may just click on it and start analyzing the data.
 
-It is also designed to work with any file with the `JCAMP`, `NetCDF`, or `mzData` formats. This files can be drag and dropped or selected clicking in the same drop module. These files are going to be displayed in the list below, specifying the name of the file.
+It is also designed to work with any file in the `JCAMP`, `NetCDF`, or `mzData` formats. These files can be dragged and dropped or selected by clicking in the same drop module. The files will be displayed in the list below, showing the name of each file.
 
 ### Chromatogram visualization
 
@@ -19,11 +19,11 @@ When the desired file is clicked, the corresponding chromatogram is displayed, a
 
 ### Peak picking in the chromatogram
 
-The result of all the selected peaks are stored in the browser, allowing to safely reload the page and continue working from the current selection. Each peak consist of a retention time, the retention time when it begins, the retention time when it ends, the integral between these values, the relative integral and the calculated monoisotopic mass. Each peak also have a zoom action, that allows to easily visualize the peak region. This peaks in the plot also have a red rectangle that indicates their position and a green line that joins the beginning and the ending points of the peak.
+The results of all selected peaks are stored in the browser, allowing you to safely reload the page and continue working from the current selection. Each peak consists of a retention time, the retention time when it begins, the retention time when it ends, the integral between these values, the relative integral, and the calculated monoisotopic mass. Each peak also has a zoom action that allows you to easily visualize the peak region. These peaks in the plot also have a red rectangle indicating their position and a green line joining the beginning and ending points of the peak.
 
 #### Automatic peak picking
 
-The automatic peak picking task is done using some parameters that allows to filter and improve the results. This peak picking is based on the analysis of the first and second derivative of the chromatogram, therefore the beginning of the peak is where there’s an inflection point. The parameters are the following:
+The automatic peak picking is performed using parameters that filter and improve the results. This peak picking is based on the analysis of the first and second derivatives of the chromatogram; therefore, the beginning of the peak is where there is an inflection point. The parameters are the following:
 
 ![](https://lh6.googleusercontent.com/g8qdngHLJ_9NFieCCoWslFiSGle01vmZY9_PrzDhrki8bzkCqGeChgkdheuiRzPHd3kaxy--FQPEG2NiRHgpy5Vvj6BVjz_2-fzJfbyRL5KCtysHtJ0Dx6ET_9PW83jCy-w9pLYH)
 
@@ -33,18 +33,18 @@ The automatic peak picking task is done using some parameters that allows to fil
 
 #### Manual peak picking
 
-All the previous peaks can be modified : First select the corresponding line in the list of peaks, and then you should ALT + Click one at the beginning of the peak and once and the end of the peak in the chromatogram. This is also truth for new peaks. This peaks can be created using the button below the peaks table or clicking on the plus icon over the table.
+All previous peaks can be modified: first select the corresponding line in the list of peaks, then ALT + click once at the beginning of the peak and once at the end of the peak in the chromatogram. This also applies to new peaks. New peaks can be created using the button below the peaks table or by clicking on the plus icon above the table.
 
-Note: the automatic peak picking is going to replace the current peak selection, therefore is recommended to use it before the manual peak selection
+Note: automatic peak picking will replace the current peak selection, so it is recommended to use it before manual peak selection.
 
 ### Peak picking in mass spectra
 
-When a peak in the list of peaks from the chromatogram is selected, the corresponding mass spectra is displayed, this mass values are selected using the following options:
+When a peak in the list of peaks from the chromatogram is selected, the corresponding mass spectrum is displayed. The mass values are selected using the following options:
 
 ![](https://lh5.googleusercontent.com/SYltT35ZPRKEQbG-9GaOOVNqHk4YvTwGfP2h6LMmSJ7QdnfExbZ6m45tfUZPl_ewDmqGZS2FKmMLij_uqrLPBjRLC6LR0YTG87Mkp_laTqHvOH819zrVyQmJF372qbTWyj26twmW)
 
-- Mass spectra in the peak: from which part of the peak take the mass spectra. The current supported options are:
-  - Range: the spectra resulting from the merge of merge all the spectra between the beginning and end of the peak.
+- Mass spectrum in the peak: which part of the peak to use for the mass spectrum. The currently supported options are:
+  - Range: the spectrum resulting from merging all spectra between the beginning and end of the peak.
   - Mean: the mass spectra with a retention time equal to the mean value between the beginning and end of the peak.
   - Start: the mass spectra with a retention time equal to the beginning of the peak.
   - End: the mass spectra with a retention time equal to the end of the peak.
@@ -64,9 +64,9 @@ The result of the peak selection on mass spectrometry allows to have an experime
 
 ![](https://lh5.googleusercontent.com/I39e0EUifIqN4Vd1ibOVWf-TYjdncudgDWJVroU7Q_cLG9wxcxalmKNkgdgKldjKGoTZjzLtK3Jkh1epIPQFUwrIihsdn55hSuNTzpqArhWcOxATQVbwt20aApdUu95RS2Mmub9k)
 
-- Modification: how was charged the molecule. Most of the time the value should be H+.
-- Range: List of elements followed by their respective range of possibles values, separated between the elements by a space.
-- Precision \(ppm\): maximum absolute error allowed in ppm. This will have a big impact on speed so be as precise as possible !
+- Modification: how the molecule was charged. Most of the time the value should be H+.
+- Range: list of elements followed by their respective range of possible values, separated by a space.
+- Precision \(ppm\): maximum absolute error allowed in ppm. This has a large impact on speed, so be as precise as possible.
 - Unsaturation filters:
   - Use unsaturation: use unsaturation as a filter method.
   - Min unsaturation: minimum allowed value for the saturation.
@@ -78,4 +78,4 @@ The result of the peak selection on mass spectrometry allows to have an experime
   - Dalton before: number of Dalton under the monoisotopic mass that define the window used to calculate the similarity between experimental and theoretical isotopic distribution.
   - Dalton after: number of Dalton over the monoisotopic mass that define the window used to calculate the similarity between experimental and theoretical isotopic distribution.
 
-These options, combined with the result of the monoisotopic mass, will generate a list of possible molecular formulas. In this list is shown the molecular formula, the theoretical monoisotopic mass, the unsaturation and the error in ppm with the experimental monoisotopic mass. When a row is clicked, the simulated mass spectrometry is overlapped in the mass spectrometry of the compound. There is also a zoom action, that allows to zoom in the region where the simulated mass spectrometry is located.
+These options, combined with the result of the monoisotopic mass, will generate a list of possible molecular formulas. This list shows the molecular formula, the theoretical monoisotopic mass, the unsaturation, and the error in ppm relative to the experimental monoisotopic mass. When a row is clicked, the simulated mass spectrum is overlaid on the mass spectrum of the compound. There is also a zoom action that allows you to zoom into the region where the simulated mass spectrum is located.

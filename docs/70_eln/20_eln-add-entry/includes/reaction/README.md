@@ -2,7 +2,7 @@ When preparing a new organic reaction the idea is first to add the different rea
 
 ### Lookup for a product
 
-You should use the column `code` in order to lookup for a product.
+You should use the `code` column to look up a product.
 
 In this column you may either enter:
 
@@ -13,7 +13,7 @@ In this column you may either enter:
 
 A molecular formula may be entered the way a chemist think about it. Meaning you are allowed to use groups and parenthesis like `Me2CHCOCl`.
 
-Once the string entered press `tab` in order to trigger the lookup. The system will search in a reference database of 400000 molecules and also for all the internal products you have access to.
+Once the string is entered, press `tab` to trigger the lookup. The system will search a reference database of 400,000 molecules as well as all the internal products you have access to.
 
 ![reaction lookup](lookup.gif)
 
@@ -26,7 +26,7 @@ The reagent calculator is connected to databases and can retrieve information ab
 - If you enter a new sample and change the molecular formula, molecular weight will be automatically calculated. In the molecular formula you may enter groups like Et, Ph, Ts, ... as well as parentheses.
 - The purity may be entered in `%`, `M` (molar), `mM` (millimolar) or `L` (loading). Molar is expressed in mmoles / mL and loading is expressed by mmoles / g and is practical for solid phase synthesis.
 - The first reagent for which you add a quantity will be defined as 1 equivalent. You may still change this anytime. After defining the first quantity you will probably want to define the other reagents from the equivalent columns rather than the quantity (except probably for the solvent).
-- One the equivalents are specified those samples are “connected”. This means that if you change the quantity of one of the reagents all the quantity will change.
+- Once the equivalents are specified, the samples are “connected”. This means that if you change the quantity of one reagent, all quantities will change.
 - It is possible to remove the link between the reagents by unselecting the “Link” checkbox.
 
 ![reaction quantities](quantities.gif)
@@ -37,21 +37,21 @@ JSME is a simple-to-use and powerful tool developed by Peter Ertl and Bruno Bien
 
 ![reaction schema](reaction.gif)
 
-It is possible to select a molecule by going hover it. Once selected you can move this molecule \(just click around and drag the mouse\).
+It is possible to select a molecule by hovering over it. Once selected, you can move it (just click around and drag the mouse).
 
 :::info Molecule selection
-Even if the molecule does not appear as being selected you can still act on it. In instance, you can:
+Even if the molecule does not appear to be selected, you can still act on it. For instance, you can:
 
-- copy to the molecule to the other side of the reaction by clicking on the arrow.
+- copy the molecule to the other side of the reaction by clicking on the arrow.
 - click on the white rectangle to delete this selected molecule.
 
 :::
 
 ### Check analysis
 
-A reaction contains various sample. Sample can be either isolated and purified products or just any analysis related to the reaction.
+A reaction contains various samples. Samples can be either isolated and purified products or any analysis related to the reaction.
 
-A sample contains all the analysis related to it (NMR, GC, IR, Mass, etc) and each of the analysis have a specific view to process them.
+A sample contains all the analyses related to it (NMR, GC, IR, Mass, etc.) and each analysis has a specific view to process it.
 
 ![sample.png](analysis.png)
 

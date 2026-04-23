@@ -6,9 +6,9 @@
 
 1. If you write a title in this tab, it will be automatically updated in the `Title` tab of the over views and will appear in the final report. [Click here](../includes/titletab/README.md) for more information.
 2. The keywords appear in the main table of the homepage. You would be able to search for your sample in the homepage according to those keywords.
-3. You can change the structure of your sample here. The new molecular formula and molecular weight would be automatically calculated and the structure would be updated in all the view of this tile. 
-4. If you change the molecular formula, the new one would appear in the report.
-5. The canonized molecular formula depends directly on the molecular formula. It is updated every time the molecular formula changes. 
+3. You can change the structure of your sample here. The new molecular formula and molecular weight will be automatically calculated, and the structure will be updated in all views of this tile.
+4. If you change the molecular formula, the new one will appear in the report.
+5. The canonized molecular formula depends directly on the molecular formula. It is updated every time the molecular formula changes.
 6. [Exact mass](https://en.wikipedia.org/wiki/Mass_(mass_spectrometry)#Exact_mass) and molecular weight, calculated from the molecular formula.
 7. Information about the molecular formula: monoisotopic mass, unsaturation and element analysis.
 8. IUPAC names and synonyms. Different languages can be used and are specified according to the [ISO country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). 
@@ -29,13 +29,13 @@ You can modify the structure as much as you want and go back to the previous one
 
 :::
 
-The chemical structure editor allows drawing coordinative covalent bonds. In order to draw a `zero order` bond, you need to first draw a single bond between an atom an a metal. With the single bond drawing tool selected, you can then click on the bond couple of times in order to get the dotted bond. 
+The chemical structure editor allows drawing coordinative covalent bonds. In order to draw a `zero order` bond, you need to first draw a single bond between an atom and a metal. With the single bond drawing tool selected, you can then click on the bond a couple of times to get the dotted bond.
 
 ![draw metal](drawMetal.gif)
 
 ## Molecular formula
 
-You can modify the molecular formula of your sample in the `MF` tab. The `em`, `mw`, `canonized MF` and `MF information` tabs will automatically updated. 
+You can modify the molecular formula of your sample in the `MF` tab. The `em`, `mw`, `canonized MF`, and `MF information` tabs will be automatically updated.
 
 The molecular formula also supports abbreviations such as Ph or Et. A detailed list of groups and symbols is given if you click on the ![list](list.png) icon on the top right of the `MF` tab.
 

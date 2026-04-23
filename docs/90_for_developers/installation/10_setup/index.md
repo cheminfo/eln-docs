@@ -125,7 +125,7 @@ The default `docker-compose.yml` configuration does not expose the nginx port to
 
 and the `nginx` configuration to read the SSL certificates in case you use SSL.
 
-If you do not make these changes, you'll need to set up an Apache or Nginx server on our system. This is configuration is preferable in case you have more than one service running on your server.
+If you do not make these changes, you'll need to set up an Apache or Nginx server on your system. This configuration is preferable if you have more than one service running on your server.
 
 Once you updated the configuration, you can run
 

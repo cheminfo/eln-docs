@@ -16,7 +16,7 @@ This tool provides a list of options for the generation of isomers. The list of 
 
 The options are as follows:
 
-- **Molecular Fromula**: The molecular formula for which the isomers are to be generated.
+- **Molecular Formula**: The molecular formula for which the isomers are to be generated.
 - **Limit**: The maximum number of isomers to be generated.
 - **Timeout**: The maximum time in seconds to generate isomers (maximum 30s).
 - **Calculate IdCode**: Whether to calculate the idCode for each isomer.
@@ -34,7 +34,7 @@ The options are as follows:
 - **No allene in small rings**: Whether to disallow allenes in rings of size up to 8.
 - **No small rings common atoms**: No atom in more than one ring of length 3 or 4.
 
-After setting all the options, click on the `Search strucural isomers` button to generate the isomers. The results are shown in a table as shown below.
+After setting all the options, click on the `Search structural isomers` button to generate the isomers. The results are shown in a table as shown below.
 
 ![Surge Results](table_isom.png)
 

@@ -21,9 +21,9 @@ In the “Analysis preferences” window, specify the criteria required to gener
 - End-groups: e.g. H, C4H9
 - Monomer MF: e.g. C8H8
 
-It is possible to include multiple criteria with the use of comas “,”.
+It is possible to include multiple criteria using commas “,”.
 
-If is also possible to define an unlimited number of monomers that compose the polymer. Color will help to identify the composition after analysis.
+It is also possible to define an unlimited number of monomers that compose the polymer. Color will help to identify the composition after analysis.
 
 ![mfs](images/mfs.png)
 
@@ -55,7 +55,7 @@ The table contains the following information:
 - `Type`: the monomer composition of each chain is described through a color representation
 - `MF`: the molecular formula corresponding to the non ionized polymer
 - `Adduct`: the ion that was added to obtain the observed mass (based on the `ionizations` preference)
-- `MF mass`: the theoretical monoisotopic mass corresponding the non ionized polymer
+- `MF mass`: the theoretical monoisotopic mass corresponding to the non-ionized polymer
 - `m/z`: the theoretical monoisotopic mass of the corresponding ion
 - `Δ ppm`: difference between theoretical and experimental mass
 - `z`: charge state of the ion
@@ -97,7 +97,7 @@ available:
 
 - A, B, C ... the number of monomers
 - mm: theoretical monoisotopic mass
-- mz: theoretical m/z (taking into account ionzation)
+- mz: theoretical m/z (taking into account ionization)
 - unsaturation: degree of unsaturation
 - charge: total charge
 - atoms.C, atoms.O, ...: number of corresponding atoms

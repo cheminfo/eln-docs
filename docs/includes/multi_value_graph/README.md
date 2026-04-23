@@ -2,7 +2,7 @@
 
 <details>
     <summary>
-    You can superimpose multiple curve on the same plot.
+    You can superimpose multiple curves on the same plot.
     </summary>
     <div>
 

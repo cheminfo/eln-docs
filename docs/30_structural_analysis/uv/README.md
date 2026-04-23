@@ -42,7 +42,7 @@ It is possible to **manually pick peaks** on an ultraviolet spectrum by holding 
 The application will systematically look for the strongest signal close to the wavelength that has been clicked.
 
 The peaks will be displayed in the `UV peaks`
-tab. The signal strength is given automatically. The categorization `S`, `m` and `w` for strong, medium and weak, is based on the highest and lowest selected peak. All peak wavelenghts and absorbance are reported in a compact format ready for publication.
+tab. The signal strength is given automatically. The categorization `S`, `m` and `w` for strong, medium and weak, is based on the highest and lowest selected peak. All peak wavelengths and absorbance values are reported in a compact format ready for publication.
 
 ![peak picking](peakPick.gif)
 
@@ -54,7 +54,7 @@ You can edit the peak kind by double clicking on the kind in the peak table. The
 
 :::
 
-Alternatively, the system allows to perform **peak picking automatically** within a certain range and signal-to-noise ratio.
+Alternatively, the system can perform **peak picking automatically** within a certain range and signal-to-noise ratio.
 
 <Auto/>
 

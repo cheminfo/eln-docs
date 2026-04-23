@@ -1,10 +1,10 @@
-## Select the metabolites to be part of dataset
+## Select the metabolites to be part of the dataset
 
 ![setup](images/setup.png)
 
-`Available molecules` window will highlight in green the molecules which are part of the current dataset.
+The `Available molecules` window will highlight in green the molecules that are part of the current dataset.
 
-The buttons at the top of the window allows to:
+The buttons at the top of the window allow you to:
 
 - ![add](images/fas-fa-plus-circle.png) add all available molecules to be part of the dataset.
 - ![add](images/fa-plus.png) add selected molecules to the current dataset.

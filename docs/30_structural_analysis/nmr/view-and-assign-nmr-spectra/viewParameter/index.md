@@ -1,6 +1,6 @@
 # Visualize all acquisition and processing parameters
 
-An icon is present in the list of experimental spectra that allows to display and search for any acquisition and processing parameters.
+An icon is present in the list of experimental spectra that allows you to display and search for any acquisition and processing parameters.
 
 ![](list.png)
 

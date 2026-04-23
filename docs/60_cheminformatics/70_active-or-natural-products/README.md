@@ -14,7 +14,7 @@ The Active or Natural Products Search Interface allows users to search for gener
 
 ## Search For Active or Natural Products
 
-In the search panel, it is possible to search for active or natural products by name, mesh terms, bioassays, active against a specific target or the taxonomy.
+In the search panel, it is possible to search for active or natural products by name, MeSH terms, bioassays, activity against a specific target, or taxonomy.
 
 ![images/search_panel.png](images/search_panel.png)
 

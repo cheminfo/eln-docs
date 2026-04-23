@@ -20,7 +20,7 @@ The following fields are allowed:
 
 - `nbNmr`, `nb1d`, `nb2d`, `nb13c`, `nb1h` : number of spectrum registered for NMR, 1d NMR...
 - `nbMass`, `nbIR`, `nbTGA`, `nbDSC`, `nbRaman`, `nbMass`, `nbUV`, `nbXray` : number of spectrum registered for IR, Raman ...
-- `mf`, `mw`, `em` : molecular formula, molecular weight and exact mass (monoisotpic mass)
+- `mf`, `mw`, `em` : molecular formula, molecular weight and exact mass (monoisotopic mass)
 - `title` : title of the sample.
 - `meta` : meta information.
 - `owner` : name of the owner.

@@ -4,7 +4,7 @@ All the reagents can also be inserted by entering `r` followed by the reagent nu
 
 ![snippets.gif](snippets.gif)
 
-The ELN also allows to add an unlimited number of meta information key-value pairs. Those meta information can not only be inserted in the procedure but also in snippets. In order to include the meta information you should type `_` followed by the name of the property. For example `_temperature`. The use of meta information allows to centralize all the parameters that change from one reaction to another. This is especially useful in the case of parallel synthesis.
+The ELN also allows you to add an unlimited number of meta information key-value pairs. This meta information can be inserted not only in the procedure but also in snippets. To include meta information, type `_` followed by the name of the property, for example `_temperature`. Using meta information allows you to centralize all the parameters that change from one reaction to another. This is especially useful in the case of parallel synthesis.
 
 ![meta.png](meta.png)
 

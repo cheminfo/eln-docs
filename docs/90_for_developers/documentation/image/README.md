@@ -10,15 +10,14 @@ It is better to create a folder when there are images or GIF, it is therefore ea
 
 ## Modify an image
 
-To modify an image, we use [Inskape](https://inkscape.org/), a free and open source software. 
+To modify an image, we use [Inkscape](https://inkscape.org/), a free and open-source software.
 
-These are the steps to follow to modify an image :
+These are the steps to follow to modify an image:
 
->
-1. Modify the image using Inskape
-2. Select the image and go to `File` &rarr; `Document properties..`.
-3. Hit the button `Resize page to drawing or selection`or simply use `Cmd + Shift + R`
-4. Save the file as `.svg`, this allow the posibility to remodify the image later on.
+1. Modify the image using Inkscape.
+2. Select the image and go to `File` &rarr; `Document properties...`.
+3. Click the button `Resize page to drawing or selection` or simply use `Cmd + Shift + R`.
+4. Save the file as `.svg`, which allows the possibility to re-modify the image later on.
 
 
 

@@ -4,7 +4,7 @@ slug: /uuid/037628b00519031c1df72b6eec3e721e
 
 # Wikipedia chemical structures
 
-Explore all the chemical structures present in the english version of Wikipedia. This database is updated daily. When you open this tool, all the chemical structures contained in the Wikipedia database will be loaded and displayed in a table with the correponding name of the article. 
+Explore all the chemical structures present in the english version of Wikipedia. This database is updated daily. When you open this tool, all the chemical structures contained in the Wikipedia database will be loaded and displayed in a table with the corresponding article name.
 
 ## Overview
 
@@ -19,7 +19,7 @@ Explore all the chemical structures present in the english version of Wikipedia.
 
 ## Search
 
-When you draw a molecule in tab 1, the list of molecules will automatically update according to your search. The search mode can be set on substructure, exact structure or similarity search, depending on what your are looking for. You can also apply filter on the article name. 
+When you draw a molecule in tab 1, the list of molecules will automatically update according to your search. The search mode can be set to substructure, exact structure, or similarity search, depending on what you are looking for. You can also apply filter on the article name. 
 
 The information tab and the wikipedia article shown correspond to the chemical structure that you drew. To get information about another molecule in the list, simply click on it. 
 

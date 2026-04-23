@@ -25,7 +25,7 @@ In order to compare spectra it is required to create a matrix. In this matrix ea
 
 ## Filters
 
-You may also apply various `Filters` that allows to normalize or transform the data. Among those filters we have:
+You may also apply various `Filters` that allow you to normalize or transform the data. Among those filters:
 
 - Center mean
 - Divide by SD (standard deviation)
@@ -48,7 +48,7 @@ Only the information between the `From` and `To` values of the range will be con
 
 ## Exclusions
 
-Depending on the analysis some region should be removed in order to improve the analysis. For example NMR spectroscopy in water yields to a large peak around 4.5ppm and using exclusion zone it can be removed from the analysis.
+Depending on the analysis, some regions should be removed to improve the results. For example, NMR spectroscopy in water produces a large peak around 4.5 ppm; using an exclusion zone, it can be removed from the analysis.
 
 ## Number of points
 
@@ -56,7 +56,7 @@ The data normalization process will select equidistant `Nb points` between the `
 
 ## Matrix processing
 
-Once all the previous filters have been applied we obtain a matrix in which rows represent the normalized spectra and columns represent the intensity of teach spectrum.
+Once all the previous filters have been applied, we obtain a matrix in which rows represent the normalized spectra and columns represent the intensity of each spectrum.
 
 Some filters are using the columns for further processing like:
 
@@ -78,7 +78,7 @@ A preview of the normalized spectra as well as the exclusions zones will be disp
 
 ![preview](images/preview.png)
 
-The superimposed spectra can be manipulated without numerous [advanced features described here](../visualization/README.md).
+The superimposed spectra can be manipulated using numerous [advanced features described here](../visualization/README.md).
 
 
 </div>
