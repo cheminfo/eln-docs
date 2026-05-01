@@ -92,3 +92,12 @@ Ertl
 CAS
 GHS
 TOC
+DLS
+zmes
+Zetasizer
+Malvern
+Panalytical
+cumulant
+polydispersity
+hydrodynamic
+JCAMP-DX

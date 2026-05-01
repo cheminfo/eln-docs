@@ -1,1 +1,10 @@
 monoisotopic
+zmes
+Zetasizer
+Malvern
+Panalytical
+cumulant
+polydispersity
+hydrodynamic
+JCAMP-DX
+DLS
