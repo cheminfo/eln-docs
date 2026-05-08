@@ -6,7 +6,7 @@
     </summary>
     <div>
 
-# Define pixel size
+## Define pixel size
 
 The image analysis tool allows you to draw lines and polygons directly on the image.
 
@@ -17,20 +17,20 @@ of the image.
 
 ![Annotations](annotations.gif)
 
-## Drawing annotations
+### Drawing annotations
 
 In order to draw annotations:
 
 - for a `line`: click once for the beginning of the line and another time for the end of the line
 - for a `polygon`: click once for each corner of the polygon, click twice to end the shape.
 
-## Display labels
+### Display labels
 
 It is possible to display labels either as custom text or as the value of the shape (length or surface).
 
 ![label.png](label.png)
 
-## Changing style
+### Changing style
 
 Style of the label and the shape can be customized according to the preferences. Opacity is a value between 0 and 1. 0 meaning fully transparent and 1 fully opaque.
 

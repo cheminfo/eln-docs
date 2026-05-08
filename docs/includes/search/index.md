@@ -1,4 +1,4 @@
-# Search
+## Search
 
 From the homepage it is possible to quickly find samples using the `Search for sample` query box.
 
@@ -40,29 +40,20 @@ Some examples:
 - `mf:C10` : all the sample that have a MF that contains `C10` (string search)
 - `modified:>2021-04-11 modified:<2021-04-14 owner:justyna`: all samples that are owned by "justyna" and where modified between April, 11 2021 and April, 14 2021
 
-## Filters
+### Filters
 
 You can apply filters in the two dropdown selectors: the first one corresponds to the owner of the sample, you can choose `Mine`, `All` or `Anonymous Read` (used to manipulate product even if not logged in). The second one gives the last modify time: you can choose between the `last month` and the `last 5 years`, or at `any time`.
 
 ![filter_search](filter_search.gif)
 
-## Sample panel
+### Sample panel
 
 In the sample overview panel, you can sort the element by clicking on one of the icon in the menu bar: ![sort](sort_menu.png).
 
-The first three buttons are used for sorting the sample by: `product code`, `reverse product code`, `modification date` or `reverse modification date`. You can also `refresh` the list, see `user informations`, `hide and show samples` and `copy the table of content`. 
+The first three buttons are used for sorting the sample by: `product code`, `reverse product code`, `modification date` or `reverse modification date`. You can also `refresh` the list, see `user informations`, [hide and show samples](#hideshow-sample) and `copy the table of content`.
 
-## Meta
+### Meta
 
 A product is allowed to have an unlimited number of meta information. Meta information is characterized by a property followed by a value. The name of the property is searchable in the quick search.
 
 For example if you add a meta information having as property 'country' you may search using 'country:colombia'.
-
-# Hide/Show sample
-
-In order to hide a sample you may click on the `eye` icon on the sample line.
-
-You have the possibility to display all the hidden samples by clicking on the `eye` on the
-top of the box. From that list you can then unhide a sample if you need.
-
-![](hidden.gif)

@@ -1,6 +1,6 @@
-# Spectra displayer
+## Spectra displayer
 
-## Manipulation of spectra
+### Manipulation of spectra
 
 ![](drag.gif)
 

@@ -1,4 +1,4 @@
-# OCL editor abbreviations
+## OCL editor abbreviations
 
 To accelerate molecule drawing, you can use any of the abbreviations listed below.  
 Simply hover over an atom, type the abbreviation, and move the mouse—the corresponding structural fragment will be inserted automatically.

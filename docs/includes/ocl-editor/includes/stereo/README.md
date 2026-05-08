@@ -1,10 +1,10 @@
-# Stereochemistry and openchemlib editor
+## Stereochemistry and openchemlib editor
 
 Stereochemistry in organic chemistry is a complex problem. You may have axial chirality, racemic compounds, mixture of diastereoisomers, etc.
 
 The openchemlib editor supports the enhanced stereo recognition (ESR) introduced by Molecular Design Ltd. with IsisDraw V2.5. The ESR Tools allow defining for every stereo center, whether it is an absolute one or if it belongs to a group of stereo centers that have the drawn, but relative configuration. For any group of relative stereo centers one may define that the drawn and the inverse configurations are present, i.e. that we have a racemic situation concerning the group members. This is indicated by green stereo bonds and an ampersand '&' at the stereo centers. Likewise, one may define groups of relative stereo centers that contain either the drawn configuration or the opposite one. Stereo centers of such a group are indicated by blue stereo bonds and the word 'or' at the stereo centers. In addition to the '&' or 'or' indicators group numbers show which stereo centers belong to the same group.
 
-## One chiral center: 2-chlorobutane
+### One chiral center: 2-chlorobutane
 
 Openchemlib editor will enforce chirality. If there is too much or not enough information about stereochemistry it will be represented by pink bonds.
 
@@ -30,7 +30,7 @@ As an alternative you can also specify that the configuration of the chiral cent
 
 ![chlorobutane-both.png](chlorobutane-unknown.png)
 
-## Two chiral centers: 2,3-bromochlorobutane
+### Two chiral centers: 2,3-bromochlorobutane
 
 Each chiral center can be addressed separately and many possibilities exist. A few examples:
 
@@ -50,7 +50,7 @@ Each chiral center can be addressed separately and many possibilities exist. A f
 
 ![bromochlorobutane-epimerpng](bromochlorobutane-epimer.png)
 
-## Axial chirality
+### Axial chirality
 
 Openchemlib editor is able to deal with axial chirality like in the case of allenic or binap systems.
 

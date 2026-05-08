@@ -1,6 +1,6 @@
-# Properties prediction
+## Properties prediction
 
-## Toxicity risk assessment 
+### Toxicity risk assessment 
 
 While drawing a structure the toxicity risk predictor will start looking for potential toxicity risks as long as the currently drawn structure is a valid chemical entity. Toxicity risk alerts are an indication that the drawn structure may be harmful concerning the risk category specified. However, risk alerts are by no means meant to be a fully reliable toxicity prediction. Nor should be concluded from the absence of risk alerts that a particular substance is completely free of any toxic effect.
 
@@ -10,7 +10,7 @@ To assess the toxicity prediction’s reliability, we ran a set of toxic compoun
 
 The prediction process relies on a precomputed set of structural fragments that give rise to toxicity alerts when encountered in the structure currently drawn. These fragment lists were created by rigorously shredding all compounds in the RTECS database known to be active in a certain toxicity class (e.g., mutagenicity). During shredding, each molecule was first cut at every rotatable bond, yielding a set of core fragments. These were then used to reconstruct all possible larger fragments that are substructures of the original molecule. Afterwards, a substructure search process determined the occurrence frequency of each fragment (core and constructed) within all compounds of that toxicity class. It also determined these fragments’ frequencies within the structures of more than 3,000 traded drugs. Based on the assumption that traded drugs are largely free of toxic effects, any fragment was considered a risk factor if it frequently occurred as a substructure of harmful compounds but never or rarely in traded drugs.
 
-## cLogP calculation
+### cLogP calculation
 
 The logP value of a compound, which is the logarithm of its partition coefficient between n-octanol and water log(coctanol/cwater), is a well established measure of the compound’s hydrophilicity. Low hydrophilicities and therefore high logP values cause poor absorption or permeation. It has been shown for compounds to have a reasonable probability of being well absorbed their logP value must not be greater than 5.0. The distribution of calculated logP values of more than 3000 drugs on the market underlines this fact (see diagram).
 
@@ -20,7 +20,7 @@ Our in-house logP calculation method is implemented as an increment system addin
 
 ![logP](logP_2.gif)
 
-## logS calculation
+### logS calculation
 
 The aqueous solubility of a compound significantly affects its absorption and distribution characteristics. Typically, a low solubility goes along with a bad absorption and therefore the general aim is to avoid poorly soluble compounds. Our estimated logS value is a unit stripped logarithm (base 10) of the solubility measured in mol/liter.
 
@@ -32,7 +32,7 @@ Similar to our in-house logP calculation we assess the solubility via an increme
 
 ![logS](logS_2.gif)
 
-## Molecular weight
+### Molecular weight
 
 Optimizing compounds for high activity on a biological target almost often goes along with increased molecular weights. However, compounds with higher weights are less likely to be absorbed and therefore to ever reach the place of action. Thus, trying to keep molecular weights as low as possible should be the desire of every drug forger.
 
@@ -40,7 +40,7 @@ Optimizing compounds for high activity on a biological target almost often goes 
 
 The diagram shows that more than 80 % of all traded drugs have a molecular weight below 450.
 
-## Fragment based druglikeness 
+### Fragment based druglikeness 
 
 There are many approaches around that assess a compound’s druglikeness partially based on topological descriptors, fingerprints of MDL structure keys or other properties as cLogP and molecular weights. Our approach is based on a list of about 5300 distinct substructure fragments with associated druglikeness scores. The druglikeness is calculated with the following equation summing up score values of those fragments that are present in the molecule under investigation:
 
@@ -58,7 +58,7 @@ A positive value states that your molecule contains predominantly fragments whic
 
 ![druglikeness](likeness_2.gif)
 
-## Drug score
+### Drug score
 
 The drug score combines druglikeness, cLogP, logS, molecular weight and toxicity risks in one handy value than may be used to judge the compound’s overall potential to qualify for a drug. This value is calculated by multiplying contributions of the individual properties with the first equation:
 

@@ -1,4 +1,4 @@
-# SPC file format
+## SPC file format
 
 https://en.wikipedia.org/wiki/SPC_file_format
 
