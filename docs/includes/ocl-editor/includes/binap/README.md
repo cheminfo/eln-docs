@@ -1,3 +1,8 @@
+---
+title: BINAP and axial chirality
+hide_title: true
+---
+
 ## BINAP and axial chirality
 
 The chemical structure editor (openchemlib) allows you to specify the axial chirality of molecules for which rotation around a single bond is blocked.

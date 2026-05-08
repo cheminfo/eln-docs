@@ -1,3 +1,8 @@
+---
+title: SPC file format
+hide_title: true
+---
+
 ## SPC file format
 
 https://en.wikipedia.org/wiki/SPC_file_format

@@ -1,3 +1,8 @@
+---
+title: Select ROIs for exportation
+hide_title: true
+---
+
 :::tip Select ROIs
 
 <details>

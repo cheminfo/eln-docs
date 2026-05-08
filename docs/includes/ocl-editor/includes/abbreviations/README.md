@@ -1,3 +1,8 @@
+---
+title: OCL editor abbreviations
+hide_title: true
+---
+
 ## OCL editor abbreviations
 
 To accelerate molecule drawing, you can use any of the abbreviations listed below.  

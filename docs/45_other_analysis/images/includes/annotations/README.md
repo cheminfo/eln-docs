@@ -1,3 +1,8 @@
+---
+title: Define pixel size
+hide_title: true
+---
+
 :::tip Annotations
 
 <details>

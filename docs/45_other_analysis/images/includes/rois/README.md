@@ -1,3 +1,8 @@
+---
+title: Information about ROIs
+hide_title: true
+---
+
 :::tip REGIONS OF INTEREST (ROIS)
 
 <details>

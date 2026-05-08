@@ -1,3 +1,8 @@
+---
+title: Properties prediction
+hide_title: true
+---
+
 ## Properties prediction
 
 ### Toxicity risk assessment 

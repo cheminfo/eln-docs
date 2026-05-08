@@ -1,3 +1,8 @@
+---
+title: Hide/Show sample
+hide_title: true
+---
+
 ## Hide/Show sample
 
 To hide a sample, click on the `eye` icon on the sample line.

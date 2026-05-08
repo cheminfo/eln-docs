@@ -1,3 +1,8 @@
+---
+title: Spectra displayer
+hide_title: true
+---
+
 ## Spectra displayer
 
 ### Manipulation of spectra

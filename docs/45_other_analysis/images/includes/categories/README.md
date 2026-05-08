@@ -1,3 +1,8 @@
+---
+title: Create ROI categories
+hide_title: true
+---
+
 :::tip Categories
 
 <details>

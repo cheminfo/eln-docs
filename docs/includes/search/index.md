@@ -1,3 +1,8 @@
+---
+title: Search
+hide_title: true
+---
+
 ## Search
 
 From the homepage it is possible to quickly find samples using the `Search for sample` query box.

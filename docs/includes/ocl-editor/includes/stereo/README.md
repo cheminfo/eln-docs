@@ -1,3 +1,8 @@
+---
+title: Stereochemistry and openchemlib editor
+hide_title: true
+---
+
 ## Stereochemistry and openchemlib editor
 
 Stereochemistry in organic chemistry is a complex problem. You may have axial chirality, racemic compounds, mixture of diastereoisomers, etc.
