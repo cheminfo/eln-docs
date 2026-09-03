@@ -41,7 +41,7 @@ You can also select molecules according to their Lipinski parameters. To do so, 
 :::tip 
 To search molecules with specific properties, you can use: 
 - an exact number (1,2,3...)
-- a limit (>1, <=5, >=2...)
+- a limit (>1, &lt;=5, >=2...)
 - a range (1..2, 0..3), for which the limits are included
 :::
 

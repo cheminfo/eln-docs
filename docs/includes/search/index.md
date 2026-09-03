@@ -62,3 +62,11 @@ The first three buttons are used for sorting the sample by: `product code`, `rev
 A product is allowed to have an unlimited number of meta information. Meta information is characterized by a property followed by a value. The name of the property is searchable in the quick search.
 
 For example if you add a meta information having as property 'country' you may search using 'country:colombia'.
+
+## Hide/Show sample
+
+To hide a sample, click on the `eye` icon on the sample line.
+
+You can display all the hidden samples by clicking on the `eye` at the top of the box. From that list you can then unhide a sample if needed.
+
+![](hidden.gif)

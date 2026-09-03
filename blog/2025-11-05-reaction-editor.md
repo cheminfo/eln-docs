@@ -1,10 +1,7 @@
 ---
 slug: ocl-reaction-editor
 title: New editor for reactions
-author: Luc Patiny
-author_title: cheminfo contributor
-author_url: https://github.com/lpatiny
-author_image_url: https://avatars.githubusercontent.com/u/1484241?v=4
+authors: lpatiny
 tags: [reactions]
 ---
 
@@ -13,6 +10,8 @@ tags: [reactions]
 The previous JSME editor, which served us for the past 10 years, had several limitations that were challenging to resolve. These included the inability to edit large reactions, difficulties handling enhanced stereochemistry and zero-order bonds, and problems with correctly encoding salts.
 
 To address these issues, we have now migrated to the new OpenChemLib reaction editor. This editor is designed to overcome all the aforementioned limitations and provide a more robust and flexible editing experience. While we strive to maintain all existing functionalities, some minor differences remain—particularly in the use of keyboard shortcuts. It is highly recommended to familiarize yourself with the shortcuts available in the OpenChemLib [reaction editor](/eln/uuid/ocl-editor) to work efficiently.
+
+<!-- truncate -->
 
 ## Adding Structures from the Reagents Tables
 

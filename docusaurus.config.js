@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require('remark-math').default;
+const katex = require('rehype-katex').default;
 
 module.exports = {
   title: 'cheminfo ELN documentation',
@@ -8,20 +8,25 @@ module.exports = {
   url: 'https://docs.c6h6.org',
   baseUrl: '/docs/',
   onBrokenLinks: 'warn', //Todo: Fix broken links
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'cheminfo', // Usually your GitHub org/user name.
   projectName: 'Cheminfo ELN', // Usually your repo name.
-  plugins: [
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+  themes: [
     [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
         // ... Your options.
         // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         docsRouteBasePath: '/eln',
-        indexPages: true, //because of bug: https://github.com/easyops-cn/docusaurus-search-local/issues/42
-      },
+        indexPages: true,
+      }),
     ],
   ],
   themeConfig: {
