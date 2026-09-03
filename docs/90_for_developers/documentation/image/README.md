@@ -23,7 +23,7 @@ These are the steps to follow to modify an image:
 
 # Record a GIF
 
-To record a GIF we use [Gifox 2](https://gifox.io/) available on mac.
+To record a GIF we use [Gifox 2](https://gifox.app/) available on mac.
 
 :::tip Gifox settings
 

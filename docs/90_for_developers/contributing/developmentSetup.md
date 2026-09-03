@@ -38,7 +38,7 @@ There are a couple VSCode shortcuts that are handy to know. [In the VSCode docum
 
 ### GitHub integration
 
-Most of the things you might want to do on GitHub can be done from VSCode. If you are new to Git and GitHub there are a lot of excellent resources that explain the basics. A good introduction for scientist gives the [Turing way book](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-git.html).
+Most of the things you might want to do on GitHub can be done from VSCode. If you are new to Git and GitHub there are a lot of excellent resources that explain the basics. A good introduction for scientist gives the [Turing way book](https://book.the-turing-way.org/reproducible-research/vcs/vcs-git/).
 
 #### Branch, commit, pull requests
 
@@ -52,7 +52,7 @@ In the footer you'll see an indication on which branch you are working on (and y
 
 #### Pull requests and issues
 
-The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests. In the screenshot below we see that there are two pull requests in this particular repository one of which has been created by me and another one which has been created by [dependabot](https://dependabot.com/).
+The [GitHub Pull Requests and Issues extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github) allows browsing issues and pull requests. In the screenshot below we see that there are two pull requests in this particular repository one of which has been created by me and another one which has been created by [dependabot](https://github.com/dependabot).
 We can also see a list of all issues and directly create a new branch that is linked to a particular issue by clicking on the arrow that appears when we hover over the list.
 
 ![PR in VSCode](pr.png)
@@ -159,7 +159,7 @@ BREAKING CHANGE:
 Renamed parseXY to parseAbcXY
 ```
 
-We recommend that you use [imperative mood in the subject line of your commit message](https://chris.beams.io/posts/git-commit/). Ideally, your subject line is the completion of "If applied, this commit will _your subject line here_"
+We recommend that you use [imperative mood in the subject line of your commit message](https://chris.beams.io/git-commit). Ideally, your subject line is the completion of "If applied, this commit will _your subject line here_"
 
 ## GitHub actions
 

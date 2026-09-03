@@ -32,7 +32,7 @@ You may also apply various `Filters` that allow you to normalize or transform th
 - Rescale: set the min value to 0 and the max value to 1
 - Normalize: set the sum of all the points to 1
 - Align: create a peak picking between `from` / `to` and calculate the mean X value between the `nbPeaks` highest peaks. The spectrum will be moved so that the mean has the `targetX` value.
-- Pareto: Pareto scaling, which uses the square root of standard deviation as the scaling factor, circumvents the amplification of noise by retaining a small portion of magnitude information. [10.1016/j.molstruc.2007.12.026](https://dx.doi.org/10.1016/j.molstruc.2007.12.026)
+- Pareto: Pareto scaling, which uses the square root of standard deviation as the scaling factor, circumvents the amplification of noise by retaining a small portion of magnitude information. [10.1016/j.molstruc.2007.12.026](https://doi.org/10.1016/j.molstruc.2007.12.026)
 - Savitzky-golay: smoothing spectra and calculate derivatives based on the following parameters:
   - `windowSize`: smoothing window, must be an odd number
   - `derivative`: enter 0, 1 or 2
@@ -60,7 +60,7 @@ Once all the previous filters have been applied, we obtain a matrix in which row
 
 Some filters are using the columns for further processing like:
 
-- PQN: Probabilistic Quotient Normalization ([10.1021/ac051632c](https://dx.doi.org/10.1021/ac051632c))
+- PQN: Probabilistic Quotient Normalization ([10.1021/ac051632c](https://doi.org/10.1021/ac051632c))
 - Center mean: for each column the mean of the values will be centered
 - Rescale (0 to 1): for each column the min value will be set to 0 and the max value to 1
 

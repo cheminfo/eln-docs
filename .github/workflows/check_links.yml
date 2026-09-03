@@ -15,6 +15,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v2
         with:
+          # 302 is accepted, for example for doi.org redirects
           # 403 is accepted, this is what is usually returned after a bot was detected
-          args: --verbose --no-progress --accept 200,403 --extensions md ./
+          args: --verbose --no-progress --accept 200,302,403 --extensions md,mdx ./
           lycheeVersion: v0.24.2

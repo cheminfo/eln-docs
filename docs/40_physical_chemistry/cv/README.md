@@ -34,6 +34,6 @@ You can compare multiple spectra by clicking on the `Compare` button. It is then
 
 ![compare_cv](compare_cv.gif)
 
-Learn more about cyclic voltametry: [10.1021/acs.jchemed.7b00361](https://dx.doi.org/10.1021/acs.jchemed.7b00361)
+Learn more about cyclic voltametry: [10.1021/acs.jchemed.7b00361](https://doi.org/10.1021/acs.jchemed.7b00361)
 
 <CustomColumn/>

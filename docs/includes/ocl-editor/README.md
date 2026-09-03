@@ -4,7 +4,7 @@ slug: /uuid/ocl-editor
 
 # OCL editor
 
-### [OpenChemLib](http://www.openmolecules.org/) Chemical Editor Concepts
+### [OpenChemLib](https://openmolecules.org/) Chemical Editor Concepts
 
 The structure editor is used to draw chemical molecules, substructure fragments, reactions and simple drawing objects like text, boxes, etc. Its functionality changes depending on the kind of object\(s\) being edited. Thus, the atom mapping tool is only available, when a reaction is edited. Query feature dialogs only open, when a substructure is edited, etc.
 

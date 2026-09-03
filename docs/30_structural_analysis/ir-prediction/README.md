@@ -236,4 +236,4 @@ The web service uses a Python backend that you can also run on your local machin
 
 1. Malte Oppermann: Lecture notes for "Electronic spectroscopy", 2015.
 2. [Porezag, D. & Pederson, M. R. Infrared intensities and Raman-scattering activities within density-functional theory. Phys. Rev. B 54, 7830–7836 (1996).](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.54.7830)
-3. [C. David Sherrill: Lecture notes "Molecular Vibrations"](http://vergil.chemistry.gatech.edu/courses/chem6485/pdf/vibrations.pdf)
+3. [C. David Sherrill: Lecture notes "Molecular Vibrations"](https://vergil.chemistry.gatech.edu/courses/chem6485/pdf/vibrations.pdf)
