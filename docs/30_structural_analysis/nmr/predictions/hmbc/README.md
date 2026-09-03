@@ -18,7 +18,7 @@ The structure of the currently selected sample will be already drawn so that you
 
 The simulated HMBC spectrum, the 1H projection and the chemical structure with explicit hydrogens are linked, hovering over a peak in the spectrum will highlight the corresponding atoms in the structure and hovering over an atom will highlight the corresponding peaks in the spectrum.
 
-1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](http://www.sciencedirect.com/science/article/pii/S1090780710004003). HMBC correlations are calculated based on atom-to-atom paths in the molecule: a correlation is shown in the HMBC whenever a hydrogen is joined by a path traversing no less than `Minimal number of bonds` and no more than `Maximal number of bonds` to the carbon atom. You may adjust these Simulation parameters in the module right next to the `Calculate` button. 
+1H chemical shifts and coupling constants are predicted using [Spinus](http://www2.chemie.uni-erlangen.de/services/spinus/). Simulation from predicted parameters uses the method described in [DOI:10.1016/j.jmr.2010.12.008](https://www.sciencedirect.com/science/article/pii/S1090780710004003). HMBC correlations are calculated based on atom-to-atom paths in the molecule: a correlation is shown in the HMBC whenever a hydrogen is joined by a path traversing no less than `Minimal number of bonds` and no more than `Maximal number of bonds` to the carbon atom. You may adjust these Simulation parameters in the module right next to the `Calculate` button. 
 
 :::info HSQC spectrum  
 
