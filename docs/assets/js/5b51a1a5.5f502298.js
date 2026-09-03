@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcheminfo_eln=self.webpackChunkcheminfo_eln||[]).push([[4965],{17721:s=>{s.exports=JSON.parse('{"label":"stock","permalink":"/docs/blog/tags/stock","allTagsPath":"/docs/blog/tags","count":1}')}}]);
