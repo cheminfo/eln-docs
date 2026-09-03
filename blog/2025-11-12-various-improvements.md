@@ -1,12 +1,13 @@
 ---
 slug: blog-2025-11-12
 title: Various improvements
-author: Luc Patiny
-author_title: cheminfo contributor
-author_url: https://github.com/lpatiny
-author_image_url: https://avatars.githubusercontent.com/u/1484241?v=4
+authors: lpatiny
 tags: [reactions, stock]
 ---
+
+Improvements to reactions and stock sample edition.
+
+<!-- truncate -->
 
 # Reactions
 

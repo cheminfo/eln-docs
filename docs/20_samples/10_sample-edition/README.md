@@ -2,7 +2,7 @@
 slug: /uuid/15c9a2dcd55c963fdedf2c18a1471b03
 ---
 
-import JSMETip from '../../includes/ocl-tip.md'
+import OCLTip from '../../includes/ocl-tip.md'
 import ExplodeSequences from './includes/explodeSequences/README.md'
 import Metal from './includes/metal/README.md'
 import Groups from './includes/mfGroups/README.md'

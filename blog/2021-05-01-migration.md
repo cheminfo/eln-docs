@@ -1,14 +1,13 @@
 ---
 slug: migrating_to_docusaurus
 title: We migrate our docs to docusaurus
-author: Kevin Jablonka
-author_title: cheminfo contributor
-author_url: https://github.com/kjappelbaum
-author_image_url: https://avatars.githubusercontent.com/u/32935233?v=4
+authors: kjablonka
 tags: [docusaurus]
 ---
 
 We will migrate the documentation for the cheminfo ELN to docusaurus. This will allow us to have one global documentation page to which we can link if users have questions and in which users can perform a global fulltext search.
+
+<!-- truncate -->
 
 There are a few technical difficulties on the way:
 

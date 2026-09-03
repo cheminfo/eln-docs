@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-- [Video](#video)
+<!-- - [Video](#video) -->
 - [Introduction](#introduction)
 - [Functionalities in PDB-Explorer](#functionalities-in-pdb-explorer)
 - [Example with PDB code 4ERW](#example-with-pdb-code-4erw-locate-molecule--similarity-search)
